@@ -1,0 +1,2298 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://orcid.org/0000-0001-5059-4132 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5059-4132">
+        <rdfs:label>Marijane White</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5084-9000 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5084-9000">
+        <rdfs:label>Luana Licata</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5086-8324 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5086-8324">
+        <rdfs:label>Stephan Gebel</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5135-5758 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5135-5758">
+        <rdfs:label>Katrin Leinweber</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5139-5557 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5139-5557">
+        <rdfs:label>James A Overton</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5168-3196 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5168-3196">
+        <rdfs:label>Nathan Edwards</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5208-3432 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5208-3432">
+        <rdfs:label>Nicole Vasilevsky</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5237-2330 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5237-2330">
+        <rdfs:label>Sergei Tarasov</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5272-7613 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5272-7613">
+        <rdfs:label>Noemi del-Toro</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5501-853X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5501-853X">
+        <rdfs:label>Karen Christie</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5756-3988 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5756-3988">
+        <rdfs:label>Chris Bielow</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5801-1974 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5801-1974">
+        <rdfs:label>Laurent-Philippe Albou</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5809-2276 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5809-2276">
+        <rdfs:label>Johannes Darms</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5809-9523 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5809-9523">
+        <rdfs:label>D A Natale</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5839-2535 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5839-2535">
+        <rdfs:label>Emily Hartley</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5889-4463 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5889-4463">
+        <rdfs:label>Mark Engelstad</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5948-3092 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5948-3092">
+        <rdfs:label>Marta Costa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5968-1742 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5968-1742">
+        <rdfs:label>James Shofstahl</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5985-7429 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-5985-7429">
+        <rdfs:label>Colin Batchelor</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6277-726X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6277-726X">
+        <rdfs:label>Kim Rutherford</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6315-3707 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6315-3707">
+        <rdfs:label>Nomi L. Harris</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6330-7526 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6330-7526">
+        <rdfs:label>Valerie Wood</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6378-1703 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6378-1703">
+        <rdfs:label>Matthew A Diller</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6439-2224 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6439-2224">
+        <rdfs:label>Kent A Shefchek</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6466-877X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6466-877X">
+        <rdfs:label>Pol Castellano Escuder</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6512-3296 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6512-3296">
+        <rdfs:label>Peter Midford</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6579-6941 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6579-6941">
+        <rdfs:label>Yasset Perez-Riverol</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6666-1520 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6666-1520">
+        <rdfs:label>Jon C. Ison</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6682-1504 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6682-1504">
+        <rdfs:label>Robert Guralnick</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6757-4744 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6757-4744">
+        <rdfs:label>Arwa Ibrahim Ahmed</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6772-4626 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6772-4626">
+        <rdfs:label>Tony Sawford</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6787-2901 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6787-2901">
+        <rdfs:label>Suzi Aleksander</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-6946-1807 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-6946-1807">
+        <rdfs:label>Eric Douglass</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7222-3287 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7222-3287">
+        <rdfs:label>Stefan Schulz</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7258-9596 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7258-9596">
+        <rdfs:label>Shawn Zheng Kai Tan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7372-9896 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7372-9896">
+        <rdfs:label>David W Sant</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7476-6306 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7476-6306">
+        <rdfs:label>David P Hill</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7487-610X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7487-610X">
+        <rdfs:label>James Seager</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7505-5418 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7505-5418">
+        <rdfs:label>Marion F Shadbolt</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7542-0286 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7542-0286">
+        <rdfs:label>Egon Willighagen</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7694-8250 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7694-8250">
+        <rdfs:label>Jonathan A Rees</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7925-2064 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7925-2064">
+        <rdfs:label>Jeff Otte</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7941-2961 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-7941-2961">
+        <rdfs:label>Leigh Carmody</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8034-7685 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8034-7685">
+        <rdfs:label>Stephen A. Fisher</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8149-5890 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8149-5890">
+        <rdfs:label>Robert Hoehndorf</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8244-1536 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8244-1536">
+        <rdfs:label>Seth J. Carbon</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8314-2140 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8314-2140">
+        <rdfs:label>Raymund Stefancsik</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8317-7271 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8317-7271">
+        <rdfs:label>Eric Ross</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8397-8810 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8397-8810">
+        <rdfs:label>Clair A. Kronk</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8420-5254 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8420-5254">
+        <rdfs:label>Kristi L. Holmes</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8430-6039 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8430-6039">
+        <rdfs:label>Monica Munoz-Torres</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8638-8525 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8638-8525">
+        <rdfs:label>Fernanda C. Dórea</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8732-0928 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8732-0928">
+        <rdfs:label>Eric W Deutsch</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8815-0078 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8815-0078">
+        <rdfs:label>Ramona L Walls</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8865-4321 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8865-4321">
+        <rdfs:label>Jane Lomax</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8910-9851 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8910-9851">
+        <rdfs:label>Lynn Schriml</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8935-0696 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8935-0696">
+        <rdfs:label>Deborah A Siegele</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8936-9143 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8936-9143">
+        <rdfs:label>Nicole L Washington</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8941-3984 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8941-3984">
+        <rdfs:label>Alayne Cuzick</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8996-2641 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-8996-2641">
+        <rdfs:label>Alan M Race</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9016-2684 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9016-2684">
+        <rdfs:label>James Hu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9076-6015 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9076-6015">
+        <rdfs:label>Christian A Grove</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9076-6066 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9076-6066">
+        <rdfs:label>Mark Andrew Miller</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9107-0714 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9107-0714">
+        <rdfs:label>Hilmar Lapp</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9114-8737 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9114-8737">
+        <rdfs:label>Melissa Haendel</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9125-4337 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9125-4337">
+        <rdfs:label>Francesco Vitali</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9189-9661 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9189-9661">
+        <rdfs:label>Yongqun He</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9227-0670 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9227-0670">
+        <rdfs:label>Luke T Slater</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9254-7318 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9254-7318">
+        <rdfs:label>Rutger Vos</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9259-5280 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9259-5280">
+        <rdfs:label>Amogelang R Raphenya</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9439-5346 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9439-5346">
+        <rdfs:label>Benjamin M Gyori</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9488-1870 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9488-1870">
+        <rdfs:label>Daniel Mietchen</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9515-398X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9515-398X">
+        <rdfs:label>Melissa Konopko</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9586-0780 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9586-0780">
+        <rdfs:label>Marcus C. Chibucos</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9625-1899 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9625-1899">
+        <rdfs:label>William D Duncan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9766-5727 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9766-5727">
+        <rdfs:label>Emily Jane McTavish</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9773-4008 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9773-4008">
+        <rdfs:label>Andra Waagmeester</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9842-9718 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9842-9718">
+        <rdfs:label>Stian Soiland-Reyes</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9853-5668 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9853-5668">
+        <rdfs:label>Philippe Rocca-Serra</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9896-3531 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9896-3531">
+        <rdfs:label>Alpha Tom Kodamullil</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9897-3238 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9897-3238">
+        <rdfs:label>Bonita R Lam</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9921-8234 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9921-8234">
+        <rdfs:label>Georgeta Bordea</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9969-8610 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9969-8610">
+        <rdfs:label>Jean-Philippe Gourdine</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9990-8331 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0001-9990-8331">
+        <rdfs:label>Alexander D Diehl</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0027-0858 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0027-0858">
+        <rdfs:label>Tamsin E Jones</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0045-7698 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0045-7698">
+        <rdfs:label>Pierre-Alain Binz</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0082-0725 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0082-0725">
+        <rdfs:label>Olamidipupo Ajigboye</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0112-7607 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0112-7607">
+        <rdfs:label>Annika Smith</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0142-5591 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0142-5591">
+        <rdfs:label>Citlalli Mejía-Almonte</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0192-5385 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0192-5385">
+        <rdfs:label>Fabio G Liberante</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0337-8610 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0337-8610">
+        <rdfs:label>Brandon Whitehead</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0358-0130 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0358-0130">
+        <rdfs:label>Martín J Ramírez</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0524-0260 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0524-0260">
+        <rdfs:label>Jane F. Armstrong</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0593-3569 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0593-3569">
+        <rdfs:label>J Allen Baron</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0643-3144 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0643-3144">
+        <rdfs:label>Simon Jupp</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0710-3462 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0710-3462">
+        <rdfs:label>Ryan Fellers</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0736-9199 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0736-9199">
+        <rdfs:label>Peter Robinson</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0819-0473 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0819-0473">
+        <rdfs:label>Paula Duek Roggli</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0831-6427 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0831-6427">
+        <rdfs:label>Karen Eilbeck</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0851-6883 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0851-6883">
+        <rdfs:label>Jennifer C. Girón</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0892-7164 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0892-7164">
+        <rdfs:label>Ana Reis-Costa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0931-7253 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0931-7253">
+        <rdfs:label>Joy Roy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0956-8634 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0956-8634">
+        <rdfs:label>Terry Hayamizu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0963-1357 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-0963-1357">
+        <rdfs:label>Arlin Stoltzfus</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1005-8383 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1005-8383">
+        <rdfs:label>Pankaj Jaiswal</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1048-5019 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1048-5019">
+        <rdfs:label>Matthew Brush</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1058-1270 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1058-1270">
+        <rdfs:label>Siddhartha Basu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1373-1705 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1373-1705">
+        <rdfs:label>Clare Pilgrim</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1572-1316 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1572-1316">
+        <rdfs:label>Robert Druzinsky</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1604-3078 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1604-3078">
+        <rdfs:label>Alan Ruttenberg</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1615-2899 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1615-2899">
+        <rdfs:label>James Malone</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1679-1711 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1679-1711">
+        <rdfs:label>Ralf Gabriels</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1706-4196 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1706-4196">
+        <rdfs:label>Kimberly Van Auken</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1767-2343 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1767-2343">
+        <rdfs:label>Gerhard Mayer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1773-2692 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1773-2692">
+        <rdfs:label>Bradley Varner</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1795-5570 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1795-5570">
+        <rdfs:label>Amanda Hicks</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1816-4260 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-1816-4260">
+        <rdfs:label>Shinya Suzuki</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2061-091X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2061-091X">
+        <rdfs:label>Georgios V. Gkoutos</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2100-6351 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2100-6351">
+        <rdfs:label>Carrine E Blank</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2176-8751 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2176-8751">
+        <rdfs:label>Antje Jäde</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2193-0704 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2193-0704">
+        <rdfs:label>Jade Hotchkiss</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2244-7917 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2244-7917">
+        <rdfs:label>Ceri E Van Slyke</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2340-5356 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2340-5356">
+        <rdfs:label>Troy Pells</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2346-5201 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2346-5201">
+        <rdfs:label>Carissa Park</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2411-565X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2411-565X">
+        <rdfs:label>Harshad Hegde</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2455-2227 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2455-2227">
+        <rdfs:label>Lawrence Babb</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2548-641X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2548-641X">
+        <rdfs:label>Sirarat Sarntivijai</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2605-5080 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2605-5080">
+        <rdfs:label>Jonathan R. Karr</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2627-0696 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2627-0696">
+        <rdfs:label>Krishna Udaiwal</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2825-0621 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2825-0621">
+        <rdfs:label>Paola Roncaglia</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2833-6070 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2833-6070">
+        <rdfs:label>Timo Sachsenberg</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2876-6046 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2876-6046">
+        <rdfs:label>Tung V. N. Nguyen</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2906-7319 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2906-7319">
+        <rdfs:label>Joe Flack</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2908-3327 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2908-3327">
+        <rdfs:label>Anne Thessen</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2993-2085 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2993-2085">
+        <rdfs:label>Richard David Boyce</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2996-719X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2996-719X">
+        <rdfs:label>Raïssa Meyer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2999-0103 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-2999-0103">
+        <rdfs:label>Jie Zheng</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3002-9838 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3002-9838">
+        <rdfs:label>HyeongSik Kim</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3012-7446 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3012-7446">
+        <rdfs:label>Daniel S. Himmelstein</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3105-1359 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3105-1359">
+        <rdfs:label>Wout Bittremieux</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3293-5463 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3293-5463">
+        <rdfs:label>Joshua Fortriede</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3336-2476 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3336-2476">
+        <rdfs:label>Paul Fabry</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3410-4655 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3410-4655">
+        <rdfs:label>Kai Blumberg</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3469-4923 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3469-4923">
+        <rdfs:label>Janna Hastings</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3520-2046 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3520-2046">
+        <rdfs:label>Ross Mounce</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3528-5267 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3528-5267">
+        <rdfs:label>Sofia Robb</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3583-7340 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3583-7340">
+        <rdfs:label>Deepak R. Unni</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3596-9597 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3596-9597">
+        <rdfs:label>Matthew T Robey</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3636-5920 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3636-5920">
+        <rdfs:label>Michael S Sinclair</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3734-1859 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3734-1859">
+        <rdfs:label>Carlo Tornial</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3806-3408 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3806-3408">
+        <rdfs:label>Tsuyoshi Momose</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3837-8864 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3837-8864">
+        <rdfs:label>Tanya Z Berardini</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3884-3420 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3884-3420">
+        <rdfs:label>Simon J D Cox</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3898-1727 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3898-1727">
+        <rdfs:label>Barbara Kramarz</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3947-4444 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-3947-4444">
+        <rdfs:label>Martin Larralde</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4071-8397 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4071-8397">
+        <rdfs:label>Zoë M Pendlington</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4142-7153 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4142-7153">
+        <rdfs:label>Sabrina Toro</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4366-3088 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4366-3088">
+        <rdfs:label>Pier Luigi Buttigieg</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4475-896X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4475-896X">
+        <rdfs:label>John Levander</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4532-2703 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4532-2703">
+        <rdfs:label>Petra Fey</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4600-1258 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4600-1258">
+        <rdfs:label>Josh Hanna</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4642-1738 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4642-1738">
+        <rdfs:label>Cynthia J Grondin</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4798-9499 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4798-9499">
+        <rdfs:label>Karen Cranston</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4839-5158 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-4839-5158">
+        <rdfs:label>Isuru Liyanage</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5111-7263 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5111-7263">
+        <rdfs:label>Paul N Schofield</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5159-414X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5159-414X">
+        <rdfs:label>Edison Ong</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5316-1399 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5316-1399">
+        <rdfs:label>Sebastian Köhler</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5379-5359 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5379-5359">
+        <rdfs:label>Yu Lin</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5596-6895 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5596-6895">
+        <rdfs:label>Brandon T. Sinn</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5628-2268 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5628-2268">
+        <rdfs:label>Cristian R. Munteanu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5640-5491 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5640-5491">
+        <rdfs:label>Matthew J. Yoder</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5714-991X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5714-991X">
+        <rdfs:label>Christian J Stoeckert</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5754-1938 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5754-1938">
+        <rdfs:label>Markus Kirolos Youssef</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5905-1617 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5905-1617">
+        <rdfs:label>John Deck</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5979-0102 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-5979-0102">
+        <rdfs:label>Wenjin Zhang</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6020-5919 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6020-5919">
+        <rdfs:label>Elizabeth Arnaud</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6095-8718 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6095-8718">
+        <rdfs:label>Damien Goutte-Gattat</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6148-7962 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6148-7962">
+        <rdfs:label>Matthew Lange</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6178-3585 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6178-3585">
+        <rdfs:label>Daniel Fornika</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6379-8932 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6379-8932">
+        <rdfs:label>Laurel Cooper</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6441-8006 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6441-8006">
+        <rdfs:label>Gaston K Mazandu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6443-9376 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6443-9376">
+        <rdfs:label>Jennifer R. Smith</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6490-7723 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6490-7723">
+        <rdfs:label>Anna V. Anagnostopoulos</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6523-4866 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6523-4866">
+        <rdfs:label>Anita Reane Caron</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6601-2165 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6601-2165">
+        <rdfs:label>Christopher J. Mungall</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6659-0416 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6659-0416">
+        <rdfs:label>Dustin Ebert</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6704-7538 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6704-7538">
+        <rdfs:label>Zhi-Liang Hu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6726-6319 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-6726-6319">
+        <rdfs:label>Torben Göpel</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7061-5073 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7061-5073">
+        <rdfs:label>Colin Gross</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7073-9172 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7073-9172">
+        <rdfs:label>David Osumi-Sutherland</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7284-3950 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7284-3950">
+        <rdfs:label>Xingmin Aaron Zhang</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7287-9013 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7287-9013">
+        <rdfs:label>Chuming Chen</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7334-7852 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7334-7852">
+        <rdfs:label>Benjamin M. Good</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7356-1779 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7356-1779">
+        <rdfs:label>Nicolas Matentzoglu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7440-0467 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7440-0467">
+        <rdfs:label>Lucas Leclère</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7463-6306 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7463-6306">
+        <rdfs:label>Lauren E. Chan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7509-4801 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7509-4801">
+        <rdfs:label>Thomas H Gillespie</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7535-4407 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7535-4407">
+        <rdfs:label>Erin L. Davies</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7696-731X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7696-731X">
+        <rdfs:label>Liliana Andres</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7702-4495 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7702-4495">
+        <rdfs:label>Allyson L Lister</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7899-7192 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-7899-7192">
+        <rdfs:label>Steffen Neumann</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8083-2864 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8083-2864">
+        <rdfs:label>Ola Spjuth</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8134-1207 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8134-1207">
+        <rdfs:label>Daniel P Olson</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8151-7479 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8151-7479">
+        <rdfs:label>Raymond Lee</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8169-9049 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8169-9049">
+        <rdfs:label>Tiffany J. Callahan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8429-8793 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8429-8793">
+        <rdfs:label>Pablo Porras Millan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8457-6693 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8457-6693">
+        <rdfs:label>Bjoern Peters</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8461-9745 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8461-9745">
+        <rdfs:label>Marie-Angélique Laporte</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8666-9746 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8666-9746">
+        <rdfs:label>Manuel Lera-Ramirez</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8688-6599 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8688-6599">
+        <rdfs:label>James P. Balhoff</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8719-7760 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8719-7760">
+        <rdfs:label>Sierra Moxon</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8786-1756 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8786-1756">
+        <rdfs:label>Wes Schafer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8841-5870 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8841-5870">
+        <rdfs:label>Willy W Wong</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8844-9165 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8844-9165">
+        <rdfs:label>Damion M Dooley</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8870-7099 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-8870-7099">
+        <rdfs:label>Cynthia S. Parr</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9074-3507 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9074-3507">
+        <rdfs:label>Paul D Thomas</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9117-9338 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9117-9338">
+        <rdfs:label>Zach Landis-Lewis</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9136-9932 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9136-9932">
+        <rdfs:label>Luis A. Gonzalez-Montaña</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9284-8871 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9284-8871">
+        <rdfs:label>Laura Brenskelle</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9353-5498 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9353-5498">
+        <rdfs:label>Julie A. McMurry</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9372-0028 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9372-0028">
+        <rdfs:label>Cristian Cocos</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9415-5104 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9415-5104">
+        <rdfs:label>Frederic B Bastian</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9551-6370 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9551-6370">
+        <rdfs:label>Melanie Courtot</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9611-1279 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9611-1279">
+        <rdfs:label>Erik Segerdell</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9654-0073 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9654-0073">
+        <rdfs:label>Robert W Thacker</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9673-1283 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9673-1283">
+        <rdfs:label>Yuki Yamagata</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9770-2345 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9770-2345">
+        <rdfs:label>Geoffrey D Ower</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9881-1017 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9881-1017">
+        <rdfs:label>William Hogan</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9900-7880 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9900-7880">
+        <rdfs:label>Yvonne Bradford</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9943-2342 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0002-9943-2342">
+        <rdfs:label>Jennifer A Hammock</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0705-9809 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-0705-9809">
+        <rdfs:label>Rahuman S. Malik Sheriff</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0719-3485 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-0719-3485">
+        <rdfs:label>Elvira Mitraka</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0914-2470 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-0914-2470">
+        <rdfs:label>Anthony Bretaudeau</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1030-6348 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1030-6348">
+        <rdfs:label>Frank J Manion</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1058-2668 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1058-2668">
+        <rdfs:label>Danielle Welter</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1144-0290 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1144-0290">
+        <rdfs:label>John Wieczorek</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1159-9269 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1159-9269">
+        <rdfs:label>Philipp Wegner</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1179-5999 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1179-5999">
+        <rdfs:label>Antonia Lock</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1264-1166 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1264-1166">
+        <rdfs:label>Steven S Chong</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1279-6838 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1279-6838">
+        <rdfs:label>Joshua Klein</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1355-892X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1355-892X">
+        <rdfs:label>Richard H. Scheuermann</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1587-3667 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1587-3667">
+        <rdfs:label>Chisato Yamasaki</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1640-9989 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1640-9989">
+        <rdfs:label>Jonathan Bisson</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1774-6629 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1774-6629">
+        <rdfs:label>Nicole Ruiz</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1807-7930 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1807-7930">
+        <rdfs:label>Zachary E X Dance</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1813-6857 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1813-6857">
+        <rdfs:label>Pascale Gaudet</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1834-3856 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-1834-3856">
+        <rdfs:label>Mathias Brochhausen</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2034-601X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2034-601X">
+        <rdfs:label>Maria C Keays</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2338-2550 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2338-2550">
+        <rdfs:label>Shahim Essaid</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2338-8872 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2338-8872">
+        <rdfs:label>Fernanda Farinelli</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2387-503X -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2387-503X">
+        <rdfs:label>Duncan Hull</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2408-2883 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2408-2883">
+        <rdfs:label>Jingshan Huang</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2473-2313 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2473-2313">
+        <rdfs:label>Tiago Lubiana</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2569-1939 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2569-1939">
+        <rdfs:label>Stephanie H Nowotarski</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2678-2824 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2678-2824">
+        <rdfs:label>Joanna Argasinska</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2699-3066 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2699-3066">
+        <rdfs:label>Meghan Balk</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2722-5106 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2722-5106">
+        <rdfs:label>Dario Cambié</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2826-6444 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2826-6444">
+        <rdfs:label>Amos Bairoch</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-2887-4765 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-2887-4765">
+        <rdfs:label>Paul M. Thomas</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3067-6434 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3067-6434">
+        <rdfs:label>James B. Munro</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3112-4682 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3112-4682">
+        <rdfs:label>Thomas Wilson</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3162-7490 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3162-7490">
+        <rdfs:label>Wasila M Dahdul</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3188-6273 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3188-6273">
+        <rdfs:label>Laura Paglione</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3245-2880 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3245-2880">
+        <rdfs:label>Sarah Gehrke</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3308-6245 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3308-6245">
+        <rdfs:label>Anne Niknejad</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3311-7320 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3311-7320">
+        <rdfs:label>Kevin Schaper</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3385-4232 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3385-4232">
+        <rdfs:label>Oliver Koepler</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3430-8997 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3430-8997">
+        <rdfs:label>Hector Guzman-Orozco</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3499-8262 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3499-8262">
+        <rdfs:label>Alejandra González-Beltrán</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3593-1289 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3593-1289">
+        <rdfs:label>Jonathan Lawson</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3691-0324 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3691-0324">
+        <rdfs:label>Cynthia L Smith</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3781-6962 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3781-6962">
+        <rdfs:label>Meng Liu</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3847-2663 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-3847-2663">
+        <rdfs:label>Jimena Linares</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4148-4606 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4148-4606">
+        <rdfs:label>Midori A Harris</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4312-9552 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4312-9552">
+        <rdfs:label>Daniel C. Berrios</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4423-4370 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4423-4370">
+        <rdfs:label>Charles Tapley Hoyt</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4517-3004 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4517-3004">
+        <rdfs:label>Rosario Lombardo</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4538-2754 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4538-2754">
+        <rdfs:label>Mathias Walzer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4573-0501 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4573-0501">
+        <rdfs:label>Vassilis Virvilis</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4606-0597 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4606-0597">
+        <rdfs:label>Susan M Bello</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4639-4431 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4639-4431">
+        <rdfs:label>Vasundra Touré</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4727-9435 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4727-9435">
+        <rdfs:label>Michel Dumontier</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4785-7231 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4785-7231">
+        <rdfs:label>Emily H Bowler</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4871-5569 -->
+
+    <NamedIndividual rdf:about="https://orcid.org/0000-0003-4871-5569">
+        <rdfs:label>Rebecca Tauber</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
