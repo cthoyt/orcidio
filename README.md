@@ -8,5 +8,6 @@ Build with:
 
 ```shell
 python build.py
+# Currentls has some issues...
 robot convert -i orcid.ofn --output orcid.owl
 ```
