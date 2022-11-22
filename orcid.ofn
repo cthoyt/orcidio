@@ -14,14 +14,12 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
     Annotation( dc:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    AnnotationAssertion( rdfs:label obo:person-property "Person as Annotation Property" )
-    AnnotationAssertion( dc:contributor obo:person-property orcid:0000-0003-4423-4370 )
-    AnnotationAssertion( dc:description obo:person-property "A parent property annotation for ORCID identifiers. This formulation was suggested by Jim Balhoff to avoid the need to encode ORCID identifiers as named individuals, which would slow down reasoning." )
+    AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63775795 )
         rdfs:label orcid:0000-0001-5059-4132 "Marijane White"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5059-4132 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5059-4132 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63775795 )
         dc:description orcid:0000-0001-5059-4132 "librarian"
@@ -30,7 +28,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30158411 )
         rdfs:label orcid:0000-0001-5084-9000 "Luana Licata"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5084-9000 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5084-9000 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30158411 )
         dc:description orcid:0000-0001-5084-9000 "researcher"
@@ -39,7 +37,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q70206186 )
         rdfs:label orcid:0000-0001-5086-8324 "Stephan Gebel"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5086-8324 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5086-8324 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q70206186 )
         dc:description orcid:0000-0001-5086-8324 "German bioinformatician"
@@ -48,7 +46,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q87041091 )
         rdfs:label orcid:0000-0001-5135-5758 "Katrin Leinweber"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5135-5758 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5135-5758 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q87041091 )
         dc:description orcid:0000-0001-5135-5758 "researcher"
@@ -57,12 +55,12 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q106221456 )
         rdfs:label orcid:0000-0001-5139-5557 "James A. Overton"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5139-5557 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5139-5557 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108555432 )
         rdfs:label orcid:0000-0001-5168-3196 "Nathan Edwards"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5168-3196 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5168-3196 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108555432 )
         dc:description orcid:0000-0001-5168-3196 "researcher working with glycoproteomics"
@@ -71,7 +69,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q42763131 )
         rdfs:label orcid:0000-0001-5208-3432 "Nicole Vasilevsky"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5208-3432 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5208-3432 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q42763131 )
         dc:description orcid:0000-0001-5208-3432 "researcher"
@@ -80,7 +78,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91031642 )
         rdfs:label orcid:0000-0001-5237-2330 "Sergei Tarasov"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5237-2330 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5237-2330 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91031642 )
         dc:description orcid:0000-0001-5237-2330 "researcher (ORCID 0000-0001-5237-2330)"
@@ -89,7 +87,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q34388253 )
         rdfs:label orcid:0000-0001-5272-7613 "Noemi del-Toro"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5272-7613 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5272-7613 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q34388253 )
         dc:description orcid:0000-0001-5272-7613 "researcher"
@@ -98,7 +96,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q42630935 )
         rdfs:label orcid:0000-0001-5501-853X "Karen Christie"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5501-853X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5501-853X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q42630935 )
         dc:description orcid:0000-0001-5501-853X "researcher"
@@ -107,7 +105,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89263625 )
         rdfs:label orcid:0000-0001-5756-3988 "Chris Bielow"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5756-3988 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5756-3988 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89263625 )
         dc:description orcid:0000-0001-5756-3988 "researcher"
@@ -116,7 +114,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90243383 )
         rdfs:label orcid:0000-0001-5801-1974 "Laurent-Philippe Albou"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5801-1974 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5801-1974 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90243383 )
         dc:description orcid:0000-0001-5801-1974 "researcher (ORCID 0000-0001-5801-1974)"
@@ -125,7 +123,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114517520 )
         rdfs:label orcid:0000-0001-5809-2276 "Johannes Darms"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5809-2276 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5809-2276 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114517520 )
         dc:description orcid:0000-0001-5809-2276 "Researcher ORCID = 0000-0001-5809-2276"
@@ -134,7 +132,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q99552327 )
         rdfs:label orcid:0000-0001-5809-9523 "D A Natale"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5809-9523 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5809-9523 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q99552327 )
         dc:description orcid:0000-0001-5809-9523 "researcher"
@@ -143,7 +141,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114532053 )
         rdfs:label orcid:0000-0001-5839-2535 "Emily Hartley"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5839-2535 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5839-2535 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114532053 )
         dc:description orcid:0000-0001-5839-2535 "Researcher ORCID = 0000-0001-5839-2535"
@@ -152,7 +150,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57081970 )
         rdfs:label orcid:0000-0001-5889-4463 "Mark Engelstad"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5889-4463 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5889-4463 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57081970 )
         dc:description orcid:0000-0001-5889-4463 "researcher"
@@ -161,7 +159,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59312340 )
         rdfs:label orcid:0000-0001-5948-3092 "Marta Costa"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5948-3092 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5948-3092 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59312340 )
         dc:description orcid:0000-0001-5948-3092 "researcher ORCID ID = 0000-0001-5948-3092"
@@ -170,7 +168,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114313911 )
         rdfs:label orcid:0000-0001-5968-1742 "James Shofstahl"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5968-1742 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5968-1742 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114313911 )
         dc:description orcid:0000-0001-5968-1742 "researcher"
@@ -179,7 +177,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28923515 )
         rdfs:label orcid:0000-0001-5985-7429 "Colin Batchelor"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-5985-7429 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5985-7429 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28923515 )
         dc:description orcid:0000-0001-5985-7429 "researcher"
@@ -188,7 +186,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q37391636 )
         rdfs:label orcid:0000-0001-6277-726X "Kim Rutherford"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6277-726X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6277-726X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q37391636 )
         dc:description orcid:0000-0001-6277-726X "researcher"
@@ -197,7 +195,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58106602 )
         rdfs:label orcid:0000-0001-6315-3707 "Nomi L. Harris"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6315-3707 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6315-3707 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58106602 )
         dc:description orcid:0000-0001-6315-3707 "researcher, ORCID id # 0000-0001-6315-3707"
@@ -206,7 +204,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41048908 )
         rdfs:label orcid:0000-0001-6330-7526 "Valerie Wood"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6330-7526 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6330-7526 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41048908 )
         dc:description orcid:0000-0001-6330-7526 "researcher"
@@ -215,7 +213,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q87063274 )
         rdfs:label orcid:0000-0001-6378-1703 "Matthew A Diller"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6378-1703 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6378-1703 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q87063274 )
         dc:description orcid:0000-0001-6378-1703 "researcher"
@@ -224,12 +222,12 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q105829275 )
         rdfs:label orcid:0000-0001-6439-2224 "Kent A Shefchek"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6439-2224 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6439-2224 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110611014 )
         rdfs:label orcid:0000-0001-6466-877X "Pol Castellano Escuder"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6466-877X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6466-877X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110611014 )
         dc:description orcid:0000-0001-6466-877X "Researcher ORCID = 0000-0001-6466-877X"
@@ -238,7 +236,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47502208 )
         rdfs:label orcid:0000-0001-6512-3296 "Peter Midford"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6512-3296 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6512-3296 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47502208 )
         dc:description orcid:0000-0001-6512-3296 "researcher"
@@ -247,7 +245,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q42704191 )
         rdfs:label orcid:0000-0001-6579-6941 "Yasset Perez-Riverol"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6579-6941 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6579-6941 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q42704191 )
         dc:description orcid:0000-0001-6579-6941 "researcher"
@@ -256,7 +254,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q50728757 )
         rdfs:label orcid:0000-0001-6666-1520 "Jon C. Ison"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6666-1520 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6666-1520 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q50728757 )
         dc:description orcid:0000-0001-6666-1520 "researcher"
@@ -265,7 +263,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55829951 )
         rdfs:label orcid:0000-0001-6682-1504 "Robert Guralnick"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6682-1504 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6682-1504 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55829951 )
         dc:description orcid:0000-0001-6682-1504 "researcher"
@@ -274,7 +272,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114516953 )
         rdfs:label orcid:0000-0001-6757-4744 "Arwa Ibrahim Ahmed"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6757-4744 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6757-4744 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114516953 )
         dc:description orcid:0000-0001-6757-4744 "Researcher ORCID = 0000-0001-6757-4744"
@@ -283,7 +281,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89000082 )
         rdfs:label orcid:0000-0001-6772-4626 "Tony Sawford"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6772-4626 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6772-4626 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89000082 )
         dc:description orcid:0000-0001-6772-4626 "researcher"
@@ -292,7 +290,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610002 )
         rdfs:label orcid:0000-0001-6787-2901 "Suzi Aleksander"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6787-2901 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6787-2901 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610002 )
         dc:description orcid:0000-0001-6787-2901 "Researcher ORCID = 0000-0001-6787-2901"
@@ -301,7 +299,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114403167 )
         rdfs:label orcid:0000-0001-6946-1807 "Eric Douglass"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-6946-1807 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6946-1807 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114403167 )
         dc:description orcid:0000-0001-6946-1807 "Researcher ORCID = 0000-0001-6946-1807"
@@ -310,7 +308,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q88393355 )
         rdfs:label orcid:0000-0001-7222-3287 "Stefan Schulz"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7222-3287 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7222-3287 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q88393355 )
         dc:description orcid:0000-0001-7222-3287 "researcher (ORCID 0000-0001-7222-3287)"
@@ -319,7 +317,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57023310 )
         rdfs:label orcid:0000-0001-7258-9596 "Shawn Zheng Kai Tan"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7258-9596 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7258-9596 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57023310 )
         dc:description orcid:0000-0001-7258-9596 "researcher"
@@ -328,7 +326,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90623277 )
         rdfs:label orcid:0000-0001-7372-9896 "David W Sant"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7372-9896 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7372-9896 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90623277 )
         dc:description orcid:0000-0001-7372-9896 "researcher (ORCID 0000-0001-7372-9896)"
@@ -337,7 +335,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q87814353 )
         rdfs:label orcid:0000-0001-7476-6306 "David P Hill"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7476-6306 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7476-6306 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q87814353 )
         dc:description orcid:0000-0001-7476-6306 "researcher"
@@ -346,7 +344,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114556470 )
         rdfs:label orcid:0000-0001-7487-610X "James Seager"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7487-610X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7487-610X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114556470 )
         dc:description orcid:0000-0001-7487-610X "researcher"
@@ -355,7 +353,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90943093 )
         rdfs:label orcid:0000-0001-7505-5418 "Marion F Shadbolt"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7505-5418 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7505-5418 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90943093 )
         dc:description orcid:0000-0001-7505-5418 "researcher (ORCID 0000-0001-7505-5418)"
@@ -364,7 +362,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q20895241 )
         rdfs:label orcid:0000-0001-7542-0286 "Egon Willighagen"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7542-0286 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7542-0286 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q20895241 )
         dc:description orcid:0000-0001-7542-0286 "Dutch chemist"
@@ -373,7 +371,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54712725 )
         rdfs:label orcid:0000-0001-7694-8250 "Jonathan A Rees"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7694-8250 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7694-8250 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54712725 )
         dc:description orcid:0000-0001-7694-8250 "researcher"
@@ -382,7 +380,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114556512 )
         rdfs:label orcid:0000-0001-7925-2064 "Jeff Otte"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7925-2064 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7925-2064 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114556512 )
         dc:description orcid:0000-0001-7925-2064 "researcher"
@@ -391,7 +389,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q43155252 )
         rdfs:label orcid:0000-0001-7941-2961 "Leigh Carmody"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-7941-2961 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7941-2961 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q43155252 )
         dc:description orcid:0000-0001-7941-2961 "researcher"
@@ -400,7 +398,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110613369 )
         rdfs:label orcid:0000-0001-8034-7685 "Stephen A. Fisher"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8034-7685 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8034-7685 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110613369 )
         dc:description orcid:0000-0001-8034-7685 "Researcher ORCID = 0000-0001-8034-7685"
@@ -409,7 +407,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28913647 )
         rdfs:label orcid:0000-0001-8149-5890 "Robert Hoehndorf"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8149-5890 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8149-5890 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28913647 )
         dc:description orcid:0000-0001-8149-5890 "researcher"
@@ -418,7 +416,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57081961 )
         rdfs:label orcid:0000-0001-8244-1536 "Seth J. Carbon"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8244-1536 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8244-1536 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57081961 )
         dc:description orcid:0000-0001-8244-1536 "researcher"
@@ -427,7 +425,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q52097457 )
         rdfs:label orcid:0000-0001-8314-2140 "Raymund Stefancsik"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8314-2140 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8314-2140 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q52097457 )
         dc:description orcid:0000-0001-8314-2140 "researcher"
@@ -436,7 +434,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q87381426 )
         rdfs:label orcid:0000-0001-8317-7271 "Eric Ross"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8317-7271 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8317-7271 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q87381426 )
         dc:description orcid:0000-0001-8317-7271 "researcher (ORCID 0000-0001-8317-7271)"
@@ -445,7 +443,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89057451 )
         rdfs:label orcid:0000-0001-8397-8810 "Clair A. Kronk"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8397-8810 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8397-8810 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89057451 )
         dc:description orcid:0000-0001-8397-8810 "biomedical informaticist"
@@ -454,7 +452,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q42549119 )
         rdfs:label orcid:0000-0001-8420-5254 "Kristi L. Holmes"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8420-5254 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8420-5254 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q42549119 )
         dc:description orcid:0000-0001-8420-5254 "researcher"
@@ -463,7 +461,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91376977 )
         rdfs:label orcid:0000-0001-8430-6039 "Monica Munoz-Torres"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8430-6039 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8430-6039 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91376977 )
         dc:description orcid:0000-0001-8430-6039 "researcher (ORCID 0000-0001-8430-6039)"
@@ -472,7 +470,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55475730 )
         rdfs:label orcid:0000-0001-8638-8525 "Fernanda C. Dórea"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8638-8525 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8638-8525 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55475730 )
         dc:description orcid:0000-0001-8638-8525 "researcher"
@@ -481,7 +479,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q53584947 )
         rdfs:label orcid:0000-0001-8732-0928 "Eric W Deutsch"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8732-0928 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8732-0928 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q53584947 )
         dc:description orcid:0000-0001-8732-0928 "researcher"
@@ -490,7 +488,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q63240627 )
         rdfs:label orcid:0000-0001-8815-0078 "Ramona L Walls"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8815-0078 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8815-0078 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63240627 )
         dc:description orcid:0000-0001-8815-0078 "researcher"
@@ -499,7 +497,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q20746117 )
         rdfs:label orcid:0000-0001-8865-4321 "Jane Lomax"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8865-4321 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8865-4321 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q20746117 )
         dc:description orcid:0000-0001-8865-4321 "researcher in ontologies and bioinformatics"
@@ -508,7 +506,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28913673 )
         rdfs:label orcid:0000-0001-8910-9851 "Lynn Schriml"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8910-9851 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8910-9851 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28913673 )
         dc:description orcid:0000-0001-8910-9851 "researcher, metadata, diseases, University of Maryland"
@@ -517,7 +515,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58012694 )
         rdfs:label orcid:0000-0001-8935-0696 "Deborah A Siegele"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8935-0696 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8935-0696 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58012694 )
         dc:description orcid:0000-0001-8935-0696 "researcher, ORCID id # 0000-0001-8935-0696"
@@ -526,7 +524,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57082032 )
         rdfs:label orcid:0000-0001-8936-9143 "Nicole L Washington"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8936-9143 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8936-9143 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57082032 )
         dc:description orcid:0000-0001-8936-9143 "researcher"
@@ -535,7 +533,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q92917957 )
         rdfs:label orcid:0000-0001-8941-3984 "Alayne Cuzick"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8941-3984 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8941-3984 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q92917957 )
         dc:description orcid:0000-0001-8941-3984 "researcher (ORCID 0000-0001-8941-3984)"
@@ -544,7 +542,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q104795300 )
         rdfs:label orcid:0000-0001-8996-2641 "Alan M Race"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-8996-2641 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8996-2641 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q104795300 )
         dc:description orcid:0000-0001-8996-2641 "researcher"
@@ -553,7 +551,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59749279 )
         rdfs:label orcid:0000-0001-9016-2684 "James Hu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9016-2684 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9016-2684 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59749279 )
         dc:description orcid:0000-0001-9016-2684 "researcher working with bacteria and ontologies"
@@ -562,7 +560,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55915095 )
         rdfs:label orcid:0000-0001-9076-6015 "Christian A Grove"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9076-6015 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9076-6015 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55915095 )
         dc:description orcid:0000-0001-9076-6015 "researcher"
@@ -571,7 +569,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108545178 )
         rdfs:label orcid:0000-0001-9076-6066 "Mark Andrew Miller"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9076-6066 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9076-6066 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108545178 )
         dc:description orcid:0000-0001-9076-6066 "American biomedical informatician"
@@ -580,7 +578,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28913645 )
         rdfs:label orcid:0000-0001-9107-0714 "Hilmar Lapp"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9107-0714 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9107-0714 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28913645 )
         dc:description orcid:0000-0001-9107-0714 "researcher"
@@ -589,7 +587,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28368079 )
         rdfs:label orcid:0000-0001-9114-8737 "Melissa Haendel"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9114-8737 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9114-8737 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28368079 )
         dc:description orcid:0000-0001-9114-8737 "American epidemiologist and ontologist"
@@ -598,7 +596,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q86943233 )
         rdfs:label orcid:0000-0001-9125-4337 "Francesco Vitali"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9125-4337 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9125-4337 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q86943233 )
         dc:description orcid:0000-0001-9125-4337 "researcher (ORCID 0000-0001-9125-4337)"
@@ -607,7 +605,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30512667 )
         rdfs:label orcid:0000-0001-9189-9661 "Yongqun He"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9189-9661 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9189-9661 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30512667 )
         dc:description orcid:0000-0001-9189-9661 "researcher"
@@ -616,7 +614,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q104473754 )
         rdfs:label orcid:0000-0001-9227-0670 "Luke T Slater"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9227-0670 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9227-0670 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q104473754 )
         dc:description orcid:0000-0001-9227-0670 "researcher"
@@ -625,7 +623,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28913585 )
         rdfs:label orcid:0000-0001-9254-7318 "Rutger Vos"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9254-7318 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9254-7318 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28913585 )
         dc:description orcid:0000-0001-9254-7318 "researcher"
@@ -634,7 +632,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q97643485 )
         rdfs:label orcid:0000-0001-9259-5280 "Amogelang R Raphenya"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9259-5280 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9259-5280 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q97643485 )
         dc:description orcid:0000-0001-9259-5280 "researcher"
@@ -643,7 +641,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q61195994 )
         rdfs:label orcid:0000-0001-9439-5346 "Benjamin M Gyori"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9439-5346 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9439-5346 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q61195994 )
         dc:description orcid:0000-0001-9439-5346 "researcher ORCID ID = 0000-0001-9439-5346"
@@ -652,7 +650,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q20895785 )
         rdfs:label orcid:0000-0001-9488-1870 "Daniel Mietchen"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9488-1870 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9488-1870 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q20895785 )
         dc:description orcid:0000-0001-9488-1870 "German biophysicist and open science advocate, Wikimedian"
@@ -661,7 +659,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q86550912 )
         rdfs:label orcid:0000-0001-9515-398X "Melissa Konopko"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9515-398X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9515-398X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q86550912 )
         dc:description orcid:0000-0001-9515-398X "researcher"
@@ -670,7 +668,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47503081 )
         rdfs:label orcid:0000-0001-9586-0780 "Marcus C. Chibucos"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9586-0780 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9586-0780 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47503081 )
         dc:description orcid:0000-0001-9586-0780 "researcher"
@@ -679,7 +677,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89881908 )
         rdfs:label orcid:0000-0001-9625-1899 "William D Duncan"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9625-1899 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9625-1899 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89881908 )
         dc:description orcid:0000-0001-9625-1899 "researcher"
@@ -688,7 +686,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57208547 )
         rdfs:label orcid:0000-0001-9766-5727 "Emily Jane McTavish"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9766-5727 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9766-5727 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57208547 )
         dc:description orcid:0000-0001-9766-5727 "researcher"
@@ -697,7 +695,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q19845625 )
         rdfs:label orcid:0000-0001-9773-4008 "Andra Waagmeester"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9773-4008 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9773-4008 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q19845625 )
         dc:description orcid:0000-0001-9773-4008 "Dutch scientist"
@@ -706,7 +704,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q34388171 )
         rdfs:label orcid:0000-0001-9842-9718 "Stian Soiland-Reyes"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9842-9718 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9842-9718 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q34388171 )
         dc:description orcid:0000-0001-9842-9718 "researcher"
@@ -715,7 +713,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28364404 )
         rdfs:label orcid:0000-0001-9853-5668 "Philippe Rocca-Serra"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9853-5668 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9853-5668 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28364404 )
         dc:description orcid:0000-0001-9853-5668 "researcher"
@@ -724,7 +722,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30002211 )
         rdfs:label orcid:0000-0001-9896-3531 "Alpha Tom Kodamullil"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9896-3531 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9896-3531 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30002211 )
         dc:description orcid:0000-0001-9896-3531 "Indian bioinformatician"
@@ -733,7 +731,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q88768503 )
         rdfs:label orcid:0000-0001-9897-3238 "Bonita R Lam"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9897-3238 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9897-3238 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q88768503 )
         dc:description orcid:0000-0001-9897-3238 "researcher"
@@ -742,7 +740,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610955 )
         rdfs:label orcid:0000-0001-9921-8234 "Georgeta Bordea"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9921-8234 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9921-8234 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610955 )
         dc:description orcid:0000-0001-9921-8234 "Researcher ORCID = 0000-0001-9921-8234"
@@ -751,7 +749,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55427783 )
         rdfs:label orcid:0000-0001-9969-8610 "Jean-Philippe Gourdine"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9969-8610 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9969-8610 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55427783 )
         dc:description orcid:0000-0001-9969-8610 "researcher"
@@ -760,7 +758,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47502183 )
         rdfs:label orcid:0000-0001-9990-8331 "Alexander D Diehl"
     )
-    SubAnnotationPropertyOf( orcid:0000-0001-9990-8331 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9990-8331 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47502183 )
         dc:description orcid:0000-0001-9990-8331 "researcher"
@@ -769,7 +767,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56432810 )
         rdfs:label orcid:0000-0002-0027-0858 "Tamsin E Jones"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0027-0858 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0027-0858 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56432810 )
         dc:description orcid:0000-0002-0027-0858 "researcher"
@@ -778,7 +776,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q48767863 )
         rdfs:label orcid:0000-0002-0045-7698 "Pierre-Alain Binz"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0045-7698 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0045-7698 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q48767863 )
         dc:description orcid:0000-0002-0045-7698 "researcher"
@@ -787,7 +785,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114517217 )
         rdfs:label orcid:0000-0002-0082-0725 "Olamidipupo Ajigboye"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0082-0725 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0082-0725 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114517217 )
         dc:description orcid:0000-0002-0082-0725 "Researcher ORCID = 0000-0002-0082-0725"
@@ -796,7 +794,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114601383 )
         rdfs:label orcid:0000-0002-0112-7607 "Annika Smith"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0112-7607 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0112-7607 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114601383 )
         dc:description orcid:0000-0002-0112-7607 "researcher"
@@ -805,7 +803,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58314966 )
         rdfs:label orcid:0000-0002-0142-5591 "Citlalli Mejía-Almonte"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0142-5591 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0142-5591 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58314966 )
         dc:description orcid:0000-0002-0142-5591 "researcher, ORCID id # 0000-0002-0142-5591"
@@ -814,7 +812,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q63989747 )
         rdfs:label orcid:0000-0002-0192-5385 "Fabio G Liberante"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0192-5385 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0192-5385 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63989747 )
         dc:description orcid:0000-0002-0192-5385 "researcher"
@@ -823,7 +821,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q61041982 )
         rdfs:label orcid:0000-0002-0337-8610 "Brandon Whitehead"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0337-8610 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0337-8610 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q61041982 )
         dc:description orcid:0000-0002-0337-8610 "researcher ORCID ID = 0000-0002-0337-8610"
@@ -832,7 +830,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91241307 )
         rdfs:label orcid:0000-0002-0358-0130 "Martín J Ramírez"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0358-0130 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0358-0130 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91241307 )
         dc:description orcid:0000-0002-0358-0130 "researcher (ORCID 0000-0002-0358-0130)"
@@ -841,7 +839,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q71798225 )
         rdfs:label orcid:0000-0002-0524-0260 "Jane F. Armstrong"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0524-0260 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0524-0260 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q71798225 )
         dc:description orcid:0000-0002-0524-0260 "researcher"
@@ -850,7 +848,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q85826573 )
         rdfs:label orcid:0000-0002-0593-3569 "J Allen Baron"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0593-3569 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0593-3569 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q85826573 )
         dc:description orcid:0000-0002-0593-3569 "researcher"
@@ -859,7 +857,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54303148 )
         rdfs:label orcid:0000-0002-0643-3144 "Simon Jupp"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0643-3144 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0643-3144 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54303148 )
         dc:description orcid:0000-0002-0643-3144 "researcher, European Bioinformatics Institute, European Molecular Biology Laboratory"
@@ -868,7 +866,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114525081 )
         rdfs:label orcid:0000-0002-0710-3462 "Ryan Fellers"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0710-3462 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0710-3462 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114525081 )
         dc:description orcid:0000-0002-0710-3462 "Researcher ORCID = 0000-0002-0710-3462"
@@ -877,7 +875,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41935087 )
         rdfs:label orcid:0000-0002-0736-9199 "Peter Robinson"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0736-9199 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0736-9199 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41935087 )
         dc:description orcid:0000-0002-0736-9199 "researcher"
@@ -886,7 +884,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90245521 )
         rdfs:label orcid:0000-0002-0819-0473 "Paula Duek Roggli"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0819-0473 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0819-0473 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90245521 )
         dc:description orcid:0000-0002-0819-0473 "researcher (ORCID 0000-0002-0819-0473)"
@@ -895,7 +893,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56925500 )
         rdfs:label orcid:0000-0002-0831-6427 "Karen Eilbeck"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0831-6427 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0831-6427 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56925500 )
         dc:description orcid:0000-0002-0831-6427 "researcher ORCID: 0000-0002-0831-6427"
@@ -904,7 +902,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28859986 )
         rdfs:label orcid:0000-0002-0851-6883 "Jennifer C. Girón"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0851-6883 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0851-6883 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28859986 )
         dc:description orcid:0000-0002-0851-6883 "Colombian entomologist"
@@ -913,7 +911,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114534171 )
         rdfs:label orcid:0000-0002-0892-7164 "Ana Reis-Costa"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0892-7164 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0892-7164 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114534171 )
         dc:description orcid:0000-0002-0892-7164 "Researcher ORCID = 0000-0002-0892-7164"
@@ -922,7 +920,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114524134 )
         rdfs:label orcid:0000-0002-0931-7253 "Joy Roy"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0931-7253 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0931-7253 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114524134 )
         dc:description orcid:0000-0002-0931-7253 "Researcher ORCID = 0000-0002-0931-7253"
@@ -931,7 +929,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610432 )
         rdfs:label orcid:0000-0002-0956-8634 "Terry Hayamizu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0956-8634 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0956-8634 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610432 )
         dc:description orcid:0000-0002-0956-8634 "Researcher ORCID = 0000-0002-0956-8634"
@@ -940,7 +938,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54084479 )
         rdfs:label orcid:0000-0002-0963-1357 "Arlin Stoltzfus"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-0963-1357 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0963-1357 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54084479 )
         dc:description orcid:0000-0002-0963-1357 "researcher"
@@ -949,7 +947,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41294868 )
         rdfs:label orcid:0000-0002-1005-8383 "Pankaj Jaiswal"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1005-8383 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1005-8383 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41294868 )
         dc:description orcid:0000-0002-1005-8383 "researcher"
@@ -958,7 +956,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q88110949 )
         rdfs:label orcid:0000-0002-1048-5019 "Matthew Brush"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1048-5019 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1048-5019 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q88110949 )
         dc:description orcid:0000-0002-1048-5019 "researcher"
@@ -967,7 +965,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q79946847 )
         rdfs:label orcid:0000-0002-1058-1270 "Siddhartha Basu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1058-1270 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1058-1270 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q79946847 )
         dc:description orcid:0000-0002-1058-1270 "researcher"
@@ -976,7 +974,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91739788 )
         rdfs:label orcid:0000-0002-1373-1705 "Clare Pilgrim"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1373-1705 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1373-1705 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91739788 )
         dc:description orcid:0000-0002-1373-1705 "researcher (ORCID 0000-0002-1373-1705)"
@@ -985,7 +983,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56986004 )
         rdfs:label orcid:0000-0002-1572-1316 "Robert Druzinsky"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1572-1316 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1572-1316 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56986004 )
         dc:description orcid:0000-0002-1572-1316 "researcher"
@@ -994,7 +992,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30508557 )
         rdfs:label orcid:0000-0002-1604-3078 "Alan Ruttenberg"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1604-3078 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1604-3078 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30508557 )
         dc:description orcid:0000-0002-1604-3078 "researcher"
@@ -1003,7 +1001,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47502894 )
         rdfs:label orcid:0000-0002-1615-2899 "James Malone"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1615-2899 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1615-2899 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47502894 )
         dc:description orcid:0000-0002-1615-2899 "researcher"
@@ -1012,7 +1010,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91558108 )
         rdfs:label orcid:0000-0002-1679-1711 "Ralf Gabriels"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1679-1711 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1679-1711 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91558108 )
         dc:description orcid:0000-0002-1679-1711 "researcher (ORCID 0000-0002-1679-1711)"
@@ -1021,7 +1019,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59674797 )
         rdfs:label orcid:0000-0002-1706-4196 "Kimberly Van Auken"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1706-4196 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1706-4196 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59674797 )
         dc:description orcid:0000-0002-1706-4196 "researcher ORCID ID = 0000-0002-1706-4196"
@@ -1030,7 +1028,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q53584882 )
         rdfs:label orcid:0000-0002-1767-2343 "Gerhard Mayer"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1767-2343 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1767-2343 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q53584882 )
         dc:description orcid:0000-0002-1767-2343 "researcher"
@@ -1039,7 +1037,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114557426 )
         rdfs:label orcid:0000-0002-1773-2692 "Bradley Varner"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1773-2692 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1773-2692 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114557426 )
         dc:description orcid:0000-0002-1773-2692 "Researcher ORCID = 0000-0002-1773-2692"
@@ -1048,7 +1046,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110848989 )
         rdfs:label orcid:0000-0002-1795-5570 "Amanda Hicks"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1795-5570 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1795-5570 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110848989 )
         dc:description orcid:0000-0002-1795-5570 "Researcher ORCID = 0000-0002-1795-5570"
@@ -1057,7 +1055,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59676697 )
         rdfs:label orcid:0000-0002-1816-4260 "Shinya Suzuki"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-1816-4260 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1816-4260 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59676697 )
         dc:description orcid:0000-0002-1816-4260 "researcher ORCID ID = 0000-0002-1816-4260"
@@ -1066,7 +1064,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54303216 )
         rdfs:label orcid:0000-0002-2061-091X "Georgios V. Gkoutos"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2061-091X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2061-091X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54303216 )
         dc:description orcid:0000-0002-2061-091X "researcher"
@@ -1075,7 +1073,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q83663133 )
         rdfs:label orcid:0000-0002-2100-6351 "Carrine E Blank"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2100-6351 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2100-6351 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q83663133 )
         dc:description orcid:0000-0002-2100-6351 "researcher"
@@ -1084,7 +1082,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110623888 )
         rdfs:label orcid:0000-0002-2176-8751 "Antje Jäde"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2176-8751 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2176-8751 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110623888 )
         dc:description orcid:0000-0002-2176-8751 "Researcher ORCID = 0000-0002-2176-8751"
@@ -1093,7 +1091,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110611760 )
         rdfs:label orcid:0000-0002-2193-0704 "Jade Hotchkiss"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2193-0704 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2193-0704 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110611760 )
         dc:description orcid:0000-0002-2193-0704 "Researcher ORCID = 0000-0002-2193-0704"
@@ -1102,7 +1100,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58034214 )
         rdfs:label orcid:0000-0002-2244-7917 "Ceri E Van Slyke"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2244-7917 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2244-7917 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58034214 )
         dc:description orcid:0000-0002-2244-7917 "researcher, ORCID id # 0000-0002-2244-7917"
@@ -1111,12 +1109,12 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q109614820 )
         rdfs:label orcid:0000-0002-2340-5356 "Troy Pells"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2340-5356 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2340-5356 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110623830 )
         rdfs:label orcid:0000-0002-2346-5201 "Carissa Park"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2346-5201 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2346-5201 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110623830 )
         dc:description orcid:0000-0002-2346-5201 "Researcher ORCID = 0000-0002-2346-5201"
@@ -1125,7 +1123,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q109473405 )
         rdfs:label orcid:0000-0002-2411-565X "Harshad Hegde"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2411-565X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2411-565X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q109473405 )
         dc:description orcid:0000-0002-2411-565X "Software developer | Biomedical Engineer"
@@ -1134,7 +1132,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114531900 )
         rdfs:label orcid:0000-0002-2455-2227 "Lawrence Babb"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2455-2227 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2455-2227 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114531900 )
         dc:description orcid:0000-0002-2455-2227 "Researcher ORCID = 0000-0002-2455-2227"
@@ -1143,7 +1141,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q48519898 )
         rdfs:label orcid:0000-0002-2548-641X "Sirarat Sarntivijai"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2548-641X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2548-641X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q48519898 )
         dc:description orcid:0000-0002-2548-641X "researcher"
@@ -1152,7 +1150,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q38545088 )
         rdfs:label orcid:0000-0002-2605-5080 "Jonathan R. Karr"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2605-5080 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2605-5080 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q38545088 )
         dc:description orcid:0000-0002-2605-5080 "researcher"
@@ -1161,7 +1159,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q109321449 )
         rdfs:label orcid:0000-0002-2627-0696 "Krishna Udaiwal"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2627-0696 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2627-0696 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q109321449 )
         dc:description orcid:0000-0002-2627-0696 "Researcher (ORCID = 0000-0002-2627-0696)"
@@ -1170,7 +1168,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47139534 )
         rdfs:label orcid:0000-0002-2825-0621 "Paola Roncaglia"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2825-0621 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2825-0621 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47139534 )
         dc:description orcid:0000-0002-2825-0621 "researcher"
@@ -1179,7 +1177,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q85219829 )
         rdfs:label orcid:0000-0002-2833-6070 "Timo Sachsenberg"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2833-6070 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2833-6070 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q85219829 )
         dc:description orcid:0000-0002-2833-6070 "researcher"
@@ -1188,7 +1186,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114520343 )
         rdfs:label orcid:0000-0002-2876-6046 "Tung V. N. Nguyen"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2876-6046 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2876-6046 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114520343 )
         dc:description orcid:0000-0002-2876-6046 "Researcher ORCID = 0000-0002-2876-6046"
@@ -1197,7 +1195,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108416505 )
         rdfs:label orcid:0000-0002-2906-7319 "Joe Flack"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2906-7319 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2906-7319 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108416505 )
         dc:description orcid:0000-0002-2906-7319 "software engineer"
@@ -1206,7 +1204,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47503085 )
         rdfs:label orcid:0000-0002-2908-3327 "Anne Thessen"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2908-3327 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2908-3327 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47503085 )
         dc:description orcid:0000-0002-2908-3327 "data scientist"
@@ -1215,7 +1213,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56447790 )
         rdfs:label orcid:0000-0002-2993-2085 "Richard David Boyce"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2993-2085 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2993-2085 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56447790 )
         dc:description orcid:0000-0002-2993-2085 "researcher"
@@ -1224,7 +1222,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114515488 )
         rdfs:label orcid:0000-0002-2996-719X "Raïssa Meyer"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2996-719X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2996-719X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114515488 )
         dc:description orcid:0000-0002-2996-719X "Researcher ORCID = 0000-0002-2996-719X"
@@ -1233,7 +1231,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90780528 )
         rdfs:label orcid:0000-0002-2999-0103 "Jie Zheng"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-2999-0103 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2999-0103 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90780528 )
         dc:description orcid:0000-0002-2999-0103 "researcher (ORCID 0000-0002-2999-0103)"
@@ -1242,7 +1240,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108416433 )
         rdfs:label orcid:0000-0002-3002-9838 "HyeongSik Kim"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3002-9838 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3002-9838 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108416433 )
         dc:description orcid:0000-0002-3002-9838 "researcher"
@@ -1251,7 +1249,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q37371328 )
         rdfs:label orcid:0000-0002-3012-7446 "Daniel S. Himmelstein"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3012-7446 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3012-7446 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q37371328 )
         dc:description orcid:0000-0002-3012-7446 "researcher"
@@ -1260,7 +1258,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57065344 )
         rdfs:label orcid:0000-0002-3105-1359 "Wout Bittremieux"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3105-1359 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3105-1359 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57065344 )
         dc:description orcid:0000-0002-3105-1359 "researcher"
@@ -1269,7 +1267,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q109614796 )
         rdfs:label orcid:0000-0002-3293-5463 "Joshua Fortriede"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3293-5463 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3293-5463 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q109614796 )
         dc:description orcid:0000-0002-3293-5463 "researcher"
@@ -1278,7 +1276,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108555457 )
         rdfs:label orcid:0000-0002-3336-2476 "Paul Fabry"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3336-2476 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3336-2476 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108555457 )
         dc:description orcid:0000-0002-3336-2476 "researcher working with knowledge representation"
@@ -1287,12 +1285,12 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q107527218 )
         rdfs:label orcid:0000-0002-3410-4655 "Kai Blumberg"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3410-4655 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3410-4655 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q27902110 )
         rdfs:label orcid:0000-0002-3469-4923 "Janna Hastings"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3469-4923 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3469-4923 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q27902110 )
         dc:description orcid:0000-0002-3469-4923 "British biologist"
@@ -1301,7 +1299,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q20895803 )
         rdfs:label orcid:0000-0002-3520-2046 "Ross Mounce"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3520-2046 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3520-2046 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q20895803 )
         dc:description orcid:0000-0002-3520-2046 "scholar"
@@ -1310,7 +1308,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q63977883 )
         rdfs:label orcid:0000-0002-3528-5267 "Sofia Robb"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3528-5267 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3528-5267 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63977883 )
         dc:description orcid:0000-0002-3528-5267 "researcher"
@@ -1319,7 +1317,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59690671 )
         rdfs:label orcid:0000-0002-3583-7340 "Deepak R. Unni"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3583-7340 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3583-7340 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59690671 )
         dc:description orcid:0000-0002-3583-7340 "researcher ORCID ID = 0000-0002-3583-7340"
@@ -1328,7 +1326,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89147781 )
         rdfs:label orcid:0000-0002-3596-9597 "Matthew T Robey"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3596-9597 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3596-9597 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89147781 )
         dc:description orcid:0000-0002-3596-9597 "researcher"
@@ -1337,7 +1335,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59689522 )
         rdfs:label orcid:0000-0002-3636-5920 "Michael S Sinclair"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3636-5920 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3636-5920 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59689522 )
         dc:description orcid:0000-0002-3636-5920 "researcher ORCID ID = 0000-0002-3636-5920"
@@ -1346,7 +1344,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114403193 )
         rdfs:label orcid:0000-0002-3734-1859 "Carlo Tornial"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3734-1859 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3734-1859 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114403193 )
         dc:description orcid:0000-0002-3734-1859 "Researcher ORCID = 0000-0002-3734-1859"
@@ -1355,7 +1353,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55688193 )
         rdfs:label orcid:0000-0002-3806-3408 "Tsuyoshi Momose"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3806-3408 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3806-3408 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55688193 )
         dc:description orcid:0000-0002-3806-3408 "researcher"
@@ -1364,7 +1362,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47502750 )
         rdfs:label orcid:0000-0002-3837-8864 "Tanya Z Berardini"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3837-8864 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3837-8864 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47502750 )
         dc:description orcid:0000-0002-3837-8864 "researcher"
@@ -1373,7 +1371,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57054176 )
         rdfs:label orcid:0000-0002-3884-3420 "Simon J D Cox"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3884-3420 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3884-3420 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57054176 )
         dc:description orcid:0000-0002-3884-3420 "semantic researcher, geologist"
@@ -1382,7 +1380,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58880298 )
         rdfs:label orcid:0000-0002-3898-1727 "Barbara Kramarz"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3898-1727 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3898-1727 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58880298 )
         dc:description orcid:0000-0002-3898-1727 "researcher ORCID ID = 0000-0002-3898-1727"
@@ -1391,7 +1389,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56604108 )
         rdfs:label orcid:0000-0002-3947-4444 "Martin Larralde"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-3947-4444 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3947-4444 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56604108 )
         dc:description orcid:0000-0002-3947-4444 "researcher"
@@ -1400,7 +1398,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91179315 )
         rdfs:label orcid:0000-0002-4071-8397 "Zoë M Pendlington"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4071-8397 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4071-8397 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91179315 )
         dc:description orcid:0000-0002-4071-8397 "researcher (ORCID 0000-0002-4071-8397)"
@@ -1409,7 +1407,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108416351 )
         rdfs:label orcid:0000-0002-4142-7153 "Sabrina Toro"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4142-7153 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4142-7153 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108416351 )
         dc:description orcid:0000-0002-4142-7153 "researcher"
@@ -1418,7 +1416,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41566750 )
         rdfs:label orcid:0000-0002-4366-3088 "Pier Luigi Buttigieg"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4366-3088 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4366-3088 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41566750 )
         dc:description orcid:0000-0002-4366-3088 "researcher"
@@ -1427,12 +1425,12 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q111526841 )
         rdfs:label orcid:0000-0002-4475-896X "John Levander"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4475-896X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4475-896X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q71564910 )
         rdfs:label orcid:0000-0002-4532-2703 "Petra Fey"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4532-2703 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4532-2703 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q71564910 )
         dc:description orcid:0000-0002-4532-2703 "researcher"
@@ -1441,7 +1439,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q96047138 )
         rdfs:label orcid:0000-0002-4600-1258 "Josh Hanna"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4600-1258 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4600-1258 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q96047138 )
         dc:description orcid:0000-0002-4600-1258 "researcher"
@@ -1450,7 +1448,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610822 )
         rdfs:label orcid:0000-0002-4642-1738 "Cynthia J Grondin"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4642-1738 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4642-1738 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610822 )
         dc:description orcid:0000-0002-4642-1738 "Researcher ORCID = 0000-0002-4642-1738"
@@ -1459,7 +1457,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41045685 )
         rdfs:label orcid:0000-0002-4798-9499 "Karen Cranston"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4798-9499 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4798-9499 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41045685 )
         dc:description orcid:0000-0002-4798-9499 "Canadian geneticist"
@@ -1468,7 +1466,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114556518 )
         rdfs:label orcid:0000-0002-4839-5158 "Isuru Liyanage"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-4839-5158 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4839-5158 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114556518 )
         dc:description orcid:0000-0002-4839-5158 "researcher"
@@ -1477,7 +1475,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56958202 )
         rdfs:label orcid:0000-0002-5111-7263 "Paul N Schofield"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5111-7263 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5111-7263 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56958202 )
         dc:description orcid:0000-0002-5111-7263 "researcher"
@@ -1486,7 +1484,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56879078 )
         rdfs:label orcid:0000-0002-5159-414X "Edison Ong"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5159-414X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5159-414X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56879078 )
         dc:description orcid:0000-0002-5159-414X "researcher"
@@ -1495,7 +1493,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q52804485 )
         rdfs:label orcid:0000-0002-5316-1399 "Sebastian Köhler"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5316-1399 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5316-1399 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q52804485 )
         dc:description orcid:0000-0002-5316-1399 "biologist"
@@ -1504,7 +1502,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q61054524 )
         rdfs:label orcid:0000-0002-5379-5359 "Yu Lin"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5379-5359 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5379-5359 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q61054524 )
         dc:description orcid:0000-0002-5379-5359 "researcher ORCID ID = 0000-0002-5379-5359"
@@ -1513,7 +1511,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q51147853 )
         rdfs:label orcid:0000-0002-5596-6895 "Brandon T. Sinn"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5596-6895 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5596-6895 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q51147853 )
         dc:description orcid:0000-0002-5596-6895 "researcher"
@@ -1522,7 +1520,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28745439 )
         rdfs:label orcid:0000-0002-5628-2268 "Cristian R. Munteanu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5628-2268 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5628-2268 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28745439 )
         dc:description orcid:0000-0002-5628-2268 "scientist working in Spain"
@@ -1531,7 +1529,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q21387534 )
         rdfs:label orcid:0000-0002-5640-5491 "Matthew J. Yoder"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5640-5491 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5640-5491 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q21387534 )
         dc:description orcid:0000-0002-5640-5491 "entomologist"
@@ -1540,7 +1538,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q67220657 )
         rdfs:label orcid:0000-0002-5714-991X "Christian J Stoeckert"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5714-991X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5714-991X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q67220657 )
         dc:description orcid:0000-0002-5714-991X "researcher"
@@ -1549,7 +1547,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114517942 )
         rdfs:label orcid:0000-0002-5754-1938 "Markus Kirolos Youssef"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5754-1938 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5754-1938 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114517942 )
         dc:description orcid:0000-0002-5754-1938 "Researcher ORCID = 0000-0002-5754-1938"
@@ -1558,7 +1556,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q48975647 )
         rdfs:label orcid:0000-0002-5905-1617 "John Deck"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5905-1617 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5905-1617 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q48975647 )
         dc:description orcid:0000-0002-5905-1617 "researcher"
@@ -1567,7 +1565,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114519920 )
         rdfs:label orcid:0000-0002-5979-0102 "Wenjin Zhang"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-5979-0102 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5979-0102 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114519920 )
         dc:description orcid:0000-0002-5979-0102 "Researcher ORCID = 0000-0002-5979-0102"
@@ -1576,7 +1574,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114740047 )
         rdfs:label orcid:0000-0002-6020-5919 "Elizabeth Arnaud"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6020-5919 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6020-5919 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114740047 )
         dc:description orcid:0000-0002-6020-5919 "researcher"
@@ -1585,7 +1583,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59702685 )
         rdfs:label orcid:0000-0002-6095-8718 "Damien Goutte-Gattat"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6095-8718 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6095-8718 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59702685 )
         dc:description orcid:0000-0002-6095-8718 "researcher ORCID ID = 0000-0002-6095-8718"
@@ -1594,7 +1592,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59462105 )
         rdfs:label orcid:0000-0002-6148-7962 "Matthew Lange"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6148-7962 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6148-7962 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59462105 )
         dc:description orcid:0000-0002-6148-7962 "researcher from UC Davis"
@@ -1603,7 +1601,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59116660 )
         rdfs:label orcid:0000-0002-6178-3585 "Daniel Fornika"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6178-3585 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6178-3585 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59116660 )
         dc:description orcid:0000-0002-6178-3585 "researcher ORCID ID = 0000-0002-6178-3585"
@@ -1612,7 +1610,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89869027 )
         rdfs:label orcid:0000-0002-6379-8932 "Laurel Cooper"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6379-8932 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6379-8932 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89869027 )
         dc:description orcid:0000-0002-6379-8932 "researcher"
@@ -1621,7 +1619,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58171316 )
         rdfs:label orcid:0000-0002-6441-8006 "Gaston K Mazandu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6441-8006 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6441-8006 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58171316 )
         dc:description orcid:0000-0002-6441-8006 "researcher, ORCID id # 0000-0002-6441-8006"
@@ -1630,7 +1628,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110616111 )
         rdfs:label orcid:0000-0002-6443-9376 "Jennifer R. Smith"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6443-9376 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6443-9376 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110616111 )
         dc:description orcid:0000-0002-6443-9376 "Researcher ORCID = 0000-0002-6443-9376"
@@ -1639,7 +1637,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114518281 )
         rdfs:label orcid:0000-0002-6490-7723 "Anna V. Anagnostopoulos"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6490-7723 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6490-7723 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114518281 )
         dc:description orcid:0000-0002-6490-7723 "Researcher ORCID = 0000-0002-6490-7723"
@@ -1648,7 +1646,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114518421 )
         rdfs:label orcid:0000-0002-6523-4866 "Anita Reane Caron"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6523-4866 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6523-4866 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114518421 )
         dc:description orcid:0000-0002-6523-4866 "Researcher ORCID = 0000-0002-6523-4866"
@@ -1657,7 +1655,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q20746118 )
         rdfs:label orcid:0000-0002-6601-2165 "Christopher J. Mungall"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6601-2165 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6601-2165 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q20746118 )
         dc:description orcid:0000-0002-6601-2165 "bioinformatics researcher"
@@ -1666,7 +1664,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q104475281 )
         rdfs:label orcid:0000-0002-6659-0416 "Dustin Ebert"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6659-0416 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6659-0416 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q104475281 )
         dc:description orcid:0000-0002-6659-0416 "researcher"
@@ -1675,7 +1673,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q92916417 )
         rdfs:label orcid:0000-0002-6704-7538 "Zhi-Liang Hu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6704-7538 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6704-7538 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q92916417 )
         dc:description orcid:0000-0002-6704-7538 "researcher (ORCID 0000-0002-6704-7538)"
@@ -1684,7 +1682,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54801113 )
         rdfs:label orcid:0000-0002-6726-6319 "Torben Göpel"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-6726-6319 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6726-6319 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54801113 )
         dc:description orcid:0000-0002-6726-6319 "researcher"
@@ -1693,7 +1691,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56835890 )
         rdfs:label orcid:0000-0002-7061-5073 "Colin Gross"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7061-5073 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7061-5073 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56835890 )
         dc:description orcid:0000-0002-7061-5073 "researcher"
@@ -1702,7 +1700,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54303418 )
         rdfs:label orcid:0000-0002-7073-9172 "David Osumi-Sutherland"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7073-9172 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7073-9172 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54303418 )
         dc:description orcid:0000-0002-7073-9172 "researcher"
@@ -1711,7 +1709,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q92230671 )
         rdfs:label orcid:0000-0002-7284-3950 "Xingmin Aaron Zhang"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7284-3950 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7284-3950 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q92230671 )
         dc:description orcid:0000-0002-7284-3950 "researcher (ORCID 0000-0002-7284-3950)"
@@ -1720,7 +1718,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57055213 )
         rdfs:label orcid:0000-0002-7287-9013 "Chuming Chen"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7287-9013 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7287-9013 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57055213 )
         dc:description orcid:0000-0002-7287-9013 "researcher"
@@ -1729,7 +1727,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q19857258 )
         rdfs:label orcid:0000-0002-7334-7852 "Benjamin M. Good"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7334-7852 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7334-7852 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q19857258 )
         dc:description orcid:0000-0002-7334-7852 "bioinformatician"
@@ -1738,7 +1736,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q60972192 )
         rdfs:label orcid:0000-0002-7356-1779 "Nicolas Matentzoglu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7356-1779 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7356-1779 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q60972192 )
         dc:description orcid:0000-0002-7356-1779 "researcher ORCID ID = 0000-0002-7356-1779"
@@ -1747,7 +1745,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q83382941 )
         rdfs:label orcid:0000-0002-7440-0467 "Lucas Leclère"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7440-0467 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7440-0467 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q83382941 )
         dc:description orcid:0000-0002-7440-0467 "researcher"
@@ -1756,7 +1754,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108416491 )
         rdfs:label orcid:0000-0002-7463-6306 "Lauren E. Chan"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7463-6306 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7463-6306 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108416491 )
         dc:description orcid:0000-0002-7463-6306 "researcher"
@@ -1765,7 +1763,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q64821980 )
         rdfs:label orcid:0000-0002-7509-4801 "Thomas H Gillespie"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7509-4801 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7509-4801 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q64821980 )
         dc:description orcid:0000-0002-7509-4801 "researcher"
@@ -1774,7 +1772,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q98668834 )
         rdfs:label orcid:0000-0002-7535-4407 "Erin L. Davies"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7535-4407 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7535-4407 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q98668834 )
         dc:description orcid:0000-0002-7535-4407 "American biologist"
@@ -1783,7 +1781,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610182 )
         rdfs:label orcid:0000-0002-7696-731X "Liliana Andres"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7696-731X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7696-731X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610182 )
         dc:description orcid:0000-0002-7696-731X "Researcher ORCID = 0000-0002-7696-731X"
@@ -1792,7 +1790,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41050709 )
         rdfs:label orcid:0000-0002-7702-4495 "Allyson L Lister"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7702-4495 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7702-4495 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41050709 )
         dc:description orcid:0000-0002-7702-4495 "researcher"
@@ -1801,7 +1799,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28541023 )
         rdfs:label orcid:0000-0002-7899-7192 "Steffen Neumann"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-7899-7192 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7899-7192 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28541023 )
         dc:description orcid:0000-0002-7899-7192 "German scientist"
@@ -1810,7 +1808,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q27061853 )
         rdfs:label orcid:0000-0002-8083-2864 "Ola Spjuth"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8083-2864 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8083-2864 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q27061853 )
         dc:description orcid:0000-0002-8083-2864 "Swedish chemist"
@@ -1819,7 +1817,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114531748 )
         rdfs:label orcid:0000-0002-8134-1207 "Daniel P Olson"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8134-1207 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8134-1207 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114531748 )
         dc:description orcid:0000-0002-8134-1207 "Researcher ORCID = 0000-0002-8134-1207"
@@ -1828,7 +1826,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57334470 )
         rdfs:label orcid:0000-0002-8151-7479 "Raymond Lee"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8151-7479 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8151-7479 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57334470 )
         dc:description orcid:0000-0002-8151-7479 "researcher"
@@ -1837,7 +1835,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58873434 )
         rdfs:label orcid:0000-0002-8169-9049 "Tiffany J. Callahan"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8169-9049 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8169-9049 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58873434 )
         dc:description orcid:0000-0002-8169-9049 "researcher ORCID ID = 0000-0002-8169-9049"
@@ -1846,7 +1844,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57209160 )
         rdfs:label orcid:0000-0002-8429-8793 "Pablo Porras Millan"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8429-8793 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8429-8793 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57209160 )
         dc:description orcid:0000-0002-8429-8793 "researcher"
@@ -1855,7 +1853,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q60541156 )
         rdfs:label orcid:0000-0002-8457-6693 "Bjoern Peters"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8457-6693 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8457-6693 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q60541156 )
         dc:description orcid:0000-0002-8457-6693 "researcher ORCID ID = 0000-0002-8457-6693"
@@ -1864,7 +1862,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q63389961 )
         rdfs:label orcid:0000-0002-8461-9745 "Marie-Angélique Laporte"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8461-9745 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8461-9745 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63389961 )
         dc:description orcid:0000-0002-8461-9745 "researcher"
@@ -1873,7 +1871,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90971420 )
         rdfs:label orcid:0000-0002-8666-9746 "Manuel Lera-Ramirez"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8666-9746 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8666-9746 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90971420 )
         dc:description orcid:0000-0002-8666-9746 "researcher (ORCID 0000-0002-8666-9746)"
@@ -1882,7 +1880,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q37649212 )
         rdfs:label orcid:0000-0002-8688-6599 "James P. Balhoff"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8688-6599 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8688-6599 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q37649212 )
         dc:description orcid:0000-0002-8688-6599 "researcher"
@@ -1891,7 +1889,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108416397 )
         rdfs:label orcid:0000-0002-8719-7760 "Sierra Moxon"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8719-7760 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8719-7760 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108416397 )
         dc:description orcid:0000-0002-8719-7760 "researcher"
@@ -1900,7 +1898,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q113275693 )
         rdfs:label orcid:0000-0002-8786-1756 "Wes Schafer"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8786-1756 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8786-1756 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q113275693 )
         dc:description orcid:0000-0002-8786-1756 "Researcher ORCID = 0000-0002-8786-1756"
@@ -1909,7 +1907,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57679070 )
         rdfs:label orcid:0000-0002-8841-5870 "Willy W Wong"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8841-5870 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8841-5870 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57679070 )
         dc:description orcid:0000-0002-8841-5870 "researcher ORCID ID = 0000-0002-8841-5870"
@@ -1918,7 +1916,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q91868864 )
         rdfs:label orcid:0000-0002-8844-9165 "Damion M Dooley"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8844-9165 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8844-9165 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q91868864 )
         dc:description orcid:0000-0002-8844-9165 "researcher (ORCID 0000-0002-8844-9165)"
@@ -1927,7 +1925,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41566514 )
         rdfs:label orcid:0000-0002-8870-7099 "Cynthia S. Parr"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-8870-7099 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8870-7099 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41566514 )
         dc:description orcid:0000-0002-8870-7099 "Behavioral ecologist; biodiversity informatician"
@@ -1936,7 +1934,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q61770112 )
         rdfs:label orcid:0000-0002-9074-3507 "Paul D Thomas"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9074-3507 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9074-3507 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q61770112 )
         dc:description orcid:0000-0002-9074-3507 "researcher ORCID ID = 0000-0002-9074-3507"
@@ -1945,7 +1943,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q88354460 )
         rdfs:label orcid:0000-0002-9117-9338 "Zach Landis-Lewis"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9117-9338 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9117-9338 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q88354460 )
         dc:description orcid:0000-0002-9117-9338 "researcher"
@@ -1954,7 +1952,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610618 )
         rdfs:label orcid:0000-0002-9136-9932 "Luis A. Gonzalez-Montaña"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9136-9932 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9136-9932 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610618 )
         dc:description orcid:0000-0002-9136-9932 "Researcher ORCID = 0000-0002-9136-9932"
@@ -1963,7 +1961,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q64886237 )
         rdfs:label orcid:0000-0002-9284-8871 "Laura Brenskelle"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9284-8871 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9284-8871 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q64886237 )
         dc:description orcid:0000-0002-9284-8871 "researcher"
@@ -1972,7 +1970,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47490301 )
         rdfs:label orcid:0000-0002-9353-5498 "Julie A. McMurry"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9353-5498 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9353-5498 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47490301 )
         dc:description orcid:0000-0002-9353-5498 "researcher"
@@ -1981,7 +1979,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q85868696 )
         rdfs:label orcid:0000-0002-9372-0028 "Cristian Cocos"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9372-0028 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9372-0028 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q85868696 )
         dc:description orcid:0000-0002-9372-0028 "researcher"
@@ -1990,7 +1988,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q96209982 )
         rdfs:label orcid:0000-0002-9415-5104 "Frederic B Bastian"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9415-5104 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9415-5104 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q96209982 )
         dc:description orcid:0000-0002-9415-5104 "researcher"
@@ -1999,7 +1997,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q23809262 )
         rdfs:label orcid:0000-0002-9551-6370 "Melanie Courtot"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9551-6370 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9551-6370 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q23809262 )
         dc:description orcid:0000-0002-9551-6370 "Principal developer of the Gene Ontology"
@@ -2008,7 +2006,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q54303422 )
         rdfs:label orcid:0000-0002-9611-1279 "Erik Segerdell"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9611-1279 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9611-1279 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q54303422 )
         dc:description orcid:0000-0002-9611-1279 "researcher"
@@ -2017,7 +2015,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q61601010 )
         rdfs:label orcid:0000-0002-9654-0073 "Robert W Thacker"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9654-0073 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9654-0073 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q61601010 )
         dc:description orcid:0000-0002-9654-0073 "researcher ORCID ID = 0000-0002-9654-0073"
@@ -2026,7 +2024,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q95976403 )
         rdfs:label orcid:0000-0002-9673-1283 "Yuki Yamagata"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9673-1283 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9673-1283 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q95976403 )
         dc:description orcid:0000-0002-9673-1283 "researcher"
@@ -2035,7 +2033,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q86714504 )
         rdfs:label orcid:0000-0002-9770-2345 "Geoffrey D Ower"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9770-2345 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9770-2345 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q86714504 )
         dc:description orcid:0000-0002-9770-2345 "biodiversity informatician"
@@ -2044,7 +2042,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56590169 )
         rdfs:label orcid:0000-0002-9881-1017 "William Hogan"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9881-1017 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9881-1017 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56590169 )
         dc:description orcid:0000-0002-9881-1017 "researcher (ORCID 0000-0002-9881-1017)"
@@ -2053,7 +2051,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q37649111 )
         rdfs:label orcid:0000-0002-9900-7880 "Yvonne Bradford"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9900-7880 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9900-7880 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q37649111 )
         dc:description orcid:0000-0002-9900-7880 "researcher"
@@ -2062,7 +2060,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q41566708 )
         rdfs:label orcid:0000-0002-9943-2342 "Jennifer A Hammock"
     )
-    SubAnnotationPropertyOf( orcid:0000-0002-9943-2342 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9943-2342 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q41566708 )
         dc:description orcid:0000-0002-9943-2342 "researcher, ORCID # 0000-0002-9943-2342"
@@ -2071,7 +2069,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q64019189 )
         rdfs:label orcid:0000-0003-0705-9809 "Rahuman S. Malik Sheriff"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-0705-9809 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0705-9809 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q64019189 )
         dc:description orcid:0000-0003-0705-9809 "researcher"
@@ -2080,7 +2078,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28028010 )
         rdfs:label orcid:0000-0003-0719-3485 "Elvira Mitraka"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-0719-3485 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0719-3485 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28028010 )
         dc:description orcid:0000-0003-0719-3485 "researcher"
@@ -2089,7 +2087,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q102053980 )
         rdfs:label orcid:0000-0003-0914-2470 "Anthony Bretaudeau"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-0914-2470 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0914-2470 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q102053980 )
         dc:description orcid:0000-0003-0914-2470 "researcher"
@@ -2098,7 +2096,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57350709 )
         rdfs:label orcid:0000-0003-1030-6348 "Frank J Manion"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1030-6348 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1030-6348 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57350709 )
         dc:description orcid:0000-0003-1030-6348 "researcher"
@@ -2107,7 +2105,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55473247 )
         rdfs:label orcid:0000-0003-1058-2668 "Danielle Welter"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1058-2668 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1058-2668 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55473247 )
         dc:description orcid:0000-0003-1058-2668 "researcher"
@@ -2116,7 +2114,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90829701 )
         rdfs:label orcid:0000-0003-1144-0290 "John Wieczorek"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1144-0290 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1144-0290 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90829701 )
         dc:description orcid:0000-0003-1144-0290 "biodiversity informaticist"
@@ -2125,7 +2123,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114517064 )
         rdfs:label orcid:0000-0003-1159-9269 "Philipp Wegner"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1159-9269 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1159-9269 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114517064 )
         dc:description orcid:0000-0003-1159-9269 "Researcher ORCID = 0000-0003-1159-9269"
@@ -2134,7 +2132,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58669039 )
         rdfs:label orcid:0000-0003-1179-5999 "Antonia Lock"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1179-5999 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1179-5999 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58669039 )
         dc:description orcid:0000-0003-1179-5999 "researcher ORCID ID = 0000-0003-1179-5999"
@@ -2143,7 +2141,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57585308 )
         rdfs:label orcid:0000-0003-1264-1166 "Steven S Chong"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1264-1166 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1264-1166 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57585308 )
         dc:description orcid:0000-0003-1264-1166 "researcher ORCID ID = 0000-0003-1264-1166"
@@ -2152,7 +2150,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57070150 )
         rdfs:label orcid:0000-0003-1279-6838 "Joshua Klein"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1279-6838 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1279-6838 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57070150 )
         dc:description orcid:0000-0003-1279-6838 "researcher"
@@ -2161,7 +2159,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30508615 )
         rdfs:label orcid:0000-0003-1355-892X "Richard H. Scheuermann"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1355-892X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1355-892X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30508615 )
         dc:description orcid:0000-0003-1355-892X "researcher"
@@ -2170,7 +2168,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q109615937 )
         rdfs:label orcid:0000-0003-1587-3667 "Chisato Yamasaki"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1587-3667 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1587-3667 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q109615937 )
         dc:description orcid:0000-0003-1587-3667 "researcher in biocuration"
@@ -2179,7 +2177,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57678148 )
         rdfs:label orcid:0000-0003-1640-9989 "Jonathan Bisson"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1640-9989 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1640-9989 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57678148 )
         dc:description orcid:0000-0003-1640-9989 "researcher ORCID ID = 0000-0003-1640-9989"
@@ -2188,7 +2186,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56994936 )
         rdfs:label orcid:0000-0003-1774-6629 "Nicole Ruiz"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1774-6629 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1774-6629 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56994936 )
         dc:description orcid:0000-0003-1774-6629 "researcher"
@@ -2197,7 +2195,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q100496548 )
         rdfs:label orcid:0000-0003-1807-7930 "Zachary E X Dance"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1807-7930 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1807-7930 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q100496548 )
         dc:description orcid:0000-0003-1807-7930 "researcher"
@@ -2206,7 +2204,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30032484 )
         rdfs:label orcid:0000-0003-1813-6857 "Pascale Gaudet"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1813-6857 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1813-6857 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30032484 )
         dc:description orcid:0000-0003-1813-6857 "Canadian biocurator"
@@ -2215,7 +2213,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57161944 )
         rdfs:label orcid:0000-0003-1834-3856 "Mathias Brochhausen"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-1834-3856 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1834-3856 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57161944 )
         dc:description orcid:0000-0003-1834-3856 "researcher"
@@ -2224,7 +2222,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q44167741 )
         rdfs:label orcid:0000-0003-2034-601X "Maria C Keays"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2034-601X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2034-601X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q44167741 )
         dc:description orcid:0000-0003-2034-601X "researcher"
@@ -2233,7 +2231,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q108416458 )
         rdfs:label orcid:0000-0003-2338-2550 "Shahim Essaid"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2338-2550 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2338-2550 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108416458 )
         dc:description orcid:0000-0003-2338-2550 "researcher"
@@ -2242,7 +2240,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610945 )
         rdfs:label orcid:0000-0003-2338-8872 "Fernanda Farinelli"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2338-8872 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2338-8872 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610945 )
         dc:description orcid:0000-0003-2338-8872 "Researcher ORCID = 0000-0003-2338-8872"
@@ -2251,7 +2249,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47012855 )
         rdfs:label orcid:0000-0003-2387-503X "Duncan Hull"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2387-503X obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2387-503X )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47012855 )
         dc:description orcid:0000-0003-2387-503X "British computer scientist"
@@ -2260,7 +2258,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q88033382 )
         rdfs:label orcid:0000-0003-2408-2883 "Jingshan Huang"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2408-2883 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2408-2883 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q88033382 )
         dc:description orcid:0000-0003-2408-2883 "researcher"
@@ -2269,7 +2267,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q90076935 )
         rdfs:label orcid:0000-0003-2473-2313 "Tiago Lubiana"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2473-2313 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2473-2313 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q90076935 )
         dc:description orcid:0000-0003-2473-2313 "researcher"
@@ -2278,7 +2276,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114530199 )
         rdfs:label orcid:0000-0003-2569-1939 "Stephanie H Nowotarski"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2569-1939 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2569-1939 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114530199 )
         dc:description orcid:0000-0003-2569-1939 "Researcher ORCID = 0000-0003-2569-1939"
@@ -2287,7 +2285,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q43429774 )
         rdfs:label orcid:0000-0003-2678-2824 "Joanna Argasinska"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2678-2824 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2678-2824 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q43429774 )
         dc:description orcid:0000-0003-2678-2824 "researcher"
@@ -2296,7 +2294,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59763318 )
         rdfs:label orcid:0000-0003-2699-3066 "Meghan Balk"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2699-3066 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2699-3066 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59763318 )
         dc:description orcid:0000-0003-2699-3066 "ecologist"
@@ -2305,7 +2303,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q61831637 )
         rdfs:label orcid:0000-0003-2722-5106 "Dario Cambié"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2722-5106 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2722-5106 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q61831637 )
         dc:description orcid:0000-0003-2722-5106 "researcher ORCID ID = 0000-0003-2722-5106"
@@ -2314,7 +2312,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q4747830 )
         rdfs:label orcid:0000-0003-2826-6444 "Amos Bairoch"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2826-6444 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2826-6444 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q4747830 )
         dc:description orcid:0000-0003-2826-6444 "Swiss bioinformatician"
@@ -2323,7 +2321,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q55396914 )
         rdfs:label orcid:0000-0003-2887-4765 "Paul M. Thomas"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-2887-4765 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2887-4765 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q55396914 )
         dc:description orcid:0000-0003-2887-4765 "researcher"
@@ -2332,7 +2330,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q35850179 )
         rdfs:label orcid:0000-0003-3067-6434 "James B. Munro"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3067-6434 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3067-6434 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q35850179 )
         dc:description orcid:0000-0003-3067-6434 "researcher"
@@ -2341,7 +2339,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q63766604 )
         rdfs:label orcid:0000-0003-3112-4682 "Thomas Wilson"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3112-4682 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3112-4682 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63766604 )
         dc:description orcid:0000-0003-3112-4682 "researcher"
@@ -2350,7 +2348,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q37649170 )
         rdfs:label orcid:0000-0003-3162-7490 "Wasila M Dahdul"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3162-7490 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3162-7490 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q37649170 )
         dc:description orcid:0000-0003-3162-7490 "researcher"
@@ -2359,7 +2357,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q30532922 )
         rdfs:label orcid:0000-0003-3188-6273 "Laura Paglione"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3188-6273 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3188-6273 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q30532922 )
         dc:description orcid:0000-0003-3188-6273 "Director of Strategic Initiatives at ORCID"
@@ -2368,7 +2366,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q89507835 )
         rdfs:label orcid:0000-0003-3245-2880 "Sarah Gehrke"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3245-2880 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3245-2880 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q89507835 )
         dc:description orcid:0000-0003-3245-2880 "researcher"
@@ -2377,7 +2375,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56582619 )
         rdfs:label orcid:0000-0003-3308-6245 "Anne Niknejad"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3308-6245 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3308-6245 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56582619 )
         dc:description orcid:0000-0003-3308-6245 "researcher"
@@ -2386,7 +2384,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59673534 )
         rdfs:label orcid:0000-0003-3311-7320 "Kevin Schaper"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3311-7320 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3311-7320 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59673534 )
         dc:description orcid:0000-0003-3311-7320 "researcher ORCID ID = 0000-0003-3311-7320"
@@ -2395,7 +2393,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q58333302 )
         rdfs:label orcid:0000-0003-3385-4232 "Oliver Koepler"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3385-4232 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3385-4232 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q58333302 )
         dc:description orcid:0000-0003-3385-4232 "researcher, ORCID id # 0000-0003-3385-4232"
@@ -2404,7 +2402,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114354576 )
         rdfs:label orcid:0000-0003-3430-8997 "Hector Guzman-Orozco"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3430-8997 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3430-8997 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114354576 )
         dc:description orcid:0000-0003-3430-8997 "Researcher ORCID = 0000-0003-3430-8997"
@@ -2413,7 +2411,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q27824575 )
         rdfs:label orcid:0000-0003-3499-8262 "Alejandra González-Beltrán"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3499-8262 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3499-8262 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q27824575 )
         dc:description orcid:0000-0003-3499-8262 "researcher"
@@ -2422,7 +2420,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114524588 )
         rdfs:label orcid:0000-0003-3593-1289 "Jonathan Lawson"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3593-1289 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3593-1289 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114524588 )
         dc:description orcid:0000-0003-3593-1289 "Researcher ORCID = 0000-0003-3593-1289"
@@ -2431,7 +2429,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56445645 )
         rdfs:label orcid:0000-0003-3691-0324 "Cynthia L Smith"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3691-0324 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3691-0324 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56445645 )
         dc:description orcid:0000-0003-3691-0324 "researcher on mouse genome informatics"
@@ -2440,7 +2438,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110694748 )
         rdfs:label orcid:0000-0003-3781-6962 "Meng Liu"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3781-6962 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3781-6962 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110694748 )
         dc:description orcid:0000-0003-3781-6962 "Researcher ORCID = 0000-0003-3781-6962"
@@ -2449,7 +2447,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q114555820 )
         rdfs:label orcid:0000-0003-3847-2663 "Jimena Linares"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-3847-2663 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3847-2663 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q114555820 )
         dc:description orcid:0000-0003-3847-2663 "Researcher ORCID = 0000-0003-3847-2663"
@@ -2458,7 +2456,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56516195 )
         rdfs:label orcid:0000-0003-4148-4606 "Midori A Harris"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4148-4606 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4148-4606 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56516195 )
         dc:description orcid:0000-0003-4148-4606 "researcher"
@@ -2467,7 +2465,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q110610825 )
         rdfs:label orcid:0000-0003-4312-9552 "Daniel C. Berrios"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4312-9552 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4312-9552 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q110610825 )
         dc:description orcid:0000-0003-4312-9552 "Researcher ORCID = 0000-0003-4312-9552"
@@ -2476,7 +2474,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q47475003 )
         rdfs:label orcid:0000-0003-4423-4370 "Charles Tapley Hoyt"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4423-4370 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4423-4370 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q47475003 )
         dc:description orcid:0000-0003-4423-4370 "American chemist"
@@ -2485,7 +2483,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q56840078 )
         rdfs:label orcid:0000-0003-4517-3004 "Rosario Lombardo"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4517-3004 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4517-3004 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q56840078 )
         dc:description orcid:0000-0003-4517-3004 "researcher"
@@ -2494,7 +2492,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q86564089 )
         rdfs:label orcid:0000-0003-4538-2754 "Mathias Walzer"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4538-2754 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4538-2754 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q86564089 )
         dc:description orcid:0000-0003-4538-2754 "researcher"
@@ -2503,7 +2501,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q96172261 )
         rdfs:label orcid:0000-0003-4573-0501 "Vassilis Virvilis"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4573-0501 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4573-0501 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q96172261 )
         dc:description orcid:0000-0003-4573-0501 "researcher"
@@ -2512,7 +2510,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57965947 )
         rdfs:label orcid:0000-0003-4606-0597 "Susan M Bello"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4606-0597 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4606-0597 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57965947 )
         dc:description orcid:0000-0003-4606-0597 "researcher, ORCID id # 0000-0003-4606-0597"
@@ -2521,7 +2519,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57206409 )
         rdfs:label orcid:0000-0003-4639-4431 "Vasundra Touré"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4639-4431 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4639-4431 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57206409 )
         dc:description orcid:0000-0003-4639-4431 "researcher"
@@ -2530,7 +2528,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q28194921 )
         rdfs:label orcid:0000-0003-4727-9435 "Michel Dumontier"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4727-9435 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4727-9435 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q28194921 )
         dc:description orcid:0000-0003-4727-9435 "Distinguished Professor of Data Science at Maastricht University"
@@ -2539,7 +2537,7 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q57999163 )
         rdfs:label orcid:0000-0003-4785-7231 "Emily H Bowler"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4785-7231 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4785-7231 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q57999163 )
         dc:description orcid:0000-0003-4785-7231 "researcher, ORCID id # 0000-0003-4785-7231"
@@ -2548,294 +2546,294 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59539088 )
         rdfs:label orcid:0000-0003-4871-5569 "Rebecca Tauber"
     )
-    SubAnnotationPropertyOf( orcid:0000-0003-4871-5569 obo:person-property )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4871-5569 )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q59539088 )
         dc:description orcid:0000-0003-4871-5569 "researcher ORCID ID = 0000-0003-4871-5569"
     )
-    Declaration( AnnotationProperty( obo:person-property ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5059-4132 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5084-9000 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5086-8324 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5135-5758 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5139-5557 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5168-3196 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5208-3432 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5237-2330 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5272-7613 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5501-853X ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5756-3988 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5801-1974 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5809-2276 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5809-9523 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5839-2535 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5889-4463 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5948-3092 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5968-1742 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-5985-7429 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6277-726X ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6315-3707 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6330-7526 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6378-1703 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6439-2224 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6466-877X ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6512-3296 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6579-6941 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6666-1520 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6682-1504 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6757-4744 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6772-4626 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6787-2901 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-6946-1807 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7222-3287 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7258-9596 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7372-9896 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7476-6306 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7487-610X ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7505-5418 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7542-0286 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7694-8250 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7925-2064 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-7941-2961 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8034-7685 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8149-5890 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8244-1536 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8314-2140 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8317-7271 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8397-8810 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8420-5254 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8430-6039 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8638-8525 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8732-0928 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8815-0078 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8865-4321 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8910-9851 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8935-0696 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8936-9143 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8941-3984 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-8996-2641 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9016-2684 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9076-6015 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9076-6066 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9107-0714 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9114-8737 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9125-4337 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9189-9661 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9227-0670 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9254-7318 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9259-5280 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9439-5346 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9488-1870 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9515-398X ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9586-0780 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9625-1899 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9766-5727 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9773-4008 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9842-9718 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9853-5668 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9896-3531 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9897-3238 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9921-8234 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9969-8610 ) )
-    Declaration( AnnotationProperty( orcid:0000-0001-9990-8331 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0027-0858 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0045-7698 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0082-0725 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0112-7607 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0142-5591 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0192-5385 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0337-8610 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0358-0130 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0524-0260 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0593-3569 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0643-3144 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0710-3462 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0736-9199 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0819-0473 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0831-6427 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0851-6883 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0892-7164 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0931-7253 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0956-8634 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-0963-1357 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1005-8383 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1048-5019 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1058-1270 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1373-1705 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1572-1316 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1604-3078 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1615-2899 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1679-1711 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1706-4196 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1767-2343 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1773-2692 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1795-5570 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-1816-4260 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2061-091X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2100-6351 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2176-8751 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2193-0704 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2244-7917 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2340-5356 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2346-5201 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2411-565X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2455-2227 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2548-641X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2605-5080 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2627-0696 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2825-0621 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2833-6070 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2876-6046 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2906-7319 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2908-3327 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2993-2085 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2996-719X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-2999-0103 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3002-9838 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3012-7446 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3105-1359 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3293-5463 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3336-2476 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3410-4655 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3469-4923 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3520-2046 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3528-5267 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3583-7340 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3596-9597 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3636-5920 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3734-1859 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3806-3408 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3837-8864 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3884-3420 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3898-1727 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-3947-4444 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4071-8397 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4142-7153 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4366-3088 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4475-896X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4532-2703 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4600-1258 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4642-1738 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4798-9499 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-4839-5158 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5111-7263 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5159-414X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5316-1399 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5379-5359 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5596-6895 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5628-2268 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5640-5491 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5714-991X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5754-1938 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5905-1617 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-5979-0102 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6020-5919 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6095-8718 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6148-7962 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6178-3585 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6379-8932 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6441-8006 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6443-9376 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6490-7723 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6523-4866 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6601-2165 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6659-0416 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6704-7538 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-6726-6319 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7061-5073 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7073-9172 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7284-3950 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7287-9013 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7334-7852 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7356-1779 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7440-0467 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7463-6306 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7509-4801 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7535-4407 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7696-731X ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7702-4495 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-7899-7192 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8083-2864 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8134-1207 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8151-7479 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8169-9049 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8429-8793 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8457-6693 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8461-9745 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8666-9746 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8688-6599 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8719-7760 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8786-1756 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8841-5870 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8844-9165 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-8870-7099 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9074-3507 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9117-9338 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9136-9932 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9284-8871 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9353-5498 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9372-0028 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9415-5104 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9551-6370 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9611-1279 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9654-0073 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9673-1283 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9770-2345 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9881-1017 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9900-7880 ) )
-    Declaration( AnnotationProperty( orcid:0000-0002-9943-2342 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-0705-9809 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-0719-3485 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-0914-2470 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1030-6348 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1058-2668 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1144-0290 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1159-9269 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1179-5999 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1264-1166 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1279-6838 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1355-892X ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1587-3667 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1640-9989 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1774-6629 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1807-7930 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1813-6857 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-1834-3856 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2034-601X ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2338-2550 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2338-8872 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2387-503X ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2408-2883 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2473-2313 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2569-1939 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2678-2824 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2699-3066 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2722-5106 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2826-6444 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-2887-4765 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3067-6434 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3112-4682 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3162-7490 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3188-6273 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3245-2880 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3308-6245 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3311-7320 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3385-4232 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3430-8997 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3499-8262 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3593-1289 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3691-0324 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3781-6962 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-3847-2663 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4148-4606 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4312-9552 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4423-4370 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4517-3004 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4538-2754 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4573-0501 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4606-0597 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4639-4431 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4727-9435 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4785-7231 ) )
-    Declaration( AnnotationProperty( orcid:0000-0003-4871-5569 ) )
+    Declaration( Class( obo:NCBITaxon_9606 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5059-4132 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5084-9000 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5086-8324 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5135-5758 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5139-5557 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5168-3196 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5208-3432 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5237-2330 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5272-7613 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5501-853X ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5756-3988 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5801-1974 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5809-2276 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5809-9523 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5839-2535 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5889-4463 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5948-3092 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5968-1742 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5985-7429 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6277-726X ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6315-3707 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6330-7526 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6378-1703 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6439-2224 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6466-877X ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6512-3296 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6579-6941 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6666-1520 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6682-1504 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6757-4744 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6772-4626 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6787-2901 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6946-1807 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7222-3287 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7258-9596 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7372-9896 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7476-6306 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7487-610X ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7505-5418 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7542-0286 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7694-8250 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7925-2064 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7941-2961 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8034-7685 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8149-5890 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8244-1536 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8314-2140 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8317-7271 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8397-8810 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8420-5254 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8430-6039 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8638-8525 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8732-0928 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8815-0078 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8865-4321 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8910-9851 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8935-0696 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8936-9143 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8941-3984 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8996-2641 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9016-2684 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9076-6015 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9076-6066 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9107-0714 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9114-8737 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9125-4337 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9189-9661 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9227-0670 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9254-7318 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9259-5280 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9439-5346 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9488-1870 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9515-398X ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9586-0780 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9625-1899 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9766-5727 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9773-4008 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9842-9718 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9853-5668 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9896-3531 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9897-3238 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9921-8234 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9969-8610 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9990-8331 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0027-0858 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0045-7698 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0082-0725 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0112-7607 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0142-5591 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0192-5385 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0337-8610 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0358-0130 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0524-0260 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0593-3569 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0643-3144 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0710-3462 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0736-9199 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0819-0473 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0831-6427 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0851-6883 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0892-7164 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0931-7253 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0956-8634 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0963-1357 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1005-8383 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1048-5019 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1058-1270 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1373-1705 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1572-1316 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1604-3078 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1615-2899 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1679-1711 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1706-4196 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1767-2343 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1773-2692 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1795-5570 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1816-4260 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2061-091X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2100-6351 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2176-8751 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2193-0704 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2244-7917 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2340-5356 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2346-5201 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2411-565X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2455-2227 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2548-641X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2605-5080 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2627-0696 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2825-0621 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2833-6070 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2876-6046 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2906-7319 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2908-3327 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2993-2085 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2996-719X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2999-0103 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3002-9838 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3012-7446 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3105-1359 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3293-5463 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3336-2476 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3410-4655 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3469-4923 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3520-2046 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3528-5267 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3583-7340 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3596-9597 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3636-5920 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3734-1859 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3806-3408 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3837-8864 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3884-3420 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3898-1727 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3947-4444 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4071-8397 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4142-7153 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4366-3088 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4475-896X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4532-2703 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4600-1258 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4642-1738 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4798-9499 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4839-5158 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5111-7263 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5159-414X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5316-1399 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5379-5359 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5596-6895 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5628-2268 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5640-5491 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5714-991X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5754-1938 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5905-1617 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5979-0102 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6020-5919 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6095-8718 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6148-7962 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6178-3585 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6379-8932 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6441-8006 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6443-9376 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6490-7723 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6523-4866 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6601-2165 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6659-0416 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6704-7538 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6726-6319 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7061-5073 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7073-9172 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7284-3950 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7287-9013 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7334-7852 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7356-1779 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7440-0467 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7463-6306 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7509-4801 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7535-4407 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7696-731X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7702-4495 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7899-7192 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8083-2864 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8134-1207 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8151-7479 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8169-9049 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8429-8793 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8457-6693 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8461-9745 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8666-9746 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8688-6599 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8719-7760 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8786-1756 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8841-5870 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8844-9165 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8870-7099 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9074-3507 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9117-9338 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9136-9932 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9284-8871 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9353-5498 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9372-0028 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9415-5104 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9551-6370 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9611-1279 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9654-0073 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9673-1283 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9770-2345 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9881-1017 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9900-7880 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9943-2342 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0705-9809 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0719-3485 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0914-2470 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1030-6348 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1058-2668 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1144-0290 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1159-9269 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1179-5999 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1264-1166 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1279-6838 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1355-892X ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1587-3667 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1640-9989 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1774-6629 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1807-7930 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1813-6857 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1834-3856 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2034-601X ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2338-2550 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2338-8872 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2387-503X ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2408-2883 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2473-2313 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2569-1939 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2678-2824 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2699-3066 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2722-5106 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2826-6444 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2887-4765 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3067-6434 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3112-4682 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3162-7490 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3188-6273 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3245-2880 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3308-6245 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3311-7320 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3385-4232 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3430-8997 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3499-8262 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3593-1289 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3691-0324 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3781-6962 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3847-2663 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4148-4606 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4312-9552 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4423-4370 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4517-3004 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4538-2754 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4573-0501 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4606-0597 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4639-4431 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4727-9435 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4785-7231 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4871-5569 ) )
 )

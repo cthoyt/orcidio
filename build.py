@@ -1,18 +1,20 @@
 """Create a slim OWL of ORCID."""
 
 import datetime
+import os
 from pathlib import Path
 
 import requests
 from funowl import (
-    AnnotationAssertion,
     Annotation,
-    AnnotationProperty,
+    AnnotationAssertion,
+    Class,
+    ClassAssertion,
+    NamedIndividual,
     Ontology,
     OntologyDocument,
-    SubAnnotationPropertyOf,
 )
-from rdflib import DC, RDFS, Literal, Namespace, DCTERMS
+from rdflib import DC, DCTERMS, RDFS, Literal, Namespace
 
 HERE = Path(__file__).parent.resolve()
 OFN_PATH = HERE.joinpath("orcid.ofn")
@@ -58,21 +60,9 @@ def main():
     )
     res.raise_for_status()
 
-    parent_uri = OBO["person-property"]
-    ontology.declarations(AnnotationProperty(parent_uri))
-    ontology.annotations.extend(
-        (
-            AnnotationAssertion(RDFS.label, parent_uri, "Person as Annotation Property"),
-            AnnotationAssertion(DC.contributor, parent_uri, charlie_iri),
-            AnnotationAssertion(
-                DC.description,
-                parent_uri,
-                "A parent property annotation for ORCID identifiers. This formulation was suggested "
-                "by Jim Balhoff to avoid the need to encode ORCID identifiers as named individuals, "
-                "which would slow down reasoning.",
-            ),
-        )
-    )
+    human = OBO["NCBITaxon_9606"]
+    ontology.declarations(Class(human))
+    ontology.annotations.append(AnnotationAssertion(RDFS.label, human, "Homo sapiens"))
 
     for record in res.json()["results"]["bindings"]:
         record = {k: v["value"] for k, v in record.items()}
@@ -82,13 +72,13 @@ def main():
         description = record.get("contributorDescription")
         wikidata = record["contributor"]
 
-        ontology.declarations(AnnotationProperty(orcid))
+        ontology.declarations(NamedIndividual(orcid))
         ontology.annotations.extend(
             [
                 AnnotationAssertion(
                     RDFS.label, orcid, Literal(name), [Annotation(DC.source, wikidata)]
                 ),
-                SubAnnotationPropertyOf(orcid, parent_uri),
+                ClassAssertion(human, orcid),
             ]
         )
         if description:
@@ -103,6 +93,8 @@ def main():
     )
     with open(OFN_PATH, "w") as file:
         print(str(doc), file=file)
+
+    os.system("robot convert --input orcid.ofn --output orcid.owl")
 
 
 if __name__ == "__main__":
