@@ -14,7 +14,7 @@ from funowl import (
     Ontology,
     OntologyDocument,
 )
-from rdflib import DC, DCTERMS, RDFS, Literal, Namespace
+from rdflib import DC, DCTERMS, OWL, RDFS, Literal, Namespace
 
 HERE = Path(__file__).parent.resolve()
 OFN_PATH = HERE.joinpath("orcid.ofn")
@@ -47,6 +47,7 @@ def main():
             Annotation(DC.creator, charlie_iri),
             Annotation(DCTERMS.license, "https://creativecommons.org/publicdomain/zero/1.0/"),
             Annotation(RDFS.seeAlso, "https://github.com/cthoyt/wikidata-orcid-ontology"),
+            Annotation(OWL.versionInfo, today),
         )
     )
 
@@ -89,7 +90,13 @@ def main():
             )
 
     doc = OntologyDocument(
-        ontology=ontology, dc=DC, orcid=ORCID, wikidata=WIKIDATA, obo=OBO, dcterms=DCTERMS
+        ontology=ontology,
+        dc=DC,
+        orcid=ORCID,
+        wikidata=WIKIDATA,
+        obo=OBO,
+        dcterms=DCTERMS,
+        owl=OWL,
     )
     with open(OFN_PATH, "w") as file:
         print(str(doc), file=file)
