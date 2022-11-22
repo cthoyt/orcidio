@@ -1,16 +1,18 @@
 """Create a slim OWL of ORCID."""
 
+import datetime
 from pathlib import Path
 
 import requests
 from funowl import (
     AnnotationAssertion,
+    Annotation,
+    AnnotationProperty,
     Ontology,
     OntologyDocument,
-    AnnotationProperty,
     SubAnnotationPropertyOf,
 )
-from rdflib import DC, RDFS, Namespace, Literal
+from rdflib import DC, RDFS, Literal, Namespace, DCTERMS
 
 HERE = Path(__file__).parent.resolve()
 OFN_PATH = HERE.joinpath("orcid.ofn")
@@ -32,7 +34,19 @@ SPARQL = """\
 
 def main():
     """Query the Wikidata SPARQL endpoint and return JSON."""
-    ontology = Ontology()
+    today = datetime.date.today().strftime("%Y-%m-%d")
+
+    ontology_iri = OBO["orcid.owl"]
+    charlie_iri = ORCID["0000-0003-4423-4370"]
+    ontology = Ontology(iri=ontology_iri, version=OBO[f"orcid/releases/{today}/orcid.owl"])
+    ontology.annotations.extend(
+        (
+            Annotation(DC.title, "ORCID in OWL"),
+            Annotation(DC.creator, charlie_iri),
+            Annotation(DCTERMS.license, "https://creativecommons.org/publicdomain/zero/1.0/"),
+            Annotation(RDFS.seeAlso, "https://github.com/cthoyt/wikidata-orcid-ontology"),
+        )
+    )
 
     res = requests.get(
         "https://query.wikidata.org/sparql",
@@ -46,27 +60,46 @@ def main():
 
     parent_uri = OBO["person-property"]
     ontology.declarations(AnnotationProperty(parent_uri))
-    ontology.annotations.append(
-        AnnotationAssertion(RDFS.label, parent_uri, "Person as Annotation Property")
+    ontology.annotations.extend(
+        (
+            AnnotationAssertion(RDFS.label, parent_uri, "Person as Annotation Property"),
+            AnnotationAssertion(DC.contributor, parent_uri, charlie_iri),
+            AnnotationAssertion(
+                DC.description,
+                parent_uri,
+                "A parent property annotation for ORCID identifiers. This formulation was suggested "
+                "by Jim Balhoff to avoid the need to encode ORCID identifiers as named individuals, "
+                "which would slow down reasoning.",
+            ),
+        )
     )
 
     for record in res.json()["results"]["bindings"]:
-        orcid = ORCID[record["orcid"]["value"]]
-        name = record["contributorLabel"]["value"]
-        # TODO add
-        # description = record["contributorDescription"]["value"]
+        record = {k: v["value"] for k, v in record.items()}
+
+        orcid = ORCID[record["orcid"]]
+        name = record["contributorLabel"]
+        description = record.get("contributorDescription")
+        wikidata = record["contributor"]
 
         ontology.declarations(AnnotationProperty(orcid))
         ontology.annotations.extend(
             [
-                AnnotationAssertion(RDFS.label, orcid, Literal(name)),
-                AnnotationAssertion(DC.source, orcid, record["contributor"]["value"]),
+                AnnotationAssertion(
+                    RDFS.label, orcid, Literal(name), [Annotation(DC.source, wikidata)]
+                ),
                 SubAnnotationPropertyOf(orcid, parent_uri),
             ]
         )
+        if description:
+            ontology.annotations.append(
+                AnnotationAssertion(
+                    DC.description, orcid, description, [Annotation(DC.source, wikidata)]
+                )
+            )
 
     doc = OntologyDocument(
-        ontology=ontology, dc=DC, orcid=ORCID, wikidata=WIKIDATA, obo=OBO
+        ontology=ontology, dc=DC, orcid=ORCID, wikidata=WIKIDATA, obo=OBO, dcterms=DCTERMS
     )
     with open(OFN_PATH, "w") as file:
         print(str(doc), file=file)

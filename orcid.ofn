@@ -7,861 +7,2552 @@ Prefix( dc: = <http://purl.org/dc/elements/1.1/> )
 Prefix( orcid: = <https://orcid.org/> )
 Prefix( wikidata: = <http://www.wikidata.org/entity/> )
 Prefix( obo: = <http://purl.obolibrary.org/obo/> )
+Prefix( dcterms: = <http://purl.org/dc/terms/> )
 
-Ontology(
+Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-22/orcid.owl>
+    Annotation( dc:title "ORCID in OWL" )
+    Annotation( dc:creator orcid:0000-0003-4423-4370 )
+    Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
+    Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
     AnnotationAssertion( rdfs:label obo:person-property "Person as Annotation Property" )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5059-4132 "Marijane White" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5059-4132 wikidata:Q63775795 )
+    AnnotationAssertion( dc:contributor obo:person-property orcid:0000-0003-4423-4370 )
+    AnnotationAssertion( dc:description obo:person-property "A parent property annotation for ORCID identifiers. This formulation was suggested by Jim Balhoff to avoid the need to encode ORCID identifiers as named individuals, which would slow down reasoning." )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63775795 )
+        rdfs:label orcid:0000-0001-5059-4132 "Marijane White"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5059-4132 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5084-9000 "Luana Licata" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5084-9000 wikidata:Q30158411 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63775795 )
+        dc:description orcid:0000-0001-5059-4132 "librarian"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30158411 )
+        rdfs:label orcid:0000-0001-5084-9000 "Luana Licata"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5084-9000 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5086-8324 "Stephan Gebel" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5086-8324 wikidata:Q70206186 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30158411 )
+        dc:description orcid:0000-0001-5084-9000 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q70206186 )
+        rdfs:label orcid:0000-0001-5086-8324 "Stephan Gebel"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5086-8324 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5135-5758 "Katrin Leinweber" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5135-5758 wikidata:Q87041091 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q70206186 )
+        dc:description orcid:0000-0001-5086-8324 "German bioinformatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87041091 )
+        rdfs:label orcid:0000-0001-5135-5758 "Katrin Leinweber"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5135-5758 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5139-5557 "James A. Overton" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5139-5557 wikidata:Q106221456 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87041091 )
+        dc:description orcid:0000-0001-5135-5758 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q106221456 )
+        rdfs:label orcid:0000-0001-5139-5557 "James A. Overton"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5139-5557 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5168-3196 "Nathan Edwards" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5168-3196 wikidata:Q108555432 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108555432 )
+        rdfs:label orcid:0000-0001-5168-3196 "Nathan Edwards"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5168-3196 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5208-3432 "Nicole Vasilevsky" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5208-3432 wikidata:Q42763131 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108555432 )
+        dc:description orcid:0000-0001-5168-3196 "researcher working with glycoproteomics"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42763131 )
+        rdfs:label orcid:0000-0001-5208-3432 "Nicole Vasilevsky"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5208-3432 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5237-2330 "Sergei Tarasov" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5237-2330 wikidata:Q91031642 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42763131 )
+        dc:description orcid:0000-0001-5208-3432 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91031642 )
+        rdfs:label orcid:0000-0001-5237-2330 "Sergei Tarasov"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5237-2330 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5272-7613 "Noemi del-Toro" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5272-7613 wikidata:Q34388253 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91031642 )
+        dc:description orcid:0000-0001-5237-2330 "researcher (ORCID 0000-0001-5237-2330)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q34388253 )
+        rdfs:label orcid:0000-0001-5272-7613 "Noemi del-Toro"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5272-7613 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5501-853X "Karen Christie" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5501-853X wikidata:Q42630935 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q34388253 )
+        dc:description orcid:0000-0001-5272-7613 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42630935 )
+        rdfs:label orcid:0000-0001-5501-853X "Karen Christie"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5501-853X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5756-3988 "Chris Bielow" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5756-3988 wikidata:Q89263625 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42630935 )
+        dc:description orcid:0000-0001-5501-853X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89263625 )
+        rdfs:label orcid:0000-0001-5756-3988 "Chris Bielow"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5756-3988 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5801-1974 "Laurent-Philippe Albou" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5801-1974 wikidata:Q90243383 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89263625 )
+        dc:description orcid:0000-0001-5756-3988 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90243383 )
+        rdfs:label orcid:0000-0001-5801-1974 "Laurent-Philippe Albou"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5801-1974 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5809-2276 "Johannes Darms" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5809-2276 wikidata:Q114517520 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90243383 )
+        dc:description orcid:0000-0001-5801-1974 "researcher (ORCID 0000-0001-5801-1974)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517520 )
+        rdfs:label orcid:0000-0001-5809-2276 "Johannes Darms"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5809-2276 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5809-9523 "D A Natale" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5809-9523 wikidata:Q99552327 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517520 )
+        dc:description orcid:0000-0001-5809-2276 "Researcher ORCID = 0000-0001-5809-2276"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q99552327 )
+        rdfs:label orcid:0000-0001-5809-9523 "D A Natale"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5809-9523 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5839-2535 "Emily Hartley" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5839-2535 wikidata:Q114532053 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q99552327 )
+        dc:description orcid:0000-0001-5809-9523 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114532053 )
+        rdfs:label orcid:0000-0001-5839-2535 "Emily Hartley"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5839-2535 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5889-4463 "Mark Engelstad" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5889-4463 wikidata:Q57081970 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114532053 )
+        dc:description orcid:0000-0001-5839-2535 "Researcher ORCID = 0000-0001-5839-2535"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57081970 )
+        rdfs:label orcid:0000-0001-5889-4463 "Mark Engelstad"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5889-4463 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5948-3092 "Marta Costa" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5948-3092 wikidata:Q59312340 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57081970 )
+        dc:description orcid:0000-0001-5889-4463 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59312340 )
+        rdfs:label orcid:0000-0001-5948-3092 "Marta Costa"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5948-3092 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5968-1742 "James Shofstahl" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5968-1742 wikidata:Q114313911 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59312340 )
+        dc:description orcid:0000-0001-5948-3092 "researcher ORCID ID = 0000-0001-5948-3092"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114313911 )
+        rdfs:label orcid:0000-0001-5968-1742 "James Shofstahl"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5968-1742 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-5985-7429 "Colin Batchelor" )
-    AnnotationAssertion( dc:source orcid:0000-0001-5985-7429 wikidata:Q28923515 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114313911 )
+        dc:description orcid:0000-0001-5968-1742 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28923515 )
+        rdfs:label orcid:0000-0001-5985-7429 "Colin Batchelor"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-5985-7429 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6277-726X "Kim Rutherford" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6277-726X wikidata:Q37391636 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28923515 )
+        dc:description orcid:0000-0001-5985-7429 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37391636 )
+        rdfs:label orcid:0000-0001-6277-726X "Kim Rutherford"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6277-726X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6315-3707 "Nomi L. Harris" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6315-3707 wikidata:Q58106602 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37391636 )
+        dc:description orcid:0000-0001-6277-726X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58106602 )
+        rdfs:label orcid:0000-0001-6315-3707 "Nomi L. Harris"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6315-3707 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6330-7526 "Valerie Wood" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6330-7526 wikidata:Q41048908 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58106602 )
+        dc:description orcid:0000-0001-6315-3707 "researcher, ORCID id # 0000-0001-6315-3707"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41048908 )
+        rdfs:label orcid:0000-0001-6330-7526 "Valerie Wood"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6330-7526 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6378-1703 "Matthew A Diller" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6378-1703 wikidata:Q87063274 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41048908 )
+        dc:description orcid:0000-0001-6330-7526 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87063274 )
+        rdfs:label orcid:0000-0001-6378-1703 "Matthew A Diller"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6378-1703 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6439-2224 "Kent A Shefchek" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6439-2224 wikidata:Q105829275 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87063274 )
+        dc:description orcid:0000-0001-6378-1703 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q105829275 )
+        rdfs:label orcid:0000-0001-6439-2224 "Kent A Shefchek"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6439-2224 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6466-877X "Pol Castellano Escuder" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6466-877X wikidata:Q110611014 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110611014 )
+        rdfs:label orcid:0000-0001-6466-877X "Pol Castellano Escuder"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6466-877X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6512-3296 "Peter Midford" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6512-3296 wikidata:Q47502208 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110611014 )
+        dc:description orcid:0000-0001-6466-877X "Researcher ORCID = 0000-0001-6466-877X"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502208 )
+        rdfs:label orcid:0000-0001-6512-3296 "Peter Midford"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6512-3296 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6579-6941 "Yasset Perez-Riverol" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6579-6941 wikidata:Q42704191 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502208 )
+        dc:description orcid:0000-0001-6512-3296 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42704191 )
+        rdfs:label orcid:0000-0001-6579-6941 "Yasset Perez-Riverol"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6579-6941 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6666-1520 "Jon C. Ison" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6666-1520 wikidata:Q50728757 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42704191 )
+        dc:description orcid:0000-0001-6579-6941 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q50728757 )
+        rdfs:label orcid:0000-0001-6666-1520 "Jon C. Ison"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6666-1520 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6682-1504 "Robert Guralnick" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6682-1504 wikidata:Q55829951 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q50728757 )
+        dc:description orcid:0000-0001-6666-1520 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55829951 )
+        rdfs:label orcid:0000-0001-6682-1504 "Robert Guralnick"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6682-1504 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6757-4744 "Arwa Ibrahim Ahmed" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6757-4744 wikidata:Q114516953 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55829951 )
+        dc:description orcid:0000-0001-6682-1504 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114516953 )
+        rdfs:label orcid:0000-0001-6757-4744 "Arwa Ibrahim Ahmed"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6757-4744 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6772-4626 "Tony Sawford" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6772-4626 wikidata:Q89000082 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114516953 )
+        dc:description orcid:0000-0001-6757-4744 "Researcher ORCID = 0000-0001-6757-4744"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89000082 )
+        rdfs:label orcid:0000-0001-6772-4626 "Tony Sawford"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6772-4626 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6787-2901 "Suzi Aleksander" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6787-2901 wikidata:Q110610002 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89000082 )
+        dc:description orcid:0000-0001-6772-4626 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610002 )
+        rdfs:label orcid:0000-0001-6787-2901 "Suzi Aleksander"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6787-2901 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-6946-1807 "Eric Douglass" )
-    AnnotationAssertion( dc:source orcid:0000-0001-6946-1807 wikidata:Q114403167 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610002 )
+        dc:description orcid:0000-0001-6787-2901 "Researcher ORCID = 0000-0001-6787-2901"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114403167 )
+        rdfs:label orcid:0000-0001-6946-1807 "Eric Douglass"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-6946-1807 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7222-3287 "Stefan Schulz" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7222-3287 wikidata:Q88393355 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114403167 )
+        dc:description orcid:0000-0001-6946-1807 "Researcher ORCID = 0000-0001-6946-1807"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88393355 )
+        rdfs:label orcid:0000-0001-7222-3287 "Stefan Schulz"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7222-3287 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7258-9596 "Shawn Zheng Kai Tan" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7258-9596 wikidata:Q57023310 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88393355 )
+        dc:description orcid:0000-0001-7222-3287 "researcher (ORCID 0000-0001-7222-3287)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57023310 )
+        rdfs:label orcid:0000-0001-7258-9596 "Shawn Zheng Kai Tan"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7258-9596 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7372-9896 "David W Sant" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7372-9896 wikidata:Q90623277 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57023310 )
+        dc:description orcid:0000-0001-7258-9596 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90623277 )
+        rdfs:label orcid:0000-0001-7372-9896 "David W Sant"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7372-9896 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7476-6306 "David P Hill" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7476-6306 wikidata:Q87814353 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90623277 )
+        dc:description orcid:0000-0001-7372-9896 "researcher (ORCID 0000-0001-7372-9896)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87814353 )
+        rdfs:label orcid:0000-0001-7476-6306 "David P Hill"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7476-6306 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7487-610X "James Seager" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7487-610X wikidata:Q114556470 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87814353 )
+        dc:description orcid:0000-0001-7476-6306 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114556470 )
+        rdfs:label orcid:0000-0001-7487-610X "James Seager"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7487-610X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7505-5418 "Marion F Shadbolt" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7505-5418 wikidata:Q90943093 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114556470 )
+        dc:description orcid:0000-0001-7487-610X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90943093 )
+        rdfs:label orcid:0000-0001-7505-5418 "Marion F Shadbolt"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7505-5418 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7542-0286 "Egon Willighagen" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7542-0286 wikidata:Q20895241 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90943093 )
+        dc:description orcid:0000-0001-7505-5418 "researcher (ORCID 0000-0001-7505-5418)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20895241 )
+        rdfs:label orcid:0000-0001-7542-0286 "Egon Willighagen"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7542-0286 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7694-8250 "Jonathan A Rees" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7694-8250 wikidata:Q54712725 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20895241 )
+        dc:description orcid:0000-0001-7542-0286 "Dutch chemist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54712725 )
+        rdfs:label orcid:0000-0001-7694-8250 "Jonathan A Rees"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7694-8250 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7925-2064 "Jeff Otte" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7925-2064 wikidata:Q114556512 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54712725 )
+        dc:description orcid:0000-0001-7694-8250 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114556512 )
+        rdfs:label orcid:0000-0001-7925-2064 "Jeff Otte"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7925-2064 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-7941-2961 "Leigh Carmody" )
-    AnnotationAssertion( dc:source orcid:0000-0001-7941-2961 wikidata:Q43155252 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114556512 )
+        dc:description orcid:0000-0001-7925-2064 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q43155252 )
+        rdfs:label orcid:0000-0001-7941-2961 "Leigh Carmody"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-7941-2961 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8034-7685 "Stephen A. Fisher" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8034-7685 wikidata:Q110613369 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q43155252 )
+        dc:description orcid:0000-0001-7941-2961 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110613369 )
+        rdfs:label orcid:0000-0001-8034-7685 "Stephen A. Fisher"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8034-7685 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8149-5890 "Robert Hoehndorf" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8149-5890 wikidata:Q28913647 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110613369 )
+        dc:description orcid:0000-0001-8034-7685 "Researcher ORCID = 0000-0001-8034-7685"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913647 )
+        rdfs:label orcid:0000-0001-8149-5890 "Robert Hoehndorf"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8149-5890 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8244-1536 "Seth J. Carbon" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8244-1536 wikidata:Q57081961 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913647 )
+        dc:description orcid:0000-0001-8149-5890 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57081961 )
+        rdfs:label orcid:0000-0001-8244-1536 "Seth J. Carbon"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8244-1536 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8314-2140 "Raymund Stefancsik" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8314-2140 wikidata:Q52097457 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57081961 )
+        dc:description orcid:0000-0001-8244-1536 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q52097457 )
+        rdfs:label orcid:0000-0001-8314-2140 "Raymund Stefancsik"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8314-2140 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8317-7271 "Eric Ross" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8317-7271 wikidata:Q87381426 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q52097457 )
+        dc:description orcid:0000-0001-8314-2140 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87381426 )
+        rdfs:label orcid:0000-0001-8317-7271 "Eric Ross"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8317-7271 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8397-8810 "Clair A. Kronk" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8397-8810 wikidata:Q89057451 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q87381426 )
+        dc:description orcid:0000-0001-8317-7271 "researcher (ORCID 0000-0001-8317-7271)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89057451 )
+        rdfs:label orcid:0000-0001-8397-8810 "Clair A. Kronk"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8397-8810 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8420-5254 "Kristi L. Holmes" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8420-5254 wikidata:Q42549119 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89057451 )
+        dc:description orcid:0000-0001-8397-8810 "biomedical informaticist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42549119 )
+        rdfs:label orcid:0000-0001-8420-5254 "Kristi L. Holmes"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8420-5254 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8430-6039 "Monica Munoz-Torres" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8430-6039 wikidata:Q91376977 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q42549119 )
+        dc:description orcid:0000-0001-8420-5254 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91376977 )
+        rdfs:label orcid:0000-0001-8430-6039 "Monica Munoz-Torres"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8430-6039 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8638-8525 "Fernanda C. Dórea" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8638-8525 wikidata:Q55475730 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91376977 )
+        dc:description orcid:0000-0001-8430-6039 "researcher (ORCID 0000-0001-8430-6039)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55475730 )
+        rdfs:label orcid:0000-0001-8638-8525 "Fernanda C. Dórea"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8638-8525 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8732-0928 "Eric W Deutsch" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8732-0928 wikidata:Q53584947 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55475730 )
+        dc:description orcid:0000-0001-8638-8525 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q53584947 )
+        rdfs:label orcid:0000-0001-8732-0928 "Eric W Deutsch"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8732-0928 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8815-0078 "Ramona L Walls" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8815-0078 wikidata:Q63240627 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q53584947 )
+        dc:description orcid:0000-0001-8732-0928 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63240627 )
+        rdfs:label orcid:0000-0001-8815-0078 "Ramona L Walls"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8815-0078 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8865-4321 "Jane Lomax" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8865-4321 wikidata:Q20746117 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63240627 )
+        dc:description orcid:0000-0001-8815-0078 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20746117 )
+        rdfs:label orcid:0000-0001-8865-4321 "Jane Lomax"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8865-4321 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8910-9851 "Lynn Schriml" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8910-9851 wikidata:Q28913673 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20746117 )
+        dc:description orcid:0000-0001-8865-4321 "researcher in ontologies and bioinformatics"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913673 )
+        rdfs:label orcid:0000-0001-8910-9851 "Lynn Schriml"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8910-9851 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8935-0696 "Deborah A Siegele" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8935-0696 wikidata:Q58012694 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913673 )
+        dc:description orcid:0000-0001-8910-9851 "researcher, metadata, diseases, University of Maryland"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58012694 )
+        rdfs:label orcid:0000-0001-8935-0696 "Deborah A Siegele"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8935-0696 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8936-9143 "Nicole L Washington" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8936-9143 wikidata:Q57082032 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58012694 )
+        dc:description orcid:0000-0001-8935-0696 "researcher, ORCID id # 0000-0001-8935-0696"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57082032 )
+        rdfs:label orcid:0000-0001-8936-9143 "Nicole L Washington"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8936-9143 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8941-3984 "Alayne Cuzick" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8941-3984 wikidata:Q92917957 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57082032 )
+        dc:description orcid:0000-0001-8936-9143 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q92917957 )
+        rdfs:label orcid:0000-0001-8941-3984 "Alayne Cuzick"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8941-3984 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-8996-2641 "Alan M Race" )
-    AnnotationAssertion( dc:source orcid:0000-0001-8996-2641 wikidata:Q104795300 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q92917957 )
+        dc:description orcid:0000-0001-8941-3984 "researcher (ORCID 0000-0001-8941-3984)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q104795300 )
+        rdfs:label orcid:0000-0001-8996-2641 "Alan M Race"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-8996-2641 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9016-2684 "James Hu" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9016-2684 wikidata:Q59749279 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q104795300 )
+        dc:description orcid:0000-0001-8996-2641 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59749279 )
+        rdfs:label orcid:0000-0001-9016-2684 "James Hu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9016-2684 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9076-6015 "Christian A Grove" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9076-6015 wikidata:Q55915095 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59749279 )
+        dc:description orcid:0000-0001-9016-2684 "researcher working with bacteria and ontologies"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55915095 )
+        rdfs:label orcid:0000-0001-9076-6015 "Christian A Grove"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9076-6015 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9076-6066 "Mark Andrew Miller" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9076-6066 wikidata:Q108545178 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55915095 )
+        dc:description orcid:0000-0001-9076-6015 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108545178 )
+        rdfs:label orcid:0000-0001-9076-6066 "Mark Andrew Miller"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9076-6066 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9107-0714 "Hilmar Lapp" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9107-0714 wikidata:Q28913645 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108545178 )
+        dc:description orcid:0000-0001-9076-6066 "American biomedical informatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913645 )
+        rdfs:label orcid:0000-0001-9107-0714 "Hilmar Lapp"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9107-0714 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9114-8737 "Melissa Haendel" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9114-8737 wikidata:Q28368079 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913645 )
+        dc:description orcid:0000-0001-9107-0714 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28368079 )
+        rdfs:label orcid:0000-0001-9114-8737 "Melissa Haendel"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9114-8737 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9125-4337 "Francesco Vitali" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9125-4337 wikidata:Q86943233 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28368079 )
+        dc:description orcid:0000-0001-9114-8737 "American epidemiologist and ontologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86943233 )
+        rdfs:label orcid:0000-0001-9125-4337 "Francesco Vitali"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9125-4337 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9189-9661 "Yongqun He" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9189-9661 wikidata:Q30512667 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86943233 )
+        dc:description orcid:0000-0001-9125-4337 "researcher (ORCID 0000-0001-9125-4337)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30512667 )
+        rdfs:label orcid:0000-0001-9189-9661 "Yongqun He"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9189-9661 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9227-0670 "Luke T Slater" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9227-0670 wikidata:Q104473754 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30512667 )
+        dc:description orcid:0000-0001-9189-9661 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q104473754 )
+        rdfs:label orcid:0000-0001-9227-0670 "Luke T Slater"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9227-0670 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9254-7318 "Rutger Vos" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9254-7318 wikidata:Q28913585 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q104473754 )
+        dc:description orcid:0000-0001-9227-0670 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913585 )
+        rdfs:label orcid:0000-0001-9254-7318 "Rutger Vos"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9254-7318 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9259-5280 "Amogelang R Raphenya" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9259-5280 wikidata:Q97643485 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28913585 )
+        dc:description orcid:0000-0001-9254-7318 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q97643485 )
+        rdfs:label orcid:0000-0001-9259-5280 "Amogelang R Raphenya"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9259-5280 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9439-5346 "Benjamin M Gyori" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9439-5346 wikidata:Q61195994 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q97643485 )
+        dc:description orcid:0000-0001-9259-5280 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61195994 )
+        rdfs:label orcid:0000-0001-9439-5346 "Benjamin M Gyori"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9439-5346 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9488-1870 "Daniel Mietchen" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9488-1870 wikidata:Q20895785 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61195994 )
+        dc:description orcid:0000-0001-9439-5346 "researcher ORCID ID = 0000-0001-9439-5346"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20895785 )
+        rdfs:label orcid:0000-0001-9488-1870 "Daniel Mietchen"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9488-1870 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9515-398X "Melissa Konopko" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9515-398X wikidata:Q86550912 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20895785 )
+        dc:description orcid:0000-0001-9488-1870 "German biophysicist and open science advocate, Wikimedian"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86550912 )
+        rdfs:label orcid:0000-0001-9515-398X "Melissa Konopko"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9515-398X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9586-0780 "Marcus C. Chibucos" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9586-0780 wikidata:Q47503081 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86550912 )
+        dc:description orcid:0000-0001-9515-398X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47503081 )
+        rdfs:label orcid:0000-0001-9586-0780 "Marcus C. Chibucos"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9586-0780 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9625-1899 "William D Duncan" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9625-1899 wikidata:Q89881908 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47503081 )
+        dc:description orcid:0000-0001-9586-0780 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89881908 )
+        rdfs:label orcid:0000-0001-9625-1899 "William D Duncan"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9625-1899 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9766-5727 "Emily Jane McTavish" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9766-5727 wikidata:Q57208547 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89881908 )
+        dc:description orcid:0000-0001-9625-1899 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57208547 )
+        rdfs:label orcid:0000-0001-9766-5727 "Emily Jane McTavish"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9766-5727 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9773-4008 "Andra Waagmeester" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9773-4008 wikidata:Q19845625 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57208547 )
+        dc:description orcid:0000-0001-9766-5727 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q19845625 )
+        rdfs:label orcid:0000-0001-9773-4008 "Andra Waagmeester"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9773-4008 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9842-9718 "Stian Soiland-Reyes" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9842-9718 wikidata:Q34388171 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q19845625 )
+        dc:description orcid:0000-0001-9773-4008 "Dutch scientist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q34388171 )
+        rdfs:label orcid:0000-0001-9842-9718 "Stian Soiland-Reyes"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9842-9718 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9853-5668 "Philippe Rocca-Serra" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9853-5668 wikidata:Q28364404 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q34388171 )
+        dc:description orcid:0000-0001-9842-9718 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28364404 )
+        rdfs:label orcid:0000-0001-9853-5668 "Philippe Rocca-Serra"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9853-5668 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9896-3531 "Alpha Tom Kodamullil" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9896-3531 wikidata:Q30002211 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28364404 )
+        dc:description orcid:0000-0001-9853-5668 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30002211 )
+        rdfs:label orcid:0000-0001-9896-3531 "Alpha Tom Kodamullil"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9896-3531 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9897-3238 "Bonita R Lam" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9897-3238 wikidata:Q88768503 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30002211 )
+        dc:description orcid:0000-0001-9896-3531 "Indian bioinformatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88768503 )
+        rdfs:label orcid:0000-0001-9897-3238 "Bonita R Lam"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9897-3238 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9921-8234 "Georgeta Bordea" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9921-8234 wikidata:Q110610955 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88768503 )
+        dc:description orcid:0000-0001-9897-3238 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610955 )
+        rdfs:label orcid:0000-0001-9921-8234 "Georgeta Bordea"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9921-8234 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9969-8610 "Jean-Philippe Gourdine" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9969-8610 wikidata:Q55427783 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610955 )
+        dc:description orcid:0000-0001-9921-8234 "Researcher ORCID = 0000-0001-9921-8234"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55427783 )
+        rdfs:label orcid:0000-0001-9969-8610 "Jean-Philippe Gourdine"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9969-8610 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0001-9990-8331 "Alexander D Diehl" )
-    AnnotationAssertion( dc:source orcid:0000-0001-9990-8331 wikidata:Q47502183 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55427783 )
+        dc:description orcid:0000-0001-9969-8610 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502183 )
+        rdfs:label orcid:0000-0001-9990-8331 "Alexander D Diehl"
+    )
     SubAnnotationPropertyOf( orcid:0000-0001-9990-8331 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0027-0858 "Tamsin E Jones" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0027-0858 wikidata:Q56432810 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502183 )
+        dc:description orcid:0000-0001-9990-8331 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56432810 )
+        rdfs:label orcid:0000-0002-0027-0858 "Tamsin E Jones"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0027-0858 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0045-7698 "Pierre-Alain Binz" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0045-7698 wikidata:Q48767863 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56432810 )
+        dc:description orcid:0000-0002-0027-0858 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q48767863 )
+        rdfs:label orcid:0000-0002-0045-7698 "Pierre-Alain Binz"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0045-7698 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0082-0725 "Olamidipupo Ajigboye" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0082-0725 wikidata:Q114517217 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q48767863 )
+        dc:description orcid:0000-0002-0045-7698 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517217 )
+        rdfs:label orcid:0000-0002-0082-0725 "Olamidipupo Ajigboye"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0082-0725 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0112-7607 "Annika Smith" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0112-7607 wikidata:Q114601383 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517217 )
+        dc:description orcid:0000-0002-0082-0725 "Researcher ORCID = 0000-0002-0082-0725"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114601383 )
+        rdfs:label orcid:0000-0002-0112-7607 "Annika Smith"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0112-7607 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0142-5591 "Citlalli Mejía-Almonte" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0142-5591 wikidata:Q58314966 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114601383 )
+        dc:description orcid:0000-0002-0112-7607 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58314966 )
+        rdfs:label orcid:0000-0002-0142-5591 "Citlalli Mejía-Almonte"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0142-5591 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0192-5385 "Fabio G Liberante" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0192-5385 wikidata:Q63989747 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58314966 )
+        dc:description orcid:0000-0002-0142-5591 "researcher, ORCID id # 0000-0002-0142-5591"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63989747 )
+        rdfs:label orcid:0000-0002-0192-5385 "Fabio G Liberante"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0192-5385 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0337-8610 "Brandon Whitehead" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0337-8610 wikidata:Q61041982 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63989747 )
+        dc:description orcid:0000-0002-0192-5385 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61041982 )
+        rdfs:label orcid:0000-0002-0337-8610 "Brandon Whitehead"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0337-8610 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0358-0130 "Martín J Ramírez" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0358-0130 wikidata:Q91241307 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61041982 )
+        dc:description orcid:0000-0002-0337-8610 "researcher ORCID ID = 0000-0002-0337-8610"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91241307 )
+        rdfs:label orcid:0000-0002-0358-0130 "Martín J Ramírez"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0358-0130 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0524-0260 "Jane F. Armstrong" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0524-0260 wikidata:Q71798225 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91241307 )
+        dc:description orcid:0000-0002-0358-0130 "researcher (ORCID 0000-0002-0358-0130)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q71798225 )
+        rdfs:label orcid:0000-0002-0524-0260 "Jane F. Armstrong"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0524-0260 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0593-3569 "J Allen Baron" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0593-3569 wikidata:Q85826573 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q71798225 )
+        dc:description orcid:0000-0002-0524-0260 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q85826573 )
+        rdfs:label orcid:0000-0002-0593-3569 "J Allen Baron"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0593-3569 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0643-3144 "Simon Jupp" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0643-3144 wikidata:Q54303148 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q85826573 )
+        dc:description orcid:0000-0002-0593-3569 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303148 )
+        rdfs:label orcid:0000-0002-0643-3144 "Simon Jupp"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0643-3144 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0710-3462 "Ryan Fellers" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0710-3462 wikidata:Q114525081 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303148 )
+        dc:description orcid:0000-0002-0643-3144 "researcher, European Bioinformatics Institute, European Molecular Biology Laboratory"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114525081 )
+        rdfs:label orcid:0000-0002-0710-3462 "Ryan Fellers"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0710-3462 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0736-9199 "Peter Robinson" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0736-9199 wikidata:Q41935087 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114525081 )
+        dc:description orcid:0000-0002-0710-3462 "Researcher ORCID = 0000-0002-0710-3462"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41935087 )
+        rdfs:label orcid:0000-0002-0736-9199 "Peter Robinson"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0736-9199 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0819-0473 "Paula Duek Roggli" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0819-0473 wikidata:Q90245521 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41935087 )
+        dc:description orcid:0000-0002-0736-9199 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90245521 )
+        rdfs:label orcid:0000-0002-0819-0473 "Paula Duek Roggli"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0819-0473 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0831-6427 "Karen Eilbeck" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0831-6427 wikidata:Q56925500 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90245521 )
+        dc:description orcid:0000-0002-0819-0473 "researcher (ORCID 0000-0002-0819-0473)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56925500 )
+        rdfs:label orcid:0000-0002-0831-6427 "Karen Eilbeck"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0831-6427 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0851-6883 "Jennifer C. Girón" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0851-6883 wikidata:Q28859986 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56925500 )
+        dc:description orcid:0000-0002-0831-6427 "researcher ORCID: 0000-0002-0831-6427"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28859986 )
+        rdfs:label orcid:0000-0002-0851-6883 "Jennifer C. Girón"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0851-6883 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0892-7164 "Ana Reis-Costa" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0892-7164 wikidata:Q114534171 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28859986 )
+        dc:description orcid:0000-0002-0851-6883 "Colombian entomologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114534171 )
+        rdfs:label orcid:0000-0002-0892-7164 "Ana Reis-Costa"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0892-7164 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0931-7253 "Joy Roy" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0931-7253 wikidata:Q114524134 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114534171 )
+        dc:description orcid:0000-0002-0892-7164 "Researcher ORCID = 0000-0002-0892-7164"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114524134 )
+        rdfs:label orcid:0000-0002-0931-7253 "Joy Roy"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0931-7253 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0956-8634 "Terry Hayamizu" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0956-8634 wikidata:Q110610432 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114524134 )
+        dc:description orcid:0000-0002-0931-7253 "Researcher ORCID = 0000-0002-0931-7253"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610432 )
+        rdfs:label orcid:0000-0002-0956-8634 "Terry Hayamizu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0956-8634 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-0963-1357 "Arlin Stoltzfus" )
-    AnnotationAssertion( dc:source orcid:0000-0002-0963-1357 wikidata:Q54084479 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610432 )
+        dc:description orcid:0000-0002-0956-8634 "Researcher ORCID = 0000-0002-0956-8634"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54084479 )
+        rdfs:label orcid:0000-0002-0963-1357 "Arlin Stoltzfus"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-0963-1357 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1005-8383 "Pankaj Jaiswal" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1005-8383 wikidata:Q41294868 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54084479 )
+        dc:description orcid:0000-0002-0963-1357 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41294868 )
+        rdfs:label orcid:0000-0002-1005-8383 "Pankaj Jaiswal"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1005-8383 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1048-5019 "Matthew Brush" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1048-5019 wikidata:Q88110949 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41294868 )
+        dc:description orcid:0000-0002-1005-8383 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88110949 )
+        rdfs:label orcid:0000-0002-1048-5019 "Matthew Brush"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1048-5019 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1058-1270 "Siddhartha Basu" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1058-1270 wikidata:Q79946847 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88110949 )
+        dc:description orcid:0000-0002-1048-5019 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q79946847 )
+        rdfs:label orcid:0000-0002-1058-1270 "Siddhartha Basu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1058-1270 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1373-1705 "Clare Pilgrim" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1373-1705 wikidata:Q91739788 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q79946847 )
+        dc:description orcid:0000-0002-1058-1270 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91739788 )
+        rdfs:label orcid:0000-0002-1373-1705 "Clare Pilgrim"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1373-1705 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1572-1316 "Robert Druzinsky" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1572-1316 wikidata:Q56986004 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91739788 )
+        dc:description orcid:0000-0002-1373-1705 "researcher (ORCID 0000-0002-1373-1705)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56986004 )
+        rdfs:label orcid:0000-0002-1572-1316 "Robert Druzinsky"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1572-1316 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1604-3078 "Alan Ruttenberg" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1604-3078 wikidata:Q30508557 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56986004 )
+        dc:description orcid:0000-0002-1572-1316 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30508557 )
+        rdfs:label orcid:0000-0002-1604-3078 "Alan Ruttenberg"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1604-3078 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1615-2899 "James Malone" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1615-2899 wikidata:Q47502894 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30508557 )
+        dc:description orcid:0000-0002-1604-3078 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502894 )
+        rdfs:label orcid:0000-0002-1615-2899 "James Malone"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1615-2899 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1679-1711 "Ralf Gabriels" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1679-1711 wikidata:Q91558108 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502894 )
+        dc:description orcid:0000-0002-1615-2899 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91558108 )
+        rdfs:label orcid:0000-0002-1679-1711 "Ralf Gabriels"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1679-1711 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1706-4196 "Kimberly Van Auken" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1706-4196 wikidata:Q59674797 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91558108 )
+        dc:description orcid:0000-0002-1679-1711 "researcher (ORCID 0000-0002-1679-1711)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59674797 )
+        rdfs:label orcid:0000-0002-1706-4196 "Kimberly Van Auken"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1706-4196 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1767-2343 "Gerhard Mayer" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1767-2343 wikidata:Q53584882 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59674797 )
+        dc:description orcid:0000-0002-1706-4196 "researcher ORCID ID = 0000-0002-1706-4196"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q53584882 )
+        rdfs:label orcid:0000-0002-1767-2343 "Gerhard Mayer"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1767-2343 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1773-2692 "Bradley Varner" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1773-2692 wikidata:Q114557426 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q53584882 )
+        dc:description orcid:0000-0002-1767-2343 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114557426 )
+        rdfs:label orcid:0000-0002-1773-2692 "Bradley Varner"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1773-2692 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1795-5570 "Amanda Hicks" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1795-5570 wikidata:Q110848989 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114557426 )
+        dc:description orcid:0000-0002-1773-2692 "Researcher ORCID = 0000-0002-1773-2692"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110848989 )
+        rdfs:label orcid:0000-0002-1795-5570 "Amanda Hicks"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1795-5570 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-1816-4260 "Shinya Suzuki" )
-    AnnotationAssertion( dc:source orcid:0000-0002-1816-4260 wikidata:Q59676697 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110848989 )
+        dc:description orcid:0000-0002-1795-5570 "Researcher ORCID = 0000-0002-1795-5570"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59676697 )
+        rdfs:label orcid:0000-0002-1816-4260 "Shinya Suzuki"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-1816-4260 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2061-091X "Georgios V. Gkoutos" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2061-091X wikidata:Q54303216 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59676697 )
+        dc:description orcid:0000-0002-1816-4260 "researcher ORCID ID = 0000-0002-1816-4260"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303216 )
+        rdfs:label orcid:0000-0002-2061-091X "Georgios V. Gkoutos"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2061-091X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2100-6351 "Carrine E Blank" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2100-6351 wikidata:Q83663133 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303216 )
+        dc:description orcid:0000-0002-2061-091X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q83663133 )
+        rdfs:label orcid:0000-0002-2100-6351 "Carrine E Blank"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2100-6351 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2176-8751 "Antje Jäde" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2176-8751 wikidata:Q110623888 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q83663133 )
+        dc:description orcid:0000-0002-2100-6351 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110623888 )
+        rdfs:label orcid:0000-0002-2176-8751 "Antje Jäde"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2176-8751 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2193-0704 "Jade Hotchkiss" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2193-0704 wikidata:Q110611760 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110623888 )
+        dc:description orcid:0000-0002-2176-8751 "Researcher ORCID = 0000-0002-2176-8751"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110611760 )
+        rdfs:label orcid:0000-0002-2193-0704 "Jade Hotchkiss"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2193-0704 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2244-7917 "Ceri E Van Slyke" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2244-7917 wikidata:Q58034214 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110611760 )
+        dc:description orcid:0000-0002-2193-0704 "Researcher ORCID = 0000-0002-2193-0704"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58034214 )
+        rdfs:label orcid:0000-0002-2244-7917 "Ceri E Van Slyke"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2244-7917 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2340-5356 "Troy Pells" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2340-5356 wikidata:Q109614820 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58034214 )
+        dc:description orcid:0000-0002-2244-7917 "researcher, ORCID id # 0000-0002-2244-7917"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109614820 )
+        rdfs:label orcid:0000-0002-2340-5356 "Troy Pells"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2340-5356 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2346-5201 "Carissa Park" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2346-5201 wikidata:Q110623830 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110623830 )
+        rdfs:label orcid:0000-0002-2346-5201 "Carissa Park"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2346-5201 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2411-565X "Harshad Hegde" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2411-565X wikidata:Q109473405 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110623830 )
+        dc:description orcid:0000-0002-2346-5201 "Researcher ORCID = 0000-0002-2346-5201"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109473405 )
+        rdfs:label orcid:0000-0002-2411-565X "Harshad Hegde"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2411-565X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2455-2227 "Lawrence Babb" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2455-2227 wikidata:Q114531900 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109473405 )
+        dc:description orcid:0000-0002-2411-565X "Software developer | Biomedical Engineer"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114531900 )
+        rdfs:label orcid:0000-0002-2455-2227 "Lawrence Babb"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2455-2227 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2548-641X "Sirarat Sarntivijai" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2548-641X wikidata:Q48519898 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114531900 )
+        dc:description orcid:0000-0002-2455-2227 "Researcher ORCID = 0000-0002-2455-2227"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q48519898 )
+        rdfs:label orcid:0000-0002-2548-641X "Sirarat Sarntivijai"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2548-641X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2605-5080 "Jonathan R. Karr" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2605-5080 wikidata:Q38545088 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q48519898 )
+        dc:description orcid:0000-0002-2548-641X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q38545088 )
+        rdfs:label orcid:0000-0002-2605-5080 "Jonathan R. Karr"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2605-5080 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2627-0696 "Krishna Udaiwal" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2627-0696 wikidata:Q109321449 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q38545088 )
+        dc:description orcid:0000-0002-2605-5080 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109321449 )
+        rdfs:label orcid:0000-0002-2627-0696 "Krishna Udaiwal"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2627-0696 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2825-0621 "Paola Roncaglia" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2825-0621 wikidata:Q47139534 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109321449 )
+        dc:description orcid:0000-0002-2627-0696 "Researcher (ORCID = 0000-0002-2627-0696)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47139534 )
+        rdfs:label orcid:0000-0002-2825-0621 "Paola Roncaglia"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2825-0621 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2833-6070 "Timo Sachsenberg" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2833-6070 wikidata:Q85219829 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47139534 )
+        dc:description orcid:0000-0002-2825-0621 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q85219829 )
+        rdfs:label orcid:0000-0002-2833-6070 "Timo Sachsenberg"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2833-6070 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2876-6046 "Tung V. N. Nguyen" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2876-6046 wikidata:Q114520343 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q85219829 )
+        dc:description orcid:0000-0002-2833-6070 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114520343 )
+        rdfs:label orcid:0000-0002-2876-6046 "Tung V. N. Nguyen"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2876-6046 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2906-7319 "Joe Flack" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2906-7319 wikidata:Q108416505 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114520343 )
+        dc:description orcid:0000-0002-2876-6046 "Researcher ORCID = 0000-0002-2876-6046"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416505 )
+        rdfs:label orcid:0000-0002-2906-7319 "Joe Flack"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2906-7319 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2908-3327 "Anne Thessen" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2908-3327 wikidata:Q47503085 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416505 )
+        dc:description orcid:0000-0002-2906-7319 "software engineer"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47503085 )
+        rdfs:label orcid:0000-0002-2908-3327 "Anne Thessen"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2908-3327 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2993-2085 "Richard David Boyce" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2993-2085 wikidata:Q56447790 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47503085 )
+        dc:description orcid:0000-0002-2908-3327 "data scientist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56447790 )
+        rdfs:label orcid:0000-0002-2993-2085 "Richard David Boyce"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2993-2085 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2996-719X "Raïssa Meyer" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2996-719X wikidata:Q114515488 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56447790 )
+        dc:description orcid:0000-0002-2993-2085 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114515488 )
+        rdfs:label orcid:0000-0002-2996-719X "Raïssa Meyer"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2996-719X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-2999-0103 "Jie Zheng" )
-    AnnotationAssertion( dc:source orcid:0000-0002-2999-0103 wikidata:Q90780528 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114515488 )
+        dc:description orcid:0000-0002-2996-719X "Researcher ORCID = 0000-0002-2996-719X"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90780528 )
+        rdfs:label orcid:0000-0002-2999-0103 "Jie Zheng"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-2999-0103 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3002-9838 "HyeongSik Kim" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3002-9838 wikidata:Q108416433 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90780528 )
+        dc:description orcid:0000-0002-2999-0103 "researcher (ORCID 0000-0002-2999-0103)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416433 )
+        rdfs:label orcid:0000-0002-3002-9838 "HyeongSik Kim"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3002-9838 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3012-7446 "Daniel S. Himmelstein" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3012-7446 wikidata:Q37371328 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416433 )
+        dc:description orcid:0000-0002-3002-9838 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37371328 )
+        rdfs:label orcid:0000-0002-3012-7446 "Daniel S. Himmelstein"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3012-7446 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3105-1359 "Wout Bittremieux" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3105-1359 wikidata:Q57065344 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37371328 )
+        dc:description orcid:0000-0002-3012-7446 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57065344 )
+        rdfs:label orcid:0000-0002-3105-1359 "Wout Bittremieux"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3105-1359 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3293-5463 "Joshua Fortriede" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3293-5463 wikidata:Q109614796 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57065344 )
+        dc:description orcid:0000-0002-3105-1359 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109614796 )
+        rdfs:label orcid:0000-0002-3293-5463 "Joshua Fortriede"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3293-5463 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3336-2476 "Paul Fabry" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3336-2476 wikidata:Q108555457 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109614796 )
+        dc:description orcid:0000-0002-3293-5463 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108555457 )
+        rdfs:label orcid:0000-0002-3336-2476 "Paul Fabry"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3336-2476 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3410-4655 "Kai Blumberg" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3410-4655 wikidata:Q107527218 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108555457 )
+        dc:description orcid:0000-0002-3336-2476 "researcher working with knowledge representation"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q107527218 )
+        rdfs:label orcid:0000-0002-3410-4655 "Kai Blumberg"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3410-4655 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3469-4923 "Janna Hastings" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3469-4923 wikidata:Q27902110 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q27902110 )
+        rdfs:label orcid:0000-0002-3469-4923 "Janna Hastings"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3469-4923 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3520-2046 "Ross Mounce" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3520-2046 wikidata:Q20895803 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q27902110 )
+        dc:description orcid:0000-0002-3469-4923 "British biologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20895803 )
+        rdfs:label orcid:0000-0002-3520-2046 "Ross Mounce"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3520-2046 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3528-5267 "Sofia Robb" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3528-5267 wikidata:Q63977883 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20895803 )
+        dc:description orcid:0000-0002-3520-2046 "scholar"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63977883 )
+        rdfs:label orcid:0000-0002-3528-5267 "Sofia Robb"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3528-5267 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3583-7340 "Deepak R. Unni" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3583-7340 wikidata:Q59690671 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63977883 )
+        dc:description orcid:0000-0002-3528-5267 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59690671 )
+        rdfs:label orcid:0000-0002-3583-7340 "Deepak R. Unni"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3583-7340 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3596-9597 "Matthew T Robey" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3596-9597 wikidata:Q89147781 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59690671 )
+        dc:description orcid:0000-0002-3583-7340 "researcher ORCID ID = 0000-0002-3583-7340"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89147781 )
+        rdfs:label orcid:0000-0002-3596-9597 "Matthew T Robey"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3596-9597 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3636-5920 "Michael S Sinclair" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3636-5920 wikidata:Q59689522 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89147781 )
+        dc:description orcid:0000-0002-3596-9597 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59689522 )
+        rdfs:label orcid:0000-0002-3636-5920 "Michael S Sinclair"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3636-5920 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3734-1859 "Carlo Tornial" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3734-1859 wikidata:Q114403193 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59689522 )
+        dc:description orcid:0000-0002-3636-5920 "researcher ORCID ID = 0000-0002-3636-5920"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114403193 )
+        rdfs:label orcid:0000-0002-3734-1859 "Carlo Tornial"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3734-1859 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3806-3408 "Tsuyoshi Momose" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3806-3408 wikidata:Q55688193 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114403193 )
+        dc:description orcid:0000-0002-3734-1859 "Researcher ORCID = 0000-0002-3734-1859"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55688193 )
+        rdfs:label orcid:0000-0002-3806-3408 "Tsuyoshi Momose"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3806-3408 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3837-8864 "Tanya Z Berardini" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3837-8864 wikidata:Q47502750 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55688193 )
+        dc:description orcid:0000-0002-3806-3408 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502750 )
+        rdfs:label orcid:0000-0002-3837-8864 "Tanya Z Berardini"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3837-8864 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3884-3420 "Simon J D Cox" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3884-3420 wikidata:Q57054176 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47502750 )
+        dc:description orcid:0000-0002-3837-8864 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57054176 )
+        rdfs:label orcid:0000-0002-3884-3420 "Simon J D Cox"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3884-3420 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3898-1727 "Barbara Kramarz" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3898-1727 wikidata:Q58880298 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57054176 )
+        dc:description orcid:0000-0002-3884-3420 "semantic researcher, geologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58880298 )
+        rdfs:label orcid:0000-0002-3898-1727 "Barbara Kramarz"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3898-1727 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-3947-4444 "Martin Larralde" )
-    AnnotationAssertion( dc:source orcid:0000-0002-3947-4444 wikidata:Q56604108 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58880298 )
+        dc:description orcid:0000-0002-3898-1727 "researcher ORCID ID = 0000-0002-3898-1727"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56604108 )
+        rdfs:label orcid:0000-0002-3947-4444 "Martin Larralde"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-3947-4444 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4071-8397 "Zoë M Pendlington" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4071-8397 wikidata:Q91179315 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56604108 )
+        dc:description orcid:0000-0002-3947-4444 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91179315 )
+        rdfs:label orcid:0000-0002-4071-8397 "Zoë M Pendlington"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4071-8397 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4142-7153 "Sabrina Toro" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4142-7153 wikidata:Q108416351 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91179315 )
+        dc:description orcid:0000-0002-4071-8397 "researcher (ORCID 0000-0002-4071-8397)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416351 )
+        rdfs:label orcid:0000-0002-4142-7153 "Sabrina Toro"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4142-7153 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4366-3088 "Pier Luigi Buttigieg" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4366-3088 wikidata:Q41566750 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416351 )
+        dc:description orcid:0000-0002-4142-7153 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41566750 )
+        rdfs:label orcid:0000-0002-4366-3088 "Pier Luigi Buttigieg"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4366-3088 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4475-896X "John Levander" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4475-896X wikidata:Q111526841 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41566750 )
+        dc:description orcid:0000-0002-4366-3088 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q111526841 )
+        rdfs:label orcid:0000-0002-4475-896X "John Levander"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4475-896X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4532-2703 "Petra Fey" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4532-2703 wikidata:Q71564910 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q71564910 )
+        rdfs:label orcid:0000-0002-4532-2703 "Petra Fey"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4532-2703 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4600-1258 "Josh Hanna" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4600-1258 wikidata:Q96047138 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q71564910 )
+        dc:description orcid:0000-0002-4532-2703 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q96047138 )
+        rdfs:label orcid:0000-0002-4600-1258 "Josh Hanna"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4600-1258 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4642-1738 "Cynthia J Grondin" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4642-1738 wikidata:Q110610822 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q96047138 )
+        dc:description orcid:0000-0002-4600-1258 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610822 )
+        rdfs:label orcid:0000-0002-4642-1738 "Cynthia J Grondin"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4642-1738 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4798-9499 "Karen Cranston" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4798-9499 wikidata:Q41045685 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610822 )
+        dc:description orcid:0000-0002-4642-1738 "Researcher ORCID = 0000-0002-4642-1738"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41045685 )
+        rdfs:label orcid:0000-0002-4798-9499 "Karen Cranston"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4798-9499 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-4839-5158 "Isuru Liyanage" )
-    AnnotationAssertion( dc:source orcid:0000-0002-4839-5158 wikidata:Q114556518 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41045685 )
+        dc:description orcid:0000-0002-4798-9499 "Canadian geneticist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114556518 )
+        rdfs:label orcid:0000-0002-4839-5158 "Isuru Liyanage"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-4839-5158 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5111-7263 "Paul N Schofield" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5111-7263 wikidata:Q56958202 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114556518 )
+        dc:description orcid:0000-0002-4839-5158 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56958202 )
+        rdfs:label orcid:0000-0002-5111-7263 "Paul N Schofield"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5111-7263 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5159-414X "Edison Ong" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5159-414X wikidata:Q56879078 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56958202 )
+        dc:description orcid:0000-0002-5111-7263 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56879078 )
+        rdfs:label orcid:0000-0002-5159-414X "Edison Ong"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5159-414X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5316-1399 "Sebastian Köhler" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5316-1399 wikidata:Q52804485 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56879078 )
+        dc:description orcid:0000-0002-5159-414X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q52804485 )
+        rdfs:label orcid:0000-0002-5316-1399 "Sebastian Köhler"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5316-1399 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5379-5359 "Yu Lin" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5379-5359 wikidata:Q61054524 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q52804485 )
+        dc:description orcid:0000-0002-5316-1399 "biologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61054524 )
+        rdfs:label orcid:0000-0002-5379-5359 "Yu Lin"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5379-5359 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5596-6895 "Brandon T. Sinn" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5596-6895 wikidata:Q51147853 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61054524 )
+        dc:description orcid:0000-0002-5379-5359 "researcher ORCID ID = 0000-0002-5379-5359"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q51147853 )
+        rdfs:label orcid:0000-0002-5596-6895 "Brandon T. Sinn"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5596-6895 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5628-2268 "Cristian R. Munteanu" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5628-2268 wikidata:Q28745439 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q51147853 )
+        dc:description orcid:0000-0002-5596-6895 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28745439 )
+        rdfs:label orcid:0000-0002-5628-2268 "Cristian R. Munteanu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5628-2268 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5640-5491 "Matthew J. Yoder" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5640-5491 wikidata:Q21387534 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28745439 )
+        dc:description orcid:0000-0002-5628-2268 "scientist working in Spain"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q21387534 )
+        rdfs:label orcid:0000-0002-5640-5491 "Matthew J. Yoder"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5640-5491 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5714-991X "Christian J Stoeckert" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5714-991X wikidata:Q67220657 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q21387534 )
+        dc:description orcid:0000-0002-5640-5491 "entomologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q67220657 )
+        rdfs:label orcid:0000-0002-5714-991X "Christian J Stoeckert"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5714-991X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5754-1938 "Markus Kirolos Youssef" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5754-1938 wikidata:Q114517942 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q67220657 )
+        dc:description orcid:0000-0002-5714-991X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517942 )
+        rdfs:label orcid:0000-0002-5754-1938 "Markus Kirolos Youssef"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5754-1938 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5905-1617 "John Deck" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5905-1617 wikidata:Q48975647 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517942 )
+        dc:description orcid:0000-0002-5754-1938 "Researcher ORCID = 0000-0002-5754-1938"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q48975647 )
+        rdfs:label orcid:0000-0002-5905-1617 "John Deck"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5905-1617 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-5979-0102 "Wenjin Zhang" )
-    AnnotationAssertion( dc:source orcid:0000-0002-5979-0102 wikidata:Q114519920 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q48975647 )
+        dc:description orcid:0000-0002-5905-1617 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114519920 )
+        rdfs:label orcid:0000-0002-5979-0102 "Wenjin Zhang"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-5979-0102 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6020-5919 "Elizabeth Arnaud" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6020-5919 wikidata:Q114740047 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114519920 )
+        dc:description orcid:0000-0002-5979-0102 "Researcher ORCID = 0000-0002-5979-0102"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114740047 )
+        rdfs:label orcid:0000-0002-6020-5919 "Elizabeth Arnaud"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6020-5919 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6095-8718 "Damien Goutte-Gattat" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6095-8718 wikidata:Q59702685 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114740047 )
+        dc:description orcid:0000-0002-6020-5919 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59702685 )
+        rdfs:label orcid:0000-0002-6095-8718 "Damien Goutte-Gattat"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6095-8718 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6148-7962 "Matthew Lange" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6148-7962 wikidata:Q59462105 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59702685 )
+        dc:description orcid:0000-0002-6095-8718 "researcher ORCID ID = 0000-0002-6095-8718"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59462105 )
+        rdfs:label orcid:0000-0002-6148-7962 "Matthew Lange"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6148-7962 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6178-3585 "Daniel Fornika" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6178-3585 wikidata:Q59116660 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59462105 )
+        dc:description orcid:0000-0002-6148-7962 "researcher from UC Davis"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59116660 )
+        rdfs:label orcid:0000-0002-6178-3585 "Daniel Fornika"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6178-3585 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6379-8932 "Laurel Cooper" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6379-8932 wikidata:Q89869027 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59116660 )
+        dc:description orcid:0000-0002-6178-3585 "researcher ORCID ID = 0000-0002-6178-3585"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89869027 )
+        rdfs:label orcid:0000-0002-6379-8932 "Laurel Cooper"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6379-8932 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6441-8006 "Gaston K Mazandu" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6441-8006 wikidata:Q58171316 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89869027 )
+        dc:description orcid:0000-0002-6379-8932 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58171316 )
+        rdfs:label orcid:0000-0002-6441-8006 "Gaston K Mazandu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6441-8006 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6443-9376 "Jennifer R. Smith" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6443-9376 wikidata:Q110616111 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58171316 )
+        dc:description orcid:0000-0002-6441-8006 "researcher, ORCID id # 0000-0002-6441-8006"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110616111 )
+        rdfs:label orcid:0000-0002-6443-9376 "Jennifer R. Smith"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6443-9376 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6490-7723 "Anna V. Anagnostopoulos" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6490-7723 wikidata:Q114518281 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110616111 )
+        dc:description orcid:0000-0002-6443-9376 "Researcher ORCID = 0000-0002-6443-9376"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114518281 )
+        rdfs:label orcid:0000-0002-6490-7723 "Anna V. Anagnostopoulos"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6490-7723 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6523-4866 "Anita Reane Caron" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6523-4866 wikidata:Q114518421 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114518281 )
+        dc:description orcid:0000-0002-6490-7723 "Researcher ORCID = 0000-0002-6490-7723"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114518421 )
+        rdfs:label orcid:0000-0002-6523-4866 "Anita Reane Caron"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6523-4866 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6601-2165 "Christopher J. Mungall" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6601-2165 wikidata:Q20746118 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114518421 )
+        dc:description orcid:0000-0002-6523-4866 "Researcher ORCID = 0000-0002-6523-4866"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20746118 )
+        rdfs:label orcid:0000-0002-6601-2165 "Christopher J. Mungall"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6601-2165 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6659-0416 "Dustin Ebert" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6659-0416 wikidata:Q104475281 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q20746118 )
+        dc:description orcid:0000-0002-6601-2165 "bioinformatics researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q104475281 )
+        rdfs:label orcid:0000-0002-6659-0416 "Dustin Ebert"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6659-0416 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6704-7538 "Zhi-Liang Hu" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6704-7538 wikidata:Q92916417 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q104475281 )
+        dc:description orcid:0000-0002-6659-0416 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q92916417 )
+        rdfs:label orcid:0000-0002-6704-7538 "Zhi-Liang Hu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6704-7538 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-6726-6319 "Torben Göpel" )
-    AnnotationAssertion( dc:source orcid:0000-0002-6726-6319 wikidata:Q54801113 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q92916417 )
+        dc:description orcid:0000-0002-6704-7538 "researcher (ORCID 0000-0002-6704-7538)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54801113 )
+        rdfs:label orcid:0000-0002-6726-6319 "Torben Göpel"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-6726-6319 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7061-5073 "Colin Gross" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7061-5073 wikidata:Q56835890 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54801113 )
+        dc:description orcid:0000-0002-6726-6319 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56835890 )
+        rdfs:label orcid:0000-0002-7061-5073 "Colin Gross"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7061-5073 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7073-9172 "David Osumi-Sutherland" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7073-9172 wikidata:Q54303418 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56835890 )
+        dc:description orcid:0000-0002-7061-5073 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303418 )
+        rdfs:label orcid:0000-0002-7073-9172 "David Osumi-Sutherland"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7073-9172 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7284-3950 "Xingmin Aaron Zhang" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7284-3950 wikidata:Q92230671 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303418 )
+        dc:description orcid:0000-0002-7073-9172 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q92230671 )
+        rdfs:label orcid:0000-0002-7284-3950 "Xingmin Aaron Zhang"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7284-3950 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7287-9013 "Chuming Chen" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7287-9013 wikidata:Q57055213 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q92230671 )
+        dc:description orcid:0000-0002-7284-3950 "researcher (ORCID 0000-0002-7284-3950)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57055213 )
+        rdfs:label orcid:0000-0002-7287-9013 "Chuming Chen"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7287-9013 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7334-7852 "Benjamin M. Good" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7334-7852 wikidata:Q19857258 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57055213 )
+        dc:description orcid:0000-0002-7287-9013 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q19857258 )
+        rdfs:label orcid:0000-0002-7334-7852 "Benjamin M. Good"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7334-7852 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7356-1779 "Nicolas Matentzoglu" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7356-1779 wikidata:Q60972192 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q19857258 )
+        dc:description orcid:0000-0002-7334-7852 "bioinformatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q60972192 )
+        rdfs:label orcid:0000-0002-7356-1779 "Nicolas Matentzoglu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7356-1779 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7440-0467 "Lucas Leclère" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7440-0467 wikidata:Q83382941 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q60972192 )
+        dc:description orcid:0000-0002-7356-1779 "researcher ORCID ID = 0000-0002-7356-1779"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q83382941 )
+        rdfs:label orcid:0000-0002-7440-0467 "Lucas Leclère"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7440-0467 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7463-6306 "Lauren E. Chan" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7463-6306 wikidata:Q108416491 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q83382941 )
+        dc:description orcid:0000-0002-7440-0467 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416491 )
+        rdfs:label orcid:0000-0002-7463-6306 "Lauren E. Chan"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7463-6306 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7509-4801 "Thomas H Gillespie" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7509-4801 wikidata:Q64821980 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416491 )
+        dc:description orcid:0000-0002-7463-6306 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q64821980 )
+        rdfs:label orcid:0000-0002-7509-4801 "Thomas H Gillespie"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7509-4801 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7535-4407 "Erin L. Davies" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7535-4407 wikidata:Q98668834 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q64821980 )
+        dc:description orcid:0000-0002-7509-4801 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q98668834 )
+        rdfs:label orcid:0000-0002-7535-4407 "Erin L. Davies"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7535-4407 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7696-731X "Liliana Andres" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7696-731X wikidata:Q110610182 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q98668834 )
+        dc:description orcid:0000-0002-7535-4407 "American biologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610182 )
+        rdfs:label orcid:0000-0002-7696-731X "Liliana Andres"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7696-731X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7702-4495 "Allyson L Lister" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7702-4495 wikidata:Q41050709 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610182 )
+        dc:description orcid:0000-0002-7696-731X "Researcher ORCID = 0000-0002-7696-731X"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41050709 )
+        rdfs:label orcid:0000-0002-7702-4495 "Allyson L Lister"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7702-4495 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-7899-7192 "Steffen Neumann" )
-    AnnotationAssertion( dc:source orcid:0000-0002-7899-7192 wikidata:Q28541023 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41050709 )
+        dc:description orcid:0000-0002-7702-4495 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28541023 )
+        rdfs:label orcid:0000-0002-7899-7192 "Steffen Neumann"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-7899-7192 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8083-2864 "Ola Spjuth" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8083-2864 wikidata:Q27061853 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28541023 )
+        dc:description orcid:0000-0002-7899-7192 "German scientist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q27061853 )
+        rdfs:label orcid:0000-0002-8083-2864 "Ola Spjuth"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8083-2864 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8134-1207 "Daniel P Olson" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8134-1207 wikidata:Q114531748 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q27061853 )
+        dc:description orcid:0000-0002-8083-2864 "Swedish chemist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114531748 )
+        rdfs:label orcid:0000-0002-8134-1207 "Daniel P Olson"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8134-1207 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8151-7479 "Raymond Lee" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8151-7479 wikidata:Q57334470 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114531748 )
+        dc:description orcid:0000-0002-8134-1207 "Researcher ORCID = 0000-0002-8134-1207"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57334470 )
+        rdfs:label orcid:0000-0002-8151-7479 "Raymond Lee"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8151-7479 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8169-9049 "Tiffany J. Callahan" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8169-9049 wikidata:Q58873434 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57334470 )
+        dc:description orcid:0000-0002-8151-7479 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58873434 )
+        rdfs:label orcid:0000-0002-8169-9049 "Tiffany J. Callahan"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8169-9049 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8429-8793 "Pablo Porras Millan" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8429-8793 wikidata:Q57209160 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58873434 )
+        dc:description orcid:0000-0002-8169-9049 "researcher ORCID ID = 0000-0002-8169-9049"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57209160 )
+        rdfs:label orcid:0000-0002-8429-8793 "Pablo Porras Millan"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8429-8793 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8457-6693 "Bjoern Peters" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8457-6693 wikidata:Q60541156 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57209160 )
+        dc:description orcid:0000-0002-8429-8793 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q60541156 )
+        rdfs:label orcid:0000-0002-8457-6693 "Bjoern Peters"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8457-6693 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8461-9745 "Marie-Angélique Laporte" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8461-9745 wikidata:Q63389961 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q60541156 )
+        dc:description orcid:0000-0002-8457-6693 "researcher ORCID ID = 0000-0002-8457-6693"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63389961 )
+        rdfs:label orcid:0000-0002-8461-9745 "Marie-Angélique Laporte"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8461-9745 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8666-9746 "Manuel Lera-Ramirez" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8666-9746 wikidata:Q90971420 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63389961 )
+        dc:description orcid:0000-0002-8461-9745 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90971420 )
+        rdfs:label orcid:0000-0002-8666-9746 "Manuel Lera-Ramirez"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8666-9746 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8688-6599 "James P. Balhoff" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8688-6599 wikidata:Q37649212 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90971420 )
+        dc:description orcid:0000-0002-8666-9746 "researcher (ORCID 0000-0002-8666-9746)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37649212 )
+        rdfs:label orcid:0000-0002-8688-6599 "James P. Balhoff"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8688-6599 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8719-7760 "Sierra Moxon" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8719-7760 wikidata:Q108416397 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37649212 )
+        dc:description orcid:0000-0002-8688-6599 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416397 )
+        rdfs:label orcid:0000-0002-8719-7760 "Sierra Moxon"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8719-7760 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8786-1756 "Wes Schafer" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8786-1756 wikidata:Q113275693 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416397 )
+        dc:description orcid:0000-0002-8719-7760 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q113275693 )
+        rdfs:label orcid:0000-0002-8786-1756 "Wes Schafer"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8786-1756 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8841-5870 "Willy W Wong" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8841-5870 wikidata:Q57679070 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q113275693 )
+        dc:description orcid:0000-0002-8786-1756 "Researcher ORCID = 0000-0002-8786-1756"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57679070 )
+        rdfs:label orcid:0000-0002-8841-5870 "Willy W Wong"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8841-5870 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8844-9165 "Damion M Dooley" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8844-9165 wikidata:Q91868864 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57679070 )
+        dc:description orcid:0000-0002-8841-5870 "researcher ORCID ID = 0000-0002-8841-5870"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91868864 )
+        rdfs:label orcid:0000-0002-8844-9165 "Damion M Dooley"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8844-9165 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-8870-7099 "Cynthia S. Parr" )
-    AnnotationAssertion( dc:source orcid:0000-0002-8870-7099 wikidata:Q41566514 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q91868864 )
+        dc:description orcid:0000-0002-8844-9165 "researcher (ORCID 0000-0002-8844-9165)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41566514 )
+        rdfs:label orcid:0000-0002-8870-7099 "Cynthia S. Parr"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-8870-7099 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9074-3507 "Paul D Thomas" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9074-3507 wikidata:Q61770112 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41566514 )
+        dc:description orcid:0000-0002-8870-7099 "Behavioral ecologist; biodiversity informatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61770112 )
+        rdfs:label orcid:0000-0002-9074-3507 "Paul D Thomas"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9074-3507 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9117-9338 "Zach Landis-Lewis" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9117-9338 wikidata:Q88354460 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61770112 )
+        dc:description orcid:0000-0002-9074-3507 "researcher ORCID ID = 0000-0002-9074-3507"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88354460 )
+        rdfs:label orcid:0000-0002-9117-9338 "Zach Landis-Lewis"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9117-9338 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9136-9932 "Luis A. Gonzalez-Montaña" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9136-9932 wikidata:Q110610618 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88354460 )
+        dc:description orcid:0000-0002-9117-9338 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610618 )
+        rdfs:label orcid:0000-0002-9136-9932 "Luis A. Gonzalez-Montaña"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9136-9932 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9284-8871 "Laura Brenskelle" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9284-8871 wikidata:Q64886237 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610618 )
+        dc:description orcid:0000-0002-9136-9932 "Researcher ORCID = 0000-0002-9136-9932"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q64886237 )
+        rdfs:label orcid:0000-0002-9284-8871 "Laura Brenskelle"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9284-8871 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9353-5498 "Julie A. McMurry" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9353-5498 wikidata:Q47490301 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q64886237 )
+        dc:description orcid:0000-0002-9284-8871 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47490301 )
+        rdfs:label orcid:0000-0002-9353-5498 "Julie A. McMurry"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9353-5498 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9372-0028 "Cristian Cocos" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9372-0028 wikidata:Q85868696 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47490301 )
+        dc:description orcid:0000-0002-9353-5498 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q85868696 )
+        rdfs:label orcid:0000-0002-9372-0028 "Cristian Cocos"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9372-0028 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9415-5104 "Frederic B Bastian" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9415-5104 wikidata:Q96209982 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q85868696 )
+        dc:description orcid:0000-0002-9372-0028 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q96209982 )
+        rdfs:label orcid:0000-0002-9415-5104 "Frederic B Bastian"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9415-5104 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9551-6370 "Melanie Courtot" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9551-6370 wikidata:Q23809262 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q96209982 )
+        dc:description orcid:0000-0002-9415-5104 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q23809262 )
+        rdfs:label orcid:0000-0002-9551-6370 "Melanie Courtot"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9551-6370 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9611-1279 "Erik Segerdell" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9611-1279 wikidata:Q54303422 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q23809262 )
+        dc:description orcid:0000-0002-9551-6370 "Principal developer of the Gene Ontology"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303422 )
+        rdfs:label orcid:0000-0002-9611-1279 "Erik Segerdell"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9611-1279 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9654-0073 "Robert W Thacker" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9654-0073 wikidata:Q61601010 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q54303422 )
+        dc:description orcid:0000-0002-9611-1279 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61601010 )
+        rdfs:label orcid:0000-0002-9654-0073 "Robert W Thacker"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9654-0073 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9673-1283 "Yuki Yamagata" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9673-1283 wikidata:Q95976403 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61601010 )
+        dc:description orcid:0000-0002-9654-0073 "researcher ORCID ID = 0000-0002-9654-0073"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q95976403 )
+        rdfs:label orcid:0000-0002-9673-1283 "Yuki Yamagata"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9673-1283 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9770-2345 "Geoffrey D Ower" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9770-2345 wikidata:Q86714504 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q95976403 )
+        dc:description orcid:0000-0002-9673-1283 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86714504 )
+        rdfs:label orcid:0000-0002-9770-2345 "Geoffrey D Ower"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9770-2345 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9881-1017 "William Hogan" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9881-1017 wikidata:Q56590169 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86714504 )
+        dc:description orcid:0000-0002-9770-2345 "biodiversity informatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56590169 )
+        rdfs:label orcid:0000-0002-9881-1017 "William Hogan"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9881-1017 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9900-7880 "Yvonne Bradford" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9900-7880 wikidata:Q37649111 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56590169 )
+        dc:description orcid:0000-0002-9881-1017 "researcher (ORCID 0000-0002-9881-1017)"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37649111 )
+        rdfs:label orcid:0000-0002-9900-7880 "Yvonne Bradford"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9900-7880 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0002-9943-2342 "Jennifer A Hammock" )
-    AnnotationAssertion( dc:source orcid:0000-0002-9943-2342 wikidata:Q41566708 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37649111 )
+        dc:description orcid:0000-0002-9900-7880 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41566708 )
+        rdfs:label orcid:0000-0002-9943-2342 "Jennifer A Hammock"
+    )
     SubAnnotationPropertyOf( orcid:0000-0002-9943-2342 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-0705-9809 "Rahuman S. Malik Sheriff" )
-    AnnotationAssertion( dc:source orcid:0000-0003-0705-9809 wikidata:Q64019189 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q41566708 )
+        dc:description orcid:0000-0002-9943-2342 "researcher, ORCID # 0000-0002-9943-2342"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q64019189 )
+        rdfs:label orcid:0000-0003-0705-9809 "Rahuman S. Malik Sheriff"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-0705-9809 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-0719-3485 "Elvira Mitraka" )
-    AnnotationAssertion( dc:source orcid:0000-0003-0719-3485 wikidata:Q28028010 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q64019189 )
+        dc:description orcid:0000-0003-0705-9809 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28028010 )
+        rdfs:label orcid:0000-0003-0719-3485 "Elvira Mitraka"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-0719-3485 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-0914-2470 "Anthony Bretaudeau" )
-    AnnotationAssertion( dc:source orcid:0000-0003-0914-2470 wikidata:Q102053980 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28028010 )
+        dc:description orcid:0000-0003-0719-3485 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q102053980 )
+        rdfs:label orcid:0000-0003-0914-2470 "Anthony Bretaudeau"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-0914-2470 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1030-6348 "Frank J Manion" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1030-6348 wikidata:Q57350709 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q102053980 )
+        dc:description orcid:0000-0003-0914-2470 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57350709 )
+        rdfs:label orcid:0000-0003-1030-6348 "Frank J Manion"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1030-6348 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1058-2668 "Danielle Welter" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1058-2668 wikidata:Q55473247 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57350709 )
+        dc:description orcid:0000-0003-1030-6348 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55473247 )
+        rdfs:label orcid:0000-0003-1058-2668 "Danielle Welter"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1058-2668 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1144-0290 "John Wieczorek" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1144-0290 wikidata:Q90829701 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55473247 )
+        dc:description orcid:0000-0003-1058-2668 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90829701 )
+        rdfs:label orcid:0000-0003-1144-0290 "John Wieczorek"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1144-0290 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1159-9269 "Philipp Wegner" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1159-9269 wikidata:Q114517064 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90829701 )
+        dc:description orcid:0000-0003-1144-0290 "biodiversity informaticist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517064 )
+        rdfs:label orcid:0000-0003-1159-9269 "Philipp Wegner"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1159-9269 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1179-5999 "Antonia Lock" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1179-5999 wikidata:Q58669039 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114517064 )
+        dc:description orcid:0000-0003-1159-9269 "Researcher ORCID = 0000-0003-1159-9269"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58669039 )
+        rdfs:label orcid:0000-0003-1179-5999 "Antonia Lock"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1179-5999 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1264-1166 "Steven S Chong" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1264-1166 wikidata:Q57585308 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58669039 )
+        dc:description orcid:0000-0003-1179-5999 "researcher ORCID ID = 0000-0003-1179-5999"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57585308 )
+        rdfs:label orcid:0000-0003-1264-1166 "Steven S Chong"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1264-1166 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1279-6838 "Joshua Klein" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1279-6838 wikidata:Q57070150 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57585308 )
+        dc:description orcid:0000-0003-1264-1166 "researcher ORCID ID = 0000-0003-1264-1166"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57070150 )
+        rdfs:label orcid:0000-0003-1279-6838 "Joshua Klein"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1279-6838 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1355-892X "Richard H. Scheuermann" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1355-892X wikidata:Q30508615 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57070150 )
+        dc:description orcid:0000-0003-1279-6838 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30508615 )
+        rdfs:label orcid:0000-0003-1355-892X "Richard H. Scheuermann"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1355-892X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1587-3667 "Chisato Yamasaki" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1587-3667 wikidata:Q109615937 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30508615 )
+        dc:description orcid:0000-0003-1355-892X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109615937 )
+        rdfs:label orcid:0000-0003-1587-3667 "Chisato Yamasaki"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1587-3667 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1640-9989 "Jonathan Bisson" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1640-9989 wikidata:Q57678148 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q109615937 )
+        dc:description orcid:0000-0003-1587-3667 "researcher in biocuration"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57678148 )
+        rdfs:label orcid:0000-0003-1640-9989 "Jonathan Bisson"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1640-9989 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1774-6629 "Nicole Ruiz" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1774-6629 wikidata:Q56994936 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57678148 )
+        dc:description orcid:0000-0003-1640-9989 "researcher ORCID ID = 0000-0003-1640-9989"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56994936 )
+        rdfs:label orcid:0000-0003-1774-6629 "Nicole Ruiz"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1774-6629 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1807-7930 "Zachary E X Dance" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1807-7930 wikidata:Q100496548 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56994936 )
+        dc:description orcid:0000-0003-1774-6629 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q100496548 )
+        rdfs:label orcid:0000-0003-1807-7930 "Zachary E X Dance"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1807-7930 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1813-6857 "Pascale Gaudet" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1813-6857 wikidata:Q30032484 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q100496548 )
+        dc:description orcid:0000-0003-1807-7930 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30032484 )
+        rdfs:label orcid:0000-0003-1813-6857 "Pascale Gaudet"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1813-6857 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-1834-3856 "Mathias Brochhausen" )
-    AnnotationAssertion( dc:source orcid:0000-0003-1834-3856 wikidata:Q57161944 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30032484 )
+        dc:description orcid:0000-0003-1813-6857 "Canadian biocurator"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57161944 )
+        rdfs:label orcid:0000-0003-1834-3856 "Mathias Brochhausen"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-1834-3856 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2034-601X "Maria C Keays" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2034-601X wikidata:Q44167741 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57161944 )
+        dc:description orcid:0000-0003-1834-3856 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q44167741 )
+        rdfs:label orcid:0000-0003-2034-601X "Maria C Keays"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2034-601X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2338-2550 "Shahim Essaid" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2338-2550 wikidata:Q108416458 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q44167741 )
+        dc:description orcid:0000-0003-2034-601X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416458 )
+        rdfs:label orcid:0000-0003-2338-2550 "Shahim Essaid"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2338-2550 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2338-8872 "Fernanda Farinelli" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2338-8872 wikidata:Q110610945 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q108416458 )
+        dc:description orcid:0000-0003-2338-2550 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610945 )
+        rdfs:label orcid:0000-0003-2338-8872 "Fernanda Farinelli"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2338-8872 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2387-503X "Duncan Hull" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2387-503X wikidata:Q47012855 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610945 )
+        dc:description orcid:0000-0003-2338-8872 "Researcher ORCID = 0000-0003-2338-8872"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47012855 )
+        rdfs:label orcid:0000-0003-2387-503X "Duncan Hull"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2387-503X obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2408-2883 "Jingshan Huang" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2408-2883 wikidata:Q88033382 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47012855 )
+        dc:description orcid:0000-0003-2387-503X "British computer scientist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88033382 )
+        rdfs:label orcid:0000-0003-2408-2883 "Jingshan Huang"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2408-2883 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2473-2313 "Tiago Lubiana" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2473-2313 wikidata:Q90076935 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q88033382 )
+        dc:description orcid:0000-0003-2408-2883 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90076935 )
+        rdfs:label orcid:0000-0003-2473-2313 "Tiago Lubiana"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2473-2313 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2569-1939 "Stephanie H Nowotarski" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2569-1939 wikidata:Q114530199 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q90076935 )
+        dc:description orcid:0000-0003-2473-2313 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114530199 )
+        rdfs:label orcid:0000-0003-2569-1939 "Stephanie H Nowotarski"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2569-1939 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2678-2824 "Joanna Argasinska" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2678-2824 wikidata:Q43429774 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114530199 )
+        dc:description orcid:0000-0003-2569-1939 "Researcher ORCID = 0000-0003-2569-1939"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q43429774 )
+        rdfs:label orcid:0000-0003-2678-2824 "Joanna Argasinska"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2678-2824 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2699-3066 "Meghan Balk" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2699-3066 wikidata:Q59763318 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q43429774 )
+        dc:description orcid:0000-0003-2678-2824 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59763318 )
+        rdfs:label orcid:0000-0003-2699-3066 "Meghan Balk"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2699-3066 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2722-5106 "Dario Cambié" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2722-5106 wikidata:Q61831637 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59763318 )
+        dc:description orcid:0000-0003-2699-3066 "ecologist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61831637 )
+        rdfs:label orcid:0000-0003-2722-5106 "Dario Cambié"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2722-5106 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2826-6444 "Amos Bairoch" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2826-6444 wikidata:Q4747830 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q61831637 )
+        dc:description orcid:0000-0003-2722-5106 "researcher ORCID ID = 0000-0003-2722-5106"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q4747830 )
+        rdfs:label orcid:0000-0003-2826-6444 "Amos Bairoch"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2826-6444 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-2887-4765 "Paul M. Thomas" )
-    AnnotationAssertion( dc:source orcid:0000-0003-2887-4765 wikidata:Q55396914 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q4747830 )
+        dc:description orcid:0000-0003-2826-6444 "Swiss bioinformatician"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55396914 )
+        rdfs:label orcid:0000-0003-2887-4765 "Paul M. Thomas"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-2887-4765 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3067-6434 "James B. Munro" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3067-6434 wikidata:Q35850179 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q55396914 )
+        dc:description orcid:0000-0003-2887-4765 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q35850179 )
+        rdfs:label orcid:0000-0003-3067-6434 "James B. Munro"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3067-6434 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3112-4682 "Thomas Wilson" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3112-4682 wikidata:Q63766604 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q35850179 )
+        dc:description orcid:0000-0003-3067-6434 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63766604 )
+        rdfs:label orcid:0000-0003-3112-4682 "Thomas Wilson"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3112-4682 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3162-7490 "Wasila M Dahdul" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3162-7490 wikidata:Q37649170 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q63766604 )
+        dc:description orcid:0000-0003-3112-4682 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37649170 )
+        rdfs:label orcid:0000-0003-3162-7490 "Wasila M Dahdul"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3162-7490 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3188-6273 "Laura Paglione" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3188-6273 wikidata:Q30532922 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q37649170 )
+        dc:description orcid:0000-0003-3162-7490 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30532922 )
+        rdfs:label orcid:0000-0003-3188-6273 "Laura Paglione"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3188-6273 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3245-2880 "Sarah Gehrke" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3245-2880 wikidata:Q89507835 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q30532922 )
+        dc:description orcid:0000-0003-3188-6273 "Director of Strategic Initiatives at ORCID"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89507835 )
+        rdfs:label orcid:0000-0003-3245-2880 "Sarah Gehrke"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3245-2880 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3308-6245 "Anne Niknejad" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3308-6245 wikidata:Q56582619 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q89507835 )
+        dc:description orcid:0000-0003-3245-2880 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56582619 )
+        rdfs:label orcid:0000-0003-3308-6245 "Anne Niknejad"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3308-6245 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3311-7320 "Kevin Schaper" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3311-7320 wikidata:Q59673534 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56582619 )
+        dc:description orcid:0000-0003-3308-6245 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59673534 )
+        rdfs:label orcid:0000-0003-3311-7320 "Kevin Schaper"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3311-7320 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3385-4232 "Oliver Koepler" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3385-4232 wikidata:Q58333302 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59673534 )
+        dc:description orcid:0000-0003-3311-7320 "researcher ORCID ID = 0000-0003-3311-7320"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58333302 )
+        rdfs:label orcid:0000-0003-3385-4232 "Oliver Koepler"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3385-4232 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3430-8997 "Hector Guzman-Orozco" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3430-8997 wikidata:Q114354576 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q58333302 )
+        dc:description orcid:0000-0003-3385-4232 "researcher, ORCID id # 0000-0003-3385-4232"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114354576 )
+        rdfs:label orcid:0000-0003-3430-8997 "Hector Guzman-Orozco"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3430-8997 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3499-8262 "Alejandra González-Beltrán" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3499-8262 wikidata:Q27824575 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114354576 )
+        dc:description orcid:0000-0003-3430-8997 "Researcher ORCID = 0000-0003-3430-8997"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q27824575 )
+        rdfs:label orcid:0000-0003-3499-8262 "Alejandra González-Beltrán"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3499-8262 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3593-1289 "Jonathan Lawson" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3593-1289 wikidata:Q114524588 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q27824575 )
+        dc:description orcid:0000-0003-3499-8262 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114524588 )
+        rdfs:label orcid:0000-0003-3593-1289 "Jonathan Lawson"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3593-1289 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3691-0324 "Cynthia L Smith" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3691-0324 wikidata:Q56445645 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114524588 )
+        dc:description orcid:0000-0003-3593-1289 "Researcher ORCID = 0000-0003-3593-1289"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56445645 )
+        rdfs:label orcid:0000-0003-3691-0324 "Cynthia L Smith"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3691-0324 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3781-6962 "Meng Liu" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3781-6962 wikidata:Q110694748 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56445645 )
+        dc:description orcid:0000-0003-3691-0324 "researcher on mouse genome informatics"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110694748 )
+        rdfs:label orcid:0000-0003-3781-6962 "Meng Liu"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3781-6962 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-3847-2663 "Jimena Linares" )
-    AnnotationAssertion( dc:source orcid:0000-0003-3847-2663 wikidata:Q114555820 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110694748 )
+        dc:description orcid:0000-0003-3781-6962 "Researcher ORCID = 0000-0003-3781-6962"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114555820 )
+        rdfs:label orcid:0000-0003-3847-2663 "Jimena Linares"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-3847-2663 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4148-4606 "Midori A Harris" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4148-4606 wikidata:Q56516195 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q114555820 )
+        dc:description orcid:0000-0003-3847-2663 "Researcher ORCID = 0000-0003-3847-2663"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56516195 )
+        rdfs:label orcid:0000-0003-4148-4606 "Midori A Harris"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4148-4606 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4312-9552 "Daniel C. Berrios" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4312-9552 wikidata:Q110610825 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56516195 )
+        dc:description orcid:0000-0003-4148-4606 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610825 )
+        rdfs:label orcid:0000-0003-4312-9552 "Daniel C. Berrios"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4312-9552 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4423-4370 "Charles Tapley Hoyt" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4423-4370 wikidata:Q47475003 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q110610825 )
+        dc:description orcid:0000-0003-4312-9552 "Researcher ORCID = 0000-0003-4312-9552"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47475003 )
+        rdfs:label orcid:0000-0003-4423-4370 "Charles Tapley Hoyt"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4423-4370 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4517-3004 "Rosario Lombardo" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4517-3004 wikidata:Q56840078 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q47475003 )
+        dc:description orcid:0000-0003-4423-4370 "American chemist"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56840078 )
+        rdfs:label orcid:0000-0003-4517-3004 "Rosario Lombardo"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4517-3004 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4538-2754 "Mathias Walzer" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4538-2754 wikidata:Q86564089 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q56840078 )
+        dc:description orcid:0000-0003-4517-3004 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86564089 )
+        rdfs:label orcid:0000-0003-4538-2754 "Mathias Walzer"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4538-2754 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4573-0501 "Vassilis Virvilis" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4573-0501 wikidata:Q96172261 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q86564089 )
+        dc:description orcid:0000-0003-4538-2754 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q96172261 )
+        rdfs:label orcid:0000-0003-4573-0501 "Vassilis Virvilis"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4573-0501 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4606-0597 "Susan M Bello" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4606-0597 wikidata:Q57965947 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q96172261 )
+        dc:description orcid:0000-0003-4573-0501 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57965947 )
+        rdfs:label orcid:0000-0003-4606-0597 "Susan M Bello"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4606-0597 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4639-4431 "Vasundra Touré" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4639-4431 wikidata:Q57206409 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57965947 )
+        dc:description orcid:0000-0003-4606-0597 "researcher, ORCID id # 0000-0003-4606-0597"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57206409 )
+        rdfs:label orcid:0000-0003-4639-4431 "Vasundra Touré"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4639-4431 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4727-9435 "Michel Dumontier" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4727-9435 wikidata:Q28194921 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57206409 )
+        dc:description orcid:0000-0003-4639-4431 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28194921 )
+        rdfs:label orcid:0000-0003-4727-9435 "Michel Dumontier"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4727-9435 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4785-7231 "Emily H Bowler" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4785-7231 wikidata:Q57999163 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q28194921 )
+        dc:description orcid:0000-0003-4727-9435 "Distinguished Professor of Data Science at Maastricht University"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57999163 )
+        rdfs:label orcid:0000-0003-4785-7231 "Emily H Bowler"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4785-7231 obo:person-property )
-    AnnotationAssertion( rdfs:label orcid:0000-0003-4871-5569 "Rebecca Tauber" )
-    AnnotationAssertion( dc:source orcid:0000-0003-4871-5569 wikidata:Q59539088 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q57999163 )
+        dc:description orcid:0000-0003-4785-7231 "researcher, ORCID id # 0000-0003-4785-7231"
+    )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59539088 )
+        rdfs:label orcid:0000-0003-4871-5569 "Rebecca Tauber"
+    )
     SubAnnotationPropertyOf( orcid:0000-0003-4871-5569 obo:person-property )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q59539088 )
+        dc:description orcid:0000-0003-4871-5569 "researcher ORCID ID = 0000-0003-4871-5569"
+    )
     Declaration( AnnotationProperty( obo:person-property ) )
     Declaration( AnnotationProperty( orcid:0000-0001-5059-4132 ) )
     Declaration( AnnotationProperty( orcid:0000-0001-5084-9000 ) )
