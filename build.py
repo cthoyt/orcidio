@@ -15,13 +15,13 @@ from funowl import (
     Ontology,
     OntologyDocument,
 )
-from rdflib import DC, DCTERMS, OWL, RDFS, Literal, Namespace
+from rdflib import DC, DCTERMS, OWL, RDFS, Literal, Namespace, URIRef
 
 HERE = Path(__file__).parent.resolve()
 OFN_PATH = HERE.joinpath("orcidio.ofn")
 ORCIDS_PATH = HERE.joinpath("extra_orcids.txt")
 ORCID = Namespace("https://orcid.org/")
-URI = "https://purl.archive.org/purl/biopragmatics/orcidio.owl"
+URI = "https://w3id.org/orcidio/orcidio.owl"
 OBO = Namespace("http://purl.obolibrary.org/obo/")
 WIKIDATA = Namespace("http://www.wikidata.org/entity/")
 
@@ -78,9 +78,9 @@ def main():
     """Query the Wikidata SPARQL endpoint and return JSON."""
     today = datetime.date.today().strftime("%Y-%m-%d")
 
-    ontology_iri = OBO["orcid.owl"]
+    ontology_iri = URIRef(URI)
     charlie_iri = ORCID["0000-0003-4423-4370"]
-    ontology = Ontology(iri=ontology_iri, version=OBO[f"orcid/releases/{today}/orcid.owl"])
+    ontology = Ontology(iri=ontology_iri)
     ontology.annotations.extend(
         (
             Annotation(DC.title, "ORCID in OWL"),

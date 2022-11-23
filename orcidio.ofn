@@ -9,7 +9,7 @@ Prefix( wikidata: = <http://www.wikidata.org/entity/> )
 Prefix( obo: = <http://purl.obolibrary.org/obo/> )
 Prefix( dcterms: = <http://purl.org/dc/terms/> )
 
-Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-23/orcid.owl>
+Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dc:title "ORCID in OWL" )
     Annotation( dc:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )

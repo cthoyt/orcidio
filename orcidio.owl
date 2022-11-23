@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/orcid.owl#"
-     xml:base="http://purl.obolibrary.org/obo/orcid.owl"
+<rdf:RDF xmlns="https://w3id.org/orcidio/orcidio.owl#"
+     xml:base="https://w3id.org/orcidio/orcidio.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,8 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/orcid.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/orcid/releases/2022-11-23/orcid.owl"/>
+    <owl:Ontology rdf:about="https://w3id.org/orcidio/orcidio.owl">
         <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dc:title>ORCID in OWL</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
