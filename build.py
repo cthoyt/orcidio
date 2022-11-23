@@ -17,8 +17,9 @@ from funowl import (
 from rdflib import DC, DCTERMS, OWL, RDFS, Literal, Namespace
 
 HERE = Path(__file__).parent.resolve()
-OFN_PATH = HERE.joinpath("orcid.ofn")
+OFN_PATH = HERE.joinpath("orcidio.ofn")
 ORCID = Namespace("https://orcid.org/")
+URI = "https://purl.archive.org/purl/biopragmatics/orcidio.owl"
 OBO = Namespace("http://purl.obolibrary.org/obo/")
 WIKIDATA = Namespace("http://www.wikidata.org/entity/")
 
@@ -101,7 +102,7 @@ def main():
     with open(OFN_PATH, "w") as file:
         print(str(doc), file=file)
 
-    os.system("robot convert --input orcid.ofn --output orcid.owl")
+    os.system("robot convert --input orcidio.ofn --output orcidio.owl")
 
 
 if __name__ == "__main__":
