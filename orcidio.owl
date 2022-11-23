@@ -9,12 +9,12 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/orcid.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/orcid/releases/2022-11-22/orcid.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/orcid/releases/2022-11-23/orcid.owl"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dc:title>ORCID in OWL</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2022-11-22</owl:versionInfo>
+        <owl:versionInfo>2022-11-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5313,6 +5313,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Joshua Klein</owl:annotatedTarget>
         <dc:source rdf:resource="http://www.wikidata.org/entity/Q57070150"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1307-2508 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1307-2508">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <dc:description>American biologist</dc:description>
+        <rdfs:label>Amelia L. Hoyt</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1307-2508"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <owl:annotatedTarget>American biologist</owl:annotatedTarget>
+        <dc:source rdf:resource="http://www.wikidata.org/entity/Q106806285"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1307-2508"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Amelia L. Hoyt</owl:annotatedTarget>
+        <dc:source rdf:resource="http://www.wikidata.org/entity/Q106806285"/>
     </owl:Axiom>
     
 

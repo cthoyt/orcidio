@@ -1,4 +1,4 @@
-# wikidata-orcid-ontology
+# ORCID in OWL
 
 Motivated by [Bill Duncan's comments](https://obo-communitygroup.slack.com/archives/C01R2D66249/p1669063375689969)
 on annotating ORCID identifiers with labels in ontologies, the goal of this repository is to make an OWL

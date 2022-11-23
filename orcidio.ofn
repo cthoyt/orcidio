@@ -9,12 +9,12 @@ Prefix( wikidata: = <http://www.wikidata.org/entity/> )
 Prefix( obo: = <http://purl.obolibrary.org/obo/> )
 Prefix( dcterms: = <http://purl.org/dc/terms/> )
 
-Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-22/orcid.owl>
+Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-23/orcid.owl>
     Annotation( dc:title "ORCID in OWL" )
     Annotation( dc:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    Annotation( owl:versionInfo "2022-11-22" )
+    Annotation( owl:versionInfo "2022-11-23" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63775795 )
@@ -2552,6 +2552,15 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
         Annotation( dc:source wikidata:Q59539088 )
         dc:description orcid:0000-0003-4871-5569 "researcher ORCID ID = 0000-0003-4871-5569"
     )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q106806285 )
+        rdfs:label orcid:0000-0003-1307-2508 "Amelia L. Hoyt"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1307-2508 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q106806285 )
+        dc:description orcid:0000-0003-1307-2508 "American biologist"
+    )
     Declaration( Class( obo:NCBITaxon_9606 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5059-4132 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5084-9000 ) )
@@ -2837,4 +2846,5 @@ Ontology( obo:orcid.owl <http://purl.obolibrary.org/obo/orcid/releases/2022-11-2
     Declaration( NamedIndividual( orcid:0000-0003-4727-9435 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4785-7231 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4871-5569 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1307-2508 ) )
 )
