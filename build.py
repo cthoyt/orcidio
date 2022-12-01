@@ -5,6 +5,7 @@ import itertools as itt
 import os
 from pathlib import Path
 
+import click
 import requests
 from funowl import (
     Annotation,
@@ -36,7 +37,7 @@ OBO_SPARQL = """\
       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
     }
     ORDER BY ?orcid
-"""
+""".rstrip()
 
 CUSTOM_SPARQL_FMT = """\
     SELECT DISTINCT ?orcid ?contributor ?contributorLabel ?contributorDescription
@@ -46,7 +47,7 @@ CUSTOM_SPARQL_FMT = """\
         SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
     }
     ORDER BY ?orcid
-"""
+""".rstrip()
 
 
 def get_records():
@@ -59,6 +60,8 @@ def get_records():
 
 def get_wikidata_records(sparql) -> list[dict[str, any]]:
     """Query the Wikidata SPARQL endpoint and unpack the records."""
+    click.echo("running sparql:")
+    click.secho(sparql, fg="magenta")
     res = requests.get(
         "https://query.wikidata.org/sparql",
         params={"query": sparql, "format": "json"},
@@ -68,10 +71,12 @@ def get_wikidata_records(sparql) -> list[dict[str, any]]:
         },
     )
     res.raise_for_status()
-    return [
+    rv = [
         {key: value["value"] for key, value in record.items()}
         for record in res.json()["results"]["bindings"]
     ]
+    click.echo(f"retrieved {len(rv):,} records")
+    return rv
 
 
 def main():
@@ -126,10 +131,12 @@ def main():
         dcterms=DCTERMS,
         owl=OWL,
     )
-    with open(OFN_PATH, "w") as file:
-        print(str(doc), file=file)
+    click.echo(f"writing to {OFN_PATH}")
+    OFN_PATH.write_text(f"{doc}\n")
 
-    os.system("robot convert --input orcidio.ofn --output orcidio.owl")
+    cmd = "robot convert --input orcidio.ofn --output orcidio.owl"
+    click.secho(cmd, fg="green")
+    os.system(cmd)
 
 
 if __name__ == "__main__":
