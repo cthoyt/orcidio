@@ -25,3 +25,5 @@ After installing [`robot`](https://robot.obolibrary.org), you can run the follow
 pip install tox
 tox
 ```
+
+This is run automatically once per week via GitHub Actions [![Update ORCID Instance Ontology](https://github.com/cthoyt/orcidio/actions/workflows/update.yml/badge.svg)](https://github.com/cthoyt/orcidio/actions/workflows/update.yml) or can be trigered on demand (i.e., workflow dispatch).
