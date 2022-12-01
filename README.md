@@ -4,6 +4,8 @@ Motivated by [Bill Duncan's comments](https://obo-communitygroup.slack.com/archi
 on annotating ORCID identifiers with labels in ontologies, the goal of this repository is to make an OWL
 file that has OBO contributors as named individuals.
 
+The PURL for this ontology is https://w3id.org/orcidio/orcidio.owl.
+
 ## Screenshot
 
 In this Protege screenshot, you can see that the named individuals are available:
