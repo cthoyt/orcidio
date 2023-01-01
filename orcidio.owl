@@ -13,7 +13,7 @@
         <dc:title>ORCID in OWL</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2022-12-25</owl:versionInfo>
+        <owl:versionInfo>2023-01-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3649,7 +3649,7 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5111-7263">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <dc:description>researcher</dc:description>
-        <rdfs:label>Paul N Schofield</rdfs:label>
+        <rdfs:label>Paul N. Schofield</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5111-7263"/>
@@ -3660,7 +3660,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5111-7263"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Paul N Schofield</owl:annotatedTarget>
+        <owl:annotatedTarget>Paul N. Schofield</owl:annotatedTarget>
         <dc:source rdf:resource="http://www.wikidata.org/entity/Q56958202"/>
     </owl:Axiom>
     
