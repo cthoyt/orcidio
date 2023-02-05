@@ -13,7 +13,7 @@
         <dc:title>ORCID in OWL</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-01-29</owl:versionInfo>
+        <owl:versionInfo>2023-02-05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -163,12 +163,19 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5139-5557">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <dc:description>open source ontology developer</dc:description>
         <rdfs:label>James A. Overton</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5139-5557"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>James A. Overton</owl:annotatedTarget>
+        <dc:source rdf:resource="http://www.wikidata.org/entity/Q106221456"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5139-5557"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <owl:annotatedTarget>open source ontology developer</owl:annotatedTarget>
         <dc:source rdf:resource="http://www.wikidata.org/entity/Q106221456"/>
     </owl:Axiom>
     
@@ -1166,14 +1173,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Monica Munoz-Torres</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0001-8430-6039)</owl:annotatedTarget>
         <dc:source rdf:resource="http://www.wikidata.org/entity/Q91376977"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8430-6039"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
-        <owl:annotatedTarget>researcher (ORCID 0000-0001-8430-6039)</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Monica Munoz-Torres</owl:annotatedTarget>
         <dc:source rdf:resource="http://www.wikidata.org/entity/Q91376977"/>
     </owl:Axiom>
     

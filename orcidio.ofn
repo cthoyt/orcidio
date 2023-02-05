@@ -14,7 +14,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dc:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    Annotation( owl:versionInfo "2023-01-29" )
+    Annotation( owl:versionInfo "2023-02-05" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q63775795 )
@@ -57,6 +57,10 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         rdfs:label orcid:0000-0001-5139-5557 "James A. Overton"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5139-5557 )
+    AnnotationAssertion(
+        Annotation( dc:source wikidata:Q106221456 )
+        dc:description orcid:0000-0001-5139-5557 "open source ontology developer"
+    )
     AnnotationAssertion(
         Annotation( dc:source wikidata:Q108555432 )
         rdfs:label orcid:0000-0001-5168-3196 "Nathan Edwards"
