@@ -13,7 +13,7 @@
         <dc:title>ORCID in OWL</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-02-05</owl:versionInfo>
+        <owl:versionInfo>2023-02-12</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6141,13 +6141,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4517-3004">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <dc:description>researcher</dc:description>
+        <dc:description>Italian data scientist</dc:description>
         <rdfs:label>Rosario Lombardo</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4517-3004"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedTarget>Italian data scientist</owl:annotatedTarget>
         <dc:source rdf:resource="http://www.wikidata.org/entity/Q56840078"/>
     </owl:Axiom>
     <owl:Axiom>
