@@ -13,7 +13,7 @@
         <dc:title>ORCID in OWL</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-02-12</owl:versionInfo>
+        <owl:versionInfo>2023-02-19</owl:versionInfo>
     </owl:Ontology>
     
 
