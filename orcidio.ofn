@@ -1,2569 +1,2568 @@
-Prefix( xml: = <http://www.w3.org/XML/1998/namespace> )
+Prefix( owl: = <http://www.w3.org/2002/07/owl#> )
 Prefix( rdf: = <http://www.w3.org/1999/02/22-rdf-syntax-ns#> )
 Prefix( rdfs: = <http://www.w3.org/2000/01/rdf-schema#> )
 Prefix( xsd: = <http://www.w3.org/2001/XMLSchema#> )
-Prefix( owl: = <http://www.w3.org/2002/07/owl#> )
-Prefix( dc: = <http://purl.org/dc/elements/1.1/> )
+Prefix( xml: = <http://www.w3.org/XML/1998/namespace> )
 Prefix( orcid: = <https://orcid.org/> )
 Prefix( wikidata: = <http://www.wikidata.org/entity/> )
 Prefix( obo: = <http://purl.obolibrary.org/obo/> )
 Prefix( dcterms: = <http://purl.org/dc/terms/> )
 
 Ontology( <https://w3id.org/orcidio/orcidio.owl>
-    Annotation( dc:title "ORCID in OWL" )
-    Annotation( dc:creator orcid:0000-0003-4423-4370 )
+    Annotation( dcterms:title "ORCID in OWL" )
+    Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    Annotation( owl:versionInfo "2023-02-26" )
+    Annotation( owl:versionInfo "2023-02-28" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63775795 )
+        Annotation( dcterms:source wikidata:Q63775795 )
         rdfs:label orcid:0000-0001-5059-4132 "Marijane White"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5059-4132 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63775795 )
-        dc:description orcid:0000-0001-5059-4132 "librarian"
+        Annotation( dcterms:source wikidata:Q63775795 )
+        dcterms:description orcid:0000-0001-5059-4132 "librarian"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30158411 )
+        Annotation( dcterms:source wikidata:Q30158411 )
         rdfs:label orcid:0000-0001-5084-9000 "Luana Licata"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5084-9000 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30158411 )
-        dc:description orcid:0000-0001-5084-9000 "researcher"
+        Annotation( dcterms:source wikidata:Q30158411 )
+        dcterms:description orcid:0000-0001-5084-9000 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q70206186 )
+        Annotation( dcterms:source wikidata:Q70206186 )
         rdfs:label orcid:0000-0001-5086-8324 "Stephan Gebel"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5086-8324 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q70206186 )
-        dc:description orcid:0000-0001-5086-8324 "German bioinformatician"
+        Annotation( dcterms:source wikidata:Q70206186 )
+        dcterms:description orcid:0000-0001-5086-8324 "German bioinformatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87041091 )
+        Annotation( dcterms:source wikidata:Q87041091 )
         rdfs:label orcid:0000-0001-5135-5758 "Katrin Leinweber"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5135-5758 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87041091 )
-        dc:description orcid:0000-0001-5135-5758 "researcher"
+        Annotation( dcterms:source wikidata:Q87041091 )
+        dcterms:description orcid:0000-0001-5135-5758 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q106221456 )
+        Annotation( dcterms:source wikidata:Q106221456 )
         rdfs:label orcid:0000-0001-5139-5557 "James A. Overton"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5139-5557 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q106221456 )
-        dc:description orcid:0000-0001-5139-5557 "open source ontology developer"
+        Annotation( dcterms:source wikidata:Q106221456 )
+        dcterms:description orcid:0000-0001-5139-5557 "open source ontology developer"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108555432 )
+        Annotation( dcterms:source wikidata:Q108555432 )
         rdfs:label orcid:0000-0001-5168-3196 "Nathan Edwards"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5168-3196 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108555432 )
-        dc:description orcid:0000-0001-5168-3196 "researcher working with glycoproteomics"
+        Annotation( dcterms:source wikidata:Q108555432 )
+        dcterms:description orcid:0000-0001-5168-3196 "researcher working with glycoproteomics"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42763131 )
+        Annotation( dcterms:source wikidata:Q42763131 )
         rdfs:label orcid:0000-0001-5208-3432 "Nicole Vasilevsky"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5208-3432 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42763131 )
-        dc:description orcid:0000-0001-5208-3432 "researcher"
+        Annotation( dcterms:source wikidata:Q42763131 )
+        dcterms:description orcid:0000-0001-5208-3432 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91031642 )
+        Annotation( dcterms:source wikidata:Q91031642 )
         rdfs:label orcid:0000-0001-5237-2330 "Sergei Tarasov"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5237-2330 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91031642 )
-        dc:description orcid:0000-0001-5237-2330 "researcher (ORCID 0000-0001-5237-2330)"
+        Annotation( dcterms:source wikidata:Q91031642 )
+        dcterms:description orcid:0000-0001-5237-2330 "researcher (ORCID 0000-0001-5237-2330)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q34388253 )
+        Annotation( dcterms:source wikidata:Q34388253 )
         rdfs:label orcid:0000-0001-5272-7613 "Noemi del-Toro"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5272-7613 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q34388253 )
-        dc:description orcid:0000-0001-5272-7613 "researcher"
+        Annotation( dcterms:source wikidata:Q34388253 )
+        dcterms:description orcid:0000-0001-5272-7613 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42630935 )
+        Annotation( dcterms:source wikidata:Q42630935 )
         rdfs:label orcid:0000-0001-5501-853X "Karen Christie"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5501-853X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42630935 )
-        dc:description orcid:0000-0001-5501-853X "researcher"
+        Annotation( dcterms:source wikidata:Q42630935 )
+        dcterms:description orcid:0000-0001-5501-853X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89263625 )
+        Annotation( dcterms:source wikidata:Q89263625 )
         rdfs:label orcid:0000-0001-5756-3988 "Chris Bielow"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5756-3988 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89263625 )
-        dc:description orcid:0000-0001-5756-3988 "researcher"
+        Annotation( dcterms:source wikidata:Q89263625 )
+        dcterms:description orcid:0000-0001-5756-3988 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90243383 )
+        Annotation( dcterms:source wikidata:Q90243383 )
         rdfs:label orcid:0000-0001-5801-1974 "Laurent-Philippe Albou"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5801-1974 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90243383 )
-        dc:description orcid:0000-0001-5801-1974 "researcher (ORCID 0000-0001-5801-1974)"
+        Annotation( dcterms:source wikidata:Q90243383 )
+        dcterms:description orcid:0000-0001-5801-1974 "researcher (ORCID 0000-0001-5801-1974)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517520 )
+        Annotation( dcterms:source wikidata:Q114517520 )
         rdfs:label orcid:0000-0001-5809-2276 "Johannes Darms"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5809-2276 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517520 )
-        dc:description orcid:0000-0001-5809-2276 "Researcher ORCID = 0000-0001-5809-2276"
+        Annotation( dcterms:source wikidata:Q114517520 )
+        dcterms:description orcid:0000-0001-5809-2276 "Researcher ORCID = 0000-0001-5809-2276"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q99552327 )
+        Annotation( dcterms:source wikidata:Q99552327 )
         rdfs:label orcid:0000-0001-5809-9523 "D A Natale"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5809-9523 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q99552327 )
-        dc:description orcid:0000-0001-5809-9523 "researcher"
+        Annotation( dcterms:source wikidata:Q99552327 )
+        dcterms:description orcid:0000-0001-5809-9523 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114532053 )
+        Annotation( dcterms:source wikidata:Q114532053 )
         rdfs:label orcid:0000-0001-5839-2535 "Emily Hartley"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5839-2535 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114532053 )
-        dc:description orcid:0000-0001-5839-2535 "Researcher ORCID = 0000-0001-5839-2535"
+        Annotation( dcterms:source wikidata:Q114532053 )
+        dcterms:description orcid:0000-0001-5839-2535 "Researcher ORCID = 0000-0001-5839-2535"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57081970 )
+        Annotation( dcterms:source wikidata:Q57081970 )
         rdfs:label orcid:0000-0001-5889-4463 "Mark Engelstad"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5889-4463 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57081970 )
-        dc:description orcid:0000-0001-5889-4463 "researcher"
+        Annotation( dcterms:source wikidata:Q57081970 )
+        dcterms:description orcid:0000-0001-5889-4463 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59312340 )
+        Annotation( dcterms:source wikidata:Q59312340 )
         rdfs:label orcid:0000-0001-5948-3092 "Marta Costa"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5948-3092 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59312340 )
-        dc:description orcid:0000-0001-5948-3092 "researcher ORCID ID = 0000-0001-5948-3092"
+        Annotation( dcterms:source wikidata:Q59312340 )
+        dcterms:description orcid:0000-0001-5948-3092 "researcher ORCID ID = 0000-0001-5948-3092"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114313911 )
+        Annotation( dcterms:source wikidata:Q114313911 )
         rdfs:label orcid:0000-0001-5968-1742 "James Shofstahl"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5968-1742 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114313911 )
-        dc:description orcid:0000-0001-5968-1742 "researcher"
+        Annotation( dcterms:source wikidata:Q114313911 )
+        dcterms:description orcid:0000-0001-5968-1742 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28923515 )
+        Annotation( dcterms:source wikidata:Q28923515 )
         rdfs:label orcid:0000-0001-5985-7429 "Colin Batchelor"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5985-7429 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28923515 )
-        dc:description orcid:0000-0001-5985-7429 "researcher"
+        Annotation( dcterms:source wikidata:Q28923515 )
+        dcterms:description orcid:0000-0001-5985-7429 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37391636 )
+        Annotation( dcterms:source wikidata:Q37391636 )
         rdfs:label orcid:0000-0001-6277-726X "Kim Rutherford"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6277-726X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37391636 )
-        dc:description orcid:0000-0001-6277-726X "researcher"
+        Annotation( dcterms:source wikidata:Q37391636 )
+        dcterms:description orcid:0000-0001-6277-726X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58106602 )
+        Annotation( dcterms:source wikidata:Q58106602 )
         rdfs:label orcid:0000-0001-6315-3707 "Nomi L. Harris"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6315-3707 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58106602 )
-        dc:description orcid:0000-0001-6315-3707 "researcher, ORCID id # 0000-0001-6315-3707"
+        Annotation( dcterms:source wikidata:Q58106602 )
+        dcterms:description orcid:0000-0001-6315-3707 "researcher, ORCID id # 0000-0001-6315-3707"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41048908 )
+        Annotation( dcterms:source wikidata:Q41048908 )
         rdfs:label orcid:0000-0001-6330-7526 "Valerie Wood"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6330-7526 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41048908 )
-        dc:description orcid:0000-0001-6330-7526 "researcher"
+        Annotation( dcterms:source wikidata:Q41048908 )
+        dcterms:description orcid:0000-0001-6330-7526 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87063274 )
+        Annotation( dcterms:source wikidata:Q87063274 )
         rdfs:label orcid:0000-0001-6378-1703 "Matthew A Diller"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6378-1703 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87063274 )
-        dc:description orcid:0000-0001-6378-1703 "researcher"
+        Annotation( dcterms:source wikidata:Q87063274 )
+        dcterms:description orcid:0000-0001-6378-1703 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q105829275 )
+        Annotation( dcterms:source wikidata:Q105829275 )
         rdfs:label orcid:0000-0001-6439-2224 "Kent A Shefchek"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6439-2224 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110611014 )
+        Annotation( dcterms:source wikidata:Q110611014 )
         rdfs:label orcid:0000-0001-6466-877X "Pol Castellano Escuder"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6466-877X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110611014 )
-        dc:description orcid:0000-0001-6466-877X "Researcher ORCID = 0000-0001-6466-877X"
+        Annotation( dcterms:source wikidata:Q110611014 )
+        dcterms:description orcid:0000-0001-6466-877X "Researcher ORCID = 0000-0001-6466-877X"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502208 )
+        Annotation( dcterms:source wikidata:Q47502208 )
         rdfs:label orcid:0000-0001-6512-3296 "Peter Midford"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6512-3296 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502208 )
-        dc:description orcid:0000-0001-6512-3296 "researcher"
+        Annotation( dcterms:source wikidata:Q47502208 )
+        dcterms:description orcid:0000-0001-6512-3296 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42704191 )
+        Annotation( dcterms:source wikidata:Q42704191 )
         rdfs:label orcid:0000-0001-6579-6941 "Yasset Perez-Riverol"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6579-6941 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42704191 )
-        dc:description orcid:0000-0001-6579-6941 "researcher"
+        Annotation( dcterms:source wikidata:Q42704191 )
+        dcterms:description orcid:0000-0001-6579-6941 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q50728757 )
+        Annotation( dcterms:source wikidata:Q50728757 )
         rdfs:label orcid:0000-0001-6666-1520 "Jon C. Ison"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6666-1520 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q50728757 )
-        dc:description orcid:0000-0001-6666-1520 "researcher"
+        Annotation( dcterms:source wikidata:Q50728757 )
+        dcterms:description orcid:0000-0001-6666-1520 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55829951 )
+        Annotation( dcterms:source wikidata:Q55829951 )
         rdfs:label orcid:0000-0001-6682-1504 "Robert Guralnick"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6682-1504 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55829951 )
-        dc:description orcid:0000-0001-6682-1504 "researcher"
+        Annotation( dcterms:source wikidata:Q55829951 )
+        dcterms:description orcid:0000-0001-6682-1504 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114516953 )
+        Annotation( dcterms:source wikidata:Q114516953 )
         rdfs:label orcid:0000-0001-6757-4744 "Arwa Ibrahim Ahmed"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6757-4744 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114516953 )
-        dc:description orcid:0000-0001-6757-4744 "Researcher ORCID = 0000-0001-6757-4744"
+        Annotation( dcterms:source wikidata:Q114516953 )
+        dcterms:description orcid:0000-0001-6757-4744 "Researcher ORCID = 0000-0001-6757-4744"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89000082 )
+        Annotation( dcterms:source wikidata:Q89000082 )
         rdfs:label orcid:0000-0001-6772-4626 "Tony Sawford"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6772-4626 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89000082 )
-        dc:description orcid:0000-0001-6772-4626 "researcher"
+        Annotation( dcterms:source wikidata:Q89000082 )
+        dcterms:description orcid:0000-0001-6772-4626 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610002 )
+        Annotation( dcterms:source wikidata:Q110610002 )
         rdfs:label orcid:0000-0001-6787-2901 "Suzi Aleksander"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6787-2901 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610002 )
-        dc:description orcid:0000-0001-6787-2901 "Researcher ORCID = 0000-0001-6787-2901"
+        Annotation( dcterms:source wikidata:Q110610002 )
+        dcterms:description orcid:0000-0001-6787-2901 "Researcher ORCID = 0000-0001-6787-2901"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114403167 )
+        Annotation( dcterms:source wikidata:Q114403167 )
         rdfs:label orcid:0000-0001-6946-1807 "Eric Douglass"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6946-1807 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114403167 )
-        dc:description orcid:0000-0001-6946-1807 "Researcher ORCID = 0000-0001-6946-1807"
+        Annotation( dcterms:source wikidata:Q114403167 )
+        dcterms:description orcid:0000-0001-6946-1807 "Researcher ORCID = 0000-0001-6946-1807"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88393355 )
+        Annotation( dcterms:source wikidata:Q88393355 )
         rdfs:label orcid:0000-0001-7222-3287 "Stefan Schulz"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7222-3287 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88393355 )
-        dc:description orcid:0000-0001-7222-3287 "researcher (ORCID 0000-0001-7222-3287)"
+        Annotation( dcterms:source wikidata:Q88393355 )
+        dcterms:description orcid:0000-0001-7222-3287 "researcher (ORCID 0000-0001-7222-3287)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57023310 )
+        Annotation( dcterms:source wikidata:Q57023310 )
         rdfs:label orcid:0000-0001-7258-9596 "Shawn Zheng Kai Tan"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7258-9596 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57023310 )
-        dc:description orcid:0000-0001-7258-9596 "researcher"
+        Annotation( dcterms:source wikidata:Q57023310 )
+        dcterms:description orcid:0000-0001-7258-9596 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90623277 )
+        Annotation( dcterms:source wikidata:Q90623277 )
         rdfs:label orcid:0000-0001-7372-9896 "David W Sant"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7372-9896 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90623277 )
-        dc:description orcid:0000-0001-7372-9896 "researcher (ORCID 0000-0001-7372-9896)"
+        Annotation( dcterms:source wikidata:Q90623277 )
+        dcterms:description orcid:0000-0001-7372-9896 "researcher (ORCID 0000-0001-7372-9896)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87814353 )
+        Annotation( dcterms:source wikidata:Q87814353 )
         rdfs:label orcid:0000-0001-7476-6306 "David P Hill"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7476-6306 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87814353 )
-        dc:description orcid:0000-0001-7476-6306 "researcher"
+        Annotation( dcterms:source wikidata:Q87814353 )
+        dcterms:description orcid:0000-0001-7476-6306 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114556470 )
+        Annotation( dcterms:source wikidata:Q114556470 )
         rdfs:label orcid:0000-0001-7487-610X "James Seager"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7487-610X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114556470 )
-        dc:description orcid:0000-0001-7487-610X "researcher"
+        Annotation( dcterms:source wikidata:Q114556470 )
+        dcterms:description orcid:0000-0001-7487-610X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90943093 )
+        Annotation( dcterms:source wikidata:Q90943093 )
         rdfs:label orcid:0000-0001-7505-5418 "Marion F Shadbolt"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7505-5418 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90943093 )
-        dc:description orcid:0000-0001-7505-5418 "researcher (ORCID 0000-0001-7505-5418)"
+        Annotation( dcterms:source wikidata:Q90943093 )
+        dcterms:description orcid:0000-0001-7505-5418 "researcher (ORCID 0000-0001-7505-5418)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20895241 )
+        Annotation( dcterms:source wikidata:Q20895241 )
         rdfs:label orcid:0000-0001-7542-0286 "Egon Willighagen"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7542-0286 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20895241 )
-        dc:description orcid:0000-0001-7542-0286 "Dutch chemist"
+        Annotation( dcterms:source wikidata:Q20895241 )
+        dcterms:description orcid:0000-0001-7542-0286 "Dutch chemist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54712725 )
+        Annotation( dcterms:source wikidata:Q54712725 )
         rdfs:label orcid:0000-0001-7694-8250 "Jonathan A Rees"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7694-8250 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54712725 )
-        dc:description orcid:0000-0001-7694-8250 "researcher"
+        Annotation( dcterms:source wikidata:Q54712725 )
+        dcterms:description orcid:0000-0001-7694-8250 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114556512 )
+        Annotation( dcterms:source wikidata:Q114556512 )
         rdfs:label orcid:0000-0001-7925-2064 "Jeff Otte"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7925-2064 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114556512 )
-        dc:description orcid:0000-0001-7925-2064 "researcher"
+        Annotation( dcterms:source wikidata:Q114556512 )
+        dcterms:description orcid:0000-0001-7925-2064 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q43155252 )
+        Annotation( dcterms:source wikidata:Q43155252 )
         rdfs:label orcid:0000-0001-7941-2961 "Leigh Carmody"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7941-2961 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q43155252 )
-        dc:description orcid:0000-0001-7941-2961 "researcher"
+        Annotation( dcterms:source wikidata:Q43155252 )
+        dcterms:description orcid:0000-0001-7941-2961 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110613369 )
+        Annotation( dcterms:source wikidata:Q110613369 )
         rdfs:label orcid:0000-0001-8034-7685 "Stephen A. Fisher"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8034-7685 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110613369 )
-        dc:description orcid:0000-0001-8034-7685 "Researcher ORCID = 0000-0001-8034-7685"
+        Annotation( dcterms:source wikidata:Q110613369 )
+        dcterms:description orcid:0000-0001-8034-7685 "Researcher ORCID = 0000-0001-8034-7685"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913647 )
+        Annotation( dcterms:source wikidata:Q28913647 )
         rdfs:label orcid:0000-0001-8149-5890 "Robert Hoehndorf"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8149-5890 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913647 )
-        dc:description orcid:0000-0001-8149-5890 "researcher"
+        Annotation( dcterms:source wikidata:Q28913647 )
+        dcterms:description orcid:0000-0001-8149-5890 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57081961 )
+        Annotation( dcterms:source wikidata:Q57081961 )
         rdfs:label orcid:0000-0001-8244-1536 "Seth J. Carbon"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8244-1536 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57081961 )
-        dc:description orcid:0000-0001-8244-1536 "researcher"
+        Annotation( dcterms:source wikidata:Q57081961 )
+        dcterms:description orcid:0000-0001-8244-1536 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q52097457 )
+        Annotation( dcterms:source wikidata:Q52097457 )
         rdfs:label orcid:0000-0001-8314-2140 "Raymund Stefancsik"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8314-2140 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q52097457 )
-        dc:description orcid:0000-0001-8314-2140 "researcher"
+        Annotation( dcterms:source wikidata:Q52097457 )
+        dcterms:description orcid:0000-0001-8314-2140 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87381426 )
+        Annotation( dcterms:source wikidata:Q87381426 )
         rdfs:label orcid:0000-0001-8317-7271 "Eric Ross"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8317-7271 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q87381426 )
-        dc:description orcid:0000-0001-8317-7271 "researcher (ORCID 0000-0001-8317-7271)"
+        Annotation( dcterms:source wikidata:Q87381426 )
+        dcterms:description orcid:0000-0001-8317-7271 "researcher (ORCID 0000-0001-8317-7271)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89057451 )
+        Annotation( dcterms:source wikidata:Q89057451 )
         rdfs:label orcid:0000-0001-8397-8810 "Clair A. Kronk"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8397-8810 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89057451 )
-        dc:description orcid:0000-0001-8397-8810 "biomedical informaticist"
+        Annotation( dcterms:source wikidata:Q89057451 )
+        dcterms:description orcid:0000-0001-8397-8810 "biomedical informaticist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42549119 )
+        Annotation( dcterms:source wikidata:Q42549119 )
         rdfs:label orcid:0000-0001-8420-5254 "Kristi L. Holmes"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8420-5254 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q42549119 )
-        dc:description orcid:0000-0001-8420-5254 "researcher"
+        Annotation( dcterms:source wikidata:Q42549119 )
+        dcterms:description orcid:0000-0001-8420-5254 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91376977 )
+        Annotation( dcterms:source wikidata:Q91376977 )
         rdfs:label orcid:0000-0001-8430-6039 "Monica Munoz-Torres"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8430-6039 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91376977 )
-        dc:description orcid:0000-0001-8430-6039 "researcher (ORCID 0000-0001-8430-6039)"
+        Annotation( dcterms:source wikidata:Q91376977 )
+        dcterms:description orcid:0000-0001-8430-6039 "researcher (ORCID 0000-0001-8430-6039)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55475730 )
+        Annotation( dcterms:source wikidata:Q55475730 )
         rdfs:label orcid:0000-0001-8638-8525 "Fernanda C. Dórea"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8638-8525 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55475730 )
-        dc:description orcid:0000-0001-8638-8525 "researcher"
+        Annotation( dcterms:source wikidata:Q55475730 )
+        dcterms:description orcid:0000-0001-8638-8525 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q53584947 )
+        Annotation( dcterms:source wikidata:Q53584947 )
         rdfs:label orcid:0000-0001-8732-0928 "Eric W Deutsch"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8732-0928 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q53584947 )
-        dc:description orcid:0000-0001-8732-0928 "researcher"
+        Annotation( dcterms:source wikidata:Q53584947 )
+        dcterms:description orcid:0000-0001-8732-0928 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63240627 )
+        Annotation( dcterms:source wikidata:Q63240627 )
         rdfs:label orcid:0000-0001-8815-0078 "Ramona L Walls"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8815-0078 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63240627 )
-        dc:description orcid:0000-0001-8815-0078 "researcher"
+        Annotation( dcterms:source wikidata:Q63240627 )
+        dcterms:description orcid:0000-0001-8815-0078 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20746117 )
+        Annotation( dcterms:source wikidata:Q20746117 )
         rdfs:label orcid:0000-0001-8865-4321 "Jane Lomax"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8865-4321 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20746117 )
-        dc:description orcid:0000-0001-8865-4321 "researcher in ontologies and bioinformatics"
+        Annotation( dcterms:source wikidata:Q20746117 )
+        dcterms:description orcid:0000-0001-8865-4321 "researcher in ontologies and bioinformatics"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913673 )
+        Annotation( dcterms:source wikidata:Q28913673 )
         rdfs:label orcid:0000-0001-8910-9851 "Lynn Schriml"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8910-9851 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913673 )
-        dc:description orcid:0000-0001-8910-9851 "researcher, metadata, diseases, University of Maryland"
+        Annotation( dcterms:source wikidata:Q28913673 )
+        dcterms:description orcid:0000-0001-8910-9851 "researcher, metadata, diseases, University of Maryland"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58012694 )
+        Annotation( dcterms:source wikidata:Q58012694 )
         rdfs:label orcid:0000-0001-8935-0696 "Deborah A Siegele"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8935-0696 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58012694 )
-        dc:description orcid:0000-0001-8935-0696 "researcher, ORCID id # 0000-0001-8935-0696"
+        Annotation( dcterms:source wikidata:Q58012694 )
+        dcterms:description orcid:0000-0001-8935-0696 "researcher, ORCID id # 0000-0001-8935-0696"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57082032 )
+        Annotation( dcterms:source wikidata:Q57082032 )
         rdfs:label orcid:0000-0001-8936-9143 "Nicole L Washington"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8936-9143 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57082032 )
-        dc:description orcid:0000-0001-8936-9143 "researcher"
+        Annotation( dcterms:source wikidata:Q57082032 )
+        dcterms:description orcid:0000-0001-8936-9143 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q92917957 )
+        Annotation( dcterms:source wikidata:Q92917957 )
         rdfs:label orcid:0000-0001-8941-3984 "Alayne Cuzick"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8941-3984 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q92917957 )
-        dc:description orcid:0000-0001-8941-3984 "researcher (ORCID 0000-0001-8941-3984)"
+        Annotation( dcterms:source wikidata:Q92917957 )
+        dcterms:description orcid:0000-0001-8941-3984 "researcher (ORCID 0000-0001-8941-3984)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q104795300 )
+        Annotation( dcterms:source wikidata:Q104795300 )
         rdfs:label orcid:0000-0001-8996-2641 "Alan M Race"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8996-2641 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q104795300 )
-        dc:description orcid:0000-0001-8996-2641 "researcher"
+        Annotation( dcterms:source wikidata:Q104795300 )
+        dcterms:description orcid:0000-0001-8996-2641 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59749279 )
+        Annotation( dcterms:source wikidata:Q59749279 )
         rdfs:label orcid:0000-0001-9016-2684 "James Hu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9016-2684 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59749279 )
-        dc:description orcid:0000-0001-9016-2684 "researcher working with bacteria and ontologies"
+        Annotation( dcterms:source wikidata:Q59749279 )
+        dcterms:description orcid:0000-0001-9016-2684 "researcher working with bacteria and ontologies"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55915095 )
+        Annotation( dcterms:source wikidata:Q55915095 )
         rdfs:label orcid:0000-0001-9076-6015 "Christian A Grove"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9076-6015 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55915095 )
-        dc:description orcid:0000-0001-9076-6015 "researcher"
+        Annotation( dcterms:source wikidata:Q55915095 )
+        dcterms:description orcid:0000-0001-9076-6015 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108545178 )
+        Annotation( dcterms:source wikidata:Q108545178 )
         rdfs:label orcid:0000-0001-9076-6066 "Mark Andrew Miller"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9076-6066 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108545178 )
-        dc:description orcid:0000-0001-9076-6066 "American biomedical informatician"
+        Annotation( dcterms:source wikidata:Q108545178 )
+        dcterms:description orcid:0000-0001-9076-6066 "American biomedical informatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913645 )
+        Annotation( dcterms:source wikidata:Q28913645 )
         rdfs:label orcid:0000-0001-9107-0714 "Hilmar Lapp"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9107-0714 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913645 )
-        dc:description orcid:0000-0001-9107-0714 "researcher"
+        Annotation( dcterms:source wikidata:Q28913645 )
+        dcterms:description orcid:0000-0001-9107-0714 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28368079 )
+        Annotation( dcterms:source wikidata:Q28368079 )
         rdfs:label orcid:0000-0001-9114-8737 "Melissa Haendel"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9114-8737 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28368079 )
-        dc:description orcid:0000-0001-9114-8737 "American epidemiologist and ontologist"
+        Annotation( dcterms:source wikidata:Q28368079 )
+        dcterms:description orcid:0000-0001-9114-8737 "American epidemiologist and ontologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86943233 )
+        Annotation( dcterms:source wikidata:Q86943233 )
         rdfs:label orcid:0000-0001-9125-4337 "Francesco Vitali"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9125-4337 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86943233 )
-        dc:description orcid:0000-0001-9125-4337 "researcher (ORCID 0000-0001-9125-4337)"
+        Annotation( dcterms:source wikidata:Q86943233 )
+        dcterms:description orcid:0000-0001-9125-4337 "researcher (ORCID 0000-0001-9125-4337)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30512667 )
+        Annotation( dcterms:source wikidata:Q30512667 )
         rdfs:label orcid:0000-0001-9189-9661 "Yongqun He"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9189-9661 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30512667 )
-        dc:description orcid:0000-0001-9189-9661 "researcher"
+        Annotation( dcterms:source wikidata:Q30512667 )
+        dcterms:description orcid:0000-0001-9189-9661 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q104473754 )
+        Annotation( dcterms:source wikidata:Q104473754 )
         rdfs:label orcid:0000-0001-9227-0670 "Luke T Slater"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9227-0670 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q104473754 )
-        dc:description orcid:0000-0001-9227-0670 "researcher"
+        Annotation( dcterms:source wikidata:Q104473754 )
+        dcterms:description orcid:0000-0001-9227-0670 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913585 )
+        Annotation( dcterms:source wikidata:Q28913585 )
         rdfs:label orcid:0000-0001-9254-7318 "Rutger Vos"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9254-7318 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28913585 )
-        dc:description orcid:0000-0001-9254-7318 "researcher"
+        Annotation( dcterms:source wikidata:Q28913585 )
+        dcterms:description orcid:0000-0001-9254-7318 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q97643485 )
+        Annotation( dcterms:source wikidata:Q97643485 )
         rdfs:label orcid:0000-0001-9259-5280 "Amogelang R Raphenya"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9259-5280 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q97643485 )
-        dc:description orcid:0000-0001-9259-5280 "researcher"
+        Annotation( dcterms:source wikidata:Q97643485 )
+        dcterms:description orcid:0000-0001-9259-5280 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61195994 )
+        Annotation( dcterms:source wikidata:Q61195994 )
         rdfs:label orcid:0000-0001-9439-5346 "Benjamin M Gyori"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9439-5346 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61195994 )
-        dc:description orcid:0000-0001-9439-5346 "researcher ORCID ID = 0000-0001-9439-5346"
+        Annotation( dcterms:source wikidata:Q61195994 )
+        dcterms:description orcid:0000-0001-9439-5346 "researcher ORCID ID = 0000-0001-9439-5346"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20895785 )
+        Annotation( dcterms:source wikidata:Q20895785 )
         rdfs:label orcid:0000-0001-9488-1870 "Daniel Mietchen"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9488-1870 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20895785 )
-        dc:description orcid:0000-0001-9488-1870 "German biophysicist and open science advocate, Wikimedian"
+        Annotation( dcterms:source wikidata:Q20895785 )
+        dcterms:description orcid:0000-0001-9488-1870 "German biophysicist and open science advocate, Wikimedian"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86550912 )
+        Annotation( dcterms:source wikidata:Q86550912 )
         rdfs:label orcid:0000-0001-9515-398X "Melissa Konopko"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9515-398X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86550912 )
-        dc:description orcid:0000-0001-9515-398X "researcher"
+        Annotation( dcterms:source wikidata:Q86550912 )
+        dcterms:description orcid:0000-0001-9515-398X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47503081 )
+        Annotation( dcterms:source wikidata:Q47503081 )
         rdfs:label orcid:0000-0001-9586-0780 "Marcus C. Chibucos"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9586-0780 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47503081 )
-        dc:description orcid:0000-0001-9586-0780 "researcher"
+        Annotation( dcterms:source wikidata:Q47503081 )
+        dcterms:description orcid:0000-0001-9586-0780 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89881908 )
+        Annotation( dcterms:source wikidata:Q89881908 )
         rdfs:label orcid:0000-0001-9625-1899 "William D Duncan"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9625-1899 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89881908 )
-        dc:description orcid:0000-0001-9625-1899 "researcher"
+        Annotation( dcterms:source wikidata:Q89881908 )
+        dcterms:description orcid:0000-0001-9625-1899 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57208547 )
+        Annotation( dcterms:source wikidata:Q57208547 )
         rdfs:label orcid:0000-0001-9766-5727 "Emily Jane McTavish"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9766-5727 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57208547 )
-        dc:description orcid:0000-0001-9766-5727 "researcher"
+        Annotation( dcterms:source wikidata:Q57208547 )
+        dcterms:description orcid:0000-0001-9766-5727 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q19845625 )
+        Annotation( dcterms:source wikidata:Q19845625 )
         rdfs:label orcid:0000-0001-9773-4008 "Andra Waagmeester"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9773-4008 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q19845625 )
-        dc:description orcid:0000-0001-9773-4008 "Dutch scientist"
+        Annotation( dcterms:source wikidata:Q19845625 )
+        dcterms:description orcid:0000-0001-9773-4008 "Dutch scientist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q34388171 )
+        Annotation( dcterms:source wikidata:Q34388171 )
         rdfs:label orcid:0000-0001-9842-9718 "Stian Soiland-Reyes"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9842-9718 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q34388171 )
-        dc:description orcid:0000-0001-9842-9718 "researcher"
+        Annotation( dcterms:source wikidata:Q34388171 )
+        dcterms:description orcid:0000-0001-9842-9718 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28364404 )
+        Annotation( dcterms:source wikidata:Q28364404 )
         rdfs:label orcid:0000-0001-9853-5668 "Philippe Rocca-Serra"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9853-5668 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28364404 )
-        dc:description orcid:0000-0001-9853-5668 "researcher"
+        Annotation( dcterms:source wikidata:Q28364404 )
+        dcterms:description orcid:0000-0001-9853-5668 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30002211 )
+        Annotation( dcterms:source wikidata:Q30002211 )
         rdfs:label orcid:0000-0001-9896-3531 "Alpha Tom Kodamullil"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9896-3531 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30002211 )
-        dc:description orcid:0000-0001-9896-3531 "Indian bioinformatician"
+        Annotation( dcterms:source wikidata:Q30002211 )
+        dcterms:description orcid:0000-0001-9896-3531 "Indian bioinformatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88768503 )
+        Annotation( dcterms:source wikidata:Q88768503 )
         rdfs:label orcid:0000-0001-9897-3238 "Bonita R Lam"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9897-3238 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88768503 )
-        dc:description orcid:0000-0001-9897-3238 "researcher"
+        Annotation( dcterms:source wikidata:Q88768503 )
+        dcterms:description orcid:0000-0001-9897-3238 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610955 )
+        Annotation( dcterms:source wikidata:Q110610955 )
         rdfs:label orcid:0000-0001-9921-8234 "Georgeta Bordea"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9921-8234 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610955 )
-        dc:description orcid:0000-0001-9921-8234 "Researcher ORCID = 0000-0001-9921-8234"
+        Annotation( dcterms:source wikidata:Q110610955 )
+        dcterms:description orcid:0000-0001-9921-8234 "Researcher ORCID = 0000-0001-9921-8234"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55427783 )
+        Annotation( dcterms:source wikidata:Q55427783 )
         rdfs:label orcid:0000-0001-9969-8610 "Jean-Philippe Gourdine"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9969-8610 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55427783 )
-        dc:description orcid:0000-0001-9969-8610 "researcher"
+        Annotation( dcterms:source wikidata:Q55427783 )
+        dcterms:description orcid:0000-0001-9969-8610 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502183 )
+        Annotation( dcterms:source wikidata:Q47502183 )
         rdfs:label orcid:0000-0001-9990-8331 "Alexander D Diehl"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9990-8331 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502183 )
-        dc:description orcid:0000-0001-9990-8331 "researcher"
+        Annotation( dcterms:source wikidata:Q47502183 )
+        dcterms:description orcid:0000-0001-9990-8331 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56432810 )
+        Annotation( dcterms:source wikidata:Q56432810 )
         rdfs:label orcid:0000-0002-0027-0858 "Tamsin E Jones"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0027-0858 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56432810 )
-        dc:description orcid:0000-0002-0027-0858 "researcher"
+        Annotation( dcterms:source wikidata:Q56432810 )
+        dcterms:description orcid:0000-0002-0027-0858 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q48767863 )
+        Annotation( dcterms:source wikidata:Q48767863 )
         rdfs:label orcid:0000-0002-0045-7698 "Pierre-Alain Binz"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0045-7698 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q48767863 )
-        dc:description orcid:0000-0002-0045-7698 "researcher"
+        Annotation( dcterms:source wikidata:Q48767863 )
+        dcterms:description orcid:0000-0002-0045-7698 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517217 )
+        Annotation( dcterms:source wikidata:Q114517217 )
         rdfs:label orcid:0000-0002-0082-0725 "Olamidipupo Ajigboye"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0082-0725 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517217 )
-        dc:description orcid:0000-0002-0082-0725 "Researcher ORCID = 0000-0002-0082-0725"
+        Annotation( dcterms:source wikidata:Q114517217 )
+        dcterms:description orcid:0000-0002-0082-0725 "Researcher ORCID = 0000-0002-0082-0725"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114601383 )
+        Annotation( dcterms:source wikidata:Q114601383 )
         rdfs:label orcid:0000-0002-0112-7607 "Annika Smith"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0112-7607 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114601383 )
-        dc:description orcid:0000-0002-0112-7607 "researcher"
+        Annotation( dcterms:source wikidata:Q114601383 )
+        dcterms:description orcid:0000-0002-0112-7607 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58314966 )
+        Annotation( dcterms:source wikidata:Q58314966 )
         rdfs:label orcid:0000-0002-0142-5591 "Citlalli Mejía-Almonte"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0142-5591 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58314966 )
-        dc:description orcid:0000-0002-0142-5591 "researcher, ORCID id # 0000-0002-0142-5591"
+        Annotation( dcterms:source wikidata:Q58314966 )
+        dcterms:description orcid:0000-0002-0142-5591 "researcher, ORCID id # 0000-0002-0142-5591"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63989747 )
+        Annotation( dcterms:source wikidata:Q63989747 )
         rdfs:label orcid:0000-0002-0192-5385 "Fabio G Liberante"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0192-5385 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63989747 )
-        dc:description orcid:0000-0002-0192-5385 "researcher"
+        Annotation( dcterms:source wikidata:Q63989747 )
+        dcterms:description orcid:0000-0002-0192-5385 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61041982 )
+        Annotation( dcterms:source wikidata:Q61041982 )
         rdfs:label orcid:0000-0002-0337-8610 "Brandon Whitehead"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0337-8610 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61041982 )
-        dc:description orcid:0000-0002-0337-8610 "researcher ORCID ID = 0000-0002-0337-8610"
+        Annotation( dcterms:source wikidata:Q61041982 )
+        dcterms:description orcid:0000-0002-0337-8610 "researcher ORCID ID = 0000-0002-0337-8610"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91241307 )
+        Annotation( dcterms:source wikidata:Q91241307 )
         rdfs:label orcid:0000-0002-0358-0130 "Martín J Ramírez"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0358-0130 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91241307 )
-        dc:description orcid:0000-0002-0358-0130 "researcher (ORCID 0000-0002-0358-0130)"
+        Annotation( dcterms:source wikidata:Q91241307 )
+        dcterms:description orcid:0000-0002-0358-0130 "researcher (ORCID 0000-0002-0358-0130)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q71798225 )
+        Annotation( dcterms:source wikidata:Q71798225 )
         rdfs:label orcid:0000-0002-0524-0260 "Jane F. Armstrong"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0524-0260 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q71798225 )
-        dc:description orcid:0000-0002-0524-0260 "researcher"
+        Annotation( dcterms:source wikidata:Q71798225 )
+        dcterms:description orcid:0000-0002-0524-0260 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q85826573 )
+        Annotation( dcterms:source wikidata:Q85826573 )
         rdfs:label orcid:0000-0002-0593-3569 "J Allen Baron"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0593-3569 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q85826573 )
-        dc:description orcid:0000-0002-0593-3569 "researcher"
+        Annotation( dcterms:source wikidata:Q85826573 )
+        dcterms:description orcid:0000-0002-0593-3569 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303148 )
+        Annotation( dcterms:source wikidata:Q54303148 )
         rdfs:label orcid:0000-0002-0643-3144 "Simon Jupp"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0643-3144 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303148 )
-        dc:description orcid:0000-0002-0643-3144 "researcher, European Bioinformatics Institute, European Molecular Biology Laboratory"
+        Annotation( dcterms:source wikidata:Q54303148 )
+        dcterms:description orcid:0000-0002-0643-3144 "researcher, European Bioinformatics Institute, European Molecular Biology Laboratory"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114525081 )
+        Annotation( dcterms:source wikidata:Q114525081 )
         rdfs:label orcid:0000-0002-0710-3462 "Ryan Fellers"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0710-3462 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114525081 )
-        dc:description orcid:0000-0002-0710-3462 "Researcher ORCID = 0000-0002-0710-3462"
+        Annotation( dcterms:source wikidata:Q114525081 )
+        dcterms:description orcid:0000-0002-0710-3462 "Researcher ORCID = 0000-0002-0710-3462"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41935087 )
+        Annotation( dcterms:source wikidata:Q41935087 )
         rdfs:label orcid:0000-0002-0736-9199 "Peter Robinson"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0736-9199 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41935087 )
-        dc:description orcid:0000-0002-0736-9199 "researcher"
+        Annotation( dcterms:source wikidata:Q41935087 )
+        dcterms:description orcid:0000-0002-0736-9199 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90245521 )
+        Annotation( dcterms:source wikidata:Q90245521 )
         rdfs:label orcid:0000-0002-0819-0473 "Paula Duek Roggli"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0819-0473 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90245521 )
-        dc:description orcid:0000-0002-0819-0473 "researcher (ORCID 0000-0002-0819-0473)"
+        Annotation( dcterms:source wikidata:Q90245521 )
+        dcterms:description orcid:0000-0002-0819-0473 "researcher (ORCID 0000-0002-0819-0473)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56925500 )
+        Annotation( dcterms:source wikidata:Q56925500 )
         rdfs:label orcid:0000-0002-0831-6427 "Karen Eilbeck"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0831-6427 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56925500 )
-        dc:description orcid:0000-0002-0831-6427 "researcher ORCID: 0000-0002-0831-6427"
+        Annotation( dcterms:source wikidata:Q56925500 )
+        dcterms:description orcid:0000-0002-0831-6427 "researcher ORCID: 0000-0002-0831-6427"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28859986 )
+        Annotation( dcterms:source wikidata:Q28859986 )
         rdfs:label orcid:0000-0002-0851-6883 "Jennifer C. Girón"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0851-6883 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28859986 )
-        dc:description orcid:0000-0002-0851-6883 "Colombian entomologist"
+        Annotation( dcterms:source wikidata:Q28859986 )
+        dcterms:description orcid:0000-0002-0851-6883 "Colombian entomologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114534171 )
+        Annotation( dcterms:source wikidata:Q114534171 )
         rdfs:label orcid:0000-0002-0892-7164 "Ana Reis-Costa"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0892-7164 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114534171 )
-        dc:description orcid:0000-0002-0892-7164 "Researcher ORCID = 0000-0002-0892-7164"
+        Annotation( dcterms:source wikidata:Q114534171 )
+        dcterms:description orcid:0000-0002-0892-7164 "Researcher ORCID = 0000-0002-0892-7164"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114524134 )
+        Annotation( dcterms:source wikidata:Q114524134 )
         rdfs:label orcid:0000-0002-0931-7253 "Joy Roy"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0931-7253 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114524134 )
-        dc:description orcid:0000-0002-0931-7253 "Researcher ORCID = 0000-0002-0931-7253"
+        Annotation( dcterms:source wikidata:Q114524134 )
+        dcterms:description orcid:0000-0002-0931-7253 "Researcher ORCID = 0000-0002-0931-7253"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610432 )
+        Annotation( dcterms:source wikidata:Q110610432 )
         rdfs:label orcid:0000-0002-0956-8634 "Terry Hayamizu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0956-8634 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610432 )
-        dc:description orcid:0000-0002-0956-8634 "Researcher ORCID = 0000-0002-0956-8634"
+        Annotation( dcterms:source wikidata:Q110610432 )
+        dcterms:description orcid:0000-0002-0956-8634 "Researcher ORCID = 0000-0002-0956-8634"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54084479 )
+        Annotation( dcterms:source wikidata:Q54084479 )
         rdfs:label orcid:0000-0002-0963-1357 "Arlin Stoltzfus"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0963-1357 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54084479 )
-        dc:description orcid:0000-0002-0963-1357 "researcher"
+        Annotation( dcterms:source wikidata:Q54084479 )
+        dcterms:description orcid:0000-0002-0963-1357 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41294868 )
+        Annotation( dcterms:source wikidata:Q41294868 )
         rdfs:label orcid:0000-0002-1005-8383 "Pankaj Jaiswal"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1005-8383 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41294868 )
-        dc:description orcid:0000-0002-1005-8383 "researcher"
+        Annotation( dcterms:source wikidata:Q41294868 )
+        dcterms:description orcid:0000-0002-1005-8383 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88110949 )
+        Annotation( dcterms:source wikidata:Q88110949 )
         rdfs:label orcid:0000-0002-1048-5019 "Matthew Brush"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1048-5019 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88110949 )
-        dc:description orcid:0000-0002-1048-5019 "researcher"
+        Annotation( dcterms:source wikidata:Q88110949 )
+        dcterms:description orcid:0000-0002-1048-5019 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q79946847 )
+        Annotation( dcterms:source wikidata:Q79946847 )
         rdfs:label orcid:0000-0002-1058-1270 "Siddhartha Basu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1058-1270 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q79946847 )
-        dc:description orcid:0000-0002-1058-1270 "researcher"
+        Annotation( dcterms:source wikidata:Q79946847 )
+        dcterms:description orcid:0000-0002-1058-1270 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91739788 )
+        Annotation( dcterms:source wikidata:Q91739788 )
         rdfs:label orcid:0000-0002-1373-1705 "Clare Pilgrim"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1373-1705 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91739788 )
-        dc:description orcid:0000-0002-1373-1705 "researcher (ORCID 0000-0002-1373-1705)"
+        Annotation( dcterms:source wikidata:Q91739788 )
+        dcterms:description orcid:0000-0002-1373-1705 "researcher (ORCID 0000-0002-1373-1705)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56986004 )
+        Annotation( dcterms:source wikidata:Q56986004 )
         rdfs:label orcid:0000-0002-1572-1316 "Robert Druzinsky"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1572-1316 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56986004 )
-        dc:description orcid:0000-0002-1572-1316 "researcher"
+        Annotation( dcterms:source wikidata:Q56986004 )
+        dcterms:description orcid:0000-0002-1572-1316 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30508557 )
+        Annotation( dcterms:source wikidata:Q30508557 )
         rdfs:label orcid:0000-0002-1604-3078 "Alan Ruttenberg"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1604-3078 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30508557 )
-        dc:description orcid:0000-0002-1604-3078 "researcher"
+        Annotation( dcterms:source wikidata:Q30508557 )
+        dcterms:description orcid:0000-0002-1604-3078 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502894 )
+        Annotation( dcterms:source wikidata:Q47502894 )
         rdfs:label orcid:0000-0002-1615-2899 "James Malone"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1615-2899 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502894 )
-        dc:description orcid:0000-0002-1615-2899 "researcher"
+        Annotation( dcterms:source wikidata:Q47502894 )
+        dcterms:description orcid:0000-0002-1615-2899 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91558108 )
+        Annotation( dcterms:source wikidata:Q91558108 )
         rdfs:label orcid:0000-0002-1679-1711 "Ralf Gabriels"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1679-1711 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91558108 )
-        dc:description orcid:0000-0002-1679-1711 "researcher (ORCID 0000-0002-1679-1711)"
+        Annotation( dcterms:source wikidata:Q91558108 )
+        dcterms:description orcid:0000-0002-1679-1711 "researcher (ORCID 0000-0002-1679-1711)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59674797 )
+        Annotation( dcterms:source wikidata:Q59674797 )
         rdfs:label orcid:0000-0002-1706-4196 "Kimberly Van Auken"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1706-4196 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59674797 )
-        dc:description orcid:0000-0002-1706-4196 "researcher ORCID ID = 0000-0002-1706-4196"
+        Annotation( dcterms:source wikidata:Q59674797 )
+        dcterms:description orcid:0000-0002-1706-4196 "researcher ORCID ID = 0000-0002-1706-4196"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q53584882 )
+        Annotation( dcterms:source wikidata:Q53584882 )
         rdfs:label orcid:0000-0002-1767-2343 "Gerhard Mayer"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1767-2343 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q53584882 )
-        dc:description orcid:0000-0002-1767-2343 "researcher"
+        Annotation( dcterms:source wikidata:Q53584882 )
+        dcterms:description orcid:0000-0002-1767-2343 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114557426 )
+        Annotation( dcterms:source wikidata:Q114557426 )
         rdfs:label orcid:0000-0002-1773-2692 "Bradley Varner"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1773-2692 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114557426 )
-        dc:description orcid:0000-0002-1773-2692 "Researcher ORCID = 0000-0002-1773-2692"
+        Annotation( dcterms:source wikidata:Q114557426 )
+        dcterms:description orcid:0000-0002-1773-2692 "Researcher ORCID = 0000-0002-1773-2692"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110848989 )
+        Annotation( dcterms:source wikidata:Q110848989 )
         rdfs:label orcid:0000-0002-1795-5570 "Amanda Hicks"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1795-5570 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110848989 )
-        dc:description orcid:0000-0002-1795-5570 "Researcher ORCID = 0000-0002-1795-5570"
+        Annotation( dcterms:source wikidata:Q110848989 )
+        dcterms:description orcid:0000-0002-1795-5570 "Researcher ORCID = 0000-0002-1795-5570"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59676697 )
+        Annotation( dcterms:source wikidata:Q59676697 )
         rdfs:label orcid:0000-0002-1816-4260 "Shinya Suzuki"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1816-4260 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59676697 )
-        dc:description orcid:0000-0002-1816-4260 "researcher ORCID ID = 0000-0002-1816-4260"
+        Annotation( dcterms:source wikidata:Q59676697 )
+        dcterms:description orcid:0000-0002-1816-4260 "researcher ORCID ID = 0000-0002-1816-4260"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303216 )
+        Annotation( dcterms:source wikidata:Q54303216 )
         rdfs:label orcid:0000-0002-2061-091X "Georgios V. Gkoutos"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2061-091X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303216 )
-        dc:description orcid:0000-0002-2061-091X "researcher"
+        Annotation( dcterms:source wikidata:Q54303216 )
+        dcterms:description orcid:0000-0002-2061-091X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q83663133 )
+        Annotation( dcterms:source wikidata:Q83663133 )
         rdfs:label orcid:0000-0002-2100-6351 "Carrine E Blank"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2100-6351 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q83663133 )
-        dc:description orcid:0000-0002-2100-6351 "researcher"
+        Annotation( dcterms:source wikidata:Q83663133 )
+        dcterms:description orcid:0000-0002-2100-6351 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110623888 )
+        Annotation( dcterms:source wikidata:Q110623888 )
         rdfs:label orcid:0000-0002-2176-8751 "Antje Jäde"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2176-8751 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110623888 )
-        dc:description orcid:0000-0002-2176-8751 "Researcher ORCID = 0000-0002-2176-8751"
+        Annotation( dcterms:source wikidata:Q110623888 )
+        dcterms:description orcid:0000-0002-2176-8751 "Researcher ORCID = 0000-0002-2176-8751"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110611760 )
+        Annotation( dcterms:source wikidata:Q110611760 )
         rdfs:label orcid:0000-0002-2193-0704 "Jade Hotchkiss"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2193-0704 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110611760 )
-        dc:description orcid:0000-0002-2193-0704 "Researcher ORCID = 0000-0002-2193-0704"
+        Annotation( dcterms:source wikidata:Q110611760 )
+        dcterms:description orcid:0000-0002-2193-0704 "Researcher ORCID = 0000-0002-2193-0704"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58034214 )
+        Annotation( dcterms:source wikidata:Q58034214 )
         rdfs:label orcid:0000-0002-2244-7917 "Ceri E Van Slyke"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2244-7917 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58034214 )
-        dc:description orcid:0000-0002-2244-7917 "researcher, ORCID id # 0000-0002-2244-7917"
+        Annotation( dcterms:source wikidata:Q58034214 )
+        dcterms:description orcid:0000-0002-2244-7917 "researcher, ORCID id # 0000-0002-2244-7917"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109614820 )
+        Annotation( dcterms:source wikidata:Q109614820 )
         rdfs:label orcid:0000-0002-2340-5356 "Troy Pells"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2340-5356 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110623830 )
+        Annotation( dcterms:source wikidata:Q110623830 )
         rdfs:label orcid:0000-0002-2346-5201 "Carissa Park"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2346-5201 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110623830 )
-        dc:description orcid:0000-0002-2346-5201 "Researcher ORCID = 0000-0002-2346-5201"
+        Annotation( dcterms:source wikidata:Q110623830 )
+        dcterms:description orcid:0000-0002-2346-5201 "Researcher ORCID = 0000-0002-2346-5201"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109473405 )
+        Annotation( dcterms:source wikidata:Q109473405 )
         rdfs:label orcid:0000-0002-2411-565X "Harshad Hegde"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2411-565X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109473405 )
-        dc:description orcid:0000-0002-2411-565X "Software developer | Biomedical Engineer"
+        Annotation( dcterms:source wikidata:Q109473405 )
+        dcterms:description orcid:0000-0002-2411-565X "Software developer | Biomedical Engineer"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114531900 )
+        Annotation( dcterms:source wikidata:Q114531900 )
         rdfs:label orcid:0000-0002-2455-2227 "Lawrence Babb"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2455-2227 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114531900 )
-        dc:description orcid:0000-0002-2455-2227 "Researcher ORCID = 0000-0002-2455-2227"
+        Annotation( dcterms:source wikidata:Q114531900 )
+        dcterms:description orcid:0000-0002-2455-2227 "Researcher ORCID = 0000-0002-2455-2227"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q48519898 )
+        Annotation( dcterms:source wikidata:Q48519898 )
         rdfs:label orcid:0000-0002-2548-641X "Sirarat Sarntivijai"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2548-641X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q48519898 )
-        dc:description orcid:0000-0002-2548-641X "researcher"
+        Annotation( dcterms:source wikidata:Q48519898 )
+        dcterms:description orcid:0000-0002-2548-641X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q38545088 )
+        Annotation( dcterms:source wikidata:Q38545088 )
         rdfs:label orcid:0000-0002-2605-5080 "Jonathan R. Karr"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2605-5080 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q38545088 )
-        dc:description orcid:0000-0002-2605-5080 "researcher"
+        Annotation( dcterms:source wikidata:Q38545088 )
+        dcterms:description orcid:0000-0002-2605-5080 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109321449 )
+        Annotation( dcterms:source wikidata:Q109321449 )
         rdfs:label orcid:0000-0002-2627-0696 "Krishna Udaiwal"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2627-0696 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109321449 )
-        dc:description orcid:0000-0002-2627-0696 "Researcher (ORCID = 0000-0002-2627-0696)"
+        Annotation( dcterms:source wikidata:Q109321449 )
+        dcterms:description orcid:0000-0002-2627-0696 "Researcher (ORCID = 0000-0002-2627-0696)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47139534 )
+        Annotation( dcterms:source wikidata:Q47139534 )
         rdfs:label orcid:0000-0002-2825-0621 "Paola Roncaglia"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2825-0621 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47139534 )
-        dc:description orcid:0000-0002-2825-0621 "researcher"
+        Annotation( dcterms:source wikidata:Q47139534 )
+        dcterms:description orcid:0000-0002-2825-0621 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q85219829 )
+        Annotation( dcterms:source wikidata:Q85219829 )
         rdfs:label orcid:0000-0002-2833-6070 "Timo Sachsenberg"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2833-6070 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q85219829 )
-        dc:description orcid:0000-0002-2833-6070 "researcher"
+        Annotation( dcterms:source wikidata:Q85219829 )
+        dcterms:description orcid:0000-0002-2833-6070 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114520343 )
+        Annotation( dcterms:source wikidata:Q114520343 )
         rdfs:label orcid:0000-0002-2876-6046 "Tung V. N. Nguyen"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2876-6046 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114520343 )
-        dc:description orcid:0000-0002-2876-6046 "Researcher ORCID = 0000-0002-2876-6046"
+        Annotation( dcterms:source wikidata:Q114520343 )
+        dcterms:description orcid:0000-0002-2876-6046 "Researcher ORCID = 0000-0002-2876-6046"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416505 )
+        Annotation( dcterms:source wikidata:Q108416505 )
         rdfs:label orcid:0000-0002-2906-7319 "Joe Flack"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2906-7319 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416505 )
-        dc:description orcid:0000-0002-2906-7319 "software engineer"
+        Annotation( dcterms:source wikidata:Q108416505 )
+        dcterms:description orcid:0000-0002-2906-7319 "software engineer"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47503085 )
+        Annotation( dcterms:source wikidata:Q47503085 )
         rdfs:label orcid:0000-0002-2908-3327 "Anne Thessen"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2908-3327 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47503085 )
-        dc:description orcid:0000-0002-2908-3327 "data scientist"
+        Annotation( dcterms:source wikidata:Q47503085 )
+        dcterms:description orcid:0000-0002-2908-3327 "data scientist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56447790 )
+        Annotation( dcterms:source wikidata:Q56447790 )
         rdfs:label orcid:0000-0002-2993-2085 "Richard David Boyce"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2993-2085 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56447790 )
-        dc:description orcid:0000-0002-2993-2085 "researcher"
+        Annotation( dcterms:source wikidata:Q56447790 )
+        dcterms:description orcid:0000-0002-2993-2085 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114515488 )
+        Annotation( dcterms:source wikidata:Q114515488 )
         rdfs:label orcid:0000-0002-2996-719X "Raïssa Meyer"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2996-719X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114515488 )
-        dc:description orcid:0000-0002-2996-719X "Researcher ORCID = 0000-0002-2996-719X"
+        Annotation( dcterms:source wikidata:Q114515488 )
+        dcterms:description orcid:0000-0002-2996-719X "Researcher ORCID = 0000-0002-2996-719X"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90780528 )
+        Annotation( dcterms:source wikidata:Q90780528 )
         rdfs:label orcid:0000-0002-2999-0103 "Jie Zheng"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2999-0103 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90780528 )
-        dc:description orcid:0000-0002-2999-0103 "researcher (ORCID 0000-0002-2999-0103)"
+        Annotation( dcterms:source wikidata:Q90780528 )
+        dcterms:description orcid:0000-0002-2999-0103 "researcher (ORCID 0000-0002-2999-0103)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416433 )
+        Annotation( dcterms:source wikidata:Q108416433 )
         rdfs:label orcid:0000-0002-3002-9838 "HyeongSik Kim"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3002-9838 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416433 )
-        dc:description orcid:0000-0002-3002-9838 "researcher"
+        Annotation( dcterms:source wikidata:Q108416433 )
+        dcterms:description orcid:0000-0002-3002-9838 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37371328 )
+        Annotation( dcterms:source wikidata:Q37371328 )
         rdfs:label orcid:0000-0002-3012-7446 "Daniel S. Himmelstein"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3012-7446 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37371328 )
-        dc:description orcid:0000-0002-3012-7446 "researcher"
+        Annotation( dcterms:source wikidata:Q37371328 )
+        dcterms:description orcid:0000-0002-3012-7446 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57065344 )
+        Annotation( dcterms:source wikidata:Q57065344 )
         rdfs:label orcid:0000-0002-3105-1359 "Wout Bittremieux"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3105-1359 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57065344 )
-        dc:description orcid:0000-0002-3105-1359 "researcher"
+        Annotation( dcterms:source wikidata:Q57065344 )
+        dcterms:description orcid:0000-0002-3105-1359 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109614796 )
+        Annotation( dcterms:source wikidata:Q109614796 )
         rdfs:label orcid:0000-0002-3293-5463 "Joshua Fortriede"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3293-5463 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109614796 )
-        dc:description orcid:0000-0002-3293-5463 "researcher"
+        Annotation( dcterms:source wikidata:Q109614796 )
+        dcterms:description orcid:0000-0002-3293-5463 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108555457 )
+        Annotation( dcterms:source wikidata:Q108555457 )
         rdfs:label orcid:0000-0002-3336-2476 "Paul Fabry"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3336-2476 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108555457 )
-        dc:description orcid:0000-0002-3336-2476 "researcher working with knowledge representation"
+        Annotation( dcterms:source wikidata:Q108555457 )
+        dcterms:description orcid:0000-0002-3336-2476 "researcher working with knowledge representation"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q107527218 )
+        Annotation( dcterms:source wikidata:Q107527218 )
         rdfs:label orcid:0000-0002-3410-4655 "Kai Blumberg"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3410-4655 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q27902110 )
+        Annotation( dcterms:source wikidata:Q27902110 )
         rdfs:label orcid:0000-0002-3469-4923 "Janna Hastings"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3469-4923 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q27902110 )
-        dc:description orcid:0000-0002-3469-4923 "British biologist"
+        Annotation( dcterms:source wikidata:Q27902110 )
+        dcterms:description orcid:0000-0002-3469-4923 "British biologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20895803 )
+        Annotation( dcterms:source wikidata:Q20895803 )
         rdfs:label orcid:0000-0002-3520-2046 "Ross Mounce"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3520-2046 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20895803 )
-        dc:description orcid:0000-0002-3520-2046 "scholar"
+        Annotation( dcterms:source wikidata:Q20895803 )
+        dcterms:description orcid:0000-0002-3520-2046 "scholar"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63977883 )
+        Annotation( dcterms:source wikidata:Q63977883 )
         rdfs:label orcid:0000-0002-3528-5267 "Sofia Robb"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3528-5267 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63977883 )
-        dc:description orcid:0000-0002-3528-5267 "researcher"
+        Annotation( dcterms:source wikidata:Q63977883 )
+        dcterms:description orcid:0000-0002-3528-5267 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59690671 )
+        Annotation( dcterms:source wikidata:Q59690671 )
         rdfs:label orcid:0000-0002-3583-7340 "Deepak R. Unni"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3583-7340 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59690671 )
-        dc:description orcid:0000-0002-3583-7340 "researcher ORCID ID = 0000-0002-3583-7340"
+        Annotation( dcterms:source wikidata:Q59690671 )
+        dcterms:description orcid:0000-0002-3583-7340 "researcher ORCID ID = 0000-0002-3583-7340"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89147781 )
+        Annotation( dcterms:source wikidata:Q89147781 )
         rdfs:label orcid:0000-0002-3596-9597 "Matthew T Robey"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3596-9597 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89147781 )
-        dc:description orcid:0000-0002-3596-9597 "researcher"
+        Annotation( dcterms:source wikidata:Q89147781 )
+        dcterms:description orcid:0000-0002-3596-9597 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59689522 )
+        Annotation( dcterms:source wikidata:Q59689522 )
         rdfs:label orcid:0000-0002-3636-5920 "Michael S Sinclair"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3636-5920 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59689522 )
-        dc:description orcid:0000-0002-3636-5920 "researcher ORCID ID = 0000-0002-3636-5920"
+        Annotation( dcterms:source wikidata:Q59689522 )
+        dcterms:description orcid:0000-0002-3636-5920 "researcher ORCID ID = 0000-0002-3636-5920"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114403193 )
+        Annotation( dcterms:source wikidata:Q114403193 )
         rdfs:label orcid:0000-0002-3734-1859 "Carlo Tornial"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3734-1859 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114403193 )
-        dc:description orcid:0000-0002-3734-1859 "Researcher ORCID = 0000-0002-3734-1859"
+        Annotation( dcterms:source wikidata:Q114403193 )
+        dcterms:description orcid:0000-0002-3734-1859 "Researcher ORCID = 0000-0002-3734-1859"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55688193 )
+        Annotation( dcterms:source wikidata:Q55688193 )
         rdfs:label orcid:0000-0002-3806-3408 "Tsuyoshi Momose"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3806-3408 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55688193 )
-        dc:description orcid:0000-0002-3806-3408 "researcher"
+        Annotation( dcterms:source wikidata:Q55688193 )
+        dcterms:description orcid:0000-0002-3806-3408 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502750 )
+        Annotation( dcterms:source wikidata:Q47502750 )
         rdfs:label orcid:0000-0002-3837-8864 "Tanya Z Berardini"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3837-8864 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47502750 )
-        dc:description orcid:0000-0002-3837-8864 "researcher"
+        Annotation( dcterms:source wikidata:Q47502750 )
+        dcterms:description orcid:0000-0002-3837-8864 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57054176 )
+        Annotation( dcterms:source wikidata:Q57054176 )
         rdfs:label orcid:0000-0002-3884-3420 "Simon J D Cox"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3884-3420 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57054176 )
-        dc:description orcid:0000-0002-3884-3420 "semantic researcher, geologist"
+        Annotation( dcterms:source wikidata:Q57054176 )
+        dcterms:description orcid:0000-0002-3884-3420 "semantic researcher, geologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58880298 )
+        Annotation( dcterms:source wikidata:Q58880298 )
         rdfs:label orcid:0000-0002-3898-1727 "Barbara Kramarz"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3898-1727 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58880298 )
-        dc:description orcid:0000-0002-3898-1727 "researcher ORCID ID = 0000-0002-3898-1727"
+        Annotation( dcterms:source wikidata:Q58880298 )
+        dcterms:description orcid:0000-0002-3898-1727 "researcher ORCID ID = 0000-0002-3898-1727"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56604108 )
+        Annotation( dcterms:source wikidata:Q56604108 )
         rdfs:label orcid:0000-0002-3947-4444 "Martin Larralde"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3947-4444 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56604108 )
-        dc:description orcid:0000-0002-3947-4444 "researcher"
+        Annotation( dcterms:source wikidata:Q56604108 )
+        dcterms:description orcid:0000-0002-3947-4444 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91179315 )
+        Annotation( dcterms:source wikidata:Q91179315 )
         rdfs:label orcid:0000-0002-4071-8397 "Zoë M Pendlington"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4071-8397 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91179315 )
-        dc:description orcid:0000-0002-4071-8397 "researcher (ORCID 0000-0002-4071-8397)"
+        Annotation( dcterms:source wikidata:Q91179315 )
+        dcterms:description orcid:0000-0002-4071-8397 "researcher (ORCID 0000-0002-4071-8397)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416351 )
+        Annotation( dcterms:source wikidata:Q108416351 )
         rdfs:label orcid:0000-0002-4142-7153 "Sabrina Toro"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4142-7153 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416351 )
-        dc:description orcid:0000-0002-4142-7153 "researcher"
+        Annotation( dcterms:source wikidata:Q108416351 )
+        dcterms:description orcid:0000-0002-4142-7153 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41566750 )
+        Annotation( dcterms:source wikidata:Q41566750 )
         rdfs:label orcid:0000-0002-4366-3088 "Pier Luigi Buttigieg"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4366-3088 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41566750 )
-        dc:description orcid:0000-0002-4366-3088 "researcher"
+        Annotation( dcterms:source wikidata:Q41566750 )
+        dcterms:description orcid:0000-0002-4366-3088 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q111526841 )
+        Annotation( dcterms:source wikidata:Q111526841 )
         rdfs:label orcid:0000-0002-4475-896X "John Levander"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4475-896X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q71564910 )
+        Annotation( dcterms:source wikidata:Q71564910 )
         rdfs:label orcid:0000-0002-4532-2703 "Petra Fey"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4532-2703 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q71564910 )
-        dc:description orcid:0000-0002-4532-2703 "researcher"
+        Annotation( dcterms:source wikidata:Q71564910 )
+        dcterms:description orcid:0000-0002-4532-2703 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q96047138 )
+        Annotation( dcterms:source wikidata:Q96047138 )
         rdfs:label orcid:0000-0002-4600-1258 "Josh Hanna"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4600-1258 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q96047138 )
-        dc:description orcid:0000-0002-4600-1258 "researcher"
+        Annotation( dcterms:source wikidata:Q96047138 )
+        dcterms:description orcid:0000-0002-4600-1258 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610822 )
+        Annotation( dcterms:source wikidata:Q110610822 )
         rdfs:label orcid:0000-0002-4642-1738 "Cynthia J Grondin"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4642-1738 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610822 )
-        dc:description orcid:0000-0002-4642-1738 "Researcher ORCID = 0000-0002-4642-1738"
+        Annotation( dcterms:source wikidata:Q110610822 )
+        dcterms:description orcid:0000-0002-4642-1738 "Researcher ORCID = 0000-0002-4642-1738"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41045685 )
+        Annotation( dcterms:source wikidata:Q41045685 )
         rdfs:label orcid:0000-0002-4798-9499 "Karen Cranston"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4798-9499 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41045685 )
-        dc:description orcid:0000-0002-4798-9499 "Canadian geneticist"
+        Annotation( dcterms:source wikidata:Q41045685 )
+        dcterms:description orcid:0000-0002-4798-9499 "Canadian geneticist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114556518 )
+        Annotation( dcterms:source wikidata:Q114556518 )
         rdfs:label orcid:0000-0002-4839-5158 "Isuru Liyanage"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4839-5158 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114556518 )
-        dc:description orcid:0000-0002-4839-5158 "researcher"
+        Annotation( dcterms:source wikidata:Q114556518 )
+        dcterms:description orcid:0000-0002-4839-5158 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56958202 )
+        Annotation( dcterms:source wikidata:Q56958202 )
         rdfs:label orcid:0000-0002-5111-7263 "Paul N. Schofield"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5111-7263 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56958202 )
-        dc:description orcid:0000-0002-5111-7263 "researcher"
+        Annotation( dcterms:source wikidata:Q56958202 )
+        dcterms:description orcid:0000-0002-5111-7263 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56879078 )
+        Annotation( dcterms:source wikidata:Q56879078 )
         rdfs:label orcid:0000-0002-5159-414X "Edison Ong"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5159-414X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56879078 )
-        dc:description orcid:0000-0002-5159-414X "researcher"
+        Annotation( dcterms:source wikidata:Q56879078 )
+        dcterms:description orcid:0000-0002-5159-414X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q52804485 )
+        Annotation( dcterms:source wikidata:Q52804485 )
         rdfs:label orcid:0000-0002-5316-1399 "Sebastian Köhler"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5316-1399 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q52804485 )
-        dc:description orcid:0000-0002-5316-1399 "bioinformatician and ontologist"
+        Annotation( dcterms:source wikidata:Q52804485 )
+        dcterms:description orcid:0000-0002-5316-1399 "bioinformatician and ontologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61054524 )
+        Annotation( dcterms:source wikidata:Q61054524 )
         rdfs:label orcid:0000-0002-5379-5359 "Yu Lin"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5379-5359 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61054524 )
-        dc:description orcid:0000-0002-5379-5359 "researcher ORCID ID = 0000-0002-5379-5359"
+        Annotation( dcterms:source wikidata:Q61054524 )
+        dcterms:description orcid:0000-0002-5379-5359 "researcher ORCID ID = 0000-0002-5379-5359"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q51147853 )
+        Annotation( dcterms:source wikidata:Q51147853 )
         rdfs:label orcid:0000-0002-5596-6895 "Brandon T. Sinn"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5596-6895 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q51147853 )
-        dc:description orcid:0000-0002-5596-6895 "researcher"
+        Annotation( dcterms:source wikidata:Q51147853 )
+        dcterms:description orcid:0000-0002-5596-6895 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28745439 )
+        Annotation( dcterms:source wikidata:Q28745439 )
         rdfs:label orcid:0000-0002-5628-2268 "Cristian R. Munteanu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5628-2268 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28745439 )
-        dc:description orcid:0000-0002-5628-2268 "scientist working in Spain"
+        Annotation( dcterms:source wikidata:Q28745439 )
+        dcterms:description orcid:0000-0002-5628-2268 "scientist working in Spain"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q21387534 )
+        Annotation( dcterms:source wikidata:Q21387534 )
         rdfs:label orcid:0000-0002-5640-5491 "Matthew J. Yoder"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5640-5491 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q21387534 )
-        dc:description orcid:0000-0002-5640-5491 "entomologist"
+        Annotation( dcterms:source wikidata:Q21387534 )
+        dcterms:description orcid:0000-0002-5640-5491 "entomologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q67220657 )
+        Annotation( dcterms:source wikidata:Q67220657 )
         rdfs:label orcid:0000-0002-5714-991X "Christian J Stoeckert"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5714-991X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q67220657 )
-        dc:description orcid:0000-0002-5714-991X "researcher"
+        Annotation( dcterms:source wikidata:Q67220657 )
+        dcterms:description orcid:0000-0002-5714-991X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517942 )
+        Annotation( dcterms:source wikidata:Q114517942 )
         rdfs:label orcid:0000-0002-5754-1938 "Markus Kirolos Youssef"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5754-1938 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517942 )
-        dc:description orcid:0000-0002-5754-1938 "Researcher ORCID = 0000-0002-5754-1938"
+        Annotation( dcterms:source wikidata:Q114517942 )
+        dcterms:description orcid:0000-0002-5754-1938 "Researcher ORCID = 0000-0002-5754-1938"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q48975647 )
+        Annotation( dcterms:source wikidata:Q48975647 )
         rdfs:label orcid:0000-0002-5905-1617 "John Deck"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5905-1617 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q48975647 )
-        dc:description orcid:0000-0002-5905-1617 "researcher"
+        Annotation( dcterms:source wikidata:Q48975647 )
+        dcterms:description orcid:0000-0002-5905-1617 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114519920 )
+        Annotation( dcterms:source wikidata:Q114519920 )
         rdfs:label orcid:0000-0002-5979-0102 "Wenjin Zhang"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5979-0102 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114519920 )
-        dc:description orcid:0000-0002-5979-0102 "Researcher ORCID = 0000-0002-5979-0102"
+        Annotation( dcterms:source wikidata:Q114519920 )
+        dcterms:description orcid:0000-0002-5979-0102 "Researcher ORCID = 0000-0002-5979-0102"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114740047 )
+        Annotation( dcterms:source wikidata:Q114740047 )
         rdfs:label orcid:0000-0002-6020-5919 "Elizabeth Arnaud"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6020-5919 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114740047 )
-        dc:description orcid:0000-0002-6020-5919 "researcher"
+        Annotation( dcterms:source wikidata:Q114740047 )
+        dcterms:description orcid:0000-0002-6020-5919 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59702685 )
+        Annotation( dcterms:source wikidata:Q59702685 )
         rdfs:label orcid:0000-0002-6095-8718 "Damien Goutte-Gattat"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6095-8718 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59702685 )
-        dc:description orcid:0000-0002-6095-8718 "researcher ORCID ID = 0000-0002-6095-8718"
+        Annotation( dcterms:source wikidata:Q59702685 )
+        dcterms:description orcid:0000-0002-6095-8718 "researcher ORCID ID = 0000-0002-6095-8718"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59462105 )
+        Annotation( dcterms:source wikidata:Q59462105 )
         rdfs:label orcid:0000-0002-6148-7962 "Matthew Lange"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6148-7962 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59462105 )
-        dc:description orcid:0000-0002-6148-7962 "researcher from UC Davis"
+        Annotation( dcterms:source wikidata:Q59462105 )
+        dcterms:description orcid:0000-0002-6148-7962 "researcher from UC Davis"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59116660 )
+        Annotation( dcterms:source wikidata:Q59116660 )
         rdfs:label orcid:0000-0002-6178-3585 "Daniel Fornika"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6178-3585 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59116660 )
-        dc:description orcid:0000-0002-6178-3585 "researcher ORCID ID = 0000-0002-6178-3585"
+        Annotation( dcterms:source wikidata:Q59116660 )
+        dcterms:description orcid:0000-0002-6178-3585 "researcher ORCID ID = 0000-0002-6178-3585"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89869027 )
+        Annotation( dcterms:source wikidata:Q89869027 )
         rdfs:label orcid:0000-0002-6379-8932 "Laurel Cooper"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6379-8932 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89869027 )
-        dc:description orcid:0000-0002-6379-8932 "researcher"
+        Annotation( dcterms:source wikidata:Q89869027 )
+        dcterms:description orcid:0000-0002-6379-8932 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58171316 )
+        Annotation( dcterms:source wikidata:Q58171316 )
         rdfs:label orcid:0000-0002-6441-8006 "Gaston K Mazandu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6441-8006 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58171316 )
-        dc:description orcid:0000-0002-6441-8006 "researcher, ORCID id # 0000-0002-6441-8006"
+        Annotation( dcterms:source wikidata:Q58171316 )
+        dcterms:description orcid:0000-0002-6441-8006 "researcher, ORCID id # 0000-0002-6441-8006"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110616111 )
+        Annotation( dcterms:source wikidata:Q110616111 )
         rdfs:label orcid:0000-0002-6443-9376 "Jennifer R. Smith"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6443-9376 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110616111 )
-        dc:description orcid:0000-0002-6443-9376 "Researcher ORCID = 0000-0002-6443-9376"
+        Annotation( dcterms:source wikidata:Q110616111 )
+        dcterms:description orcid:0000-0002-6443-9376 "Researcher ORCID = 0000-0002-6443-9376"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114518281 )
+        Annotation( dcterms:source wikidata:Q114518281 )
         rdfs:label orcid:0000-0002-6490-7723 "Anna V. Anagnostopoulos"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6490-7723 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114518281 )
-        dc:description orcid:0000-0002-6490-7723 "Researcher ORCID = 0000-0002-6490-7723"
+        Annotation( dcterms:source wikidata:Q114518281 )
+        dcterms:description orcid:0000-0002-6490-7723 "Researcher ORCID = 0000-0002-6490-7723"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114518421 )
+        Annotation( dcterms:source wikidata:Q114518421 )
         rdfs:label orcid:0000-0002-6523-4866 "Anita Reane Caron"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6523-4866 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114518421 )
-        dc:description orcid:0000-0002-6523-4866 "Researcher ORCID = 0000-0002-6523-4866"
+        Annotation( dcterms:source wikidata:Q114518421 )
+        dcterms:description orcid:0000-0002-6523-4866 "Researcher ORCID = 0000-0002-6523-4866"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20746118 )
+        Annotation( dcterms:source wikidata:Q20746118 )
         rdfs:label orcid:0000-0002-6601-2165 "Christopher J. Mungall"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6601-2165 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q20746118 )
-        dc:description orcid:0000-0002-6601-2165 "bioinformatics researcher"
+        Annotation( dcterms:source wikidata:Q20746118 )
+        dcterms:description orcid:0000-0002-6601-2165 "bioinformatics researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q104475281 )
+        Annotation( dcterms:source wikidata:Q104475281 )
         rdfs:label orcid:0000-0002-6659-0416 "Dustin Ebert"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6659-0416 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q104475281 )
-        dc:description orcid:0000-0002-6659-0416 "researcher"
+        Annotation( dcterms:source wikidata:Q104475281 )
+        dcterms:description orcid:0000-0002-6659-0416 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q92916417 )
+        Annotation( dcterms:source wikidata:Q92916417 )
         rdfs:label orcid:0000-0002-6704-7538 "Zhi-Liang Hu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6704-7538 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q92916417 )
-        dc:description orcid:0000-0002-6704-7538 "researcher (ORCID 0000-0002-6704-7538)"
+        Annotation( dcterms:source wikidata:Q92916417 )
+        dcterms:description orcid:0000-0002-6704-7538 "researcher (ORCID 0000-0002-6704-7538)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54801113 )
+        Annotation( dcterms:source wikidata:Q54801113 )
         rdfs:label orcid:0000-0002-6726-6319 "Torben Göpel"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6726-6319 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54801113 )
-        dc:description orcid:0000-0002-6726-6319 "researcher"
+        Annotation( dcterms:source wikidata:Q54801113 )
+        dcterms:description orcid:0000-0002-6726-6319 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56835890 )
+        Annotation( dcterms:source wikidata:Q56835890 )
         rdfs:label orcid:0000-0002-7061-5073 "Colin Gross"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7061-5073 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56835890 )
-        dc:description orcid:0000-0002-7061-5073 "researcher"
+        Annotation( dcterms:source wikidata:Q56835890 )
+        dcterms:description orcid:0000-0002-7061-5073 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303418 )
+        Annotation( dcterms:source wikidata:Q54303418 )
         rdfs:label orcid:0000-0002-7073-9172 "David Osumi-Sutherland"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7073-9172 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303418 )
-        dc:description orcid:0000-0002-7073-9172 "researcher"
+        Annotation( dcterms:source wikidata:Q54303418 )
+        dcterms:description orcid:0000-0002-7073-9172 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q92230671 )
+        Annotation( dcterms:source wikidata:Q92230671 )
         rdfs:label orcid:0000-0002-7284-3950 "Xingmin Aaron Zhang"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7284-3950 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q92230671 )
-        dc:description orcid:0000-0002-7284-3950 "researcher (ORCID 0000-0002-7284-3950)"
+        Annotation( dcterms:source wikidata:Q92230671 )
+        dcterms:description orcid:0000-0002-7284-3950 "researcher (ORCID 0000-0002-7284-3950)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57055213 )
+        Annotation( dcterms:source wikidata:Q57055213 )
         rdfs:label orcid:0000-0002-7287-9013 "Chuming Chen"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7287-9013 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57055213 )
-        dc:description orcid:0000-0002-7287-9013 "researcher"
+        Annotation( dcterms:source wikidata:Q57055213 )
+        dcterms:description orcid:0000-0002-7287-9013 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q19857258 )
+        Annotation( dcterms:source wikidata:Q19857258 )
         rdfs:label orcid:0000-0002-7334-7852 "Benjamin M. Good"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7334-7852 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q19857258 )
-        dc:description orcid:0000-0002-7334-7852 "bioinformatician"
+        Annotation( dcterms:source wikidata:Q19857258 )
+        dcterms:description orcid:0000-0002-7334-7852 "bioinformatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q60972192 )
+        Annotation( dcterms:source wikidata:Q60972192 )
         rdfs:label orcid:0000-0002-7356-1779 "Nicolas Matentzoglu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7356-1779 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q60972192 )
-        dc:description orcid:0000-0002-7356-1779 "researcher ORCID ID = 0000-0002-7356-1779"
+        Annotation( dcterms:source wikidata:Q60972192 )
+        dcterms:description orcid:0000-0002-7356-1779 "researcher ORCID ID = 0000-0002-7356-1779"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q83382941 )
+        Annotation( dcterms:source wikidata:Q83382941 )
         rdfs:label orcid:0000-0002-7440-0467 "Lucas Leclère"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7440-0467 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q83382941 )
-        dc:description orcid:0000-0002-7440-0467 "researcher"
+        Annotation( dcterms:source wikidata:Q83382941 )
+        dcterms:description orcid:0000-0002-7440-0467 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416491 )
+        Annotation( dcterms:source wikidata:Q108416491 )
         rdfs:label orcid:0000-0002-7463-6306 "Lauren E. Chan"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7463-6306 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416491 )
-        dc:description orcid:0000-0002-7463-6306 "researcher"
+        Annotation( dcterms:source wikidata:Q108416491 )
+        dcterms:description orcid:0000-0002-7463-6306 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q64821980 )
+        Annotation( dcterms:source wikidata:Q64821980 )
         rdfs:label orcid:0000-0002-7509-4801 "Thomas H Gillespie"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7509-4801 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q64821980 )
-        dc:description orcid:0000-0002-7509-4801 "researcher"
+        Annotation( dcterms:source wikidata:Q64821980 )
+        dcterms:description orcid:0000-0002-7509-4801 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q98668834 )
+        Annotation( dcterms:source wikidata:Q98668834 )
         rdfs:label orcid:0000-0002-7535-4407 "Erin L. Davies"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7535-4407 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q98668834 )
-        dc:description orcid:0000-0002-7535-4407 "American biologist"
+        Annotation( dcterms:source wikidata:Q98668834 )
+        dcterms:description orcid:0000-0002-7535-4407 "American biologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610182 )
+        Annotation( dcterms:source wikidata:Q110610182 )
         rdfs:label orcid:0000-0002-7696-731X "Liliana Andres"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7696-731X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610182 )
-        dc:description orcid:0000-0002-7696-731X "Researcher ORCID = 0000-0002-7696-731X"
+        Annotation( dcterms:source wikidata:Q110610182 )
+        dcterms:description orcid:0000-0002-7696-731X "Researcher ORCID = 0000-0002-7696-731X"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41050709 )
+        Annotation( dcterms:source wikidata:Q41050709 )
         rdfs:label orcid:0000-0002-7702-4495 "Allyson L Lister"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7702-4495 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41050709 )
-        dc:description orcid:0000-0002-7702-4495 "researcher"
+        Annotation( dcterms:source wikidata:Q41050709 )
+        dcterms:description orcid:0000-0002-7702-4495 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28541023 )
+        Annotation( dcterms:source wikidata:Q28541023 )
         rdfs:label orcid:0000-0002-7899-7192 "Steffen Neumann"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7899-7192 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28541023 )
-        dc:description orcid:0000-0002-7899-7192 "German scientist"
+        Annotation( dcterms:source wikidata:Q28541023 )
+        dcterms:description orcid:0000-0002-7899-7192 "German scientist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q27061853 )
+        Annotation( dcterms:source wikidata:Q27061853 )
         rdfs:label orcid:0000-0002-8083-2864 "Ola Spjuth"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8083-2864 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q27061853 )
-        dc:description orcid:0000-0002-8083-2864 "Swedish chemist"
+        Annotation( dcterms:source wikidata:Q27061853 )
+        dcterms:description orcid:0000-0002-8083-2864 "Swedish chemist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114531748 )
+        Annotation( dcterms:source wikidata:Q114531748 )
         rdfs:label orcid:0000-0002-8134-1207 "Daniel P Olson"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8134-1207 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114531748 )
-        dc:description orcid:0000-0002-8134-1207 "Researcher ORCID = 0000-0002-8134-1207"
+        Annotation( dcterms:source wikidata:Q114531748 )
+        dcterms:description orcid:0000-0002-8134-1207 "Researcher ORCID = 0000-0002-8134-1207"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57334470 )
+        Annotation( dcterms:source wikidata:Q57334470 )
         rdfs:label orcid:0000-0002-8151-7479 "Raymond Lee"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8151-7479 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57334470 )
-        dc:description orcid:0000-0002-8151-7479 "researcher"
+        Annotation( dcterms:source wikidata:Q57334470 )
+        dcterms:description orcid:0000-0002-8151-7479 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58873434 )
+        Annotation( dcterms:source wikidata:Q58873434 )
         rdfs:label orcid:0000-0002-8169-9049 "Tiffany J. Callahan"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8169-9049 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58873434 )
-        dc:description orcid:0000-0002-8169-9049 "researcher ORCID ID = 0000-0002-8169-9049"
+        Annotation( dcterms:source wikidata:Q58873434 )
+        dcterms:description orcid:0000-0002-8169-9049 "researcher ORCID ID = 0000-0002-8169-9049"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57209160 )
+        Annotation( dcterms:source wikidata:Q57209160 )
         rdfs:label orcid:0000-0002-8429-8793 "Pablo Porras Millan"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8429-8793 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57209160 )
-        dc:description orcid:0000-0002-8429-8793 "researcher"
+        Annotation( dcterms:source wikidata:Q57209160 )
+        dcterms:description orcid:0000-0002-8429-8793 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q60541156 )
+        Annotation( dcterms:source wikidata:Q60541156 )
         rdfs:label orcid:0000-0002-8457-6693 "Bjoern Peters"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8457-6693 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q60541156 )
-        dc:description orcid:0000-0002-8457-6693 "researcher ORCID ID = 0000-0002-8457-6693"
+        Annotation( dcterms:source wikidata:Q60541156 )
+        dcterms:description orcid:0000-0002-8457-6693 "researcher ORCID ID = 0000-0002-8457-6693"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63389961 )
+        Annotation( dcterms:source wikidata:Q63389961 )
         rdfs:label orcid:0000-0002-8461-9745 "Marie-Angélique Laporte"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8461-9745 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63389961 )
-        dc:description orcid:0000-0002-8461-9745 "researcher"
+        Annotation( dcterms:source wikidata:Q63389961 )
+        dcterms:description orcid:0000-0002-8461-9745 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90971420 )
+        Annotation( dcterms:source wikidata:Q90971420 )
         rdfs:label orcid:0000-0002-8666-9746 "Manuel Lera-Ramirez"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8666-9746 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90971420 )
-        dc:description orcid:0000-0002-8666-9746 "researcher (ORCID 0000-0002-8666-9746)"
+        Annotation( dcterms:source wikidata:Q90971420 )
+        dcterms:description orcid:0000-0002-8666-9746 "researcher (ORCID 0000-0002-8666-9746)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37649212 )
+        Annotation( dcterms:source wikidata:Q37649212 )
         rdfs:label orcid:0000-0002-8688-6599 "James P. Balhoff"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8688-6599 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37649212 )
-        dc:description orcid:0000-0002-8688-6599 "researcher"
+        Annotation( dcterms:source wikidata:Q37649212 )
+        dcterms:description orcid:0000-0002-8688-6599 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416397 )
+        Annotation( dcterms:source wikidata:Q108416397 )
         rdfs:label orcid:0000-0002-8719-7760 "Sierra Moxon"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8719-7760 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416397 )
-        dc:description orcid:0000-0002-8719-7760 "researcher"
+        Annotation( dcterms:source wikidata:Q108416397 )
+        dcterms:description orcid:0000-0002-8719-7760 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q113275693 )
+        Annotation( dcterms:source wikidata:Q113275693 )
         rdfs:label orcid:0000-0002-8786-1756 "Wes Schafer"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8786-1756 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q113275693 )
-        dc:description orcid:0000-0002-8786-1756 "Researcher ORCID = 0000-0002-8786-1756"
+        Annotation( dcterms:source wikidata:Q113275693 )
+        dcterms:description orcid:0000-0002-8786-1756 "Researcher ORCID = 0000-0002-8786-1756"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57679070 )
+        Annotation( dcterms:source wikidata:Q57679070 )
         rdfs:label orcid:0000-0002-8841-5870 "Willy W Wong"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8841-5870 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57679070 )
-        dc:description orcid:0000-0002-8841-5870 "researcher ORCID ID = 0000-0002-8841-5870"
+        Annotation( dcterms:source wikidata:Q57679070 )
+        dcterms:description orcid:0000-0002-8841-5870 "researcher ORCID ID = 0000-0002-8841-5870"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91868864 )
+        Annotation( dcterms:source wikidata:Q91868864 )
         rdfs:label orcid:0000-0002-8844-9165 "Damion M Dooley"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8844-9165 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q91868864 )
-        dc:description orcid:0000-0002-8844-9165 "researcher (ORCID 0000-0002-8844-9165)"
+        Annotation( dcterms:source wikidata:Q91868864 )
+        dcterms:description orcid:0000-0002-8844-9165 "researcher (ORCID 0000-0002-8844-9165)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41566514 )
+        Annotation( dcterms:source wikidata:Q41566514 )
         rdfs:label orcid:0000-0002-8870-7099 "Cynthia S. Parr"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8870-7099 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41566514 )
-        dc:description orcid:0000-0002-8870-7099 "Behavioral ecologist; biodiversity informatician"
+        Annotation( dcterms:source wikidata:Q41566514 )
+        dcterms:description orcid:0000-0002-8870-7099 "Behavioral ecologist; biodiversity informatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61770112 )
+        Annotation( dcterms:source wikidata:Q61770112 )
         rdfs:label orcid:0000-0002-9074-3507 "Paul D Thomas"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9074-3507 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61770112 )
-        dc:description orcid:0000-0002-9074-3507 "researcher ORCID ID = 0000-0002-9074-3507"
+        Annotation( dcterms:source wikidata:Q61770112 )
+        dcterms:description orcid:0000-0002-9074-3507 "researcher ORCID ID = 0000-0002-9074-3507"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88354460 )
+        Annotation( dcterms:source wikidata:Q88354460 )
         rdfs:label orcid:0000-0002-9117-9338 "Zach Landis-Lewis"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9117-9338 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88354460 )
-        dc:description orcid:0000-0002-9117-9338 "researcher"
+        Annotation( dcterms:source wikidata:Q88354460 )
+        dcterms:description orcid:0000-0002-9117-9338 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610618 )
+        Annotation( dcterms:source wikidata:Q110610618 )
         rdfs:label orcid:0000-0002-9136-9932 "Luis A. Gonzalez-Montaña"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9136-9932 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610618 )
-        dc:description orcid:0000-0002-9136-9932 "Researcher ORCID = 0000-0002-9136-9932"
+        Annotation( dcterms:source wikidata:Q110610618 )
+        dcterms:description orcid:0000-0002-9136-9932 "Researcher ORCID = 0000-0002-9136-9932"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q64886237 )
+        Annotation( dcterms:source wikidata:Q64886237 )
         rdfs:label orcid:0000-0002-9284-8871 "Laura Brenskelle"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9284-8871 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q64886237 )
-        dc:description orcid:0000-0002-9284-8871 "researcher"
+        Annotation( dcterms:source wikidata:Q64886237 )
+        dcterms:description orcid:0000-0002-9284-8871 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47490301 )
+        Annotation( dcterms:source wikidata:Q47490301 )
         rdfs:label orcid:0000-0002-9353-5498 "Julie A. McMurry"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9353-5498 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47490301 )
-        dc:description orcid:0000-0002-9353-5498 "researcher"
+        Annotation( dcterms:source wikidata:Q47490301 )
+        dcterms:description orcid:0000-0002-9353-5498 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q85868696 )
+        Annotation( dcterms:source wikidata:Q85868696 )
         rdfs:label orcid:0000-0002-9372-0028 "Cristian Cocos"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9372-0028 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q85868696 )
-        dc:description orcid:0000-0002-9372-0028 "researcher"
+        Annotation( dcterms:source wikidata:Q85868696 )
+        dcterms:description orcid:0000-0002-9372-0028 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q96209982 )
+        Annotation( dcterms:source wikidata:Q96209982 )
         rdfs:label orcid:0000-0002-9415-5104 "Frederic B Bastian"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9415-5104 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q96209982 )
-        dc:description orcid:0000-0002-9415-5104 "researcher"
+        Annotation( dcterms:source wikidata:Q96209982 )
+        dcterms:description orcid:0000-0002-9415-5104 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q23809262 )
+        Annotation( dcterms:source wikidata:Q23809262 )
         rdfs:label orcid:0000-0002-9551-6370 "Melanie Courtot"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9551-6370 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q23809262 )
-        dc:description orcid:0000-0002-9551-6370 "Principal developer of the Gene Ontology"
+        Annotation( dcterms:source wikidata:Q23809262 )
+        dcterms:description orcid:0000-0002-9551-6370 "Principal developer of the Gene Ontology"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303422 )
+        Annotation( dcterms:source wikidata:Q54303422 )
         rdfs:label orcid:0000-0002-9611-1279 "Erik Segerdell"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9611-1279 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q54303422 )
-        dc:description orcid:0000-0002-9611-1279 "researcher"
+        Annotation( dcterms:source wikidata:Q54303422 )
+        dcterms:description orcid:0000-0002-9611-1279 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61601010 )
+        Annotation( dcterms:source wikidata:Q61601010 )
         rdfs:label orcid:0000-0002-9654-0073 "Robert W Thacker"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9654-0073 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61601010 )
-        dc:description orcid:0000-0002-9654-0073 "researcher ORCID ID = 0000-0002-9654-0073"
+        Annotation( dcterms:source wikidata:Q61601010 )
+        dcterms:description orcid:0000-0002-9654-0073 "researcher ORCID ID = 0000-0002-9654-0073"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q95976403 )
+        Annotation( dcterms:source wikidata:Q95976403 )
         rdfs:label orcid:0000-0002-9673-1283 "Yuki Yamagata"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9673-1283 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q95976403 )
-        dc:description orcid:0000-0002-9673-1283 "researcher"
+        Annotation( dcterms:source wikidata:Q95976403 )
+        dcterms:description orcid:0000-0002-9673-1283 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86714504 )
+        Annotation( dcterms:source wikidata:Q86714504 )
         rdfs:label orcid:0000-0002-9770-2345 "Geoffrey D Ower"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9770-2345 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86714504 )
-        dc:description orcid:0000-0002-9770-2345 "biodiversity informatician"
+        Annotation( dcterms:source wikidata:Q86714504 )
+        dcterms:description orcid:0000-0002-9770-2345 "biodiversity informatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56590169 )
+        Annotation( dcterms:source wikidata:Q56590169 )
         rdfs:label orcid:0000-0002-9881-1017 "William Hogan"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9881-1017 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56590169 )
-        dc:description orcid:0000-0002-9881-1017 "researcher (ORCID 0000-0002-9881-1017)"
+        Annotation( dcterms:source wikidata:Q56590169 )
+        dcterms:description orcid:0000-0002-9881-1017 "researcher (ORCID 0000-0002-9881-1017)"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37649111 )
+        Annotation( dcterms:source wikidata:Q37649111 )
         rdfs:label orcid:0000-0002-9900-7880 "Yvonne Bradford"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9900-7880 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37649111 )
-        dc:description orcid:0000-0002-9900-7880 "researcher"
+        Annotation( dcterms:source wikidata:Q37649111 )
+        dcterms:description orcid:0000-0002-9900-7880 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41566708 )
+        Annotation( dcterms:source wikidata:Q41566708 )
         rdfs:label orcid:0000-0002-9943-2342 "Jennifer A Hammock"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9943-2342 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q41566708 )
-        dc:description orcid:0000-0002-9943-2342 "researcher, ORCID # 0000-0002-9943-2342"
+        Annotation( dcterms:source wikidata:Q41566708 )
+        dcterms:description orcid:0000-0002-9943-2342 "researcher, ORCID # 0000-0002-9943-2342"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q64019189 )
+        Annotation( dcterms:source wikidata:Q64019189 )
         rdfs:label orcid:0000-0003-0705-9809 "Rahuman S. Malik Sheriff"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0705-9809 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q64019189 )
-        dc:description orcid:0000-0003-0705-9809 "researcher"
+        Annotation( dcterms:source wikidata:Q64019189 )
+        dcterms:description orcid:0000-0003-0705-9809 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28028010 )
+        Annotation( dcterms:source wikidata:Q28028010 )
         rdfs:label orcid:0000-0003-0719-3485 "Elvira Mitraka"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0719-3485 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28028010 )
-        dc:description orcid:0000-0003-0719-3485 "researcher"
+        Annotation( dcterms:source wikidata:Q28028010 )
+        dcterms:description orcid:0000-0003-0719-3485 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q102053980 )
+        Annotation( dcterms:source wikidata:Q102053980 )
         rdfs:label orcid:0000-0003-0914-2470 "Anthony Bretaudeau"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0914-2470 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q102053980 )
-        dc:description orcid:0000-0003-0914-2470 "researcher"
+        Annotation( dcterms:source wikidata:Q102053980 )
+        dcterms:description orcid:0000-0003-0914-2470 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57350709 )
+        Annotation( dcterms:source wikidata:Q57350709 )
         rdfs:label orcid:0000-0003-1030-6348 "Frank J Manion"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1030-6348 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57350709 )
-        dc:description orcid:0000-0003-1030-6348 "researcher"
+        Annotation( dcterms:source wikidata:Q57350709 )
+        dcterms:description orcid:0000-0003-1030-6348 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55473247 )
+        Annotation( dcterms:source wikidata:Q55473247 )
         rdfs:label orcid:0000-0003-1058-2668 "Danielle Welter"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1058-2668 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55473247 )
-        dc:description orcid:0000-0003-1058-2668 "researcher"
+        Annotation( dcterms:source wikidata:Q55473247 )
+        dcterms:description orcid:0000-0003-1058-2668 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90829701 )
+        Annotation( dcterms:source wikidata:Q90829701 )
         rdfs:label orcid:0000-0003-1144-0290 "John Wieczorek"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1144-0290 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90829701 )
-        dc:description orcid:0000-0003-1144-0290 "biodiversity informaticist"
+        Annotation( dcterms:source wikidata:Q90829701 )
+        dcterms:description orcid:0000-0003-1144-0290 "biodiversity informaticist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517064 )
+        Annotation( dcterms:source wikidata:Q114517064 )
         rdfs:label orcid:0000-0003-1159-9269 "Philipp Wegner"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1159-9269 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114517064 )
-        dc:description orcid:0000-0003-1159-9269 "Researcher ORCID = 0000-0003-1159-9269"
+        Annotation( dcterms:source wikidata:Q114517064 )
+        dcterms:description orcid:0000-0003-1159-9269 "Researcher ORCID = 0000-0003-1159-9269"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58669039 )
+        Annotation( dcterms:source wikidata:Q58669039 )
         rdfs:label orcid:0000-0003-1179-5999 "Antonia Lock"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1179-5999 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58669039 )
-        dc:description orcid:0000-0003-1179-5999 "researcher ORCID ID = 0000-0003-1179-5999"
+        Annotation( dcterms:source wikidata:Q58669039 )
+        dcterms:description orcid:0000-0003-1179-5999 "researcher ORCID ID = 0000-0003-1179-5999"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57585308 )
+        Annotation( dcterms:source wikidata:Q57585308 )
         rdfs:label orcid:0000-0003-1264-1166 "Steven S Chong"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1264-1166 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57585308 )
-        dc:description orcid:0000-0003-1264-1166 "researcher ORCID ID = 0000-0003-1264-1166"
+        Annotation( dcterms:source wikidata:Q57585308 )
+        dcterms:description orcid:0000-0003-1264-1166 "researcher ORCID ID = 0000-0003-1264-1166"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57070150 )
+        Annotation( dcterms:source wikidata:Q57070150 )
         rdfs:label orcid:0000-0003-1279-6838 "Joshua Klein"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1279-6838 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57070150 )
-        dc:description orcid:0000-0003-1279-6838 "researcher"
+        Annotation( dcterms:source wikidata:Q57070150 )
+        dcterms:description orcid:0000-0003-1279-6838 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30508615 )
+        Annotation( dcterms:source wikidata:Q30508615 )
         rdfs:label orcid:0000-0003-1355-892X "Richard H. Scheuermann"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1355-892X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30508615 )
-        dc:description orcid:0000-0003-1355-892X "researcher"
+        Annotation( dcterms:source wikidata:Q30508615 )
+        dcterms:description orcid:0000-0003-1355-892X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109615937 )
+        Annotation( dcterms:source wikidata:Q109615937 )
         rdfs:label orcid:0000-0003-1587-3667 "Chisato Yamasaki"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1587-3667 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q109615937 )
-        dc:description orcid:0000-0003-1587-3667 "researcher in biocuration"
+        Annotation( dcterms:source wikidata:Q109615937 )
+        dcterms:description orcid:0000-0003-1587-3667 "researcher in biocuration"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57678148 )
+        Annotation( dcterms:source wikidata:Q57678148 )
         rdfs:label orcid:0000-0003-1640-9989 "Jonathan Bisson"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1640-9989 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57678148 )
-        dc:description orcid:0000-0003-1640-9989 "researcher ORCID ID = 0000-0003-1640-9989"
+        Annotation( dcterms:source wikidata:Q57678148 )
+        dcterms:description orcid:0000-0003-1640-9989 "researcher ORCID ID = 0000-0003-1640-9989"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56994936 )
+        Annotation( dcterms:source wikidata:Q56994936 )
         rdfs:label orcid:0000-0003-1774-6629 "Nicole Ruiz"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1774-6629 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56994936 )
-        dc:description orcid:0000-0003-1774-6629 "researcher"
+        Annotation( dcterms:source wikidata:Q56994936 )
+        dcterms:description orcid:0000-0003-1774-6629 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q100496548 )
+        Annotation( dcterms:source wikidata:Q100496548 )
         rdfs:label orcid:0000-0003-1807-7930 "Zachary E X Dance"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1807-7930 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q100496548 )
-        dc:description orcid:0000-0003-1807-7930 "researcher"
+        Annotation( dcterms:source wikidata:Q100496548 )
+        dcterms:description orcid:0000-0003-1807-7930 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30032484 )
+        Annotation( dcterms:source wikidata:Q30032484 )
         rdfs:label orcid:0000-0003-1813-6857 "Pascale Gaudet"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1813-6857 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30032484 )
-        dc:description orcid:0000-0003-1813-6857 "Canadian biocurator"
+        Annotation( dcterms:source wikidata:Q30032484 )
+        dcterms:description orcid:0000-0003-1813-6857 "Canadian biocurator"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57161944 )
+        Annotation( dcterms:source wikidata:Q57161944 )
         rdfs:label orcid:0000-0003-1834-3856 "Mathias Brochhausen"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1834-3856 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57161944 )
-        dc:description orcid:0000-0003-1834-3856 "researcher"
+        Annotation( dcterms:source wikidata:Q57161944 )
+        dcterms:description orcid:0000-0003-1834-3856 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q44167741 )
+        Annotation( dcterms:source wikidata:Q44167741 )
         rdfs:label orcid:0000-0003-2034-601X "Maria C Keays"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2034-601X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q44167741 )
-        dc:description orcid:0000-0003-2034-601X "researcher"
+        Annotation( dcterms:source wikidata:Q44167741 )
+        dcterms:description orcid:0000-0003-2034-601X "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416458 )
+        Annotation( dcterms:source wikidata:Q108416458 )
         rdfs:label orcid:0000-0003-2338-2550 "Shahim Essaid"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2338-2550 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q108416458 )
-        dc:description orcid:0000-0003-2338-2550 "researcher"
+        Annotation( dcterms:source wikidata:Q108416458 )
+        dcterms:description orcid:0000-0003-2338-2550 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610945 )
+        Annotation( dcterms:source wikidata:Q110610945 )
         rdfs:label orcid:0000-0003-2338-8872 "Fernanda Farinelli"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2338-8872 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610945 )
-        dc:description orcid:0000-0003-2338-8872 "Researcher ORCID = 0000-0003-2338-8872"
+        Annotation( dcterms:source wikidata:Q110610945 )
+        dcterms:description orcid:0000-0003-2338-8872 "Researcher ORCID = 0000-0003-2338-8872"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47012855 )
+        Annotation( dcterms:source wikidata:Q47012855 )
         rdfs:label orcid:0000-0003-2387-503X "Duncan Hull"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2387-503X )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47012855 )
-        dc:description orcid:0000-0003-2387-503X "British computer scientist"
+        Annotation( dcterms:source wikidata:Q47012855 )
+        dcterms:description orcid:0000-0003-2387-503X "British computer scientist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88033382 )
+        Annotation( dcterms:source wikidata:Q88033382 )
         rdfs:label orcid:0000-0003-2408-2883 "Jingshan Huang"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2408-2883 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q88033382 )
-        dc:description orcid:0000-0003-2408-2883 "researcher"
+        Annotation( dcterms:source wikidata:Q88033382 )
+        dcterms:description orcid:0000-0003-2408-2883 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90076935 )
+        Annotation( dcterms:source wikidata:Q90076935 )
         rdfs:label orcid:0000-0003-2473-2313 "Tiago Lubiana"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2473-2313 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q90076935 )
-        dc:description orcid:0000-0003-2473-2313 "researcher"
+        Annotation( dcterms:source wikidata:Q90076935 )
+        dcterms:description orcid:0000-0003-2473-2313 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114530199 )
+        Annotation( dcterms:source wikidata:Q114530199 )
         rdfs:label orcid:0000-0003-2569-1939 "Stephanie H Nowotarski"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2569-1939 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114530199 )
-        dc:description orcid:0000-0003-2569-1939 "Researcher ORCID = 0000-0003-2569-1939"
+        Annotation( dcterms:source wikidata:Q114530199 )
+        dcterms:description orcid:0000-0003-2569-1939 "Researcher ORCID = 0000-0003-2569-1939"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q43429774 )
+        Annotation( dcterms:source wikidata:Q43429774 )
         rdfs:label orcid:0000-0003-2678-2824 "Joanna Argasinska"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2678-2824 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q43429774 )
-        dc:description orcid:0000-0003-2678-2824 "researcher"
+        Annotation( dcterms:source wikidata:Q43429774 )
+        dcterms:description orcid:0000-0003-2678-2824 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59763318 )
+        Annotation( dcterms:source wikidata:Q59763318 )
         rdfs:label orcid:0000-0003-2699-3066 "Meghan Balk"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2699-3066 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59763318 )
-        dc:description orcid:0000-0003-2699-3066 "ecologist"
+        Annotation( dcterms:source wikidata:Q59763318 )
+        dcterms:description orcid:0000-0003-2699-3066 "ecologist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61831637 )
+        Annotation( dcterms:source wikidata:Q61831637 )
         rdfs:label orcid:0000-0003-2722-5106 "Dario Cambié"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2722-5106 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q61831637 )
-        dc:description orcid:0000-0003-2722-5106 "researcher ORCID ID = 0000-0003-2722-5106"
+        Annotation( dcterms:source wikidata:Q61831637 )
+        dcterms:description orcid:0000-0003-2722-5106 "researcher ORCID ID = 0000-0003-2722-5106"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q4747830 )
+        Annotation( dcterms:source wikidata:Q4747830 )
         rdfs:label orcid:0000-0003-2826-6444 "Amos Bairoch"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2826-6444 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q4747830 )
-        dc:description orcid:0000-0003-2826-6444 "Swiss bioinformatician"
+        Annotation( dcterms:source wikidata:Q4747830 )
+        dcterms:description orcid:0000-0003-2826-6444 "Swiss bioinformatician"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55396914 )
+        Annotation( dcterms:source wikidata:Q55396914 )
         rdfs:label orcid:0000-0003-2887-4765 "Paul M. Thomas"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2887-4765 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q55396914 )
-        dc:description orcid:0000-0003-2887-4765 "researcher"
+        Annotation( dcterms:source wikidata:Q55396914 )
+        dcterms:description orcid:0000-0003-2887-4765 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q35850179 )
+        Annotation( dcterms:source wikidata:Q35850179 )
         rdfs:label orcid:0000-0003-3067-6434 "James B. Munro"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3067-6434 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q35850179 )
-        dc:description orcid:0000-0003-3067-6434 "researcher"
+        Annotation( dcterms:source wikidata:Q35850179 )
+        dcterms:description orcid:0000-0003-3067-6434 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63766604 )
+        Annotation( dcterms:source wikidata:Q63766604 )
         rdfs:label orcid:0000-0003-3112-4682 "Thomas Wilson"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3112-4682 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q63766604 )
-        dc:description orcid:0000-0003-3112-4682 "researcher"
+        Annotation( dcterms:source wikidata:Q63766604 )
+        dcterms:description orcid:0000-0003-3112-4682 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37649170 )
+        Annotation( dcterms:source wikidata:Q37649170 )
         rdfs:label orcid:0000-0003-3162-7490 "Wasila M Dahdul"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3162-7490 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q37649170 )
-        dc:description orcid:0000-0003-3162-7490 "researcher"
+        Annotation( dcterms:source wikidata:Q37649170 )
+        dcterms:description orcid:0000-0003-3162-7490 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30532922 )
+        Annotation( dcterms:source wikidata:Q30532922 )
         rdfs:label orcid:0000-0003-3188-6273 "Laura Paglione"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3188-6273 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q30532922 )
-        dc:description orcid:0000-0003-3188-6273 "Director of Strategic Initiatives at ORCID"
+        Annotation( dcterms:source wikidata:Q30532922 )
+        dcterms:description orcid:0000-0003-3188-6273 "Director of Strategic Initiatives at ORCID"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89507835 )
+        Annotation( dcterms:source wikidata:Q89507835 )
         rdfs:label orcid:0000-0003-3245-2880 "Sarah Gehrke"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3245-2880 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q89507835 )
-        dc:description orcid:0000-0003-3245-2880 "researcher"
+        Annotation( dcterms:source wikidata:Q89507835 )
+        dcterms:description orcid:0000-0003-3245-2880 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56582619 )
+        Annotation( dcterms:source wikidata:Q56582619 )
         rdfs:label orcid:0000-0003-3308-6245 "Anne Niknejad"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3308-6245 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56582619 )
-        dc:description orcid:0000-0003-3308-6245 "researcher"
+        Annotation( dcterms:source wikidata:Q56582619 )
+        dcterms:description orcid:0000-0003-3308-6245 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59673534 )
+        Annotation( dcterms:source wikidata:Q59673534 )
         rdfs:label orcid:0000-0003-3311-7320 "Kevin Schaper"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3311-7320 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59673534 )
-        dc:description orcid:0000-0003-3311-7320 "researcher ORCID ID = 0000-0003-3311-7320"
+        Annotation( dcterms:source wikidata:Q59673534 )
+        dcterms:description orcid:0000-0003-3311-7320 "researcher ORCID ID = 0000-0003-3311-7320"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58333302 )
+        Annotation( dcterms:source wikidata:Q58333302 )
         rdfs:label orcid:0000-0003-3385-4232 "Oliver Koepler"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3385-4232 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q58333302 )
-        dc:description orcid:0000-0003-3385-4232 "researcher, ORCID id # 0000-0003-3385-4232"
+        Annotation( dcterms:source wikidata:Q58333302 )
+        dcterms:description orcid:0000-0003-3385-4232 "researcher, ORCID id # 0000-0003-3385-4232"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114354576 )
+        Annotation( dcterms:source wikidata:Q114354576 )
         rdfs:label orcid:0000-0003-3430-8997 "Hector Guzman-Orozco"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3430-8997 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114354576 )
-        dc:description orcid:0000-0003-3430-8997 "Researcher ORCID = 0000-0003-3430-8997"
+        Annotation( dcterms:source wikidata:Q114354576 )
+        dcterms:description orcid:0000-0003-3430-8997 "Researcher ORCID = 0000-0003-3430-8997"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q27824575 )
+        Annotation( dcterms:source wikidata:Q27824575 )
         rdfs:label orcid:0000-0003-3499-8262 "Alejandra González-Beltrán"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3499-8262 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q27824575 )
-        dc:description orcid:0000-0003-3499-8262 "researcher"
+        Annotation( dcterms:source wikidata:Q27824575 )
+        dcterms:description orcid:0000-0003-3499-8262 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114524588 )
+        Annotation( dcterms:source wikidata:Q114524588 )
         rdfs:label orcid:0000-0003-3593-1289 "Jonathan Lawson"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3593-1289 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114524588 )
-        dc:description orcid:0000-0003-3593-1289 "Researcher ORCID = 0000-0003-3593-1289"
+        Annotation( dcterms:source wikidata:Q114524588 )
+        dcterms:description orcid:0000-0003-3593-1289 "Researcher ORCID = 0000-0003-3593-1289"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56445645 )
+        Annotation( dcterms:source wikidata:Q56445645 )
         rdfs:label orcid:0000-0003-3691-0324 "Cynthia L Smith"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3691-0324 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56445645 )
-        dc:description orcid:0000-0003-3691-0324 "researcher on mouse genome informatics"
+        Annotation( dcterms:source wikidata:Q56445645 )
+        dcterms:description orcid:0000-0003-3691-0324 "researcher on mouse genome informatics"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110694748 )
+        Annotation( dcterms:source wikidata:Q110694748 )
         rdfs:label orcid:0000-0003-3781-6962 "Meng Liu"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3781-6962 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110694748 )
-        dc:description orcid:0000-0003-3781-6962 "Researcher ORCID = 0000-0003-3781-6962"
+        Annotation( dcterms:source wikidata:Q110694748 )
+        dcterms:description orcid:0000-0003-3781-6962 "Researcher ORCID = 0000-0003-3781-6962"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114555820 )
+        Annotation( dcterms:source wikidata:Q114555820 )
         rdfs:label orcid:0000-0003-3847-2663 "Jimena Linares"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3847-2663 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q114555820 )
-        dc:description orcid:0000-0003-3847-2663 "Researcher ORCID = 0000-0003-3847-2663"
+        Annotation( dcterms:source wikidata:Q114555820 )
+        dcterms:description orcid:0000-0003-3847-2663 "Researcher ORCID = 0000-0003-3847-2663"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56516195 )
+        Annotation( dcterms:source wikidata:Q56516195 )
         rdfs:label orcid:0000-0003-4148-4606 "Midori A Harris"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4148-4606 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56516195 )
-        dc:description orcid:0000-0003-4148-4606 "researcher"
+        Annotation( dcterms:source wikidata:Q56516195 )
+        dcterms:description orcid:0000-0003-4148-4606 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610825 )
+        Annotation( dcterms:source wikidata:Q110610825 )
         rdfs:label orcid:0000-0003-4312-9552 "Daniel C. Berrios"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4312-9552 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q110610825 )
-        dc:description orcid:0000-0003-4312-9552 "Researcher ORCID = 0000-0003-4312-9552"
+        Annotation( dcterms:source wikidata:Q110610825 )
+        dcterms:description orcid:0000-0003-4312-9552 "Researcher ORCID = 0000-0003-4312-9552"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47475003 )
+        Annotation( dcterms:source wikidata:Q47475003 )
         rdfs:label orcid:0000-0003-4423-4370 "Charles Tapley Hoyt"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4423-4370 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q47475003 )
-        dc:description orcid:0000-0003-4423-4370 "American chemist"
+        Annotation( dcterms:source wikidata:Q47475003 )
+        dcterms:description orcid:0000-0003-4423-4370 "American chemist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56840078 )
+        Annotation( dcterms:source wikidata:Q56840078 )
         rdfs:label orcid:0000-0003-4517-3004 "Rosario Lombardo"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4517-3004 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q56840078 )
-        dc:description orcid:0000-0003-4517-3004 "Italian data scientist"
+        Annotation( dcterms:source wikidata:Q56840078 )
+        dcterms:description orcid:0000-0003-4517-3004 "Italian data scientist"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86564089 )
+        Annotation( dcterms:source wikidata:Q86564089 )
         rdfs:label orcid:0000-0003-4538-2754 "Mathias Walzer"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4538-2754 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q86564089 )
-        dc:description orcid:0000-0003-4538-2754 "researcher"
+        Annotation( dcterms:source wikidata:Q86564089 )
+        dcterms:description orcid:0000-0003-4538-2754 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q96172261 )
+        Annotation( dcterms:source wikidata:Q96172261 )
         rdfs:label orcid:0000-0003-4573-0501 "Vassilis Virvilis"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4573-0501 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q96172261 )
-        dc:description orcid:0000-0003-4573-0501 "researcher"
+        Annotation( dcterms:source wikidata:Q96172261 )
+        dcterms:description orcid:0000-0003-4573-0501 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57965947 )
+        Annotation( dcterms:source wikidata:Q57965947 )
         rdfs:label orcid:0000-0003-4606-0597 "Susan M Bello"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4606-0597 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57965947 )
-        dc:description orcid:0000-0003-4606-0597 "researcher, ORCID id # 0000-0003-4606-0597"
+        Annotation( dcterms:source wikidata:Q57965947 )
+        dcterms:description orcid:0000-0003-4606-0597 "researcher, ORCID id # 0000-0003-4606-0597"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57206409 )
+        Annotation( dcterms:source wikidata:Q57206409 )
         rdfs:label orcid:0000-0003-4639-4431 "Vasundra Touré"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4639-4431 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57206409 )
-        dc:description orcid:0000-0003-4639-4431 "researcher"
+        Annotation( dcterms:source wikidata:Q57206409 )
+        dcterms:description orcid:0000-0003-4639-4431 "researcher"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28194921 )
+        Annotation( dcterms:source wikidata:Q28194921 )
         rdfs:label orcid:0000-0003-4727-9435 "Michel Dumontier"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4727-9435 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q28194921 )
-        dc:description orcid:0000-0003-4727-9435 "Distinguished Professor of Data Science at Maastricht University"
+        Annotation( dcterms:source wikidata:Q28194921 )
+        dcterms:description orcid:0000-0003-4727-9435 "Distinguished Professor of Data Science at Maastricht University"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57999163 )
+        Annotation( dcterms:source wikidata:Q57999163 )
         rdfs:label orcid:0000-0003-4785-7231 "Emily H Bowler"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4785-7231 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q57999163 )
-        dc:description orcid:0000-0003-4785-7231 "researcher, ORCID id # 0000-0003-4785-7231"
+        Annotation( dcterms:source wikidata:Q57999163 )
+        dcterms:description orcid:0000-0003-4785-7231 "researcher, ORCID id # 0000-0003-4785-7231"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59539088 )
+        Annotation( dcterms:source wikidata:Q59539088 )
         rdfs:label orcid:0000-0003-4871-5569 "Rebecca Tauber"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4871-5569 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q59539088 )
-        dc:description orcid:0000-0003-4871-5569 "researcher ORCID ID = 0000-0003-4871-5569"
+        Annotation( dcterms:source wikidata:Q59539088 )
+        dcterms:description orcid:0000-0003-4871-5569 "researcher ORCID ID = 0000-0003-4871-5569"
     )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q106806285 )
+        Annotation( dcterms:source wikidata:Q106806285 )
         rdfs:label orcid:0000-0003-1307-2508 "Amelia L. Hoyt"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1307-2508 )
     AnnotationAssertion(
-        Annotation( dc:source wikidata:Q106806285 )
-        dc:description orcid:0000-0003-1307-2508 "American biologist"
+        Annotation( dcterms:source wikidata:Q106806285 )
+        dcterms:description orcid:0000-0003-1307-2508 "American biologist"
     )
     Declaration( Class( obo:NCBITaxon_9606 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5059-4132 ) )

@@ -16,7 +16,7 @@ from funowl import (
     Ontology,
     OntologyDocument,
 )
-from rdflib import DC, DCTERMS, OWL, RDFS, Literal, Namespace, URIRef
+from rdflib import DCTERMS, OWL, RDFS, Literal, Namespace, URIRef
 
 HERE = Path(__file__).parent.resolve()
 OFN_PATH = HERE.joinpath("orcidio.ofn")
@@ -88,8 +88,8 @@ def main():
     ontology = Ontology(iri=ontology_iri)
     ontology.annotations.extend(
         (
-            Annotation(DC.title, "ORCID in OWL"),
-            Annotation(DC.creator, charlie_iri),
+            Annotation(DCTERMS.title, "ORCID in OWL"),
+            Annotation(DCTERMS.creator, charlie_iri),
             Annotation(DCTERMS.license, "https://creativecommons.org/publicdomain/zero/1.0/"),
             Annotation(RDFS.seeAlso, "https://github.com/cthoyt/wikidata-orcid-ontology"),
             Annotation(OWL.versionInfo, today),
@@ -110,7 +110,10 @@ def main():
         ontology.annotations.extend(
             [
                 AnnotationAssertion(
-                    RDFS.label, orcid, Literal(name), [Annotation(DC.source, wikidata)]
+                    RDFS.label,
+                    orcid,
+                    Literal(name),
+                    [Annotation(DCTERMS.source, wikidata)],
                 ),
                 ClassAssertion(human, orcid),
             ]
@@ -118,13 +121,15 @@ def main():
         if description:
             ontology.annotations.append(
                 AnnotationAssertion(
-                    DC.description, orcid, description, [Annotation(DC.source, wikidata)]
+                    DCTERMS.description,
+                    orcid,
+                    description,
+                    [Annotation(DCTERMS.source, wikidata)],
                 )
             )
 
     doc = OntologyDocument(
         ontology=ontology,
-        dc=DC,
         orcid=ORCID,
         wikidata=WIKIDATA,
         obo=OBO,
