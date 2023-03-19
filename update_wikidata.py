@@ -5,6 +5,7 @@ import webbrowser
 from collections import Counter
 from pathlib import Path
 from typing import Iterable
+
 import bioregistry
 import click
 import pandas as pd
@@ -61,6 +62,12 @@ def get_lines(prefix: str) -> list[EntityLine]:
     click.echo(f"downloading {prefix}")
     data = requests.get(url).json()
     orcid_counter = count_obograph_orcids(data, uri_prefix=uri_prefix)
+    if not orcid_counter:
+        click.secho(
+            f"No structured contributor information in {prefix.upper()}, skipping", fg="yellow"
+        )
+        return []
+
     click.secho(f"{prefix.upper()} contributors", fg="cyan")
     click.echo(
         tabulate(orcid_counter.most_common(), headers=["orcid", "count"], tablefmt="github") + "\n"
@@ -70,6 +77,12 @@ def get_lines(prefix: str) -> list[EntityLine]:
     orcids_annotated = {record["orcid"] for record in get_wikidata_records(sss)}
 
     orcids_unannotated = set(orcid_counter) - orcids_annotated
+    if not orcid_counter:
+        click.secho(
+            f"All contributor information in {prefix.upper()} is already in Wikidata, skipping",
+            fg="yellow",
+        )
+        return []
     records = get_wikidata_records(format_custom_sparql(orcids_unannotated))
     df = pd.DataFrame(records)
     df["contributor"] = df["contributor"].map(
