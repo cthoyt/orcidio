@@ -1,2 +1,5 @@
 *.properties
 .tox
+*.pyc
+.ipynb_checkpoints
+
