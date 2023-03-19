@@ -3,7 +3,9 @@
 import datetime
 import itertools as itt
 import os
+import time
 from pathlib import Path
+from typing import Iterable
 
 import click
 import requests
@@ -50,16 +52,22 @@ CUSTOM_SPARQL_FMT = """\
 """.rstrip()
 
 
+def format_custom_sparql(orcids: Iterable[str]) -> str:
+    """Format a custom sparql query for the given ORCIDs."""
+    return CUSTOM_SPARQL_FMT % " ".join(f'"{orcid}"' for orcid in orcids)
+
+
 def get_records():
     """Get records from the OBO-centric ORCIDs and custom ORCID list."""
     custom_orcids = {line.strip() for line in ORCIDS_PATH.read_text().splitlines()}
-    custom_sparql = CUSTOM_SPARQL_FMT % " ".join(f'"{orcid}"' for orcid in custom_orcids)
+    custom_sparql = format_custom_sparql(custom_orcids)
 
     return itt.chain(get_wikidata_records(OBO_SPARQL), get_wikidata_records(custom_sparql))
 
 
 def get_wikidata_records(sparql) -> list[dict[str, any]]:
     """Query the Wikidata SPARQL endpoint and unpack the records."""
+    start_time = time.time()
     click.echo("running sparql:")
     click.secho(sparql, fg="magenta")
     res = requests.get(
@@ -75,7 +83,8 @@ def get_wikidata_records(sparql) -> list[dict[str, any]]:
         {key: value["value"] for key, value in record.items()}
         for record in res.json()["results"]["bindings"]
     ]
-    click.echo(f"retrieved {len(rv):,} records")
+    elapsed = time.time() - start_time
+    click.echo(f"retrieved {len(rv):,} records in {elapsed:.2f} seconds")
     return rv
 
 
