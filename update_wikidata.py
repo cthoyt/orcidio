@@ -40,7 +40,7 @@ def main(dry: bool):
         try:
             lines.extend(get_lines(resource.prefix))
         except Exception as e:
-            click.secho(f"{resource.prefix.upper()} failed: {e}")
+            click.secho(f"{resource.prefix.upper()} failed with {type(e)}: {e}")
             continue
     if dry:
         click.secho("Running in dry mode. Quickstatements:", fg="cyan")
@@ -75,19 +75,28 @@ def get_lines(prefix: str) -> list[EntityLine]:
 
     sss = f"SELECT DISTINCT ?orcid WHERE {{ wd:{ontology_qid} wdt:P767/wdt:P496 ?orcid }}"
     orcids_annotated = {record["orcid"] for record in get_wikidata_records(sss)}
-
     orcids_unannotated = set(orcid_counter) - orcids_annotated
-    if not orcid_counter:
+    if not orcids_unannotated:
         click.secho(
             f"All contributor information in {prefix.upper()} is already in Wikidata, skipping",
             fg="yellow",
         )
         return []
+
     records = get_wikidata_records(format_custom_sparql(orcids_unannotated))
+    if not records:
+        click.secho(
+            f"No contributors in {prefix.upper()} have associated wikidata records",
+            fg="red",
+        )
+        return []
+
+    for record in records:
+        record["count"] = orcid_counter[record["orcid"]]
+        record["contributor"] = record["contributor"].removeprefix(
+            "http://www.wikidata.org/entity/"
+        )
     df = pd.DataFrame(records)
-    df["contributor"] = df["contributor"].map(
-        lambda s: s.removeprefix("http://www.wikidata.org/entity/")
-    )
     click.secho(f"{prefix.upper()} contributors not already captured by Wikidata", fg="cyan")
     click.echo(tabulate(df, headers=list(df.columns), showindex=False) + "\n")
 
@@ -101,10 +110,11 @@ def get_lines(prefix: str) -> list[EntityLine]:
         EntityLine(
             subject=ontology_qid,
             predicate="P767",  # contributor
-            target=record["contributor"].removeprefix("http://www.wikidata.org/entity/"),
+            target=record["contributor"],
             qualifiers=qualifiers,
         )
         for record in records
+        if "contributor" in record
     ]
     return lines
 
