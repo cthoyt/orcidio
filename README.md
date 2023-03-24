@@ -29,6 +29,11 @@ contributions in OBO Foundry ontologies. There are a few possibilities for addin
    run `python update_wikidata.py` to parse all OBO ontologies with JSON releases, generate QuickStatements, then update
    Wikidata. (TODO: this could be automated)
 
+## How to import ORCIDIO in your ontology
+
+See the [tutorial](https://oboacademy.github.io/obook/howto/odk-add-orcidio-module/)
+in the OBO Academy.
+
 ## Build
 
 After installing [`robot`](https://robot.obolibrary.org), you can run the following:
