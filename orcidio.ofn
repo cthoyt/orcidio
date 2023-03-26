@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    Annotation( owl:versionInfo "2023-03-19" )
+    Annotation( owl:versionInfo "2023-03-26" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q63775795 )
@@ -88,6 +88,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-5237-2330 "researcher (ORCID 0000-0001-5237-2330)"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q110611093 )
+        rdfs:label orcid:0000-0001-5256-8683 "Shur-Jen Wang"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5256-8683 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q110611093 )
+        dcterms:description orcid:0000-0001-5256-8683 "Researcher ORCID = 0000-0001-5256-8683"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q34388253 )
         rdfs:label orcid:0000-0001-5272-7613 "Noemi del-Toro"
     )
@@ -95,6 +104,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q34388253 )
         dcterms:description orcid:0000-0001-5272-7613 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88202347 )
+        rdfs:label orcid:0000-0001-5356-4174 "Stanley J F Laulederkind"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5356-4174 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88202347 )
+        dcterms:description orcid:0000-0001-5356-4174 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q42630935 )
@@ -142,6 +160,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-5809-9523 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57210215 )
+        rdfs:label orcid:0000-0001-5812-6405 "Josephine Z Rapp"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5812-6405 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57210215 )
+        dcterms:description orcid:0000-0001-5812-6405 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114532053 )
         rdfs:label orcid:0000-0001-5839-2535 "Emily Hartley"
     )
@@ -149,6 +176,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114532053 )
         dcterms:description orcid:0000-0001-5839-2535 "Researcher ORCID = 0000-0001-5839-2535"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q23769268 )
+        rdfs:label orcid:0000-0001-5839-6798 "Nizar Ibrahim"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5839-6798 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q23769268 )
+        dcterms:description orcid:0000-0001-5839-6798 "German-Moroccan paleontologist and anatomist"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q57081970 )
@@ -273,6 +309,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-6682-1504 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q22279699 )
+        rdfs:label orcid:0000-0001-6755-0259 "Russell A. Poldrack"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6755-0259 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q22279699 )
+        dcterms:description orcid:0000-0001-6755-0259 "American psychologist and neuroscientist"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114516953 )
         rdfs:label orcid:0000-0001-6757-4744 "Arwa Ibrahim Ahmed"
     )
@@ -309,6 +354,33 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-6946-1807 "Researcher ORCID = 0000-0001-6946-1807"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q116041404 )
+        rdfs:label orcid:0000-0001-6996-0040 "Austin Meier"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6996-0040 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q116041404 )
+        dcterms:description orcid:0000-0001-6996-0040 "Researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89570205 )
+        rdfs:label orcid:0000-0001-7090-9648 "Pablo Botas"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7090-9648 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89570205 )
+        dcterms:description orcid:0000-0001-7090-9648 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q41566706 )
+        rdfs:label orcid:0000-0001-7134-3324 "Katja S Schulz"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7134-3324 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q41566706 )
+        dcterms:description orcid:0000-0001-7134-3324 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q88393355 )
         rdfs:label orcid:0000-0001-7222-3287 "Stefan Schulz"
     )
@@ -325,6 +397,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q57023310 )
         dcterms:description orcid:0000-0001-7258-9596 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89507111 )
+        rdfs:label orcid:0000-0001-7345-444X "Sarah E Schoenrock"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7345-444X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89507111 )
+        dcterms:description orcid:0000-0001-7345-444X "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q90623277 )
@@ -372,6 +453,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-7542-0286 "Dutch chemist"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q72310426 )
+        rdfs:label orcid:0000-0001-7655-4833 "Ellen Quardokus"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7655-4833 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q72310426 )
+        dcterms:description orcid:0000-0001-7655-4833 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q54712725 )
         rdfs:label orcid:0000-0001-7694-8250 "Jonathan A Rees"
     )
@@ -379,6 +469,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q54712725 )
         dcterms:description orcid:0000-0001-7694-8250 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q86643934 )
+        rdfs:label orcid:0000-0001-7772-9578 "Gervaise Henry"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7772-9578 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q86643934 )
+        dcterms:description orcid:0000-0001-7772-9578 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57773887 )
+        rdfs:label orcid:0000-0001-7920-5321 "Sarah Whitcher Kansa"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7920-5321 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57773887 )
+        dcterms:description orcid:0000-0001-7920-5321 "researcher ORCID ID = 0000-0001-7920-5321"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114556512 )
@@ -397,6 +505,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q43155252 )
         dcterms:description orcid:0000-0001-7941-2961 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q84802701 )
+        rdfs:label orcid:0000-0001-7972-3866 "T Alexander Dececchi"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-7972-3866 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q84802701 )
+        dcterms:description orcid:0000-0001-7972-3866 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q110613369 )
@@ -444,6 +561,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-8317-7271 "researcher (ORCID 0000-0001-8317-7271)"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56486559 )
+        rdfs:label orcid:0000-0001-8369-8114 "Viola Krukenberg"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8369-8114 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56486559 )
+        dcterms:description orcid:0000-0001-8369-8114 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q89057451 )
         rdfs:label orcid:0000-0001-8397-8810 "Clair A. Kronk"
     )
@@ -471,6 +597,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-8430-6039 "researcher (ORCID 0000-0001-8430-6039)"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89454659 )
+        rdfs:label orcid:0000-0001-8486-0558 "Ingo Helbig"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8486-0558 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89454659 )
+        dcterms:description orcid:0000-0001-8486-0558 "researcher (ORCID 0000-0001-8486-0558)"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56509613 )
+        rdfs:label orcid:0000-0001-8612-1062 "Andreas Zankl"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8612-1062 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56509613 )
+        dcterms:description orcid:0000-0001-8612-1062 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q55475730 )
         rdfs:label orcid:0000-0001-8638-8525 "Fernanda C. Dórea"
     )
@@ -478,6 +622,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q55475730 )
         dcterms:description orcid:0000-0001-8638-8525 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q90775059 )
+        rdfs:label orcid:0000-0001-8688-2523 "Christina Conrad"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-8688-2523 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q90775059 )
+        dcterms:description orcid:0000-0001-8688-2523 "researcher (ORCID 0000-0001-8688-2523)"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q53584947 )
@@ -624,6 +777,11 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-9227-0670 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q105829131 )
+        rdfs:label orcid:0000-0001-9227-417X "Jennifer Deegan"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9227-417X )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q28913585 )
         rdfs:label orcid:0000-0001-9254-7318 "Rutger Vos"
     )
@@ -640,6 +798,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q97643485 )
         dcterms:description orcid:0000-0001-9259-5280 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q100419131 )
+        rdfs:label orcid:0000-0001-9310-0163 "Gioconda Alyea"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9310-0163 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q100419131 )
+        dcterms:description orcid:0000-0001-9310-0163 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q61195994 )
@@ -676,6 +843,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q47503081 )
         dcterms:description orcid:0000-0001-9586-0780 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q92642879 )
+        rdfs:label orcid:0000-0001-9610-7627 "Chenling Xu"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9610-7627 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q92642879 )
+        dcterms:description orcid:0000-0001-9610-7627 "researcher (ORCID 0000-0001-9610-7627)"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q89881908 )
@@ -721,6 +897,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q28364404 )
         dcterms:description orcid:0000-0001-9853-5668 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q91353649 )
+        rdfs:label orcid:0000-0001-9863-851X "Samuel Volchenboum"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9863-851X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q91353649 )
+        dcterms:description orcid:0000-0001-9863-851X "researcher (ORCID 0000-0001-9863-851X)"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q30002211 )
@@ -858,6 +1043,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-0593-3569 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q50035030 )
+        rdfs:label orcid:0000-0002-0640-0422 "Hilary J Hamnett"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0640-0422 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q50035030 )
+        dcterms:description orcid:0000-0002-0640-0422 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q54303148 )
         rdfs:label orcid:0000-0002-0643-3144 "Simon Jupp"
     )
@@ -975,6 +1169,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-1058-1270 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q41786843 )
+        rdfs:label orcid:0000-0002-1112-5832 "Stephen D Van Hooser"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1112-5832 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q41786843 )
+        dcterms:description orcid:0000-0002-1112-5832 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q54311407 )
+        rdfs:label orcid:0000-0002-1196-4871 "Jason Hilton"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1196-4871 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q54311407 )
+        dcterms:description orcid:0000-0002-1196-4871 "researcher ORCID: 0000-0002-1196-4871"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q91739788 )
         rdfs:label orcid:0000-0002-1373-1705 "Clare Pilgrim"
     )
@@ -982,6 +1194,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q91739788 )
         dcterms:description orcid:0000-0002-1373-1705 "researcher (ORCID 0000-0002-1373-1705)"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q96190662 )
+        rdfs:label orcid:0000-0002-1382-4768 "Laura Failla"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1382-4768 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q96190662 )
+        dcterms:description orcid:0000-0002-1382-4768 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57678068 )
+        rdfs:label orcid:0000-0002-1434-9495 "Richard J Ostler"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1434-9495 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57678068 )
+        dcterms:description orcid:0000-0002-1434-9495 "researcher ORCID ID = 0000-0002-1434-9495"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q56986004 )
@@ -1009,6 +1239,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q47502894 )
         dcterms:description orcid:0000-0002-1615-2899 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q60731440 )
+        rdfs:label orcid:0000-0002-1628-7726 "Leslie A. Lyons"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1628-7726 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q60731440 )
+        dcterms:description orcid:0000-0002-1628-7726 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q91558108 )
@@ -1056,6 +1295,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-1795-5570 "Researcher ORCID = 0000-0002-1795-5570"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q19978490 )
+        rdfs:label orcid:0000-0002-1810-9886 "David C. Blackburn"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1810-9886 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q19978490 )
+        dcterms:description orcid:0000-0002-1810-9886 "herpetologist"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q59676697 )
         rdfs:label orcid:0000-0002-1816-4260 "Shinya Suzuki"
     )
@@ -1081,6 +1329,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q83663133 )
         dcterms:description orcid:0000-0002-2100-6351 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q91396058 )
+        rdfs:label orcid:0000-0002-2105-0715 "Kiya W Govek"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2105-0715 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q91396058 )
+        dcterms:description orcid:0000-0002-2105-0715 "researcher (ORCID 0000-0002-2105-0715)"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q110623888 )
@@ -1109,6 +1366,11 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         Annotation( dcterms:source wikidata:Q58034214 )
         dcterms:description orcid:0000-0002-2244-7917 "researcher, ORCID id # 0000-0002-2244-7917"
     )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q116600596 )
+        rdfs:label orcid:0000-0002-2282-7215 "Gary Berg-Cross"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2282-7215 )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q109614820 )
         rdfs:label orcid:0000-0002-2340-5356 "Troy Pells"
@@ -1167,6 +1429,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q109321449 )
         dcterms:description orcid:0000-0002-2627-0696 "Researcher (ORCID = 0000-0002-2627-0696)"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q96019244 )
+        rdfs:label orcid:0000-0002-2796-282X "Shruthi Mohan"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-2796-282X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q96019244 )
+        dcterms:description orcid:0000-0002-2796-282X "researcher ORCID 0000-0002-2796-282X"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q47139534 )
@@ -1268,6 +1539,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-3105-1359 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q102059177 )
+        rdfs:label orcid:0000-0002-3163-0115 "Parisa Nejad"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3163-0115 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q102059177 )
+        dcterms:description orcid:0000-0002-3163-0115 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56956920 )
+        rdfs:label orcid:0000-0002-3194-8625 "Peter Krawitz"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3194-8625 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56956920 )
+        dcterms:description orcid:0000-0002-3194-8625 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q109614796 )
         rdfs:label orcid:0000-0002-3293-5463 "Joshua Fortriede"
     )
@@ -1275,6 +1564,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q109614796 )
         dcterms:description orcid:0000-0002-3293-5463 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q42946310 )
+        rdfs:label orcid:0000-0002-3302-4610 "Deanne M. Taylor"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-3302-4610 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q42946310 )
+        dcterms:description orcid:0000-0002-3302-4610 "Research Assistant Professor and Director of Bioinformatics"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q108555457 )
@@ -1417,6 +1715,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-4142-7153 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q30348394 )
+        rdfs:label orcid:0000-0002-4154-7358 "Laurens G Wilming"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4154-7358 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q30348394 )
+        dcterms:description orcid:0000-0002-4154-7358 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q116446553 )
+        rdfs:label orcid:0000-0002-4166-7093 "Javier Millán Acosta"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4166-7093 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q116446553 )
+        dcterms:description orcid:0000-0002-4166-7093 "Researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q41566750 )
         rdfs:label orcid:0000-0002-4366-3088 "Pier Luigi Buttigieg"
     )
@@ -1424,6 +1740,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q41566750 )
         dcterms:description orcid:0000-0002-4366-3088 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88727769 )
+        rdfs:label orcid:0000-0002-4422-9726 "Jonathan B L Bard"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4422-9726 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88727769 )
+        dcterms:description orcid:0000-0002-4422-9726 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q111526841 )
@@ -1458,6 +1783,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-4642-1738 "Researcher ORCID = 0000-0002-4642-1738"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q67363620 )
+        rdfs:label orcid:0000-0002-4650-631X "Ralf Stephan"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4650-631X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q67363620 )
+        dcterms:description orcid:0000-0002-4650-631X "software engineer, biocurator"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q41045685 )
         rdfs:label orcid:0000-0002-4798-9499 "Karen Cranston"
     )
@@ -1474,6 +1808,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114556518 )
         dcterms:description orcid:0000-0002-4839-5158 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q96248749 )
+        rdfs:label orcid:0000-0002-5034-2637 "Kelly Hughes"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5034-2637 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q96248749 )
+        dcterms:description orcid:0000-0002-5034-2637 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q56958202 )
@@ -1494,6 +1837,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-5159-414X "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q61974347 )
+        rdfs:label orcid:0000-0002-5192-7047 "Amanda Windsor"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5192-7047 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q61974347 )
+        dcterms:description orcid:0000-0002-5192-7047 "U.S. carcinologist and researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q52804485 )
         rdfs:label orcid:0000-0002-5316-1399 "Sebastian Köhler"
     )
@@ -1501,6 +1853,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q52804485 )
         dcterms:description orcid:0000-0002-5316-1399 "bioinformatician and ontologist"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q63391812 )
+        rdfs:label orcid:0000-0002-5378-0931 "Laura M Jackson"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5378-0931 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q63391812 )
+        dcterms:description orcid:0000-0002-5378-0931 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q61054524 )
@@ -1512,6 +1873,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-5379-5359 "researcher ORCID ID = 0000-0002-5379-5359"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q109321451 )
+        rdfs:label orcid:0000-0002-5460-8025 "Kalliopi Panoutsopoulou"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5460-8025 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q109321451 )
+        dcterms:description orcid:0000-0002-5460-8025 "Researcher (ORCID = 0000-0002-5460-8025)"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q90375596 )
+        rdfs:label orcid:0000-0002-5520-6597 "Imke Tammen"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5520-6597 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q90375596 )
+        dcterms:description orcid:0000-0002-5520-6597 "researcher (ORCID 0000-0002-5520-6597)"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q51147853 )
         rdfs:label orcid:0000-0002-5596-6895 "Brandon T. Sinn"
     )
@@ -1519,6 +1898,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q51147853 )
         dcterms:description orcid:0000-0002-5596-6895 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q46706866 )
+        rdfs:label orcid:0000-0002-5607-4012 "Felix Janssen"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5607-4012 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q46706866 )
+        dcterms:description orcid:0000-0002-5607-4012 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q28745439 )
@@ -1557,6 +1945,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-5754-1938 "Researcher ORCID = 0000-0002-5754-1938"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q37837343 )
+        rdfs:label orcid:0000-0002-5865-8994 "Magnus Palmblad"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-5865-8994 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q37837343 )
+        dcterms:description orcid:0000-0002-5865-8994 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q48975647 )
         rdfs:label orcid:0000-0002-5905-1617 "John Deck"
     )
@@ -1582,6 +1979,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114740047 )
         dcterms:description orcid:0000-0002-6020-5919 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q41543979 )
+        rdfs:label orcid:0000-0002-6025-0015 "Heidi L. Rehm"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6025-0015 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q41543979 )
+        dcterms:description orcid:0000-0002-6025-0015 "physician and researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q59702685 )
@@ -1611,6 +2017,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-6178-3585 "researcher ORCID ID = 0000-0002-6178-3585"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q38323677 )
+        rdfs:label orcid:0000-0002-6195-6976 "Tudor I Oprea"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6195-6976 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q38323677 )
+        dcterms:description orcid:0000-0002-6195-6976 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q82427868 )
+        rdfs:label orcid:0000-0002-6315-0263 "Gautier Koscielny"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6315-0263 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q82427868 )
+        dcterms:description orcid:0000-0002-6315-0263 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q89869027 )
         rdfs:label orcid:0000-0002-6379-8932 "Laurel Cooper"
     )
@@ -1618,6 +2042,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q89869027 )
         dcterms:description orcid:0000-0002-6379-8932 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88311823 )
+        rdfs:label orcid:0000-0002-6387-4317 "Kayli Rageth"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6387-4317 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88311823 )
+        dcterms:description orcid:0000-0002-6387-4317 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q58171316 )
@@ -1674,6 +2107,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-6659-0416 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88680059 )
+        rdfs:label orcid:0000-0002-6670-9157 "Jagadish Chandrabose Sundaramurthi"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6670-9157 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88680059 )
+        dcterms:description orcid:0000-0002-6670-9157 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q92916417 )
         rdfs:label orcid:0000-0002-6704-7538 "Zhi-Liang Hu"
     )
@@ -1692,6 +2134,33 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-6726-6319 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88418159 )
+        rdfs:label orcid:0000-0002-6733-369X "Courtney L Thaxton"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6733-369X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88418159 )
+        dcterms:description orcid:0000-0002-6733-369X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q39067830 )
+        rdfs:label orcid:0000-0002-6826-8770 "Mark J Arends"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6826-8770 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q39067830 )
+        dcterms:description orcid:0000-0002-6826-8770 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88570643 )
+        rdfs:label orcid:0000-0002-6912-7865 "Rafael Laso-Pérez"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6912-7865 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88570643 )
+        dcterms:description orcid:0000-0002-6912-7865 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q56835890 )
         rdfs:label orcid:0000-0002-7061-5073 "Colin Gross"
     )
@@ -1708,6 +2177,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q54303418 )
         dcterms:description orcid:0000-0002-7073-9172 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57116342 )
+        rdfs:label orcid:0000-0002-7114-7726 "Chiara Devirgiliis"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7114-7726 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q57116342 )
+        dcterms:description orcid:0000-0002-7114-7726 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q92230671 )
@@ -1744,6 +2222,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q60972192 )
         dcterms:description orcid:0000-0002-7356-1779 "researcher ORCID ID = 0000-0002-7356-1779"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89350189 )
+        rdfs:label orcid:0000-0002-7437-8060 "Justyne E Ross"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-7437-8060 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89350189 )
+        dcterms:description orcid:0000-0002-7437-8060 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q83382941 )
@@ -1843,6 +2330,33 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q58873434 )
         dcterms:description orcid:0000-0002-8169-9049 "researcher ORCID ID = 0000-0002-8169-9049"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q87981858 )
+        rdfs:label orcid:0000-0002-8238-6757 "Ulas Karaoz"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8238-6757 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q87981858 )
+        dcterms:description orcid:0000-0002-8238-6757 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88292279 )
+        rdfs:label orcid:0000-0002-8260-7097 "Tze Hann Ng"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8260-7097 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88292279 )
+        dcterms:description orcid:0000-0002-8260-7097 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q28035135 )
+        rdfs:label orcid:0000-0002-8406-3871 "Maryann E. Martone"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-8406-3871 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q28035135 )
+        dcterms:description orcid:0000-0002-8406-3871 "San Diego researcher with interests in neuroinformatics"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q57209160 )
@@ -1962,6 +2476,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-9136-9932 "Researcher ORCID = 0000-0002-9136-9932"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q42743391 )
+        rdfs:label orcid:0000-0002-9178-3965 "Frank W. Nicholas"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9178-3965 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q42743391 )
+        dcterms:description orcid:0000-0002-9178-3965 "geneticist"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88804939 )
+        rdfs:label orcid:0000-0002-9185-3994 "Gloria S Pryhuber"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9185-3994 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q88804939 )
+        dcterms:description orcid:0000-0002-9185-3994 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q64886237 )
         rdfs:label orcid:0000-0002-9284-8871 "Laura Brenskelle"
     )
@@ -2005,6 +2537,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q23809262 )
         dcterms:description orcid:0000-0002-9551-6370 "Principal developer of the Gene Ontology"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q110610928 )
+        rdfs:label orcid:0000-0002-9553-7227 "G. Thomas Hayman"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9553-7227 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q110610928 )
+        dcterms:description orcid:0000-0002-9553-7227 "Researcher ORCID = 0000-0002-9553-7227"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q54303422 )
@@ -2070,6 +2611,42 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-9943-2342 "researcher, ORCID # 0000-0002-9943-2342"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q51747150 )
+        rdfs:label orcid:0000-0002-9943-9018 "Annalisa Milano"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9943-9018 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q51747150 )
+        dcterms:description orcid:0000-0002-9943-9018 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56236081 )
+        rdfs:label orcid:0000-0003-0041-4812 "Medha Devare"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0041-4812 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56236081 )
+        dcterms:description orcid:0000-0003-0041-4812 "scientist"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q86419834 )
+        rdfs:label orcid:0000-0003-0113-912X "Matthias Griese"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0113-912X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q86419834 )
+        dcterms:description orcid:0000-0003-0113-912X "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q47502211 )
+        rdfs:label orcid:0000-0003-0632-7576 "Mark P. Schildhauer"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0632-7576 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q47502211 )
+        dcterms:description orcid:0000-0003-0632-7576 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q64019189 )
         rdfs:label orcid:0000-0003-0705-9809 "Rahuman S. Malik Sheriff"
     )
@@ -2086,6 +2663,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q28028010 )
         dcterms:description orcid:0000-0003-0719-3485 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q91343323 )
+        rdfs:label orcid:0000-0003-0800-544X "Déborah Caucheteur"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-0800-544X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q91343323 )
+        dcterms:description orcid:0000-0003-0800-544X "researcher (ORCID 0000-0003-0800-544X)"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q102053980 )
@@ -2160,6 +2746,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0003-1279-6838 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56990019 )
+        rdfs:label orcid:0000-0003-1336-5554 "Anton P Van de Putte"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1336-5554 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56990019 )
+        dcterms:description orcid:0000-0003-1336-5554 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q30508615 )
         rdfs:label orcid:0000-0003-1355-892X "Richard H. Scheuermann"
     )
@@ -2176,6 +2771,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q109615937 )
         dcterms:description orcid:0000-0003-1587-3667 "researcher in biocuration"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89259560 )
+        rdfs:label orcid:0000-0003-1617-8244 "Lindsay G Cowell"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1617-8244 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q89259560 )
+        dcterms:description orcid:0000-0003-1617-8244 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q57678148 )
@@ -2221,6 +2825,24 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q57161944 )
         dcterms:description orcid:0000-0003-1834-3856 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q37377046 )
+        rdfs:label orcid:0000-0003-1940-6740 "Anna Maria Masci"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1940-6740 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q37377046 )
+        dcterms:description orcid:0000-0003-1940-6740 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q54303383 )
+        rdfs:label orcid:0000-0003-1980-3228 "Terrence F Meehan"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-1980-3228 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q54303383 )
+        dcterms:description orcid:0000-0003-1980-3228 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q44167741 )
@@ -2277,6 +2899,11 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0003-2473-2313 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q109640055 )
+        rdfs:label orcid:0000-0003-2534-198X "Kalpana Panneerselvam"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2534-198X )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114530199 )
         rdfs:label orcid:0000-0003-2569-1939 "Stephanie H Nowotarski"
     )
@@ -2313,6 +2940,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0003-2722-5106 "researcher ORCID ID = 0000-0003-2722-5106"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56516291 )
+        rdfs:label orcid:0000-0003-2804-127X "Sanjay Jain"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2804-127X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56516291 )
+        dcterms:description orcid:0000-0003-2804-127X "researcher (ORCID 0000-0003-2804-127X)"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q4747830 )
         rdfs:label orcid:0000-0003-2826-6444 "Amos Bairoch"
     )
@@ -2347,6 +2983,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q63766604 )
         dcterms:description orcid:0000-0003-3112-4682 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q58206618 )
+        rdfs:label orcid:0000-0003-3138-4118 "Jorrit Poelen"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3138-4118 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q58206618 )
+        dcterms:description orcid:0000-0003-3138-4118 "software/data engineer"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q37649170 )
@@ -2430,6 +3075,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0003-3593-1289 "Researcher ORCID = 0000-0003-3593-1289"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q58397742 )
+        rdfs:label orcid:0000-0003-3645-6803 "Mary L Kaldunski"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3645-6803 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q58397742 )
+        dcterms:description orcid:0000-0003-3645-6803 "researcher ORCID ID = 0000-0003-3645-6803"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q56445645 )
         rdfs:label orcid:0000-0003-3691-0324 "Cynthia L Smith"
     )
@@ -2455,6 +3109,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114555820 )
         dcterms:description orcid:0000-0003-3847-2663 "Researcher ORCID = 0000-0003-3847-2663"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q46168094 )
+        rdfs:label orcid:0000-0003-4062-6158 "Birgit H M Meldal"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4062-6158 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q46168094 )
+        dcterms:description orcid:0000-0003-4062-6158 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q56516195 )
@@ -2547,6 +3210,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0003-4785-7231 "researcher, ORCID id # 0000-0003-4785-7231"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56526490 )
+        rdfs:label orcid:0000-0003-4808-4736 "Ruth Duerr"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-4808-4736 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q56526490 )
+        dcterms:description orcid:0000-0003-4808-4736 "researcher, ORCID 0000-0003-4808-4736"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q59539088 )
         rdfs:label orcid:0000-0003-4871-5569 "Rebecca Tauber"
     )
@@ -2573,13 +3245,17 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0001-5168-3196 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5208-3432 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5237-2330 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5256-8683 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5272-7613 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5356-4174 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5501-853X ) )
     Declaration( NamedIndividual( orcid:0000-0001-5756-3988 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5801-1974 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5809-2276 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5809-9523 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5812-6405 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5839-2535 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5839-6798 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5889-4463 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5948-3092 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5968-1742 ) )
@@ -2594,29 +3270,42 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0001-6579-6941 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6666-1520 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6682-1504 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6755-0259 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6757-4744 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6772-4626 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6787-2901 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6946-1807 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6996-0040 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7090-9648 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7134-3324 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7222-3287 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7258-9596 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7345-444X ) )
     Declaration( NamedIndividual( orcid:0000-0001-7372-9896 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7476-6306 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7487-610X ) )
     Declaration( NamedIndividual( orcid:0000-0001-7505-5418 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7542-0286 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7655-4833 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7694-8250 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7772-9578 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7920-5321 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7925-2064 ) )
     Declaration( NamedIndividual( orcid:0000-0001-7941-2961 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-7972-3866 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8034-7685 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8149-5890 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8244-1536 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8314-2140 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8317-7271 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8369-8114 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8397-8810 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8420-5254 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8430-6039 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8486-0558 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8612-1062 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8638-8525 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-8688-2523 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8732-0928 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8815-0078 ) )
     Declaration( NamedIndividual( orcid:0000-0001-8865-4321 ) )
@@ -2633,17 +3322,21 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0001-9125-4337 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9189-9661 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9227-0670 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9227-417X ) )
     Declaration( NamedIndividual( orcid:0000-0001-9254-7318 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9259-5280 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9310-0163 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9439-5346 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9488-1870 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9515-398X ) )
     Declaration( NamedIndividual( orcid:0000-0001-9586-0780 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9610-7627 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9625-1899 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9766-5727 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9773-4008 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9842-9718 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9853-5668 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-9863-851X ) )
     Declaration( NamedIndividual( orcid:0000-0001-9896-3531 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9897-3238 ) )
     Declaration( NamedIndividual( orcid:0000-0001-9921-8234 ) )
@@ -2659,6 +3352,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-0358-0130 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0524-0260 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0593-3569 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-0640-0422 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0643-3144 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0710-3462 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0736-9199 ) )
@@ -2672,21 +3366,29 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-1005-8383 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1048-5019 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1058-1270 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1112-5832 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1196-4871 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1373-1705 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1382-4768 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1434-9495 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1572-1316 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1604-3078 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1615-2899 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1628-7726 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1679-1711 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1706-4196 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1767-2343 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1773-2692 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1795-5570 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1810-9886 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1816-4260 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2061-091X ) )
     Declaration( NamedIndividual( orcid:0000-0002-2100-6351 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2105-0715 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2176-8751 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2193-0704 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2244-7917 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2282-7215 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2340-5356 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2346-5201 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2411-565X ) )
@@ -2694,6 +3396,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-2548-641X ) )
     Declaration( NamedIndividual( orcid:0000-0002-2605-5080 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2627-0696 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-2796-282X ) )
     Declaration( NamedIndividual( orcid:0000-0002-2825-0621 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2833-6070 ) )
     Declaration( NamedIndividual( orcid:0000-0002-2876-6046 ) )
@@ -2705,7 +3408,10 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-3002-9838 ) )
     Declaration( NamedIndividual( orcid:0000-0002-3012-7446 ) )
     Declaration( NamedIndividual( orcid:0000-0002-3105-1359 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3163-0115 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3194-8625 ) )
     Declaration( NamedIndividual( orcid:0000-0002-3293-5463 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-3302-4610 ) )
     Declaration( NamedIndividual( orcid:0000-0002-3336-2476 ) )
     Declaration( NamedIndividual( orcid:0000-0002-3410-4655 ) )
     Declaration( NamedIndividual( orcid:0000-0002-3469-4923 ) )
@@ -2722,43 +3428,64 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-3947-4444 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4071-8397 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4142-7153 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4154-7358 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4166-7093 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4366-3088 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4422-9726 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4475-896X ) )
     Declaration( NamedIndividual( orcid:0000-0002-4532-2703 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4600-1258 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4642-1738 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-4650-631X ) )
     Declaration( NamedIndividual( orcid:0000-0002-4798-9499 ) )
     Declaration( NamedIndividual( orcid:0000-0002-4839-5158 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5034-2637 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5111-7263 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5159-414X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5192-7047 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5316-1399 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5378-0931 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5379-5359 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5460-8025 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5520-6597 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5596-6895 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5607-4012 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5628-2268 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5640-5491 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5714-991X ) )
     Declaration( NamedIndividual( orcid:0000-0002-5754-1938 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-5865-8994 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5905-1617 ) )
     Declaration( NamedIndividual( orcid:0000-0002-5979-0102 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6020-5919 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6025-0015 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6095-8718 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6148-7962 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6178-3585 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6195-6976 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6315-0263 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6379-8932 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6387-4317 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6441-8006 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6443-9376 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6490-7723 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6523-4866 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6601-2165 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6659-0416 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6670-9157 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6704-7538 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6726-6319 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6733-369X ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6826-8770 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6912-7865 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7061-5073 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7073-9172 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7114-7726 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7284-3950 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7287-9013 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7334-7852 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7356-1779 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-7437-8060 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7440-0467 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7463-6306 ) )
     Declaration( NamedIndividual( orcid:0000-0002-7509-4801 ) )
@@ -2770,6 +3497,9 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-8134-1207 ) )
     Declaration( NamedIndividual( orcid:0000-0002-8151-7479 ) )
     Declaration( NamedIndividual( orcid:0000-0002-8169-9049 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8238-6757 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8260-7097 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-8406-3871 ) )
     Declaration( NamedIndividual( orcid:0000-0002-8429-8793 ) )
     Declaration( NamedIndividual( orcid:0000-0002-8457-6693 ) )
     Declaration( NamedIndividual( orcid:0000-0002-8461-9745 ) )
@@ -2783,11 +3513,14 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-9074-3507 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9117-9338 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9136-9932 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9178-3965 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9185-3994 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9284-8871 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9353-5498 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9372-0028 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9415-5104 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9551-6370 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9553-7227 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9611-1279 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9654-0073 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9673-1283 ) )
@@ -2795,8 +3528,13 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-9881-1017 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9900-7880 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9943-2342 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9943-9018 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0041-4812 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0113-912X ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0632-7576 ) )
     Declaration( NamedIndividual( orcid:0000-0003-0705-9809 ) )
     Declaration( NamedIndividual( orcid:0000-0003-0719-3485 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-0800-544X ) )
     Declaration( NamedIndividual( orcid:0000-0003-0914-2470 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1030-6348 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1058-2668 ) )
@@ -2805,27 +3543,34 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0003-1179-5999 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1264-1166 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1279-6838 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1336-5554 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1355-892X ) )
     Declaration( NamedIndividual( orcid:0000-0003-1587-3667 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1617-8244 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1640-9989 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1774-6629 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1807-7930 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1813-6857 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1834-3856 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1940-6740 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-1980-3228 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2034-601X ) )
     Declaration( NamedIndividual( orcid:0000-0003-2338-2550 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2338-8872 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2387-503X ) )
     Declaration( NamedIndividual( orcid:0000-0003-2408-2883 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2473-2313 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2534-198X ) )
     Declaration( NamedIndividual( orcid:0000-0003-2569-1939 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2678-2824 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2699-3066 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2722-5106 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-2804-127X ) )
     Declaration( NamedIndividual( orcid:0000-0003-2826-6444 ) )
     Declaration( NamedIndividual( orcid:0000-0003-2887-4765 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3067-6434 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3112-4682 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3138-4118 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3162-7490 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3188-6273 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3245-2880 ) )
@@ -2835,9 +3580,11 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0003-3430-8997 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3499-8262 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3593-1289 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-3645-6803 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3691-0324 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3781-6962 ) )
     Declaration( NamedIndividual( orcid:0000-0003-3847-2663 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4062-6158 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4148-4606 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4312-9552 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4423-4370 ) )
@@ -2848,6 +3595,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0003-4639-4431 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4727-9435 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4785-7231 ) )
+    Declaration( NamedIndividual( orcid:0000-0003-4808-4736 ) )
     Declaration( NamedIndividual( orcid:0000-0003-4871-5569 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1307-2508 ) )
 )

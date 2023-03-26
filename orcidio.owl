@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-03-19</owl:versionInfo>
+        <owl:versionInfo>2023-03-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -246,6 +246,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-5256-8683 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5256-8683">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Researcher ORCID = 0000-0001-5256-8683</terms:description>
+        <rdfs:label>Shur-Jen Wang</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5256-8683"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Researcher ORCID = 0000-0001-5256-8683</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q110611093"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5256-8683"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Shur-Jen Wang</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q110611093"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-5272-7613 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5272-7613">
@@ -264,6 +286,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Noemi del-Toro</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q34388253"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5356-4174 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5356-4174">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Stanley J F Laulederkind</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5356-4174"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88202347"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5356-4174"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Stanley J F Laulederkind</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88202347"/>
     </owl:Axiom>
     
 
@@ -378,6 +422,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-5812-6405 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5812-6405">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Josephine Z Rapp</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5812-6405"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57210215"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5812-6405"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Josephine Z Rapp</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57210215"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-5839-2535 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5839-2535">
@@ -396,6 +462,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Emily Hartley</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q114532053"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5839-6798 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5839-6798">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>German-Moroccan paleontologist and anatomist</terms:description>
+        <rdfs:label>Nizar Ibrahim</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5839-6798"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>German-Moroccan paleontologist and anatomist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q23769268"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5839-6798"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Nizar Ibrahim</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q23769268"/>
     </owl:Axiom>
     
 
@@ -701,6 +789,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-6755-0259 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6755-0259">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>American psychologist and neuroscientist</terms:description>
+        <rdfs:label>Russell A. Poldrack</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6755-0259"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>American psychologist and neuroscientist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q22279699"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6755-0259"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Russell A. Poldrack</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q22279699"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-6757-4744 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6757-4744">
@@ -789,6 +899,72 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-6996-0040 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6996-0040">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Researcher</terms:description>
+        <rdfs:label>Austin Meier</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6996-0040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q116041404"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6996-0040"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Austin Meier</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q116041404"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7090-9648 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7090-9648">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Pablo Botas</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7090-9648"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89570205"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7090-9648"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Pablo Botas</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89570205"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7134-3324 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7134-3324">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Katja S Schulz</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7134-3324"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q41566706"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7134-3324"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Katja S Schulz</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q41566706"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-7222-3287 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7222-3287">
@@ -829,6 +1005,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Shawn Zheng Kai Tan</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q57023310"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7345-444X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7345-444X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Sarah E Schoenrock</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7345-444X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89507111"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7345-444X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Sarah E Schoenrock</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89507111"/>
     </owl:Axiom>
     
 
@@ -943,6 +1141,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-7655-4833 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7655-4833">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Ellen Quardokus</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7655-4833"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q72310426"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7655-4833"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Ellen Quardokus</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q72310426"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-7694-8250 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7694-8250">
@@ -961,6 +1181,50 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Jonathan A Rees</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q54712725"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7772-9578 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7772-9578">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Gervaise Henry</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7772-9578"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q86643934"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7772-9578"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Gervaise Henry</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q86643934"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7920-5321 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7920-5321">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher ORCID ID = 0000-0001-7920-5321</terms:description>
+        <rdfs:label>Sarah Whitcher Kansa</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7920-5321"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID ID = 0000-0001-7920-5321</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57773887"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7920-5321"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Sarah Whitcher Kansa</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57773887"/>
     </owl:Axiom>
     
 
@@ -1005,6 +1269,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Leigh Carmody</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q43155252"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-7972-3866 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7972-3866">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>T Alexander Dececchi</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7972-3866"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q84802701"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7972-3866"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>T Alexander Dececchi</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q84802701"/>
     </owl:Axiom>
     
 
@@ -1119,6 +1405,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-8369-8114 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8369-8114">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Viola Krukenberg</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8369-8114"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56486559"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8369-8114"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Viola Krukenberg</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56486559"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-8397-8810 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8397-8810">
@@ -1185,6 +1493,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-8486-0558 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8486-0558">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0001-8486-0558)</terms:description>
+        <rdfs:label>Ingo Helbig</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8486-0558"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0001-8486-0558)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89454659"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8486-0558"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Ingo Helbig</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89454659"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8612-1062 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8612-1062">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Andreas Zankl</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8612-1062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56509613"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8612-1062"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Andreas Zankl</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56509613"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-8638-8525 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8638-8525">
@@ -1203,6 +1555,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Fernanda C. Dórea</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q55475730"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-8688-2523 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-8688-2523">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0001-8688-2523)</terms:description>
+        <rdfs:label>Christina Conrad</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8688-2523"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0001-8688-2523)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q90775059"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-8688-2523"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Christina Conrad</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q90775059"/>
     </owl:Axiom>
     
 
@@ -1559,6 +1933,21 @@
     
 
 
+    <!-- https://orcid.org/0000-0001-9227-417X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9227-417X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Jennifer Deegan</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9227-417X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Jennifer Deegan</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q105829131"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0001-9254-7318 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9254-7318">
@@ -1599,6 +1988,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Amogelang R Raphenya</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q97643485"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9310-0163 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9310-0163">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Gioconda Alyea</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9310-0163"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q100419131"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9310-0163"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Gioconda Alyea</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q100419131"/>
     </owl:Axiom>
     
 
@@ -1687,6 +2098,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Marcus C. Chibucos</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q47503081"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9610-7627 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9610-7627">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0001-9610-7627)</terms:description>
+        <rdfs:label>Chenling Xu</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9610-7627"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0001-9610-7627)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q92642879"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9610-7627"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Chenling Xu</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q92642879"/>
     </owl:Axiom>
     
 
@@ -1797,6 +2230,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Philippe Rocca-Serra</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q28364404"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-9863-851X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9863-851X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0001-9863-851X)</terms:description>
+        <rdfs:label>Samuel Volchenboum</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9863-851X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0001-9863-851X)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91353649"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9863-851X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Samuel Volchenboum</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91353649"/>
     </owl:Axiom>
     
 
@@ -2131,6 +2586,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-0640-0422 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-0640-0422">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Hilary J Hamnett</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0640-0422"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q50035030"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0640-0422"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Hilary J Hamnett</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q50035030"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-0643-3144 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-0643-3144">
@@ -2417,6 +2894,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-1112-5832 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1112-5832">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Stephen D Van Hooser</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1112-5832"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q41786843"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1112-5832"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Stephen D Van Hooser</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q41786843"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1196-4871 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1196-4871">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher ORCID: 0000-0002-1196-4871</terms:description>
+        <rdfs:label>Jason Hilton</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1196-4871"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID: 0000-0002-1196-4871</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q54311407"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1196-4871"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Jason Hilton</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q54311407"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-1373-1705 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1373-1705">
@@ -2435,6 +2956,50 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Clare Pilgrim</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q91739788"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1382-4768 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1382-4768">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Laura Failla</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1382-4768"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q96190662"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1382-4768"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Laura Failla</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q96190662"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1434-9495 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1434-9495">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher ORCID ID = 0000-0002-1434-9495</terms:description>
+        <rdfs:label>Richard J Ostler</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1434-9495"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID ID = 0000-0002-1434-9495</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57678068"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1434-9495"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Richard J Ostler</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57678068"/>
     </owl:Axiom>
     
 
@@ -2501,6 +3066,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>James Malone</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q47502894"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1628-7726 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1628-7726">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Leslie A. Lyons</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q60731440"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Leslie A. Lyons</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q60731440"/>
     </owl:Axiom>
     
 
@@ -2615,6 +3202,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-1810-9886 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1810-9886">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>herpetologist</terms:description>
+        <rdfs:label>David C. Blackburn</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1810-9886"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>herpetologist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q19978490"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1810-9886"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>David C. Blackburn</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q19978490"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-1816-4260 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1816-4260">
@@ -2681,6 +3290,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-2105-0715 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2105-0715">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0002-2105-0715)</terms:description>
+        <rdfs:label>Kiya W Govek</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2105-0715"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0002-2105-0715)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91396058"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2105-0715"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Kiya W Govek</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91396058"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-2176-8751 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2176-8751">
@@ -2743,6 +3374,21 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Ceri E Van Slyke</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q58034214"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2282-7215 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2282-7215">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Gary Berg-Cross</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Gary Berg-Cross</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q116600596"/>
     </owl:Axiom>
     
 
@@ -2890,6 +3536,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Krishna Udaiwal</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q109321449"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-2796-282X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2796-282X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher ORCID 0000-0002-2796-282X</terms:description>
+        <rdfs:label>Shruthi Mohan</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2796-282X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID 0000-0002-2796-282X</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q96019244"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2796-282X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Shruthi Mohan</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q96019244"/>
     </owl:Axiom>
     
 
@@ -3136,6 +3804,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-3163-0115 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3163-0115">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Parisa Nejad</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3163-0115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q102059177"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3163-0115"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Parisa Nejad</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q102059177"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3194-8625 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3194-8625">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Peter Krawitz</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3194-8625"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56956920"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3194-8625"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Peter Krawitz</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56956920"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-3293-5463 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3293-5463">
@@ -3154,6 +3866,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Joshua Fortriede</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q109614796"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3302-4610 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3302-4610">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Research Assistant Professor and Director of Bioinformatics</terms:description>
+        <rdfs:label>Deanne M. Taylor</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3302-4610"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Research Assistant Professor and Director of Bioinformatics</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q42946310"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3302-4610"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Deanne M. Taylor</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q42946310"/>
     </owl:Axiom>
     
 
@@ -3503,6 +4237,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-4154-7358 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4154-7358">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Laurens G Wilming</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4154-7358"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q30348394"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4154-7358"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Laurens G Wilming</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q30348394"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4166-7093 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4166-7093">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Researcher</terms:description>
+        <rdfs:label>Javier Millán Acosta</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4166-7093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q116446553"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4166-7093"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Javier Millán Acosta</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q116446553"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-4366-3088 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4366-3088">
@@ -3521,6 +4299,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Pier Luigi Buttigieg</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q41566750"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-4422-9726 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4422-9726">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Jonathan B L Bard</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4422-9726"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88727769"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4422-9726"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Jonathan B L Bard</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88727769"/>
     </owl:Axiom>
     
 
@@ -3606,6 +4406,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-4650-631X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4650-631X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>software engineer, biocurator</terms:description>
+        <rdfs:label>Ralf Stephan</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4650-631X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>software engineer, biocurator</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q67363620"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4650-631X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Ralf Stephan</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q67363620"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-4798-9499 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4798-9499">
@@ -3646,6 +4468,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Isuru Liyanage</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q114556518"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5034-2637 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5034-2637">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Kelly Hughes</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5034-2637"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q96248749"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5034-2637"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Kelly Hughes</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q96248749"/>
     </owl:Axiom>
     
 
@@ -3694,6 +4538,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-5192-7047 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5192-7047">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>U.S. carcinologist and researcher</terms:description>
+        <rdfs:label>Amanda Windsor</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5192-7047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>U.S. carcinologist and researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q61974347"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5192-7047"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Amanda Windsor</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q61974347"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-5316-1399 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5316-1399">
@@ -3712,6 +4578,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Sebastian Köhler</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q52804485"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5378-0931 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5378-0931">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Laura M Jackson</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5378-0931"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q63391812"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5378-0931"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Laura M Jackson</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q63391812"/>
     </owl:Axiom>
     
 
@@ -3738,6 +4626,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-5460-8025 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5460-8025">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Researcher (ORCID = 0000-0002-5460-8025)</terms:description>
+        <rdfs:label>Kalliopi Panoutsopoulou</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5460-8025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Researcher (ORCID = 0000-0002-5460-8025)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q109321451"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5460-8025"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Kalliopi Panoutsopoulou</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q109321451"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5520-6597 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5520-6597">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0002-5520-6597)</terms:description>
+        <rdfs:label>Imke Tammen</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0002-5520-6597)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q90375596"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5520-6597"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Imke Tammen</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q90375596"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-5596-6895 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5596-6895">
@@ -3756,6 +4688,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Brandon T. Sinn</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q51147853"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-5607-4012 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5607-4012">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Felix Janssen</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5607-4012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q46706866"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5607-4012"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Felix Janssen</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q46706866"/>
     </owl:Axiom>
     
 
@@ -3848,6 +4802,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-5865-8994 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5865-8994">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Magnus Palmblad</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5865-8994"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q37837343"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5865-8994"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Magnus Palmblad</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q37837343"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-5905-1617 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5905-1617">
@@ -3910,6 +4886,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Elizabeth Arnaud</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q114740047"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6025-0015 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6025-0015">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>physician and researcher</terms:description>
+        <rdfs:label>Heidi L. Rehm</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6025-0015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>physician and researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q41543979"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6025-0015"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Heidi L. Rehm</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q41543979"/>
     </owl:Axiom>
     
 
@@ -3980,6 +4978,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-6195-6976 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6195-6976">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Tudor I Oprea</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6195-6976"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q38323677"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6195-6976"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Tudor I Oprea</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q38323677"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6315-0263 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6315-0263">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Gautier Koscielny</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6315-0263"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q82427868"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6315-0263"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Gautier Koscielny</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q82427868"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-6379-8932 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6379-8932">
@@ -3998,6 +5040,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Laurel Cooper</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q89869027"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6387-4317 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6387-4317">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Kayli Rageth</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6387-4317"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88311823"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6387-4317"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Kayli Rageth</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88311823"/>
     </owl:Axiom>
     
 
@@ -4134,6 +5198,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-6670-9157 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6670-9157">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Jagadish Chandrabose Sundaramurthi</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6670-9157"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88680059"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6670-9157"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Jagadish Chandrabose Sundaramurthi</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88680059"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-6704-7538 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6704-7538">
@@ -4178,6 +5264,72 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-6733-369X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6733-369X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Courtney L Thaxton</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6733-369X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88418159"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6733-369X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Courtney L Thaxton</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88418159"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6826-8770 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6826-8770">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Mark J Arends</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6826-8770"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q39067830"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6826-8770"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Mark J Arends</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q39067830"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6912-7865 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6912-7865">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Rafael Laso-Pérez</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6912-7865"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88570643"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6912-7865"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Rafael Laso-Pérez</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88570643"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-7061-5073 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7061-5073">
@@ -4218,6 +5370,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>David Osumi-Sutherland</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q54303418"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7114-7726 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7114-7726">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Chiara Devirgiliis</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7114-7726"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57116342"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7114-7726"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Chiara Devirgiliis</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q57116342"/>
     </owl:Axiom>
     
 
@@ -4306,6 +5480,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Nicolas Matentzoglu</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q60972192"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7437-8060 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7437-8060">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Justyne E Ross</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7437-8060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89350189"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7437-8060"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Justyne E Ross</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89350189"/>
     </owl:Axiom>
     
 
@@ -4548,6 +5744,72 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Tiffany J. Callahan</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q58873434"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8238-6757 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8238-6757">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Ulas Karaoz</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8238-6757"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q87981858"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8238-6757"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Ulas Karaoz</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q87981858"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8260-7097 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8260-7097">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Tze Hann Ng</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8260-7097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88292279"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8260-7097"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Tze Hann Ng</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88292279"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8406-3871 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8406-3871">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>San Diego researcher with interests in neuroinformatics</terms:description>
+        <rdfs:label>Maryann E. Martone</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8406-3871"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>San Diego researcher with interests in neuroinformatics</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q28035135"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8406-3871"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Maryann E. Martone</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q28035135"/>
     </owl:Axiom>
     
 
@@ -4838,6 +6100,50 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-9178-3965 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9178-3965">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>geneticist</terms:description>
+        <rdfs:label>Frank W. Nicholas</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>geneticist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q42743391"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9178-3965"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Frank W. Nicholas</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q42743391"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9185-3994 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9185-3994">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Gloria S Pryhuber</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9185-3994"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88804939"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9185-3994"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Gloria S Pryhuber</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q88804939"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-9284-8871 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9284-8871">
@@ -4944,6 +6250,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Melanie Courtot</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q23809262"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-9553-7227 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9553-7227">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Researcher ORCID = 0000-0002-9553-7227</terms:description>
+        <rdfs:label>G. Thomas Hayman</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9553-7227"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Researcher ORCID = 0000-0002-9553-7227</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q110610928"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9553-7227"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>G. Thomas Hayman</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q110610928"/>
     </owl:Axiom>
     
 
@@ -5102,6 +6430,94 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-9943-9018 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9943-9018">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Annalisa Milano</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9943-9018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q51747150"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9943-9018"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Annalisa Milano</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q51747150"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0041-4812 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0041-4812">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>scientist</terms:description>
+        <rdfs:label>Medha Devare</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0041-4812"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>scientist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56236081"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0041-4812"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Medha Devare</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56236081"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0113-912X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0113-912X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Matthias Griese</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0113-912X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q86419834"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0113-912X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Matthias Griese</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q86419834"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0632-7576 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0632-7576">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Mark P. Schildhauer</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q47502211"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0632-7576"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Mark P. Schildhauer</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q47502211"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0003-0705-9809 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0705-9809">
@@ -5142,6 +6558,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Elvira Mitraka</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q28028010"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-0800-544X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-0800-544X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0003-0800-544X)</terms:description>
+        <rdfs:label>Déborah Caucheteur</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0800-544X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0003-0800-544X)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91343323"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-0800-544X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Déborah Caucheteur</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91343323"/>
     </owl:Axiom>
     
 
@@ -5344,6 +6782,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0003-1336-5554 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1336-5554">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Anton P Van de Putte</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1336-5554"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56990019"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1336-5554"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Anton P Van de Putte</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56990019"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0003-1355-892X -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1355-892X">
@@ -5384,6 +6844,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Chisato Yamasaki</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q109615937"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1617-8244 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1617-8244">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Lindsay G Cowell</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1617-8244"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89259560"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1617-8244"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Lindsay G Cowell</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q89259560"/>
     </owl:Axiom>
     
 
@@ -5494,6 +6976,50 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Mathias Brochhausen</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q57161944"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1940-6740 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1940-6740">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Anna Maria Masci</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1940-6740"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q37377046"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1940-6740"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Anna Maria Masci</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q37377046"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-1980-3228 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1980-3228">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Terrence F Meehan</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q54303383"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Terrence F Meehan</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q54303383"/>
     </owl:Axiom>
     
 
@@ -5630,6 +7156,21 @@
     
 
 
+    <!-- https://orcid.org/0000-0003-2534-198X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2534-198X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Kalpana Panneerselvam</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-2534-198X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Kalpana Panneerselvam</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q109640055"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0003-2569-1939 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2569-1939">
@@ -5718,6 +7259,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0003-2804-127X -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2804-127X">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0003-2804-127X)</terms:description>
+        <rdfs:label>Sanjay Jain</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-2804-127X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0003-2804-127X)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516291"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-2804-127X"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Sanjay Jain</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516291"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0003-2826-6444 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2826-6444">
@@ -5802,6 +7365,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Thomas Wilson</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q63766604"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3138-4118 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3138-4118">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>software/data engineer</terms:description>
+        <rdfs:label>Jorrit Poelen</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3138-4118"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>software/data engineer</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q58206618"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3138-4118"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Jorrit Poelen</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q58206618"/>
     </owl:Axiom>
     
 
@@ -6004,6 +7589,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0003-3645-6803 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3645-6803">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher ORCID ID = 0000-0003-3645-6803</terms:description>
+        <rdfs:label>Mary L Kaldunski</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3645-6803"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID ID = 0000-0003-3645-6803</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q58397742"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3645-6803"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Mary L Kaldunski</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q58397742"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0003-3691-0324 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3691-0324">
@@ -6066,6 +7673,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Jimena Linares</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q114555820"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4062-6158 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4062-6158">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Birgit H M Meldal</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4062-6158"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q46168094"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4062-6158"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Birgit H M Meldal</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q46168094"/>
     </owl:Axiom>
     
 
@@ -6286,6 +7915,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Emily H Bowler</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q57999163"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0003-4808-4736 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4808-4736">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher, ORCID 0000-0003-4808-4736</terms:description>
+        <rdfs:label>Ruth Duerr</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher, ORCID 0000-0003-4808-4736</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56526490"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Ruth Duerr</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q56526490"/>
     </owl:Axiom>
     
 
