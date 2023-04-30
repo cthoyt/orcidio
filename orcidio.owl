@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-04-23</owl:versionInfo>
+        <owl:versionInfo>2023-04-30</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5466,13 +5466,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7356-1779">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher ORCID ID = 0000-0002-7356-1779</terms:description>
+        <terms:description>Independent Consultant Semantic Technologies</terms:description>
         <rdfs:label>Nicolas Matentzoglu</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher ORCID ID = 0000-0002-7356-1779</owl:annotatedTarget>
+        <owl:annotatedTarget>Independent Consultant Semantic Technologies</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q60972192"/>
     </owl:Axiom>
     <owl:Axiom>
