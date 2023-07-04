@@ -2,6 +2,7 @@
 
 import datetime
 import itertools as itt
+import logging
 import os
 import time
 from pathlib import Path
@@ -19,6 +20,8 @@ from funowl import (
     OntologyDocument,
 )
 from rdflib import DCTERMS, OWL, RDFS, Literal, Namespace, URIRef
+
+logger = logging.getLogger(__name__)
 
 HERE = Path(__file__).parent.resolve()
 OFN_PATH = HERE.joinpath("orcidio.ofn")
@@ -57,7 +60,10 @@ def format_custom_sparql(orcids: Iterable[str]) -> str:
     return CUSTOM_SPARQL_FMT % " ".join(f'"{orcid}"' for orcid in orcids)
 
 
-def get_records():
+WikidataRecord = dict[str, any]
+
+
+def get_records() -> Iterable[WikidataRecord]:
     """Get records from the OBO-centric ORCIDs and custom ORCID list."""
     custom_orcids = {line.strip() for line in ORCIDS_PATH.read_text().splitlines()}
     custom_sparql = format_custom_sparql(custom_orcids)
@@ -65,11 +71,10 @@ def get_records():
     return itt.chain(get_wikidata_records(OBO_SPARQL), get_wikidata_records(custom_sparql))
 
 
-def get_wikidata_records(sparql) -> list[dict[str, any]]:
+def get_wikidata_records(sparql: str) -> list[WikidataRecord]:
     """Query the Wikidata SPARQL endpoint and unpack the records."""
     start_time = time.time()
-    click.echo("running sparql:")
-    click.secho(sparql, fg="magenta")
+    logger.info("running sparql:\n%s", sparql)
     res = requests.get(
         "https://query.wikidata.org/sparql",
         params={"query": sparql, "format": "json"},
@@ -84,10 +89,11 @@ def get_wikidata_records(sparql) -> list[dict[str, any]]:
         for record in res.json()["results"]["bindings"]
     ]
     elapsed = time.time() - start_time
-    click.echo(f"retrieved {len(rv):,} records in {elapsed:.2f} seconds")
+    logger.info(f"retrieved {len(rv):,} records in {elapsed:.2f} seconds")
     return rv
 
 
+@click.command()
 def main():
     """Query the Wikidata SPARQL endpoint and return JSON."""
     today = datetime.date.today().strftime("%Y-%m-%d")
