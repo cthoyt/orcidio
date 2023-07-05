@@ -2,7 +2,7 @@
 
 import json
 import webbrowser
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 from textwrap import shorten
 from typing import Any, Iterable
@@ -24,7 +24,7 @@ from build import format_custom_sparql, get_wikidata_records
 
 HERE = Path(__file__).parent.resolve()
 PREFIXES_PATH = HERE.joinpath("prefixes.json")
-MISSING_WD_ORCIDS_PATH = HERE.joinpath("wikidata_missing_orcids.txt")
+MISSING_WD_ORCIDS_PATH = HERE.joinpath("wikidata_missing_orcids.tsv")
 SKIP = {
     "ncbitaxon",
     "gaz",
@@ -44,7 +44,7 @@ def secho(*args, **kwargs) -> None:
 @click.option("--dry", is_flag=True)
 def main(dry: bool):
     lines: list[str] = []
-    wd_missing_orcids: set[str] = set()
+    wd_missing_orcids = defaultdict(list)
     resources = [
         resource
         for resource in bioregistry.resources()
@@ -63,11 +63,17 @@ def main(dry: bool):
             secho(f"{resource.prefix.upper()} failed with {type(e)}: {e}")
             continue
         else:
-            wd_missing_orcids.update(local_missing)
+            for orcid in local_missing:
+                wd_missing_orcids[orcid].append(resource.prefix)
             lines.extend(local_lines)
 
         # do this on every iteration for fast results
-        MISSING_WD_ORCIDS_PATH.write_text("\n".join(sorted(wd_missing_orcids)) + "\n")
+        MISSING_WD_ORCIDS_PATH.write_text(
+            "".join(
+                orcid + "\t" + "|".join(sorted(resources)) + "\n"
+                for orcid, resources in sorted(wd_missing_orcids.items())
+            )
+        )
 
     if dry:
         secho("Running in dry mode. Quickstatements:", fg="cyan")
@@ -136,7 +142,7 @@ def get_lines(prefix: str) -> tuple[set[str], list[EntityLine]]:
     records = get_wikidata_records(format_custom_sparql(orcids_unannotated))
     if not records:
         secho(
-            f"[{pp}] No contributors have associated wikidata records",
+            f"[{pp}] All {len(orcids_unannotated)} unannotated contributors do not have associated Wikidata records",
             fg="red",
         )
         return orcids_unannotated, []
@@ -194,7 +200,7 @@ def count_obograph_orcids(graph_document, *, uri_prefix: str) -> Counter[str]:
         for node in graph["nodes"]:
             if not node["id"].startswith(uri_prefix):
                 continue
-            rv.extend(orcid for orcid_raw in iter_orcids(node) if (orcid := orcid_raw.strip()))
+            rv.extend(orcid.upper() for orcid_raw in iter_orcids(node) if (orcid := orcid_raw.strip()))
     return Counter(rv)
 
 
@@ -206,20 +212,25 @@ def iter_orcids(obj: Any) -> Iterable[str]:
         for item in obj.values():
             yield from iter_orcids(item)
     elif isinstance(obj, str):
-        obj = obj.lower().replace(" ", "").strip()
+        obj = obj.lower().replace(" ", "").replace(",", "").strip()
+        if '"' in obj:
+            # e.g., in OBI, some are written like 0000-0002-7245-3450"laurenm.wishnie"
+            obj = obj[:obj.find('"')]
         if not obj:
             pass
         elif obj.startswith("https://orcid.org/orcid.org/"):
             # see https://github.com/obophenotype/uberon/pull/2845
-            yield obj.removeprefix("https://orcid.org/orcid.org/").rstrip("/")
-        elif obj.lower().startswith("orcid:"):
-            yield obj.removeprefix("orcid:")
+            yield obj.removeprefix("https://orcid.org/orcid.org/").rstrip("/").strip()
+        elif obj.startswith("orcid:orcid.org/"):
+            yield obj.removeprefix("orcid:orcid.org/")
+        elif obj.startswith("orcid:"):
+            yield obj.removeprefix("orcid:").strip()
         elif obj.startswith("http://orcid.org/"):
-            yield obj.removeprefix("http://orcid.org/").rstrip("/")
+            yield obj.removeprefix("http://orcid.org/").rstrip("/").strip()
         elif obj.startswith("https://orcid.org/"):
-            yield obj.removeprefix("https://orcid.org/").rstrip("/")
+            yield obj.removeprefix("https://orcid.org/").rstrip("/").strip()
         elif obj.startswith("orcid.org/"):
-            yield obj.removeprefix("orcid.org/").rstrip("/")
+            yield obj.removeprefix("orcid.org/").rstrip("/").strip()
     elif obj is None or isinstance(obj, (bool, float, int)):
         pass
     else:
