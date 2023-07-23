@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-07-16</owl:versionInfo>
+        <owl:versionInfo>2023-07-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4300,13 +4300,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3469-4923">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>British biologist</terms:description>
+        <terms:description>South-african born computer scientist</terms:description>
         <rdfs:label>Janna Hastings</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-3469-4923"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>British biologist</owl:annotatedTarget>
+        <owl:annotatedTarget>South-african born computer scientist</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q27902110"/>
     </owl:Axiom>
     <owl:Axiom>
