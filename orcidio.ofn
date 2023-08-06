@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    Annotation( owl:versionInfo "2023-07-30" )
+    Annotation( owl:versionInfo "2023-08-06" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q63775795 )
@@ -836,6 +836,10 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-9227-417X )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q105829131 )
+        dcterms:description orcid:0000-0001-9227-417X "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q28913585 )
         rdfs:label orcid:0000-0001-9254-7318 "Rutger Vos"
     )
@@ -1227,6 +1231,10 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         rdfs:label orcid:0000-0002-1009-339X "Leyla Ruzicka"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1009-339X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q119452155 )
+        dcterms:description orcid:0000-0002-1009-339X "researcher"
+    )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q88110949 )
         rdfs:label orcid:0000-0002-1048-5019 "Matthew Brush"
@@ -3259,6 +3267,10 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         rdfs:label orcid:0000-0003-2534-198X "Kalpana Panneerselvam"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-2534-198X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q109640055 )
+        dcterms:description orcid:0000-0003-2534-198X "researcher"
+    )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q114530199 )
         rdfs:label orcid:0000-0003-2569-1939 "Stephanie H Nowotarski"
