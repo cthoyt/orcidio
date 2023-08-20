@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-08-13</owl:versionInfo>
+        <owl:versionInfo>2023-08-20</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2677,28 +2677,6 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Brandon Whitehead</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q61041982"/>
-    </owl:Axiom>
-    
-
-
-    <!-- https://orcid.org/0000-0002-0358-0130 -->
-
-    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-0358-0130">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher (ORCID 0000-0002-0358-0130)</terms:description>
-        <rdfs:label>Martín J Ramírez</rdfs:label>
-    </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0358-0130"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher (ORCID 0000-0002-0358-0130)</owl:annotatedTarget>
-        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91241307"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0358-0130"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Martín J Ramírez</owl:annotatedTarget>
-        <terms:source rdf:resource="http://www.wikidata.org/entity/Q91241307"/>
     </owl:Axiom>
     
 
@@ -5773,6 +5751,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Zhi-Liang Hu</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q92916417"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6726-6319 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6726-6319">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>German entomologist</terms:description>
+        <rdfs:label>Torben Göpel</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6726-6319"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>German entomologist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q43776461"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6726-6319"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Torben Göpel</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q43776461"/>
     </owl:Axiom>
     
 

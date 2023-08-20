@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/wikidata-orcid-ontology> )
-    Annotation( owl:versionInfo "2023-08-13" )
+    Annotation( owl:versionInfo "2023-08-20" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q63775795 )
@@ -1081,15 +1081,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q61041982 )
         dcterms:description orcid:0000-0002-0337-8610 "researcher ORCID ID = 0000-0002-0337-8610"
-    )
-    AnnotationAssertion(
-        Annotation( dcterms:source wikidata:Q91241307 )
-        rdfs:label orcid:0000-0002-0358-0130 "Martín J Ramírez"
-    )
-    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0358-0130 )
-    AnnotationAssertion(
-        Annotation( dcterms:source wikidata:Q91241307 )
-        dcterms:description orcid:0000-0002-0358-0130 "researcher (ORCID 0000-0002-0358-0130)"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q71798225 )
@@ -2343,6 +2334,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q92916417 )
         dcterms:description orcid:0000-0002-6704-7538 "researcher (ORCID 0000-0002-6704-7538)"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q43776461 )
+        rdfs:label orcid:0000-0002-6726-6319 "Torben Göpel"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6726-6319 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q43776461 )
+        dcterms:description orcid:0000-0002-6726-6319 "German entomologist"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q88418159 )
@@ -3742,7 +3742,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-0142-5591 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0192-5385 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0337-8610 ) )
-    Declaration( NamedIndividual( orcid:0000-0002-0358-0130 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0524-0260 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0593-3569 ) )
     Declaration( NamedIndividual( orcid:0000-0002-0640-0422 ) )
@@ -3884,6 +3883,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-6659-0416 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6670-9157 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6704-7538 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6726-6319 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6733-369X ) )
     Declaration( NamedIndividual( orcid:0000-0002-6826-8770 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6912-7865 ) )
