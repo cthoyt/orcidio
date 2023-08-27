@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-08-20</owl:versionInfo>
+        <owl:versionInfo>2023-08-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2677,6 +2677,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Brandon Whitehead</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q61041982"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-0358-0130 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-0358-0130">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Argentine arachnologist</terms:description>
+        <rdfs:label>Martín Javier Ramírez</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0358-0130"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Argentine arachnologist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q22113298"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0358-0130"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Martín Javier Ramírez</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q22113298"/>
     </owl:Axiom>
     
 
