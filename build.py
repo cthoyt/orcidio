@@ -2,6 +2,7 @@
 
 import datetime
 import itertools as itt
+import json
 import logging
 import os
 import time
@@ -33,7 +34,9 @@ WIKIDATA = Namespace("http://www.wikidata.org/entity/")
 
 PARENT = "http://purl.obolibrary.org/obo/NCBITaxon_9606"
 
-#: A SPARQL query that gets ORCIDs for all people who have ben annotated to have contributed to an OBO ontology
+RENAMES = json.loads(HERE.joinpath("renames.json").read_text())
+
+#: A SPARQL query that gets ORCIDs for all people who have been annotated to have contributed to an OBO ontology
 OBO_SPARQL = """\
     SELECT DISTINCT ?orcid ?contributor ?contributorLabel ?contributorDescription
     WHERE {
@@ -116,8 +119,9 @@ def main():
     ontology.annotations.append(AnnotationAssertion(RDFS.label, human, "Homo sapiens"))
 
     for record in get_records():
-        orcid = ORCID[record["orcid"]]
-        name = record["contributorLabel"]
+        orcid_luid = record["orcid"]
+        orcid = ORCID[orcid_luid]
+        name = RENAMES.get(orcid_luid) or record["contributorLabel"]
         description = record.get("contributorDescription")
         wikidata = record["contributor"]
 
