@@ -200,7 +200,9 @@ def count_obograph_orcids(graph_document, *, uri_prefix: str) -> Counter[str]:
         for node in graph["nodes"]:
             if not node["id"].startswith(uri_prefix):
                 continue
-            rv.extend(orcid.upper() for orcid_raw in iter_orcids(node) if (orcid := orcid_raw.strip()))
+            rv.extend(
+                orcid.upper() for orcid_raw in iter_orcids(node) if (orcid := orcid_raw.strip())
+            )
     return Counter(rv)
 
 
@@ -215,7 +217,7 @@ def iter_orcids(obj: Any) -> Iterable[str]:
         obj = obj.lower().replace(" ", "").replace(",", "").strip()
         if '"' in obj:
             # e.g., in OBI, some are written like 0000-0002-7245-3450"laurenm.wishnie"
-            obj = obj[:obj.find('"')]
+            obj = obj[: obj.find('"')]
         if not obj:
             pass
         elif obj.startswith("https://orcid.org/orcid.org/"):
