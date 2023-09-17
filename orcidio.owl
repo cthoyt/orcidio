@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-09-10</owl:versionInfo>
+        <owl:versionInfo>2023-09-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3213,13 +3213,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1434-9495">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher ORCID ID = 0000-0002-1434-9495</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Richard J Ostler</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1434-9495"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher ORCID ID = 0000-0002-1434-9495</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q57678068"/>
     </owl:Axiom>
     <owl:Axiom>
