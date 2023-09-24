@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/wikidata-orcid-ontology"/>
-        <owl:versionInfo>2023-09-17</owl:versionInfo>
+        <owl:versionInfo>2023-09-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5363,13 +5363,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6025-0015">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>physician and researcher</terms:description>
+        <terms:description>American human geneticist and genomic medicine researcher</terms:description>
         <rdfs:label>Heidi L. Rehm</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6025-0015"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>physician and researcher</owl:annotatedTarget>
+        <owl:annotatedTarget>American human geneticist and genomic medicine researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q41543979"/>
     </owl:Axiom>
     <owl:Axiom>
