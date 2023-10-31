@@ -43,7 +43,7 @@ def secho(*args, **kwargs) -> None:
 @click.command()
 @click.option("--dry", is_flag=True)
 def main(dry: bool):
-    lines: list[str] = []
+    lines: list[EntityLine] = []
     wd_missing_orcids = defaultdict(list)
     resources = [
         resource
@@ -116,14 +116,14 @@ def get_lines(prefix: str) -> tuple[set[str], list[EntityLine]]:
         )
         return set(), []
 
-    secho(
-        tabulate(
-            orcid_counter.most_common(),
-            headers=[f"{prefix.upper()} Contributor ORCID", "Count"],
-            tablefmt="github",
-        )
-        + "\n"
-    )
+    # secho(
+    #     tabulate(
+    #         orcid_counter.most_common(),
+    #         headers=[f"{prefix.upper()} Contributor ORCID", "Count"],
+    #         tablefmt="github",
+    #     )
+    #     + "\n"
+    # )
 
     secho(f"[{pp}] getting existing ORCiD annotations")
     orcids_annotated: set[str] = {

@@ -109,7 +109,7 @@ def main():
             Annotation(DCTERMS.title, "ORCID in OWL"),
             Annotation(DCTERMS.creator, charlie_iri),
             Annotation(DCTERMS.license, "https://creativecommons.org/publicdomain/zero/1.0/"),
-            Annotation(RDFS.seeAlso, "https://github.com/cthoyt/wikidata-orcid-ontology"),
+            Annotation(RDFS.seeAlso, "https://github.com/cthoyt/orcidio"),
             Annotation(OWL.versionInfo, today),
         )
     )

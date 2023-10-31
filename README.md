@@ -8,11 +8,11 @@ The PURL for this ontology is https://w3id.org/orcidio/orcidio.owl.
 
 ## Screenshot
 
-In this Protege screenshot, you can see that the named individuals are available:
+In this Protégé screenshot, you can see that the named individuals are available:
 
 ![](img/screenshot-1.png)
 
-You can see anywhere in Protege you use ORCID URIs, they will get shown with their labels and linked back to the named
+You can see anywhere in Protégé you use ORCID URIs, they will get shown with their labels and linked back to the named
 individuals.
 
 ![](img/screenshot-2.png)
@@ -28,6 +28,7 @@ contributions in OBO Foundry ontologies. There are a few possibilities for addin
 3. Annotate ORCID identifiers to your favorite ontologies using structured predicates, get them released, then
    run `python update_wikidata.py` to parse all OBO ontologies with JSON releases, generate QuickStatements, then update
    Wikidata. (TODO: this could be automated)
+4. Sometimes run `python push_wikidata.py` and do step 3 again to create missing Wikidata entries
 
 ## How to import ORCIDIO in your ontology
 
