@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2023-11-05" )
+    Annotation( owl:versionInfo "2023-11-12" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -1720,15 +1720,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q47502894 )
         dcterms:description orcid:0000-0002-1615-2899 "researcher"
-    )
-    AnnotationAssertion(
-        Annotation( dcterms:source wikidata:Q60731440 )
-        rdfs:label orcid:0000-0002-1628-7726 "Leslie A. Lyons"
-    )
-    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1628-7726 )
-    AnnotationAssertion(
-        Annotation( dcterms:source wikidata:Q60731440 )
-        dcterms:description orcid:0000-0002-1628-7726 "researcher"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q91558108 )
@@ -4938,7 +4929,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-1595-3213 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1604-3078 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1615-2899 ) )
-    Declaration( NamedIndividual( orcid:0000-0002-1628-7726 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1679-1711 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1706-4196 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1735-8178 ) )
