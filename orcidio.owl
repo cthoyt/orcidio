@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2023-11-12</owl:versionInfo>
+        <owl:versionInfo>2023-11-19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4239,6 +4239,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>James Malone</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q47502894"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1628-7726 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1628-7726">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>American geneticist</terms:description>
+        <rdfs:label>Leslie A. Lyons</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>American geneticist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q6530579"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1628-7726"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Leslie A. Lyons</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q6530579"/>
     </owl:Axiom>
     
 
