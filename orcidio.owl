@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2023-11-19</owl:versionInfo>
+        <owl:versionInfo>2023-11-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2589,28 +2589,6 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>MAHIMA VEDI</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250338"/>
-    </owl:Axiom>
-    
-
-
-    <!-- https://orcid.org/0000-0001-9221-9226 -->
-
-    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-9221-9226">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher</terms:description>
-        <rdfs:label>J Raymond DePaulo</rdfs:label>
-    </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
-        <terms:source rdf:resource="http://www.wikidata.org/entity/Q42724081"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-9221-9226"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>J Raymond DePaulo</owl:annotatedTarget>
-        <terms:source rdf:resource="http://www.wikidata.org/entity/Q42724081"/>
     </owl:Axiom>
     
 
