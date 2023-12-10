@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2023-12-03</owl:versionInfo>
+        <owl:versionInfo>2023-12-10</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4643,8 +4643,15 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-2282-7215">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher, ORCiD ID=0000-0002-2282-7215</terms:description>
         <rdfs:label>Gary Berg-Cross</rdfs:label>
     </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher, ORCiD ID=0000-0002-2282-7215</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q116600596"/>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-2282-7215"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -11066,14 +11073,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4183-8865"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>Reseacher ORCID = 0000-0003-4183-8865</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Nancy George</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250436"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4183-8865"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Nancy George</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Reseacher ORCID = 0000-0003-4183-8865</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250436"/>
     </owl:Axiom>
     
