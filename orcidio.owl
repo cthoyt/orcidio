@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-02-04</owl:versionInfo>
+        <owl:versionInfo>2024-02-11</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -9668,7 +9668,7 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-1336-5554">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>researcher</terms:description>
-        <rdfs:label>Anton P Van de Putte</rdfs:label>
+        <rdfs:label>Anton Pieter Van de Putte</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1336-5554"/>
@@ -9679,7 +9679,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-1336-5554"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Anton P Van de Putte</owl:annotatedTarget>
+        <owl:annotatedTarget>Anton Pieter Van de Putte</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56990019"/>
     </owl:Axiom>
     
