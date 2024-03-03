@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-02-25</owl:versionInfo>
+        <owl:versionInfo>2024-03-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1636,13 +1636,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7542-0286">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>Dutch chemist</terms:description>
+        <terms:description>Dutch researcher</terms:description>
         <rdfs:label>Egon Willighagen</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7542-0286"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>Dutch chemist</owl:annotatedTarget>
+        <owl:annotatedTarget>Dutch researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q20895241"/>
     </owl:Axiom>
     <owl:Axiom>
