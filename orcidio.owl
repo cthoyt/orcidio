@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-03-10</owl:versionInfo>
+        <owl:versionInfo>2024-03-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -778,13 +778,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-6164-0667">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>Researcher ORCID=0000-0001-6164-0667</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Meena Kharatmal</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6164-0667"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>Researcher ORCID=0000-0001-6164-0667</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250326"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -3484,13 +3484,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-0548-891X">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>Researcher ORCID=0000-0002-0548-891X</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Madeline Iseminger</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0548-891X"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>Researcher ORCID=0000-0002-0548-891X</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250346"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -4298,13 +4298,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1706-4196">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher ORCID ID = 0000-0002-1706-4196</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Kimberly Van Auken</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1706-4196"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher ORCID ID = 0000-0002-1706-4196</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q59674797"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -8897,13 +8897,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9578-0788">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>Researcher ORCID=0000-0002-9578-0788</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Rhiannon Cameron</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9578-0788"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>Researcher ORCID=0000-0002-9578-0788</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250393"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -11471,13 +11471,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4871-5569">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher ORCID ID = 0000-0003-4871-5569</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Rebecca Tauber</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4871-5569"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher ORCID ID = 0000-0003-4871-5569</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q59539088"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -11537,13 +11537,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-4972-2947">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>Researcher ORCID=0000-0003-4972-2947</terms:description>
+        <terms:description>researcher</terms:description>
         <rdfs:label>Emma Wilcox</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4972-2947"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>Researcher ORCID=0000-0003-4972-2947</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250415"/>
     </owl:Axiom>
     <owl:Axiom>
