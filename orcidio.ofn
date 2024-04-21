@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2024-04-14" )
+    Annotation( owl:versionInfo "2024-04-21" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -2947,6 +2947,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-6601-2165 "bioinformatics researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q47499069 )
+        rdfs:label orcid:0000-0002-6647-5493 "Erin Rooney Riggs"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-6647-5493 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q47499069 )
+        dcterms:description orcid:0000-0002-6647-5493 "researcher (ORCID 0000-0002-6647-5493)"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q104475281 )
         rdfs:label orcid:0000-0002-6659-0416 "Dustin Ebert"
     )
@@ -5074,6 +5083,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-6548-5200 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6581-7754 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6601-2165 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-6647-5493 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6659-0416 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6670-9157 ) )
     Declaration( NamedIndividual( orcid:0000-0002-6704-7538 ) )

@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-04-14</owl:versionInfo>
+        <owl:versionInfo>2024-04-21</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7239,6 +7239,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Christopher J. Mungall</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q20746118"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-6647-5493 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6647-5493">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher (ORCID 0000-0002-6647-5493)</terms:description>
+        <rdfs:label>Erin Rooney Riggs</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6647-5493"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher (ORCID 0000-0002-6647-5493)</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q47499069"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6647-5493"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Erin Rooney Riggs</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q47499069"/>
     </owl:Axiom>
     
 
