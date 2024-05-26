@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2024-05-19" )
+    Annotation( owl:versionInfo "2024-05-26" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -2460,6 +2460,10 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         rdfs:label orcid:0000-0002-4475-896X "John Levander"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-4475-896X )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q111526841 )
+        dcterms:description orcid:0000-0002-4475-896X "researcher"
+    )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250367 )
         rdfs:label orcid:0000-0002-4487-3589 "Claudia Diaz-Byrd, MSc."

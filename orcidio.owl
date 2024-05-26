@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-05-19</owl:versionInfo>
+        <owl:versionInfo>2024-05-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6044,8 +6044,15 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-4475-896X">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
         <rdfs:label>John Levander</rdfs:label>
     </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4475-896X"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q111526841"/>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-4475-896X"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -11058,14 +11065,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     
