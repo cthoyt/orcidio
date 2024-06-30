@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2024-06-23" )
+    Annotation( owl:versionInfo "2024-06-30" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -1480,7 +1480,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-0736-9199 )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q41935087 )
-        dcterms:description orcid:0000-0002-0736-9199 "researcher"
+        dcterms:description orcid:0000-0002-0736-9199 "American professor of computational biology"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q90245521 )
@@ -3653,6 +3653,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0002-9593-5508 "researcher"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q28354344 )
+        rdfs:label orcid:0000-0002-9602-2321 "Jill Clayton-Smith"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-9602-2321 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q28354344 )
+        dcterms:description orcid:0000-0002-9602-2321 "researcher"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q54303422 )
         rdfs:label orcid:0000-0002-9611-1279 "Erik Segerdell"
     )
@@ -5156,6 +5165,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-9578-0788 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9588-2944 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9593-5508 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-9602-2321 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9611-1279 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9654-0073 ) )
     Declaration( NamedIndividual( orcid:0000-0002-9673-1283 ) )

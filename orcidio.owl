@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-06-23</owl:versionInfo>
+        <owl:versionInfo>2024-06-30</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3638,13 +3638,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-0736-9199">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher</terms:description>
+        <terms:description>American professor of computational biology</terms:description>
         <rdfs:label>Peter Robinson</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedTarget>American professor of computational biology</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q41935087"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -8966,6 +8966,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-9602-2321 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9602-2321">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>researcher</terms:description>
+        <rdfs:label>Jill Clayton-Smith</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9602-2321"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q28354344"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-9602-2321"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Jill Clayton-Smith</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q28354344"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-9611-1279 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9611-1279">
@@ -11043,14 +11065,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     
@@ -11065,14 +11087,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4183-8865"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Nancy George</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID = 0000-0003-4183-8865</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250436"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4183-8865"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher ORCID = 0000-0003-4183-8865</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Nancy George</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250436"/>
     </owl:Axiom>
     
