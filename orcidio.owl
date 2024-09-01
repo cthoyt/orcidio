@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-08-25</owl:versionInfo>
+        <owl:versionInfo>2024-09-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7057,7 +7057,7 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6410-0882">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>British geneticist</terms:description>
-        <rdfs:label>Helen V. Firth</rdfs:label>
+        <rdfs:label>Helen Firth</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6410-0882"/>
@@ -7068,7 +7068,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6410-0882"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Helen V. Firth</owl:annotatedTarget>
+        <owl:annotatedTarget>Helen Firth</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q92271212"/>
     </owl:Axiom>
     
@@ -10489,7 +10489,7 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2958-5076">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>researcher</terms:description>
-        <rdfs:label>Caroline F. Wright</rdfs:label>
+        <rdfs:label>Caroline Wright</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-2958-5076"/>
@@ -10500,7 +10500,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-2958-5076"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Caroline F. Wright</owl:annotatedTarget>
+        <owl:annotatedTarget>Caroline Wright</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q48124763"/>
     </owl:Axiom>
     
