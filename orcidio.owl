@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-10-13</owl:versionInfo>
+        <owl:versionInfo>2024-10-20</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6594,13 +6594,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-5554-6946">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>psychiatrist</terms:description>
+        <terms:description>Australian psychiatrist</terms:description>
         <rdfs:label>Michael Berk</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-5554-6946"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>psychiatrist</owl:annotatedTarget>
+        <owl:annotatedTarget>Australian psychiatrist</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q30504747"/>
     </owl:Axiom>
     <owl:Axiom>
