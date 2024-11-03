@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-10-27</owl:versionInfo>
+        <owl:versionInfo>2024-11-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -581,7 +581,7 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5809-9523">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>researcher</terms:description>
-        <rdfs:label>D A Natale</rdfs:label>
+        <rdfs:label>Darren A. Natale</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5809-9523"/>
@@ -592,7 +592,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5809-9523"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>D A Natale</owl:annotatedTarget>
+        <owl:annotatedTarget>Darren A. Natale</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q99552327"/>
     </owl:Axiom>
     

@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2024-10-27" )
+    Annotation( owl:versionInfo "2024-11-03" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -224,7 +224,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q99552327 )
-        rdfs:label orcid:0000-0001-5809-9523 "D A Natale"
+        rdfs:label orcid:0000-0001-5809-9523 "Darren A. Natale"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5809-9523 )
     AnnotationAssertion(
