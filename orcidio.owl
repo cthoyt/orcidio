@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-11-17</owl:versionInfo>
+        <owl:versionInfo>2024-11-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4378,6 +4378,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>B Varner</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q114557426"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1780-5230 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1780-5230">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>American pediatrician and geneticist</terms:description>
+        <rdfs:label>Ada Hamosh</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1780-5230"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>American pediatrician and geneticist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q61639214"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1780-5230"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Ada Hamosh</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q61639214"/>
     </owl:Axiom>
     
 
@@ -11043,14 +11065,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     
@@ -11065,14 +11087,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4183-8865"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Nancy George</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher ORCID = 0000-0003-4183-8865</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250436"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4183-8865"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher ORCID = 0000-0003-4183-8865</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Nancy George</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q123250436"/>
     </owl:Axiom>
     
