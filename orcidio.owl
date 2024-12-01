@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2024-11-24</owl:versionInfo>
+        <owl:versionInfo>2024-12-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6902,13 +6902,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-6148-7962">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher from UC Davis</terms:description>
+        <terms:description>researcher from IC-FOODS</terms:description>
         <rdfs:label>Matthew Lange</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-6148-7962"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher from UC Davis</owl:annotatedTarget>
+        <owl:annotatedTarget>researcher from IC-FOODS</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q59462105"/>
     </owl:Axiom>
     <owl:Axiom>
