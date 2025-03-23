@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2025-03-16</owl:versionInfo>
+        <owl:versionInfo>2025-03-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1812,19 +1812,19 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-7972-3866">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher</terms:description>
-        <rdfs:label>T Alexander Dececchi</rdfs:label>
+        <terms:description>biologist</terms:description>
+        <rdfs:label>T. Alexander Dececchi</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7972-3866"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedTarget>biologist</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q84802701"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-7972-3866"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>T Alexander Dececchi</owl:annotatedTarget>
+        <owl:annotatedTarget>T. Alexander Dececchi</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q84802701"/>
     </owl:Axiom>
     
