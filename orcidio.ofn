@@ -4751,6 +4751,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
         dcterms:description orcid:0000-0001-6677-8489 "Researcher ORCID=0000-0001-6677-8489"
     )
     AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q120766436 )
+        rdfs:label orcid:0000-0002-1296-2528 "Tim Alamenciak"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1296-2528 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q120766436 )
+        dcterms:description orcid:0000-0002-1296-2528 "postdoctoral fellow"
+    )
+    AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q106806285 )
         rdfs:label orcid:0000-0003-1307-2508 "Amelia L. Hoyt"
     )
@@ -5287,5 +5296,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0009-0006-7251-3026 ) )
     Declaration( NamedIndividual( orcid:0009-0009-9147-3105 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6677-8489 ) )
+    Declaration( NamedIndividual( orcid:0000-0002-1296-2528 ) )
     Declaration( NamedIndividual( orcid:0000-0003-1307-2508 ) )
 )

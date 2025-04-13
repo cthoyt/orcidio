@@ -4030,6 +4030,28 @@
     
 
 
+    <!-- https://orcid.org/0000-0002-1296-2528 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1296-2528">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>postdoctoral fellow</terms:description>
+        <rdfs:label>Tim Alamenciak</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1296-2528"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>postdoctoral fellow</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q120766436"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-1296-2528"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Tim Alamenciak</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q120766436"/>
+    </owl:Axiom>
+    
+
+
     <!-- https://orcid.org/0000-0002-1373-1705 -->
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-1373-1705">
@@ -11043,14 +11065,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4062-6158"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Birgit H M Meldal</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q46168094"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4062-6158"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Birgit H M Meldal</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q46168094"/>
     </owl:Axiom>
     
@@ -11065,14 +11087,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     
