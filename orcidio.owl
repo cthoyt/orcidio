@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2025-05-11</owl:versionInfo>
+        <owl:versionInfo>2025-05-18</owl:versionInfo>
     </owl:Ontology>
     
 
