@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2025-06-15" )
+    Annotation( owl:versionInfo "2025-06-22" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -419,6 +419,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250330 )
         dcterms:description orcid:0000-0001-6595-0902 "Researcher ORCID=0000-0001-6595-0902"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q22340118 )
+        rdfs:label orcid:0000-0001-6624-2975 "Thomas G. Schulze"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-6624-2975 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q22340118 )
+        dcterms:description orcid:0000-0001-6624-2975 "German psychiatrist"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250331 )
@@ -4805,6 +4814,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0001-6512-3296 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6579-6941 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6595-0902 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-6624-2975 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6624-9261 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6666-1520 ) )
     Declaration( NamedIndividual( orcid:0000-0001-6677-8489 ) )
