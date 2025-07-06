@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2025-06-29</owl:versionInfo>
+        <owl:versionInfo>2025-07-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -10510,13 +10510,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-2958-5076">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher</terms:description>
+        <terms:description>British biochemist</terms:description>
         <rdfs:label>Caroline Wright</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-2958-5076"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedTarget>British biochemist</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q48124763"/>
     </owl:Axiom>
     <owl:Axiom>
