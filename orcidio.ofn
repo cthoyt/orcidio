@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2025-08-10" )
+    Annotation( owl:versionInfo "2025-08-17" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -86,6 +86,15 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q42763131 )
         dcterms:description orcid:0000-0001-5208-3432 "researcher"
+    )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q29981721 )
+        rdfs:label orcid:0000-0001-5237-2330 "Sergey I. Tarasov"
+    )
+    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0001-5237-2330 )
+    AnnotationAssertion(
+        Annotation( dcterms:source wikidata:Q29981721 )
+        dcterms:description orcid:0000-0001-5237-2330 "Russian entomologist"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250318 )
@@ -4365,7 +4374,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q90627966 )
-        rdfs:label orcid:0000-0003-3411-9598 "Julia Pazmandi"
+        rdfs:label orcid:0000-0003-3411-9598 "Júlia Pázmándi"
     )
     ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0003-3411-9598 )
     AnnotationAssertion(
@@ -4768,6 +4777,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0001-5139-5557 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5168-3196 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5208-3432 ) )
+    Declaration( NamedIndividual( orcid:0000-0001-5237-2330 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5243-225X ) )
     Declaration( NamedIndividual( orcid:0000-0001-5256-8683 ) )
     Declaration( NamedIndividual( orcid:0000-0001-5272-7613 ) )

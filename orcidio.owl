@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2025-08-10</owl:versionInfo>
+        <owl:versionInfo>2025-08-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -242,6 +242,28 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>Nicole Vasilevsky</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q42763131"/>
+    </owl:Axiom>
+    
+
+
+    <!-- https://orcid.org/0000-0001-5237-2330 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0001-5237-2330">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <terms:description>Russian entomologist</terms:description>
+        <rdfs:label>Sergey I. Tarasov</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5237-2330"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>Russian entomologist</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q29981721"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-5237-2330"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Sergey I. Tarasov</owl:annotatedTarget>
+        <terms:source rdf:resource="http://www.wikidata.org/entity/Q29981721"/>
     </owl:Axiom>
     
 
@@ -1135,14 +1157,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6682-1504"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Robert Guralnick</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q55829951"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6682-1504"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Robert Guralnick</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q55829951"/>
     </owl:Axiom>
     
@@ -1157,14 +1179,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6755-0259"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Russell A. Poldrack</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>American psychologist and neuroscientist</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q22279699"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0001-6755-0259"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>American psychologist and neuroscientist</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Russell A. Poldrack</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q22279699"/>
     </owl:Axiom>
     
@@ -10753,7 +10775,7 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3411-9598">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <terms:description>researcher (ORCID 0000-0003-3411-9598)</terms:description>
-        <rdfs:label>Julia Pazmandi</rdfs:label>
+        <rdfs:label>Júlia Pázmándi</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3411-9598"/>
@@ -10764,7 +10786,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3411-9598"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Julia Pazmandi</owl:annotatedTarget>
+        <owl:annotatedTarget>Júlia Pázmándi</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q90627966"/>
     </owl:Axiom>
     
@@ -11043,14 +11065,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4062-6158"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Birgit H M Meldal</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q46168094"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4062-6158"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Birgit H M Meldal</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q46168094"/>
     </owl:Axiom>
     
@@ -11065,14 +11087,14 @@
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-4148-4606"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Midori A Harris</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q56516195"/>
     </owl:Axiom>
     
