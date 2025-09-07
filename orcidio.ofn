@@ -13,7 +13,7 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Annotation( dcterms:creator orcid:0000-0003-4423-4370 )
     Annotation( dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> )
     Annotation( rdfs:seeAlso <https://github.com/cthoyt/orcidio> )
-    Annotation( owl:versionInfo "2025-08-31" )
+    Annotation( owl:versionInfo "2025-09-07" )
     AnnotationAssertion( rdfs:label obo:NCBITaxon_9606 "Homo sapiens" )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q123250317 )
@@ -1769,15 +1769,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q53584882 )
         dcterms:description orcid:0000-0002-1767-2343 "researcher"
-    )
-    AnnotationAssertion(
-        Annotation( dcterms:source wikidata:Q114557426 )
-        rdfs:label orcid:0000-0002-1773-2692 "B Varner"
-    )
-    ClassAssertion( obo:NCBITaxon_9606 orcid:0000-0002-1773-2692 )
-    AnnotationAssertion(
-        Annotation( dcterms:source wikidata:Q114557426 )
-        dcterms:description orcid:0000-0002-1773-2692 "Researcher ORCID = 0000-0002-1773-2692"
     )
     AnnotationAssertion(
         Annotation( dcterms:source wikidata:Q61639214 )
@@ -4964,7 +4955,6 @@ Ontology( <https://w3id.org/orcidio/orcidio.owl>
     Declaration( NamedIndividual( orcid:0000-0002-1706-4196 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1735-8178 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1767-2343 ) )
-    Declaration( NamedIndividual( orcid:0000-0002-1773-2692 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1780-5230 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1795-5570 ) )
     Declaration( NamedIndividual( orcid:0000-0002-1810-9886 ) )
