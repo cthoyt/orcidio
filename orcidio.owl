@@ -12,7 +12,7 @@
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>ORCID in OWL</terms:title>
         <rdfs:seeAlso rdf:resource="https://github.com/cthoyt/orcidio"/>
-        <owl:versionInfo>2025-10-26</owl:versionInfo>
+        <owl:versionInfo>2025-11-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -8244,13 +8244,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8238-6757">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher</terms:description>
+        <terms:description>Turkish researcher</terms:description>
         <rdfs:label>Ulas Karaoz</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-8238-6757"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedTarget>Turkish researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q87981858"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -10818,13 +10818,13 @@
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0003-3475-564X">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <terms:description>researcher (ORCID 0000-0003-3475-564X)</terms:description>
+        <terms:description>Turkish researcher</terms:description>
         <rdfs:label>Hasan Bas</rdfs:label>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0003-3475-564X"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher (ORCID 0000-0003-3475-564X)</owl:annotatedTarget>
+        <owl:annotatedTarget>Turkish researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q92769550"/>
     </owl:Axiom>
     <owl:Axiom>
